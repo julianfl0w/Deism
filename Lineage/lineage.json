@@ -1,0 +1,6 @@
+# HJSON format
+{
+"Spiritual":
+["Abraham", "Samuel", "Saul", "David", "Jesus", "Constantine", "Thomas Aquinas", "Martin Luther", "Julian"],
+"Scientific":
+["Isaac Newton", "Charles Darwin""Albert Einstein", "Julian"]
