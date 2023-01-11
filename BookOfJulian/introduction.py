@@ -1,5 +1,5 @@
 [
-    ["There is one God, who has spoken to no one."],
+    ["There is one God, who has spoken to no one"],
     [
         "The Book of Julian is the first book of the Third Testament",
         "It presents a philosophical framework that combines spiritual and scientific schools of thought",
@@ -18,8 +18,9 @@
             "Brevity": None,
             "Accuracy": None,
         },
-        ["When these principles are in conflict, simple expressions are preferred",
+    ],
+    [
+        "When these principles are in conflict, simple expressions are preferred",
         "The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown",
-        ]
     ],
 ]

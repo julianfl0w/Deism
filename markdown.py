@@ -1,6 +1,7 @@
 import sys
 import os
 import sinode
+
 here = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -13,6 +14,9 @@ class Markdown(sinode.Sinode):
         self.appendDirectory(rootdir, depth=0)
 
     def appendDirectory(self, directory, depth):
+        # list the title, Book Of Julian
+        self.outstring += "# " + directory + "\n"
+            
         # first, do files at this level
         for file in os.listdir(directory):
             d = os.path.join(directory, file)
@@ -22,32 +26,33 @@ class Markdown(sinode.Sinode):
             if not os.path.isdir(d) and d.endswith(".py"):
                 self.verse = 0
                 # add its path
-                self.outstring += "### " + ":".join(os.path.split(directory)) + "\n"
+                self.outstring += ":".join(os.path.split(directory)) + "\n"
                 # add its title
                 self.outstring += "## " + file.replace(".py", "") + "\n"
-                with open(d, 'r') as f:
+                with open(d, "r") as f:
                     print(d)
                     c = eval(f.read())
                     for paragraph in c:
-                        self.outstring += self.paragraphToMarkdown(c)
-                    
+                        self.outstring += self.paragraphToMarkdown(paragraph)
+
         # then do subdirectories
         for file in os.listdir(directory):
             d = os.path.join(directory, file)
             if os.path.isdir(d):
-                self.appendDirectory(d, depth=depth+1)
+                self.appendDirectory(d, depth=depth + 1)
 
     def paragraphToMarkdown(self, paragraph):
         outstring = ""
         for sentence in paragraph:
             if type(sentence) == str:
-                outstring += sentence
+                outstring += "<sup>" + str(self.verse) + "</sup>" + sentence + ". "
+                self.verse += 1
             else:
                 outstring += self.listRecurse(sentence)
+        outstring += "\n"
         return outstring
-                
-        
-    def listRecurse(self, content, depth = 0):
+
+    def listRecurse(self, content, depth=0):
         string = ""
         print(type(content))
         print(type(content) == str)
@@ -66,10 +71,10 @@ class Markdown(sinode.Sinode):
                 string += self.listRecurse(v, depth + 1)
         return string
 
+
 if __name__ == "__main__":
     m = Markdown("BookOfJulian")
-    
-    with open("README.md", 'w+') as f:
+
+    with open("README.md", "w+") as f:
         f.write(m.outstring)
     os.system("mdpdf -o README.pdf README.md")
-    
