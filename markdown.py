@@ -45,7 +45,7 @@ class Markdown(sinode.Sinode):
         outstring = ""
         for sentence in paragraph:
             if type(sentence) == str:
-                outstring += "<sup>" + str(self.verse) + "</sup>" + sentence + ". "
+                outstring += "<sup>" + str(self.verse) + "</sup> " + sentence + ". "
                 self.verse += 1
             else:
                 outstring += self.listRecurse(sentence)
