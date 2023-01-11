@@ -14,16 +14,33 @@ class Markdown(sinode.Sinode):
         self.appendDirectory(rootdir, depth=0)
 
     def appendDirectory(self, directory, depth):
+        print("INDIR " + directory)
+        # read in ignore file
+        if os.path.exists(os.path.join(directory, "ignore.py")):
+            with open(os.path.join(directory, "ignore.py"), "r") as f:
+                ignore = eval(f.read())
+        else:
+            ignore = []
+            
+        print("Ignore " + str(ignore))
+            
         # list the title, Book Of Julian
         self.outstring += "# " + directory + "\n"
-            
+
         # first, do files at this level
         for file in os.listdir(directory):
+
             d = os.path.join(directory, file)
 
             # if it's a python file, execute it
             # each python file is a chapter, containing a list of paragraphs
             if not os.path.isdir(d) and d.endswith(".py"):
+                
+                if file in ignore or file == "ignore.py":
+                    continue
+                else:
+                    print("processing file " + file)
+
                 self.verse = 0
                 # add its path
                 self.outstring += ":".join(os.path.split(directory)) + "\n"
@@ -39,6 +56,15 @@ class Markdown(sinode.Sinode):
         for file in os.listdir(directory):
             d = os.path.join(directory, file)
             if os.path.isdir(d):
+                
+                print(file)
+                print(ignore)
+                if file in ignore:
+                    print("ignoring " + file)
+                    continue
+                else:
+                    print("processing dir " + file)
+
                 self.appendDirectory(d, depth=depth + 1)
 
     def paragraphToMarkdown(self, paragraph):
@@ -73,7 +99,7 @@ class Markdown(sinode.Sinode):
 
 
 if __name__ == "__main__":
-    m = Markdown("BookOfJulian")
+    m = Markdown(os.path.join(here, "BookOfJulian"))
 
     with open("README.md", "w+") as f:
         f.write(m.outstring)
