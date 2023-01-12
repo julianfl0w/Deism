@@ -25,9 +25,6 @@ class Markdown(sinode.Sinode):
 
         print("Ignore " + str(ignore))
 
-        # list the title
-        self.outstring += "# " + directory + "\n"
-
         # first, do files at this level
         for file in os.listdir(directory):
 
@@ -44,7 +41,7 @@ class Markdown(sinode.Sinode):
 
                 self.verse = 0
                 # add its path
-                self.outstring += ":".join(os.path.split(directory)) + "\n"
+                self.outstring += ":".join(str(directory).split(os.sep)[5:]) + "\n"
                 # add its title
                 self.outstring += "## " + file.replace(".py", "") + "\n"
                 with open(d, "r") as f:
@@ -59,9 +56,15 @@ class Markdown(sinode.Sinode):
                                 self.outstring += self.toGraph(
                                     paragraph, name=paragraph["meta"]["name"]
                                 )
+                                
+                            else:
+                                self.outstring += self.listToMarkdown(paragraph)
+                                
 
                         else:
                             self.outstring += self.paragraphToMarkdown(paragraph)
+                        # add a new line between paragraphs
+                        self.outstring += "\n"
 
         # then do subdirectories
         for file in os.listdir(directory):
@@ -84,11 +87,10 @@ class Markdown(sinode.Sinode):
                     outstring += "<sup>" + str(self.verse) + "</sup> " + sentence + ". "
                     self.verse += 1
                 else:
-                    outstring += self.listRecurse(sentence)
-        outstring += "\n"
+                    outstring += self.listToMarkdown(sentence)
         return outstring
 
-    def listRecurse(self, content, depth=0):
+    def listToMarkdown(self, content, depth=0):
         string = ""
         print(type(content))
         print(type(content) == str)
@@ -98,16 +100,21 @@ class Markdown(sinode.Sinode):
             string += content + "\n"
         elif type(content) == list:
             for i in content:
-                string += self.listRecurse(i, depth + 1)
+                string += self.listToMarkdown(i, depth + 1)
             # string += "\n"
         elif type(content) == dict:
             for k, v in content.items():
+                if k == "meta":
+                    continue
                 string += "  " * depth
                 string += "- "
                 string += k
                 string += "\n"
-                string += self.listRecurse(v, depth + 1)
+                string += self.listToMarkdown(v, depth + 1)
+        elif content is None:
+            pass
         else:
+            print(type(content))
             die
         return string
 
@@ -159,6 +166,10 @@ class Markdown(sinode.Sinode):
 if __name__ == "__main__":
     m = Markdown(os.path.join(here, "BookOfJulian"))
 
+    preformat = m.outstring
+    preformat = preformat.replace("/graphs", os.path.join(here, "graphs"))
+    preformat = preformat.replace("?raw=true", "")
+    
     with open("README.md", "w+") as f:
-        f.write(m.outstring)
+        f.write(preformat)
     os.system("mdpdf -o README.pdf README.md")
