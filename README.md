@@ -153,13 +153,27 @@
 ### Scientific
 ## Ethics
 ### Commandments
-<sup>0</sup> Remember the sabbath day, to keep it holy. <sup>1</sup> Honour thy father and thy mother. 
+<sup>0</sup> These are the commandments:. 
+
+- Remember the sabbath day, to keep it holy
+- Honour thy father and thy mother
+
 
 ### Condemnations
 <sup>0</sup> woe to those who follow the old gods:. <sup>1</sup> Yahweh, Allah, Brahma. <sup>2</sup> Trouble will follow you through your lifetime. <sup>3</sup> The world will hate you. <sup>4</sup> you will be left behind in the ascention. 
 
 ### Prohibitions
-<sup>0</sup> You shall have no gods before the Creator. <sup>1</sup> Thou shalt not make unto thee any graven image. <sup>2</sup> Thou shalt not take the Creator's name in vain?. <sup>3</sup> Thou shalt not murder. <sup>4</sup> Thou shalt not commit adultery. <sup>5</sup> Thou shalt not steal. <sup>6</sup> Thou shalt not bear false witness against thy neighbour. <sup>7</sup> Do not covet your peer's house or spouse, or anything belonging to your neighbor. 
+<sup>0</sup> These are the prohibitions. 
+
+- You shall have no gods before the Creator
+- Thou shalt not make unto thee any graven image
+- Thou shalt not take the Creator's name in vain?
+- Thou shalt not murder
+- Thou shalt not commit adultery
+- Thou shalt not steal
+- Thou shalt not bear false witness against thy neighbour
+- Do not covet your peer's house or spouse, or anything belonging to your neighbor
+
 
 ### Cardinal Virtues
 <sup>0</sup> There are four cardinal virtues:. 
