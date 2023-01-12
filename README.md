@@ -38,6 +38,31 @@
 
 
 #### Evolutionary
+<sup>0</sup> This is our evolutionary lineage:. 
+
+- The Fundamental Particles
+  -  which are inert
+- LUCA
+  -  who begat the Prokaryota
+- Asgards
+  -  who engulfed bacteria
+- Eukarya
+  -  who protect their centers
+- Amorphea
+  -  who swim with tails
+- Animalia
+  -  who propagate in pairs
+- Humankind
+  -  who communicate clearly
+- The Son of Man
+  - who will usher in the new age
+
+
+
+![Evolutionary Lineage](/graphs/Evolutionary_Lineage.png?raw=true "Evolutionary Lineage")
+
+
+
 ### Spiritual
 #### Personal
 <sup>0</sup> This is our spiritual lineage:. 
@@ -93,10 +118,10 @@
 
 
 #### Ideological
-<sup>0</sup> Our Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
+<sup>0</sup> Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
 
 
-![Spiritual Lineage](/graphs/Spiritual_Lineage.png?raw=true "Spiritual Lineage")
+![Ideological Spiritual Lineage](/graphs/Ideological_Spiritual_Lineage.png?raw=true "Ideological Spiritual Lineage")
 
 
 

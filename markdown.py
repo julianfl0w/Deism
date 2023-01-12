@@ -27,19 +27,21 @@ class Paragraph:
 
         elif type(self.paragraph[0]) == list:
             self.outstring += listToMarkdown(self.paragraph)
-            
+
         elif type(self.paragraph[0]) == str:
             for sentence in self.paragraph:
                 if type(sentence) == str:
-                    self.outstring += "<sup>" + str(self.chapter.verse) + "</sup> " + sentence + ". "
+                    self.outstring += (
+                        "<sup>" + str(self.chapter.verse) + "</sup> " + sentence + ". "
+                    )
                     self.chapter.verse += 1
                 else:
                     self.outstring += self.listToMarkdown(sentence)
-                    
-        else: 
+
+        else:
             die
         return self.outstring
-    
+
     def toGraphRecurse(self, content, parent=None):
         string = ""
         if type(content) == str:
@@ -70,17 +72,17 @@ class Paragraph:
         dotString += "digraph D {\n"
         dotString += self.toGraphRecurse(content)
         dotString += "}"
-        
+
         filename = os.path.join("graphs", name.replace(" ", "_") + ".dot")
         with open(filename, "w+") as f:
             f.write(dotString)
-        
+
         imagename = os.path.join("graphs", name.replace(" ", "_") + ".png")
-        runstring = "dot -Tpng \'" + filename + "\' -o " + "\'" + imagename + "\'"
+        runstring = "dot -Tpng '" + filename + "' -o " + "'" + imagename + "'"
         print(runstring)
         os.system(runstring)
-        
-        retString = "\n![" + name + "](/" + imagename + "?raw=true \"" + name + "\")\n\n"
+
+        retString = "\n![" + name + "](/" + imagename + '?raw=true "' + name + '")\n\n'
 
         return retString
 
@@ -111,7 +113,8 @@ class Paragraph:
             print(type(content))
             die
         return string
-    
+
+
 # a file is equivalent to a chapter
 class Chapter:
     def __init__(self, file, depth):
@@ -124,13 +127,13 @@ class Chapter:
             print(file)
             chapter = eval(f.read())
             for i, paragraph in enumerate(chapter):
-                self.paragraphs += [Paragraph(chapter = self, paragraph = paragraph)]
+                self.paragraphs += [Paragraph(chapter=self, paragraph=paragraph)]
         self.children = self.paragraphs
-        
+
     def toMarkdown(self):
-        
+
         # add its title
-        self.outstring = "#"*(self.depth) + " " + self.name + "\n"
+        self.outstring = "#" * (self.depth) + " " + self.name + "\n"
 
         for child in self.children:
             self.outstring += child.toMarkdown()
@@ -138,49 +141,51 @@ class Chapter:
             self.outstring += "\n\n"
         return self.outstring
 
+
 class Category(sinode.Sinode):
     def __init__(self, directory, depth=0):
         sinode.Sinode.__init__(self)
         self.depth = depth
-        self.chapters   = []
+        self.chapters = []
         self.categories = []
         self.outstring = ""
         self.name = directory.split(os.sep)[-1]
-        
+
         # read in ignore file
         if os.path.exists(os.path.join(directory, "ignore.py")):
             with open(os.path.join(directory, "ignore.py"), "r") as f:
                 ignore = eval(f.read())
         else:
             ignore = []
-        #print("Ignore " + str(ignore))
-        
+        # print("Ignore " + str(ignore))
+
         # iterate over files
         for file in os.listdir(directory):
             if file in ignore or file == "ignore.py":
                 continue
             resolved = os.path.join(directory, file)
-            
+
             # if its a dir, its a subcategory
             if os.path.isdir(resolved):
-                self.categories += [Category(resolved, depth+1)]
+                self.categories += [Category(resolved, depth + 1)]
 
             # otherwise, if it's a python file, execute it
             # each python file is a chapter, containing a list of paragraphs
             else:
                 if file.endswith(".py"):
                     print("processing file " + file)
-                    self.chapters += [Chapter(resolved, depth=depth+1)]
-                          
+                    self.chapters += [Chapter(resolved, depth=depth + 1)]
+
     def toMarkdown(self):
         # add its title
-        self.outstring += "#"*(self.depth) + " " + self.name + "\n"
+        self.outstring += "#" * (self.depth) + " " + self.name + "\n"
         for chapter in self.chapters:
             self.outstring += chapter.toMarkdown()
         for category in self.categories:
             self.outstring += category.toMarkdown()
         return self.outstring
-    
+
+
 if __name__ == "__main__":
     m = Category(os.path.join(here, "Book Of Julian"), depth=1)
 
@@ -190,11 +195,11 @@ if __name__ == "__main__":
     die
     preformat = preformat.replace("/graphs", os.path.join(here, "graphs"))
     preformat = preformat.replace("?raw=true", "")
-    #preformat = preformat.replace("<sup>", "")
-    #preformat = preformat.replace("</sup>", "")
-    
+    # preformat = preformat.replace("<sup>", "")
+    # preformat = preformat.replace("</sup>", "")
+
     with open("README_formatted.md", "w+") as f:
         f.write(preformat)
-        
-    #os.system("mdpdf -o README.pdf README_formatted.md")
+
+    # os.system("mdpdf -o README.pdf README_formatted.md")
     os.system("pandoc --pdf-engine=xelatex README_formatted.md -s -o README.pdf")

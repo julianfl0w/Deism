@@ -4,7 +4,7 @@
         "The most popular variants are listed",
     ],
     {
-        "meta": {"type":"list"},
+        "meta": {"type": "list"},
         "Ancestors": {
             "Christians": {
                 "Protestants": {

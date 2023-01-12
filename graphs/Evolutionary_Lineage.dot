@@ -1,0 +1,17 @@
+digraph D {
+"The Fundamental Particles" [shape=box, color = cadetblue1]
+"LUCA" [shape=box, color = cadetblue1]
+"Asgards" [shape=box, color = cadetblue1]
+"Eukarya" [shape=box, color = cadetblue1]
+"Amorphea" [shape=box, color = cadetblue1]
+"Animalia" [shape=box, color = cadetblue1]
+"Humankind" [shape=box, color = cadetblue1]
+"The Son of Man" [shape=box, color = cadetblue1]
+"Humankind" -> "The Son of Man" [penwidth=1]
+"Animalia" -> "Humankind" [penwidth=1]
+"Amorphea" -> "Animalia" [penwidth=1]
+"Eukarya" -> "Amorphea" [penwidth=1]
+"Asgards" -> "Eukarya" [penwidth=1]
+"LUCA" -> "Asgards" [penwidth=1]
+"The Fundamental Particles" -> "LUCA" [penwidth=1]
+}
