@@ -142,16 +142,16 @@ class Markdown(sinode.Sinode):
         dotString += self.toGraphRecurse(content)
         dotString += "}"
         
-        filename = os.path.join("graphs", name + ".dot")
+        filename = os.path.join("graphs", name.replace(" ", "_") + ".dot")
         with open(filename, "w+") as f:
             f.write(dotString)
         
-        imagename = os.path.join("graphs", name + ".png")
+        imagename = os.path.join("graphs", name.replace(" ", "_") + ".png")
         runstring = "dot -Tpng \'" + filename + "\' -o " + "\'" + imagename + "\'"
         print(runstring)
         os.system(runstring)
         
-        retString = "![" + name + "](/" + imagename + "?raw=true \"" + name + "\")"
+        retString = "\n![" + name + "](/" + imagename + "?raw=true \"" + name + "\")\n"
 
         return retString
 

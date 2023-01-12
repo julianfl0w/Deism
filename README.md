@@ -17,8 +17,12 @@
 /home/julian/Documents/BookOfJulian/BookOfJulian:Lineage
 ## Spiritual Lineage
 <sup>0</sup> Our Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
-![Spiritual Lineage](/graphs/Spiritual Lineage.png?raw=true "Spiritual Lineage")<sup>1</sup> In the Law of Three Stages, Deism represents the Metaphysical stage. 
-![Law of Three Stages](/graphs/Law of Three Stages.png?raw=true "Law of Three Stages")# /home/julian/Documents/BookOfJulian/BookOfJulian/Eschatology
+
+![Spiritual Lineage](/graphs/Spiritual_Lineage.png?raw=true "Spiritual Lineage")
+<sup>1</sup> In the Law of Three Stages, Deism represents the Metaphysical stage. 
+
+![Law of Three Stages](/graphs/Law_of_Three_Stages.png?raw=true "Law of Three Stages")
+# /home/julian/Documents/BookOfJulian/BookOfJulian/Eschatology
 /home/julian/Documents/BookOfJulian/BookOfJulian:Eschatology
 ## condemnations
 <sup>0</sup> woe to those who follow the old gods:. <sup>1</sup> Yahweh, Allah, Brahma. <sup>2</sup> Trouble will follow you through your lifetime. <sup>3</sup> The world will hate you. <sup>4</sup> you will be left behind in the ascention. 
