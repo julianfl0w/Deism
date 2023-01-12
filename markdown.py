@@ -21,9 +21,9 @@ class Markdown(sinode.Sinode):
                 ignore = eval(f.read())
         else:
             ignore = []
-            
+
         print("Ignore " + str(ignore))
-            
+
         # list the title, Book Of Julian
         self.outstring += "# " + directory + "\n"
 
@@ -35,7 +35,7 @@ class Markdown(sinode.Sinode):
             # if it's a python file, execute it
             # each python file is a chapter, containing a list of paragraphs
             if not os.path.isdir(d) and d.endswith(".py"):
-                
+
                 if file in ignore or file == "ignore.py":
                     continue
                 else:
@@ -56,7 +56,7 @@ class Markdown(sinode.Sinode):
         for file in os.listdir(directory):
             d = os.path.join(directory, file)
             if os.path.isdir(d):
-                
+
                 print(file)
                 print(ignore)
                 if file in ignore:
@@ -83,18 +83,23 @@ class Markdown(sinode.Sinode):
         print(type(content))
         print(type(content) == str)
         if type(content) == str:
+            string += "  " * depth
+            string += "- "
             string += content + "\n"
         elif type(content) == list:
             for i in content:
-                if depth > 0:
-                    string += "  " * depth
-                    string += "- "
                 string += self.listRecurse(i, depth + 1)
                 string += "\n"
         elif type(content) == dict:
             for k, v in content.items():
-                string += k + "\n"
+                string += "  " * depth
+                string += "- "
+                string += k
+                string += "\n"
                 string += self.listRecurse(v, depth + 1)
+                string += "\n"
+        else:
+            die
         return string
 
 
