@@ -41,9 +41,9 @@ class Markdown(sinode.Sinode):
 
                 self.verse = 0
                 # add its path
-                self.outstring += ":".join(str(directory).split(os.sep)[5:]) + "\n"
+                self.outstring += "## " + ":".join(str(directory).split(os.sep)[6:]) # + "\n"
                 # add its title
-                self.outstring += "## " + file.replace(".py", "") + "\n"
+                self.outstring += "### " + file.replace(".py", "") + "\n"
                 with open(d, "r") as f:
                     print(d)
                     chapter = eval(f.read())
