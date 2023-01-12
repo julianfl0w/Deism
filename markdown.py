@@ -26,7 +26,7 @@ class Paragraph:
                 self.outstring += self.listToMarkdown(self.paragraph)
 
         elif type(self.paragraph[0]) == list:
-            self.outstring += self.listToMarkdown(self.paragraph)
+            self.outstring += self.listToMarkdown(self.paragraph[0])
 
         elif type(self.paragraph[0]) == str:
             for sentence in self.paragraph:
@@ -96,7 +96,7 @@ class Paragraph:
             string += content + "\n"
         elif type(content) == list:
             for i in content:
-                string += self.listToMarkdown(i, depth + 1)
+                string += self.listToMarkdown(i, depth)
             # string += "\n"
         elif type(content) == dict:
             for k, v in content.items():

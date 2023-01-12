@@ -7,11 +7,11 @@
 <sup>4</sup> Design principles of Book of Julian include:. 
 
 - Clarity
-    - Hierarchical Organization
-    - Images
-    - Diagrams
-    - Metaphors
-    - Examples
+  - Hierarchical Organization
+  - Images
+  - Diagrams
+  - Metaphors
+  - Examples
 - Brevity
 - Accuracy
 
@@ -25,32 +25,32 @@
 ### Fasting
 <sup>0</sup> Here are the reasons for fasting:. 
 
-    - Mourning
-    - Motivation
-    - Mental clarity
-    - Health
+- Mourning
+- Motivation
+- Mental clarity
+- Health
 
 
 <sup>1</sup> Here are several kinds of fast:. 
 
-    - Daniel Fast: Abstain from meat for a week
-    - Water fast: consume only water for 48 hours
+- Daniel Fast: Abstain from meat for a week
+- Water fast: consume only water for 48 hours
 
 
 ### Music
 <sup>0</sup> The following comprise our musical tradition. 
 
-    - Speaking Tongues
-    - The holy pentatonic (God's tonality)
-    - The Om
+- Speaking Tongues
+- The holy pentatonic (God's tonality)
+- The Om
 
 
 ### Meditation
 <sup>0</sup> These rituals comprise our meditative tradition. 
 
-    - Mantras
-    - Body-scan
-    - Deep Breathing
+- Mantras
+- Body-scan
+- Deep Breathing
 
 
 ## Theology
@@ -122,9 +122,9 @@
 #### Covenant
 <sup>0</sup> Following covenent theology, our lineage consists of:. 
 
-    - The First Testament, a covenent of works made with Adam
-    - The Second Testament, a covenent of grace made by Jesus
-    - The Third Testament, a covenent of reciprocity made by Julian
+- The First Testament, a covenent of works made with Adam
+- The Second Testament, a covenent of grace made by Jesus
+- The Third Testament, a covenent of reciprocity made by Julian
 
 
 
@@ -156,10 +156,10 @@
 <sup>0</sup> Remember the sabbath day, to keep it holy. <sup>1</sup> Honour thy father and thy mother. 
 
 ### Virtue Ethics
-<sup>0</sup> There are four cardinal virtues.   - Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.
-  - Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness
-  - Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation
-  - Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
+<sup>0</sup> There are four cardinal virtues. - Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.
+- Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness
+- Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation
+- Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
 
 
 ### Condemnations
@@ -179,8 +179,8 @@
 ### Eternal Life
 <sup>0</sup> In the absense of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absense of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:. 
 
-    - Perpetual animation of the body
-    - Transferral of one's spirit
+- Perpetual animation of the body
+- Transferral of one's spirit
 
 
 ### Eschatology
