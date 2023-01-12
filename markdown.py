@@ -182,7 +182,7 @@ class Category(sinode.Sinode):
         return self.outstring
     
 if __name__ == "__main__":
-    m = Category(os.path.join(here, "BookOfJulian"))
+    m = Category(os.path.join(here, "Book Of Julian"), depth=1)
 
     preformat = m.toMarkdown()
     with open("README.md", "w+") as f:
