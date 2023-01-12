@@ -1,0 +1,7 @@
+digraph D {
+"Spiritual" [shape=box, color = cadetblue1]
+"Metaphysical" [shape=box, color = cadetblue1]
+"Positive" [shape=box, color = cadetblue1]
+"Metaphysical" -> "Positive" [penwidth=1]
+"Spiritual" -> "Metaphysical" [penwidth=1]
+}

@@ -15,6 +15,7 @@ class Markdown(sinode.Sinode):
 
     def appendDirectory(self, directory, depth):
         print("INDIR " + directory)
+
         # read in ignore file
         if os.path.exists(os.path.join(directory, "ignore.py")):
             with open(os.path.join(directory, "ignore.py"), "r") as f:
@@ -24,7 +25,7 @@ class Markdown(sinode.Sinode):
 
         print("Ignore " + str(ignore))
 
-        # list the title, Book Of Julian
+        # list the title
         self.outstring += "# " + directory + "\n"
 
         # first, do files at this level
@@ -48,17 +49,25 @@ class Markdown(sinode.Sinode):
                 self.outstring += "## " + file.replace(".py", "") + "\n"
                 with open(d, "r") as f:
                     print(d)
-                    c = eval(f.read())
-                    for paragraph in c:
-                        self.outstring += self.paragraphToMarkdown(paragraph)
+                    chapter = eval(f.read())
+                    for i, paragraph in enumerate(chapter):
+                        if type(paragraph) == dict:
+                            if (
+                                "meta" in paragraph.keys()
+                                and paragraph["meta"]["type"] == "lineage"
+                            ):
+                                self.outstring += self.toGraph(
+                                    paragraph, name=paragraph["meta"]["name"]
+                                )
+
+                        else:
+                            self.outstring += self.paragraphToMarkdown(paragraph)
 
         # then do subdirectories
         for file in os.listdir(directory):
             d = os.path.join(directory, file)
             if os.path.isdir(d):
 
-                print(file)
-                print(ignore)
                 if file in ignore:
                     print("ignoring " + file)
                     continue
@@ -69,12 +78,13 @@ class Markdown(sinode.Sinode):
 
     def paragraphToMarkdown(self, paragraph):
         outstring = ""
-        for sentence in paragraph:
-            if type(sentence) == str:
-                outstring += "<sup>" + str(self.verse) + "</sup> " + sentence + ". "
-                self.verse += 1
-            else:
-                outstring += self.listRecurse(sentence)
+        if type(paragraph[0]) == str:
+            for sentence in paragraph:
+                if type(sentence) == str:
+                    outstring += "<sup>" + str(self.verse) + "</sup> " + sentence + ". "
+                    self.verse += 1
+                else:
+                    outstring += self.listRecurse(sentence)
         outstring += "\n"
         return outstring
 
@@ -89,7 +99,7 @@ class Markdown(sinode.Sinode):
         elif type(content) == list:
             for i in content:
                 string += self.listRecurse(i, depth + 1)
-            #string += "\n"
+            # string += "\n"
         elif type(content) == dict:
             for k, v in content.items():
                 string += "  " * depth
@@ -100,6 +110,50 @@ class Markdown(sinode.Sinode):
         else:
             die
         return string
+
+    def toGraphRecurse(self, content, parent=None):
+        string = ""
+        if type(content) == str:
+            string += "'" + content + "' [shape=box]\n"
+        elif type(content) == list:
+            raise Exception("Lists not permitted")
+        elif type(content) == dict:
+            for k, v in content.items():
+                print("Processing " + k)
+                # dont record meta block
+                if k == "meta":
+                    continue
+
+                # create this key
+                keyWithQuotes = '"' + k + '"'
+                print(keyWithQuotes)
+                string += keyWithQuotes + " [shape=box, color = cadetblue1]\n"
+                string += self.toGraphRecurse(v, parent=keyWithQuotes)
+                # relationships
+                if parent is not None:
+                    string += parent + " -> " + keyWithQuotes + " [penwidth=1]\n"
+
+        return string
+
+    def toGraph(self, content, name):
+        print("graphing")
+        dotString = ""
+        dotString += "digraph D {\n"
+        dotString += self.toGraphRecurse(content)
+        dotString += "}"
+        
+        filename = os.path.join("graphs", name + ".dot")
+        with open(filename, "w+") as f:
+            f.write(dotString)
+        
+        imagename = os.path.join("graphs", name + ".png")
+        runstring = "dot -Tpng \'" + filename + "\' -o " + "\'" + imagename + "\'"
+        print(runstring)
+        os.system(runstring)
+        
+        retString = "![" + name + "](/" + imagename + "?raw=true \"" + name + "\")"
+
+        return retString
 
 
 if __name__ == "__main__":

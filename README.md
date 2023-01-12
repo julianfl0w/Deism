@@ -4,8 +4,7 @@
 <sup>0</sup> There is one God, who has spoken to no one. 
 <sup>1</sup> The Book of Julian is the first book of the Third Testament. <sup>2</sup> It presents a philosophical framework that combines spiritual and scientific schools of thought. <sup>3</sup> It draws primarily upon Christian theology and contemporary cosmology. 
 <sup>4</sup> Design principles of Book of Julian include:. 
-<sup>5</sup> Clarity. <sup>6</sup> Brevity. <sup>7</sup> Accuracy. 
-<sup>8</sup> When these principles are in conflict, simple expressions are preferred. <sup>9</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
 # /home/julian/Documents/BookOfJulian/BookOfJulian/Ritual
 # /home/julian/Documents/BookOfJulian/BookOfJulian/Theology
 # /home/julian/Documents/BookOfJulian/BookOfJulian/Lineage
@@ -14,35 +13,12 @@
 <sup>0</sup> We remember the Christians, who established peaceful empires and banished slavery. <sup>1</sup> Blessed are those who forsake the darkness and choose to walk in the light. <sup>2</sup> To the followers of Allah, Brahma, Yahweh, you have been superseeded. Those who continue in this path will be disadvantaged in this life, and discriminated against in the ascention. We'll try to be respectful, but also your ways are backwards and your ideas are stupid. You have failed to maintain the disciplines of science so now you will be discrimintated against. Destructin will follow your family to the seventh generation. Annhialation will be suspended. You will be in anti-purgatory indefinately. Bye. 
 /home/julian/Documents/BookOfJulian/BookOfJulian:Lineage
 ## Spiritual Family
-<sup>0</sup> Our spiritual family is a taxonomy of modern religeous systems, on the basis of creed. <sup>1</sup> The most popular varients are listed. 
-- Ancestors
-  - Christians
-    - Protestants
-        - Pentecostals
-        - Lutherans
-        - Methodists
-        - Presbyterians
-  - Catholics
-      - Vatican I
-      - Vatican II
-  - Eastern Orthadox
-  - Jews
-      - Orthadox
-      - Reformed
-      - Reconstructionist
-
-- Peers
-  - Muslims
-      - Shiite
-      - Sunni
-  - Hindus
-  - Sikhs
-  - Buddhists
-      - Zen
-      - Regular Buddhist
-  - New Religious Movements (NRMs)
-
-# /home/julian/Documents/BookOfJulian/BookOfJulian/Eschatology
+<sup>0</sup> Our spiritual family is a taxonomy of modern religeous systems, on the basis of creed. <sup>1</sup> The most popular variants are listed. 
+/home/julian/Documents/BookOfJulian/BookOfJulian:Lineage
+## Spiritual Lineage
+<sup>0</sup> Our Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
+![Spiritual Lineage](/graphs/Spiritual Lineage.png?raw=true "Spiritual Lineage")<sup>1</sup> In the Law of Three Stages, Deism represents the Metaphysical stage. 
+![Law of Three Stages](/graphs/Law of Three Stages.png?raw=true "Law of Three Stages")# /home/julian/Documents/BookOfJulian/BookOfJulian/Eschatology
 /home/julian/Documents/BookOfJulian/BookOfJulian:Eschatology
 ## condemnations
 <sup>0</sup> woe to those who follow the old gods:. <sup>1</sup> Yahweh, Allah, Brahma. <sup>2</sup> Trouble will follow you through your lifetime. <sup>3</sup> The world will hate you. <sup>4</sup> you will be left behind in the ascention. 
