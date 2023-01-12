@@ -89,7 +89,7 @@ class Markdown(sinode.Sinode):
         elif type(content) == list:
             for i in content:
                 string += self.listRecurse(i, depth + 1)
-                string += "\n"
+            #string += "\n"
         elif type(content) == dict:
             for k, v in content.items():
                 string += "  " * depth
@@ -97,7 +97,6 @@ class Markdown(sinode.Sinode):
                 string += k
                 string += "\n"
                 string += self.listRecurse(v, depth + 1)
-                string += "\n"
         else:
             die
         return string
