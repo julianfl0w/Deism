@@ -1,6 +1,8 @@
 [
     [
-        "There are four cardinal virtues",
+        "There are four cardinal virtues:",
+    ],
+    [
         [
             "Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.",
             "Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness",

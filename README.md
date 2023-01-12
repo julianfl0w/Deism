@@ -155,18 +155,20 @@
 ### Commandments
 <sup>0</sup> Remember the sabbath day, to keep it holy. <sup>1</sup> Honour thy father and thy mother. 
 
-### Virtue Ethics
-<sup>0</sup> There are four cardinal virtues. - Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.
-- Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness
-- Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation
-- Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
-
-
 ### Condemnations
 <sup>0</sup> woe to those who follow the old gods:. <sup>1</sup> Yahweh, Allah, Brahma. <sup>2</sup> Trouble will follow you through your lifetime. <sup>3</sup> The world will hate you. <sup>4</sup> you will be left behind in the ascention. 
 
 ### Prohibitions
 <sup>0</sup> You shall have no gods before the Creator. <sup>1</sup> Thou shalt not make unto thee any graven image. <sup>2</sup> Thou shalt not take the Creator's name in vain?. <sup>3</sup> Thou shalt not murder. <sup>4</sup> Thou shalt not commit adultery. <sup>5</sup> Thou shalt not steal. <sup>6</sup> Thou shalt not bear false witness against thy neighbour. <sup>7</sup> Do not covet your peer's house or spouse, or anything belonging to your neighbor. 
+
+### Cardinal Virtues
+<sup>0</sup> There are four cardinal virtues:. 
+
+- Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.
+- Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness
+- Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation
+- Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
+
 
 ## Cosmology
 ### origins
