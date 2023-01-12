@@ -151,7 +151,7 @@ class Markdown(sinode.Sinode):
         print(runstring)
         os.system(runstring)
         
-        retString = "\n![" + name + "](/" + imagename + "?raw=true \"" + name + "\")\n"
+        retString = "\n![" + name + "](/" + imagename + "?raw=true \"" + name + "\")\n\n"
 
         return retString
 
