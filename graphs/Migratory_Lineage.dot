@@ -1,0 +1,9 @@
+digraph D {
+"Africa" [shape=box, color = cadetblue1]
+"Europe" [shape=box, color = cadetblue1]
+"Africa" -> "Europe" [penwidth=1]
+"Asia" [shape=box, color = cadetblue1]
+"Africa" -> "Asia" [penwidth=1]
+"Australia" [shape=box, color = cadetblue1]
+"Africa" -> "Australia" [penwidth=1]
+}

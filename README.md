@@ -25,6 +25,19 @@
 <sup>0</sup> Lineage is important. Here it is.. 
 
 ### Material
+#### Migratory
+<sup>0</sup> This is our migratory history, which is the basis of our racial theory. 
+
+<sup>1</sup> 300,000 years ago, humankind originated in Africa. <sup>2</sup> 150,000 years ago, we expanded into Eurasia. <sup>3</sup> 50,000 years ago, we expanded into Australia. <sup>4</sup> 15,000 years ago, we expanded into America. 
+
+<sup>5</sup> There are five races, corresponding to the traditional five continents. 
+
+
+![Migratory Lineage](/graphs/Migratory_Lineage.png?raw=true "Migratory Lineage")
+
+
+
+#### Evolutionary
 ### Spiritual
 #### Personal
 <sup>0</sup> This is our spiritual lineage:. 
