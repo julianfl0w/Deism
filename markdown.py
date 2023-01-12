@@ -64,7 +64,7 @@ class Markdown(sinode.Sinode):
                         else:
                             self.outstring += self.paragraphToMarkdown(paragraph)
                         # add a new line between paragraphs
-                        self.outstring += "\n"
+                        self.outstring += "\n\n"
 
         # then do subdirectories
         for file in os.listdir(directory):
