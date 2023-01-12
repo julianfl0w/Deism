@@ -1,6 +1,6 @@
 [
     [
-        "Our spiritual family is a taxonomy of modern religeous systems, on the basis of creed",
+        "Our spiritual family is a taxonomy of modern religious systems, on the basis of creed",
         "The most popular variants are listed",
     ],
     {
