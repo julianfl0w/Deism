@@ -60,14 +60,14 @@ BookOfJulian:Lineage
 <sup>0</sup> Our Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
 
 
-![Spiritual Lineage](/graphs/Spiritual_Lineage.png?raw=true "Spiritual Lineage")
+![Spiritual Lineage](/home/julian/Documents/BookOfJulian/graphs/Spiritual_Lineage.png "Spiritual Lineage")
 
 
 
 <sup>1</sup> In the Law of Three Stages, Deism represents the Metaphysical stage. 
 
 
-![Law of Three Stages](/graphs/Law_of_Three_Stages.png?raw=true "Law of Three Stages")
+![Law of Three Stages](/home/julian/Documents/BookOfJulian/graphs/Law_of_Three_Stages.png "Law of Three Stages")
 
 
 

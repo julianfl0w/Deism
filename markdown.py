@@ -167,9 +167,13 @@ if __name__ == "__main__":
     m = Markdown(os.path.join(here, "BookOfJulian"))
 
     preformat = m.outstring
+    with open("README.md", "w+") as f:
+        f.write(preformat)
+        
     preformat = preformat.replace("/graphs", os.path.join(here, "graphs"))
     preformat = preformat.replace("?raw=true", "")
     
-    with open("README.md", "w+") as f:
+    with open("README_formatted.md", "w+") as f:
         f.write(preformat)
-    os.system("mdpdf -o README.pdf README.md")
+        
+    os.system("mdpdf -o README.pdf README_formatted.md")
