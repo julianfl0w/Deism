@@ -26,7 +26,7 @@ class Paragraph:
                 self.outstring += self.listToMarkdown(self.paragraph)
 
         elif type(self.paragraph[0]) == list:
-            self.outstring += listToMarkdown(self.paragraph)
+            self.outstring += self.listToMarkdown(self.paragraph)
 
         elif type(self.paragraph[0]) == str:
             for sentence in self.paragraph:

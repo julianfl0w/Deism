@@ -1,0 +1,7 @@
+digraph D {
+"Works" [shape=box, color = cadetblue1]
+"Grace" [shape=box, color = cadetblue1]
+"Reciprocity" [shape=box, color = cadetblue1]
+"Grace" -> "Reciprocity" [penwidth=1]
+"Works" -> "Grace" [penwidth=1]
+}
