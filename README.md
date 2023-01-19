@@ -1,211 +1,665 @@
 # Book Of Julian
-## Introduction
-<sup>0</sup> There is one God, who has spoken to no one. 
-
-<sup>1</sup> The Book of Julian is the first book of the Third Testament. <sup>2</sup> It presents a philosophical framework that combines spiritual and scientific schools of thought. <sup>3</sup> It draws primarily upon Christian theology and contemporary cosmology. 
-
-<sup>4</sup> Design principles of Book of Julian include:. 
-
-- Clarity
-  - Hierarchical Organization
-  - Images
-  - Diagrams
-  - Metaphors
-  - Examples
-- Brevity
-- Accuracy
-
-
-<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
-
-## Ritual
-### Blessings
-<sup>0</sup> The Lord bless you and keep you;The Lord make His face shine upon you,. <sup>1</sup> And be gracious to you;. <sup>2</sup> The Lord [a]lift up His countenance upon you,. <sup>3</sup> And give you peace.. 
-
-### Fasting
-<sup>0</sup> Here are the reasons for fasting:. 
-
-- Mourning
-- Motivation
-- Mental clarity
-- Health
-
-
-<sup>1</sup> Here are several kinds of fast:. 
-
-- Daniel Fast: Abstain from meat for a week
-- Water fast: consume only water for 48 hours
-
-
-### Music
-<sup>0</sup> The following comprise our musical tradition. 
-
-- Speaking Tongues
-- The holy pentatonic (God's tonality)
-- The Om
-
-
-### Meditation
-<sup>0</sup> These rituals comprise our meditative tradition. 
-
-- Mantras
-- Body-scan
-- Deep Breathing
-
-
 ## Theology
 ## Lineage
-### Introduction
-<sup>0</sup> Lineage is important. Here it is.. 
-
 ### Material
 #### Migratory
-<sup>0</sup> This is our migratory history, which is the basis of our racial theory. 
-
-<sup>1</sup> 300,000 years ago, humankind originated in Africa. <sup>2</sup> 150,000 years ago, we expanded into Eurasia. <sup>3</sup> 50,000 years ago, we expanded into Australia. <sup>4</sup> 15,000 years ago, we expanded into America. 
-
-<sup>5</sup> There are five races, corresponding to the traditional five continents. 
+- 
+<sup>0</sup> . 
 
 
-![Migratory Lineage](/graphs/Migratory_Lineage.png?raw=true "Migratory Lineage")
+
+- 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+
+
+- 
+<sup>5</sup> . 
+
+
+
+- meta
+  - type
+  - name
+- Africa
+  - Europe
+  - Asia
+    - America
+  - Australia
+- type
+- name
+<sup>6</sup> type. 
+
+<sup>7</sup> name. 
+
+
+
+- Europe
+- Asia
+  - America
+- Australia
+<sup>8</sup> Europe. 
+
+- America
+<sup>9</sup> America. 
+
+
+
+<sup>10</sup> Australia. 
+
+
 
 
 
 #### Evolutionary
-<sup>0</sup> This is our evolutionary lineage:. 
+- 
+<sup>0</sup> . 
 
+
+
+- meta
+  - type
+  - name
 - The Fundamental Particles
-  -  which are inert
 - LUCA
-  -  who begat the Prokaryota
 - Asgards
-  -  who engulfed bacteria
 - Eukarya
-  -  who protect their centers
 - Amorphea
-  -  who swim with tails
 - Animalia
-  -  who propagate in pairs
 - Humankind
-  -  who communicate clearly
 - The Son of Man
-  - who will usher in the new age
+- type
+- name
+<sup>1</sup> type. 
+
+<sup>2</sup> name. 
 
 
 
-![Evolutionary Lineage](/graphs/Evolutionary_Lineage.png?raw=true "Evolutionary Lineage")
+<sup>3</sup> The Fundamental Particles. 
+
+<sup>4</sup> LUCA. 
+
+<sup>5</sup> Asgards. 
+
+<sup>6</sup> Eukarya. 
+
+<sup>7</sup> Amorphea. 
+
+<sup>8</sup> Animalia. 
+
+<sup>9</sup> Humankind. 
+
+<sup>10</sup> The Son of Man. 
+
+
+
+- meta
+  - type
+  - name
+- The Fundamental Particles
+  - LUCA
+    - Asgards
+      - Eukarya
+        - Amorphea
+          - Animalia
+            - Humankind
+              - The Son of Man
+- type
+- name
+<sup>11</sup> type. 
+
+<sup>12</sup> name. 
+
+
+
+- LUCA
+  - Asgards
+    - Eukarya
+      - Amorphea
+        - Animalia
+          - Humankind
+            - The Son of Man
+- Asgards
+  - Eukarya
+    - Amorphea
+      - Animalia
+        - Humankind
+          - The Son of Man
+- Eukarya
+  - Amorphea
+    - Animalia
+      - Humankind
+        - The Son of Man
+- Amorphea
+  - Animalia
+    - Humankind
+      - The Son of Man
+- Animalia
+  - Humankind
+    - The Son of Man
+- Humankind
+  - The Son of Man
+- The Son of Man
+<sup>13</sup> The Son of Man. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ### Spiritual
 #### Personal
-<sup>0</sup> This is our spiritual lineage:. 
+- 
+<sup>0</sup> . 
 
+
+
+- meta
+  - type
 - Abraham
-  - who established the first covenant
 - David
-  - who unified the people
 - Jesus
-  - who established the second covenant
 - Paul
-  - who established the church
 - Constantine
-  - who unified the people
 - Thomas Aquinas
-  - who unified the doctrine
 - Martin Luther
-  - who refined the doctrine
 - Julian
-  - who established the third covenant
+- type
+<sup>1</sup> type. 
+
+
+
+<sup>2</sup> Abraham. 
+
+<sup>3</sup> David. 
+
+<sup>4</sup> Jesus. 
+
+<sup>5</sup> Paul. 
+
+<sup>6</sup> Constantine. 
+
+<sup>7</sup> Thomas Aquinas. 
+
+<sup>8</sup> Martin Luther. 
+
+<sup>9</sup> Julian. 
+
 
 
 #### Covenant
-<sup>0</sup> Following covenent theology, our lineage consists of:. 
-
-- The First Testament, a covenent of works made with Adam
-- The Second Testament, a covenent of grace made by Jesus
-- The Third Testament, a covenent of reciprocity made by Julian
+- 
+<sup>0</sup> . 
 
 
 
-![Covenent Theology](/graphs/Covenent_Theology.png?raw=true "Covenent Theology")
+- 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+
+
+
+
+- meta
+  - type
+  - name
+- Works
+  - Grace
+    - Reciprocity
+- type
+- name
+<sup>4</sup> type. 
+
+<sup>5</sup> name. 
+
+
+
+- Grace
+  - Reciprocity
+- Reciprocity
+<sup>6</sup> Reciprocity. 
+
+
+
+
 
 
 
 #### Ideological
-<sup>0</sup> Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events. 
-
-
-![Ideological Spiritual Lineage](/graphs/Ideological_Spiritual_Lineage.png?raw=true "Ideological Spiritual Lineage")
+- 
+<sup>0</sup> . 
 
 
 
-<sup>1</sup> In the Law of Three Stages, Deism represents the Metaphysical stage. 
+- meta
+  - type
+  - name
+- Atheism
+  - Polytheism
+    - Judaism
+      - Christianity
+        - Islam
+        - Protestantism
+          - Deism
+    - Hinduism
+- type
+- name
+<sup>1</sup> type. 
+
+<sup>2</sup> name. 
 
 
-![Law of Three Stages](/graphs/Law_of_Three_Stages.png?raw=true "Law of Three Stages")
+
+- Polytheism
+  - Judaism
+    - Christianity
+      - Islam
+      - Protestantism
+        - Deism
+  - Hinduism
+- Judaism
+  - Christianity
+    - Islam
+    - Protestantism
+      - Deism
+- Hinduism
+- Christianity
+  - Islam
+  - Protestantism
+    - Deism
+- Islam
+- Protestantism
+  - Deism
+<sup>3</sup> Islam. 
+
+- Deism
+<sup>4</sup> Deism. 
+
+
+
+
+
+
+
+<sup>5</sup> Hinduism. 
+
+
+
+
+
+
+
+- 
+<sup>6</sup> . 
+
+
+
+- meta
+  - type
+  - name
+- Spiritual
+  - Metaphysical
+    - Positive
+- type
+- name
+<sup>7</sup> type. 
+
+<sup>8</sup> name. 
+
+
+
+- Metaphysical
+  - Positive
+- Positive
+<sup>9</sup> Positive. 
+
+
+
+
 
 
 
 #### Shoutouts
-<sup>0</sup> We remember the Christians, who established peaceful empires and banished slavery. <sup>1</sup> Blessed are those who forsake the darkness and choose to walk in the light. <sup>2</sup> To the followers of Allah, Brahma, Yahweh, you have been superseeded. Those who continue in this path will be disadvantaged in this life, and discriminated against in the ascention. We'll try to be respectful, but also your ways are backwards and your ideas are stupid. You have failed to maintain the disciplines of science so now you will be discrimintated against. Destructin will follow your family to the seventh generation. Annhialation will be suspended. You will be in anti-purgatory indefinately. Bye. 
+- 
+- 
+- 
+<sup>0</sup> . 
+
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+
 
 ### Scientific
+### Introduction
+- 
+<sup>0</sup> . 
+
+
+
 ## Ethics
 ### Commandments
-<sup>0</sup> These are the commandments:. 
+- 
+<sup>0</sup> . 
 
-- Remember the sabbath day, to keep it holy
-- Honour thy father and thy mother
+
+
+- 
+  - 
+  - 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+
+
 
 
 ### Condemnations
-<sup>0</sup> woe to those who follow the old gods:. <sup>1</sup> Yahweh, Allah, Brahma. <sup>2</sup> Trouble will follow you through your lifetime. <sup>3</sup> The world will hate you. <sup>4</sup> you will be left behind in the ascention. 
+- 
+- 
+- 
+- 
+- 
+<sup>0</sup> . 
+
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+
 
 ### Prohibitions
-<sup>0</sup> These are the prohibitions. 
+- 
+<sup>0</sup> . 
 
-- You shall have no gods before the Creator
-- Thou shalt not make unto thee any graven image
-- Thou shalt not take the Creator's name in vain?
-- Thou shalt not murder
-- Thou shalt not commit adultery
-- Thou shalt not steal
-- Thou shalt not bear false witness against thy neighbour
-- Do not covet your peer's house or spouse, or anything belonging to your neighbor
+
+
+- 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+<sup>5</sup> . 
+
+<sup>6</sup> . 
+
+<sup>7</sup> . 
+
+<sup>8</sup> . 
+
+
+
 
 
 ### Cardinal Virtues
-<sup>0</sup> There are four cardinal virtues:. 
+- 
+<sup>0</sup> . 
 
-- Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.
-- Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness
-- Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation
-- Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
+
+
+- 
+  - 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+
+
 
 
 ## Cosmology
 ### origins
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly.. <sup>2</sup> And the earth was without form.. <sup>3</sup> 4.5 billion years ago, the earth coallesced.. <sup>4</sup> In orbit around the sun. 
+- 
+- 
+- 
+- 
+- 
+<sup>0</sup> . 
+
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+
 
 ## Prophesy
+### Eschatology
 ### The Fourth Temple
-<sup>0</sup> The Third Temple will be destroyed, and a fourth built in its place. <sup>1</sup> The Fourth Temple will be a pyramid of clear gold. <sup>2</sup> It will be built in three days. 
+- 
+- 
+- 
+<sup>0</sup> . 
+
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+
 
 ### Eternal Life
-<sup>0</sup> In the absense of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absense of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:. 
+- 
+- 
+- 
+- 
+<sup>0</sup> . 
 
-- Perpetual animation of the body
-- Transferral of one's spirit
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
 
 
-### Eschatology
+
+- 
+  - 
+  - 
+- 
+- 
+<sup>4</sup> . 
+
+<sup>5</sup> . 
+
+
+
+
+
+## Spirituality
+### Ritual
+#### Blessings
+- 
+- 
+- 
+- 
+<sup>0</sup> . 
+
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+
+
+#### Fasting
+- 
+<sup>0</sup> . 
+
+
+
+- 
+  - 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+<sup>4</sup> . 
+
+
+
+
+
+- 
+<sup>5</sup> . 
+
+
+
+- 
+  - 
+  - 
+- 
+- 
+<sup>6</sup> . 
+
+<sup>7</sup> . 
+
+
+
+
+
+#### Music
+- 
+<sup>0</sup> . 
+
+
+
+- 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+
+
+
+
+#### Meditation
+- 
+<sup>0</sup> . 
+
+
+
+- 
+  - 
+  - 
+  - 
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+
+
+
+
 ## Missiology
 ## Creeds
 ## Emergence
 ### Spiritual Family
-<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. <sup>1</sup> The most popular variants are listed. 
+- 
+- 
+<sup>0</sup> . 
 
+<sup>1</sup> . 
+
+
+
+- meta
+  - type
 - Ancestors
   - Christians
     - Protestants
@@ -221,8 +675,73 @@
     - Orthadox
     - Reformed
     - Reconstructionist
+- type
+<sup>2</sup> type. 
 
 
+
+- Christians
+  - Protestants
+    - Pentecostals
+    - Lutherans
+    - Methodists
+    - Presbyterians
+- Catholics
+  - Vatican I
+  - Vatican II
+- Eastern Orthadox
+- Jews
+  - Orthadox
+  - Reformed
+  - Reconstructionist
+- Protestants
+  - Pentecostals
+  - Lutherans
+  - Methodists
+  - Presbyterians
+- Pentecostals
+- Lutherans
+- Methodists
+- Presbyterians
+<sup>3</sup> Pentecostals. 
+
+<sup>4</sup> Lutherans. 
+
+<sup>5</sup> Methodists. 
+
+<sup>6</sup> Presbyterians. 
+
+
+
+
+
+- Vatican I
+- Vatican II
+<sup>7</sup> Vatican I. 
+
+<sup>8</sup> Vatican II. 
+
+
+
+<sup>9</sup> Eastern Orthadox. 
+
+- Orthadox
+- Reformed
+- Reconstructionist
+<sup>10</sup> Orthadox. 
+
+<sup>11</sup> Reformed. 
+
+<sup>12</sup> Reconstructionist. 
+
+
+
+
+
+
+
+- meta
+  - type
 - Peers
   - Muslims
     - Shiite
@@ -233,5 +752,104 @@
     - Zen
     - Regular Buddhist
   - New Religious Movements (NRMs)
+- type
+<sup>13</sup> type. 
+
+
+
+- Muslims
+  - Shiite
+  - Sunni
+- Hindus
+- Sikhs
+- Buddhists
+  - Zen
+  - Regular Buddhist
+- New Religious Movements (NRMs)
+- Shiite
+- Sunni
+<sup>14</sup> Shiite. 
+
+<sup>15</sup> Sunni. 
+
+
+
+<sup>16</sup> Hindus. 
+
+<sup>17</sup> Sikhs. 
+
+- Zen
+- Regular Buddhist
+<sup>18</sup> Zen. 
+
+<sup>19</sup> Regular Buddhist. 
+
+
+
+<sup>20</sup> New Religious Movements (NRMs). 
+
+
+
+
+
+## Introduction
+- 
+<sup>0</sup> . 
+
+
+
+- 
+- 
+- 
+<sup>1</sup> . 
+
+<sup>2</sup> . 
+
+<sup>3</sup> . 
+
+
+
+- 
+<sup>4</sup> . 
+
+
+
+- Clarity
+  - 
+  - 
+  - 
+  - 
+  - 
+- Brevity
+- Accuracy
+- 
+- 
+- 
+- 
+- 
+<sup>5</sup> . 
+
+<sup>6</sup> . 
+
+<sup>7</sup> . 
+
+<sup>8</sup> . 
+
+<sup>9</sup> . 
+
+
+
+<sup>10</sup> Brevity. 
+
+<sup>11</sup> Accuracy. 
+
+
+
+- 
+- 
+<sup>12</sup> . 
+
+<sup>13</sup> . 
+
 
 
