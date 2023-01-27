@@ -1,17 +1,25 @@
 digraph D {
-"Atheism" [shape=box, color = cadetblue1]
-"Polytheism" [shape=box, color = cadetblue1]
-"Judaism" [shape=box, color = cadetblue1]
-"Christianity" [shape=box, color = cadetblue1]
-"Islam" [shape=box, color = cadetblue1]
-"Christianity" -> "Islam" [penwidth=1]
-"Protestantism" [shape=box, color = cadetblue1]
-"Deism" [shape=box, color = cadetblue1]
-"Protestantism" -> "Deism" [penwidth=1]
-"Christianity" -> "Protestantism" [penwidth=1]
-"Judaism" -> "Christianity" [penwidth=1]
-"Polytheism" -> "Judaism" [penwidth=1]
-"Hinduism" [shape=box, color = cadetblue1]
-"Polytheism" -> "Hinduism" [penwidth=1]
-"Atheism" -> "Polytheism" [penwidth=1]
+rankdir = LR
+style = filled
+color = lightgrey
+bgcolor = "#262626"
+fillcolor = "darkgray:gold"
+gradientangle = 0
+"Ideological Spiritual Lineage" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Atheism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Ideological Spiritual Lineage" -> "Atheism" [color=white, penwidth=1]
+"Polytheism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Atheism" -> "Polytheism" [color=white, penwidth=1]
+"Judaism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Polytheism" -> "Judaism" [color=white, penwidth=1]
+"Christianity" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Judaism" -> "Christianity" [color=white, penwidth=1]
+"Islam" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Christianity" -> "Islam" [color=white, penwidth=1]
+"Protestantism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Christianity" -> "Protestantism" [color=white, penwidth=1]
+"Deism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Protestantism" -> "Deism" [color=white, penwidth=1]
+"Hinduism" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Polytheism" -> "Hinduism" [color=white, penwidth=1]
 }

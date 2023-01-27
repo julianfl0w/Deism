@@ -1,7 +1,15 @@
 digraph D {
-"Works" [shape=box, color = cadetblue1]
-"Grace" [shape=box, color = cadetblue1]
-"Reciprocity" [shape=box, color = cadetblue1]
-"Grace" -> "Reciprocity" [penwidth=1]
-"Works" -> "Grace" [penwidth=1]
+rankdir = LR
+style = filled
+color = lightgrey
+bgcolor = "#262626"
+fillcolor = "darkgray:gold"
+gradientangle = 0
+"Covenent Theology" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Works" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Covenent Theology" -> "Works" [color=white, penwidth=1]
+"Grace" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Works" -> "Grace" [color=white, penwidth=1]
+"Reciprocity" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Grace" -> "Reciprocity" [color=white, penwidth=1]
 }

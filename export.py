@@ -24,10 +24,13 @@ def copyDictUnique(indict, modifier):
 import sinode.sinode as sinode
 import copy
 
-m = sinode.Category(directory = "Book Of Julian", depth = 1, parent = None)
+m = sinode.FractalBook(
+    origin="directory", source = "Book Of Julian", depth = 0, parent = None)
 #m.toGraphViz()
 with open("README.md", 'w+') as f:
     f.write(m.toMarkdown())
+    
+#m.toPDF()
 
 
 

@@ -8,4 +8,4 @@
         "3.7 years ago, organized life emerged from the chaos",
         "Many generations passed",
         ]
-        ]
+]

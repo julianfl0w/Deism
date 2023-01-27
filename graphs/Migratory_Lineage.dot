@@ -1,11 +1,19 @@
 digraph D {
-"Africa" [shape=box, color = cadetblue1]
-"Europe" [shape=box, color = cadetblue1]
-"Africa" -> "Europe" [penwidth=1]
-"Asia" [shape=box, color = cadetblue1]
-"America" [shape=box, color = cadetblue1]
-"Asia" -> "America" [penwidth=1]
-"Africa" -> "Asia" [penwidth=1]
-"Australia" [shape=box, color = cadetblue1]
-"Africa" -> "Australia" [penwidth=1]
+rankdir = LR
+style = filled
+color = lightgrey
+bgcolor = "#262626"
+fillcolor = "darkgray:gold"
+gradientangle = 0
+"Migratory Lineage" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Africa" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Migratory Lineage" -> "Africa" [color=white, penwidth=1]
+"Europe" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Africa" -> "Europe" [color=white, penwidth=1]
+"Asia" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Africa" -> "Asia" [color=white, penwidth=1]
+"America" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Asia" -> "America" [color=white, penwidth=1]
+"Australia" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Africa" -> "Australia" [color=white, penwidth=1]
 }

@@ -1,17 +1,25 @@
 digraph D {
-"The Fundamental Particles" [shape=box, color = cadetblue1]
-"LUCA" [shape=box, color = cadetblue1]
-"Asgards" [shape=box, color = cadetblue1]
-"Eukarya" [shape=box, color = cadetblue1]
-"Amorphea" [shape=box, color = cadetblue1]
-"Animalia" [shape=box, color = cadetblue1]
-"Humankind" [shape=box, color = cadetblue1]
-"The Son of Man" [shape=box, color = cadetblue1]
-"Humankind" -> "The Son of Man" [penwidth=1]
-"Animalia" -> "Humankind" [penwidth=1]
-"Amorphea" -> "Animalia" [penwidth=1]
-"Eukarya" -> "Amorphea" [penwidth=1]
-"Asgards" -> "Eukarya" [penwidth=1]
-"LUCA" -> "Asgards" [penwidth=1]
-"The Fundamental Particles" -> "LUCA" [penwidth=1]
+rankdir = LR
+style = filled
+color = lightgrey
+bgcolor = "#262626"
+fillcolor = "darkgray:gold"
+gradientangle = 0
+"Evolutionary Lineage" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"The Fundamental Particles" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Evolutionary Lineage" -> "The Fundamental Particles" [color=white, penwidth=1]
+"LUCA" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"The Fundamental Particles" -> "LUCA" [color=white, penwidth=1]
+"Asgards" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"LUCA" -> "Asgards" [color=white, penwidth=1]
+"Eukarya" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Asgards" -> "Eukarya" [color=white, penwidth=1]
+"Amorphea" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Eukarya" -> "Amorphea" [color=white, penwidth=1]
+"Animalia" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Amorphea" -> "Animalia" [color=white, penwidth=1]
+"Humankind" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Animalia" -> "Humankind" [color=white, penwidth=1]
+"The Son of Man" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
+"Humankind" -> "The Son of Man" [color=white, penwidth=1]
 }
