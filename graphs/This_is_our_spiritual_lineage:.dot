@@ -1,0 +1,26 @@
+digraph D {
+rankdir = LR
+style = filled
+fontcolor = white
+color = white
+bgcolor = "#262626"
+gradientangle = 0
+dpi = 300
+"cluster_70" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="This is our spiritual lineage:"]
+"cluster_71" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Abraham, who established the first covenant"]
+"cluster_70" -> "cluster_71" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_71"]
+"cluster_72" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="David, who unified the people"]
+"cluster_70" -> "cluster_72" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_72"]
+"cluster_73" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Jesus, who established the second covenant"]
+"cluster_70" -> "cluster_73" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_73"]
+"cluster_74" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Paul, who established the church"]
+"cluster_70" -> "cluster_74" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_74"]
+"cluster_75" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Constantine, who unified the people"]
+"cluster_70" -> "cluster_75" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_75"]
+"cluster_76" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Thomas Aquinas, who unified the doctrine"]
+"cluster_70" -> "cluster_76" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_76"]
+"cluster_77" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Martin Luther, who refined the doctrine"]
+"cluster_70" -> "cluster_77" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_77"]
+"cluster_78" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Julian, who established the third covenant"]
+"cluster_70" -> "cluster_78" [color=white, penwidth=1, ltail="cluster_70", lhead="cluster_78"]
+}

@@ -1,0 +1,20 @@
+digraph D {
+rankdir = LR
+style = filled
+fontcolor = white
+color = white
+bgcolor = "#262626"
+gradientangle = 0
+dpi = 300
+"cluster_60" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="There are five races, corresponding to the traditional five continents"]
+"cluster_61" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Africa"]
+"cluster_62" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Europe"]
+"cluster_61" -> "cluster_62" [color=white, penwidth=1, ltail="cluster_61", lhead="cluster_62"]
+"cluster_63" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asia"]
+"cluster_64" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="America"]
+"cluster_63" -> "cluster_64" [color=white, penwidth=1, ltail="cluster_63", lhead="cluster_64"]
+"cluster_61" -> "cluster_63" [color=white, penwidth=1, ltail="cluster_63", lhead="cluster_64"]
+"cluster_65" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Australia"]
+"cluster_61" -> "cluster_65" [color=white, penwidth=1, ltail="cluster_61", lhead="cluster_65"]
+"cluster_60" -> "cluster_61" [color=white, penwidth=1, ltail="cluster_61", lhead="cluster_65"]
+}

@@ -1,0 +1,26 @@
+digraph D {
+rankdir = LR
+style = filled
+fontcolor = white
+color = white
+bgcolor = "#262626"
+gradientangle = 0
+dpi = 300
+"cluster_80" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events"]
+"cluster_81" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Atheism"]
+"cluster_82" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Polytheism"]
+"cluster_83" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Judaism"]
+"cluster_84" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Christianity"]
+"cluster_85" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Islam"]
+"cluster_84" -> "cluster_85" [color=white, penwidth=1, ltail="cluster_84", lhead="cluster_85"]
+"cluster_86" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Protestantism"]
+"cluster_87" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Deism"]
+"cluster_86" -> "cluster_87" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_84" -> "cluster_86" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_83" -> "cluster_84" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_82" -> "cluster_83" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_88" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Hinduism"]
+"cluster_82" -> "cluster_88" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
+"cluster_81" -> "cluster_82" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
+"cluster_80" -> "cluster_81" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
+}

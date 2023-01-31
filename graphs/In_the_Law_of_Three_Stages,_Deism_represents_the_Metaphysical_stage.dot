@@ -1,0 +1,16 @@
+digraph D {
+rankdir = LR
+style = filled
+fontcolor = white
+color = white
+bgcolor = "#262626"
+gradientangle = 0
+dpi = 300
+"cluster_89" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="In the Law of Three Stages, Deism represents the Metaphysical stage"]
+"cluster_90" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Spiritual"]
+"cluster_91" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Metaphysical"]
+"cluster_92" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Positive"]
+"cluster_91" -> "cluster_92" [color=white, penwidth=1, ltail="cluster_91", lhead="cluster_92"]
+"cluster_90" -> "cluster_91" [color=white, penwidth=1, ltail="cluster_91", lhead="cluster_92"]
+"cluster_89" -> "cluster_90" [color=white, penwidth=1, ltail="cluster_91", lhead="cluster_92"]
+}

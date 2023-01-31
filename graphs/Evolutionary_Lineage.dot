@@ -1,25 +1,26 @@
 digraph D {
 rankdir = LR
 style = filled
-color = lightgrey
+fontcolor = white
+color = white
 bgcolor = "#262626"
-fillcolor = "darkgray:gold"
 gradientangle = 0
-"Evolutionary Lineage" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"The Fundamental Particles" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Evolutionary Lineage" -> "The Fundamental Particles" [color=white, penwidth=1]
-"LUCA" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"The Fundamental Particles" -> "LUCA" [color=white, penwidth=1]
-"Asgards" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"LUCA" -> "Asgards" [color=white, penwidth=1]
-"Eukarya" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Asgards" -> "Eukarya" [color=white, penwidth=1]
-"Amorphea" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Eukarya" -> "Amorphea" [color=white, penwidth=1]
-"Animalia" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Amorphea" -> "Animalia" [color=white, penwidth=1]
-"Humankind" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Animalia" -> "Humankind" [color=white, penwidth=1]
-"The Son of Man" [shape=box, color="#262626", fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05]
-"Humankind" -> "The Son of Man" [color=white, penwidth=1]
+dpi = 300
+"cluster_45" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Evolutionary Lineage"]
+"cluster_46" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Fundamental Particles"]
+"cluster_47" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="LUCA"]
+"cluster_48" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asgards"]
+"cluster_49" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Eukarya"]
+"cluster_50" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Amorphea"]
+"cluster_51" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Animalia"]
+"cluster_52" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Humankind"]
+"cluster_53" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Son of Man"]
+"cluster_52" -> "cluster_53" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_51" -> "cluster_52" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_50" -> "cluster_51" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_49" -> "cluster_50" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_48" -> "cluster_49" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_47" -> "cluster_48" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_46" -> "cluster_47" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_45" -> "cluster_46" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
 }

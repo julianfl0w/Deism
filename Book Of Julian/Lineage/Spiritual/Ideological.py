@@ -1,8 +1,5 @@
-[
-    [
-        "Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events"
-    ],
-    {
+{
+    "Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events": {
         "meta": {"type": "lineage", "name": "Ideological Spiritual Lineage"},
         "Atheism": {
             "Polytheism": {
@@ -13,9 +10,8 @@
             }
         },
     },
-    ["In the Law of Three Stages, Deism represents the Metaphysical stage"],
-    {
+    "In the Law of Three Stages, Deism represents the Metaphysical stage": {
         "meta": {"type": "lineage", "name": "Law of Three Stages"},
         "Spiritual": {"Metaphysical": {"Positive": {}}},
     },
-]
+}

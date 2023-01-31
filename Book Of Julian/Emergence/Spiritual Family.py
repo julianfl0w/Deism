@@ -1,11 +1,8 @@
-[
-    [
-        "Our spiritual family is a taxonomy of modern religious systems, on the basis of creed",
-        "The most popular variants are listed",
-    ],
-    {
-        "meta": {"type": "list"},
+{
+    "Our spiritual family is a taxonomy of modern religious systems, on the basis of creed": {},
+    "The most popular variants are listed": {
         "Ancestors": {
+            "meta": {"type": "list"},
             "Christians": {
                 "Protestants": {
                     "Pentecostals": {},
@@ -18,10 +15,8 @@
             "Eastern Orthadox": {},
             "Jews": {"Orthadox": {}, "Reformed": {}, "Reconstructionist": {}},
         },
-    },
-    {
-        "meta": {"type": "list"},
         "Peers": {
+            "meta": {"type": "list"},
             "Muslims": {"Shiite": {}, "Sunni": {}},
             "Hindus": {},
             "Sikhs": {},
@@ -29,4 +24,4 @@
             "New Religious Movements (NRMs)": {},
         },
     },
-]
+}
