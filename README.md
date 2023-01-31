@@ -1,5 +1,56 @@
  Book Of Julian
 
+# Table of Contents
+
+- Book Of Julian
+  - Table of Contents
+  - Prophesy
+    - Eternal Life
+      - Universal Annhialation
+    - Eschatology
+    - The Fourth Temple
+  - Introduction
+    - Design principles of Book of Julian include:
+      - Clarity
+  - Lineage
+    - Material
+      - Evolutionary
+      - Migratory
+    - Introduction
+    - Spiritual
+      - Personal
+      - Ideological
+      - Shoutouts
+      - Covenant
+  - Cosmology
+    - origins
+    - regions
+      - Our Universe
+  - Emergence
+    - Spiritual Family
+      - The most popular variants are listed
+  - Ethics
+    - Commandments
+      - These are the commandments:
+    - Prohibitions
+      - These are the prohibitions
+        - You shall not lie with your biological
+    - Cardinal Virtues
+      - There are four cardinal virtues:
+    - Condemnations
+  - Spirituality
+    - Ritual
+      - Meditation
+        - These rituals comprise our meditative tradition
+      - Fasting
+        - Here are the reasons for fasting:
+        - Here are several kinds of fast:
+      - Music
+        - The following comprise our musical tradition
+      - Blessings
+
+
+
 # Prophesy
 
 ## Eternal Life
