@@ -1,0 +1,14 @@
+digraph D {
+rankdir = LR
+style = filled
+fontcolor = white
+color = white
+bgcolor = "#262626"
+gradientangle = 0
+dpi = 300
+"cluster_85" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Spiritual"]
+"cluster_86" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Metaphysical"]
+"cluster_87" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Positive"]
+"cluster_86" -> "cluster_87" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_85" -> "cluster_86" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+}

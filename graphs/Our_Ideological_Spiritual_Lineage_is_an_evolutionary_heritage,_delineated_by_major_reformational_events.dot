@@ -1,26 +1,24 @@
 digraph D {
-rankdir = LR
+rankdir = TB
 style = filled
 fontcolor = white
 color = white
 bgcolor = "#262626"
 gradientangle = 0
 dpi = 300
-"cluster_80" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events"]
-"cluster_81" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Atheism"]
-"cluster_82" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Polytheism"]
-"cluster_83" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Judaism"]
-"cluster_84" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Christianity"]
-"cluster_85" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Islam"]
-"cluster_84" -> "cluster_85" [color=white, penwidth=1, ltail="cluster_84", lhead="cluster_85"]
-"cluster_86" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Protestantism"]
-"cluster_87" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Deism"]
-"cluster_86" -> "cluster_87" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
-"cluster_84" -> "cluster_86" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
-"cluster_83" -> "cluster_84" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
-"cluster_82" -> "cluster_83" [color=white, penwidth=1, ltail="cluster_86", lhead="cluster_87"]
-"cluster_88" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Hinduism"]
-"cluster_82" -> "cluster_88" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
-"cluster_81" -> "cluster_82" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
-"cluster_80" -> "cluster_81" [color=white, penwidth=1, ltail="cluster_82", lhead="cluster_88"]
+"cluster_75" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Atheism"]
+"cluster_76" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Polytheism"]
+"cluster_77" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Judaism"]
+"cluster_78" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Christianity"]
+"cluster_79" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Islam"]
+"cluster_78" -> "cluster_79" [color=white, penwidth=1, ltail="cluster_78", lhead="cluster_79"]
+"cluster_80" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Protestantism"]
+"cluster_81" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Deism"]
+"cluster_80" -> "cluster_81" [color=white, penwidth=1, ltail="cluster_80", lhead="cluster_81"]
+"cluster_78" -> "cluster_80" [color=white, penwidth=1, ltail="cluster_80", lhead="cluster_81"]
+"cluster_77" -> "cluster_78" [color=white, penwidth=1, ltail="cluster_80", lhead="cluster_81"]
+"cluster_76" -> "cluster_77" [color=white, penwidth=1, ltail="cluster_80", lhead="cluster_81"]
+"cluster_82" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Hinduism"]
+"cluster_76" -> "cluster_82" [color=white, penwidth=1, ltail="cluster_76", lhead="cluster_82"]
+"cluster_75" -> "cluster_76" [color=white, penwidth=1, ltail="cluster_76", lhead="cluster_82"]
 }

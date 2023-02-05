@@ -1,26 +1,17 @@
 digraph D {
-rankdir = LR
+rankdir = TB
 style = filled
 fontcolor = white
 color = white
 bgcolor = "#262626"
 gradientangle = 0
 dpi = 300
-"cluster_36" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="This is our evolutionary lineage:"]
-"cluster_37" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Fundamental Particles, which are inert"]
-"cluster_36" -> "cluster_37" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_37"]
-"cluster_38" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="LUCA, who begat the Prokaryota"]
-"cluster_36" -> "cluster_38" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_38"]
-"cluster_39" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asgards, who engulfed bacteria"]
-"cluster_36" -> "cluster_39" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_39"]
-"cluster_40" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Eukarya, who protect their centers"]
-"cluster_36" -> "cluster_40" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_40"]
-"cluster_41" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Amorphea, who swim with tails"]
-"cluster_36" -> "cluster_41" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_41"]
-"cluster_42" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Animalia, who propagate in pairs"]
-"cluster_36" -> "cluster_42" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_42"]
-"cluster_43" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Humankind, who communicate clearly"]
-"cluster_36" -> "cluster_43" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_43"]
-"cluster_44" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Son of Man, who will usher in the new age"]
-"cluster_36" -> "cluster_44" [color=white, penwidth=1, ltail="cluster_36", lhead="cluster_44"]
+"cluster_39" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Fundamental Particles, which are inert"]
+"cluster_40" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="LUCA, who begat the Prokaryota"]
+"cluster_41" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asgards, who engulfed bacteria"]
+"cluster_42" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Eukarya, who protect their centers"]
+"cluster_43" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Amorphea, who swim with tails"]
+"cluster_44" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Animalia, who propagate in pairs"]
+"cluster_45" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Humankind, who communicate clearly"]
+"cluster_46" [rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Son of Man, who will usher in the new age"]
 }

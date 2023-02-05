@@ -11,7 +11,9 @@
         },
     },
     "In the Law of Three Stages, Deism represents the Metaphysical stage": {
-        "meta": {"type": "lineage", "name": "Law of Three Stages"},
-        "Spiritual": {"Metaphysical": {"Positive": {}}},
+        "The Three Stages": {
+            "meta": {"type": "lineage", "graphParams": {"rankdir": "LR"}},
+            "Spiritual": {"Metaphysical": {"Positive": {}}},
+        }
     },
 }

@@ -1,17 +1,22 @@
 {
-    "These are the prohibitions":{
-        "You shall have no gods before the Creator":{},  # condemn Yahweh, Allah, Brahma etc
-        "Thou shalt not make unto thee any graven image":{},
-        "Thou shalt not take the Creator's name in vain?":{},
-        "Thou shalt not murder":{},
-        "Thou shalt not commit adultery":{},
-        "Thou shalt not steal":{},
-        "Thou shalt not bear false witness against thy neighbour":{},
-        "Do not covet your peer's house or spouse, or anything belonging to your neighbor":{},
-        "You shall not lie with your biological":{
-            "Ancestor, nor":{},
-            "Descendant, nor":{},
-            "Sibling":{},
-        }
+    "These are the prohibitions": {
+        "meta": {"type": "list"},
+        "Do not hold any god above the Creator": {},  # condemn Yahweh, Allah, Brahma etc
+        "Do not make idols": {},
+        "Do not disrespect the Creator": {},
+        "Do not murder": {},
+        "Do not commit adultery": {},
+        "Do not steal": {},
+        "Do not lie about your neighbour": {},
+        "Do not covet your peer's":{
+            "house, nor":{},
+            "spouse, nor":{},
+            "anything belonging to your neighbor": {},
+        },
+        "Do not sleep with your biological": {
+            "Ancestor, nor": {},
+            "Descendant, nor": {},
+            "Sibling": {},
+        },
     }
 }

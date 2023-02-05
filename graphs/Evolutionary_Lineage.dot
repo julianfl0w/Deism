@@ -1,26 +1,24 @@
 digraph D {
-rankdir = LR
+rankdir = TB
 style = filled
 fontcolor = white
 color = white
 bgcolor = "#262626"
 gradientangle = 0
 dpi = 300
-"cluster_45" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Evolutionary Lineage"]
-"cluster_46" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Fundamental Particles"]
-"cluster_47" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="LUCA"]
-"cluster_48" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asgards"]
-"cluster_49" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Eukarya"]
-"cluster_50" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Amorphea"]
-"cluster_51" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Animalia"]
-"cluster_52" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Humankind"]
-"cluster_53" [rankdir=LR, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Son of Man"]
-"cluster_52" -> "cluster_53" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_51" -> "cluster_52" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_50" -> "cluster_51" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_49" -> "cluster_50" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_48" -> "cluster_49" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_47" -> "cluster_48" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_46" -> "cluster_47" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
-"cluster_45" -> "cluster_46" [color=white, penwidth=1, ltail="cluster_52", lhead="cluster_53"]
+"cluster_40" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Fundamental Particles, which are inert"]
+"cluster_41" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="LUCA, who begat the Prokaryota"]
+"cluster_42" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Asgards, who engulfed bacteria"]
+"cluster_43" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Eukarya, who protect their centers"]
+"cluster_44" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Amorphea, who swim with tails"]
+"cluster_45" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Animalia, who propagate in pairs"]
+"cluster_46" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Humankind, who communicate clearly"]
+"cluster_47" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="The Son of Man, who will usher in the new age"]
+"cluster_46" -> "cluster_47" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_45" -> "cluster_46" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_44" -> "cluster_45" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_43" -> "cluster_44" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_42" -> "cluster_43" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_41" -> "cluster_42" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
+"cluster_40" -> "cluster_41" [color=white, penwidth=1, ltail="cluster_46", lhead="cluster_47"]
 }

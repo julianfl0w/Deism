@@ -2,6 +2,7 @@ import os
 import sys
 import pkg_resources
 import json
+from bs4 import BeautifulSoup as bs
 
 here = os.path.dirname(os.path.abspath(__file__))
 
@@ -30,11 +31,12 @@ m = fractal_book.FractalBook(
         "priority": 1000,
         "ignore": False,
         "type": "default",
+        "noPropagate": {},
         "font": {"color": "white"},
         "relationship": "descends",
         "engine": "dot",
         "graphParams": {
-            "rankdir": "LR",
+            "rankdir": "TB",
             "style": "filled",
             "fontcolor": "white",
             "color": "white",
@@ -45,8 +47,9 @@ m = fractal_book.FractalBook(
             "dpi": 300,
         },
         "boxParams": {
-            "rankdir": "LR",
+            "rankdir": "TB",
             "shape": "box",
+            "penwidth": 0,
             # "color": "black",
             # "color": "\"#262626\"",
             "color": "black",
@@ -62,11 +65,20 @@ m = fractal_book.FractalBook(
     source="Book Of Julian",
     depth=0,
     parent=None,
+    skipGraphs=False,
+    displayVerseNo=True,
 )
 
 print(m.toTableOfContents)
 
+out = m.toMarkdown()
+htmlString = out["html"]
+soup = bs(htmlString)
+htmlString = soup.prettify()
+
+with open("ABSA.html", "w+") as f:
+    f.write(htmlString)
 with open("README.md", "w+") as f:
-    f.write(m.toMarkdown()["markdown"])
+    f.write(out["markdown"])
 
 # m.toPDF()

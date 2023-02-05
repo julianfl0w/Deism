@@ -4,39 +4,29 @@
 
 - Book Of Julian
   - Table of Contents
-  - Prophesy
-    - Eternal Life
-      - Universal Annhialation
-    - Eschatology
-    - The Fourth Temple
   - Introduction
-    - Design principles of Book of Julian include:
-      - Clarity
   - Lineage
+    - Introduction
     - Material
       - Evolutionary
       - Migratory
-    - Introduction
     - Spiritual
       - Personal
       - Ideological
+        - In the Law of Three Stages, Deism represents the Metaphysical stage
       - Shoutouts
       - Covenant
   - Cosmology
-    - origins
-    - regions
+    - Origins
+    - Regions
       - Our Universe
   - Emergence
     - Spiritual Family
       - The most popular variants are listed
   - Ethics
     - Commandments
-      - These are the commandments:
     - Prohibitions
-      - These are the prohibitions
-        - You shall not lie with your biological
     - Cardinal Virtues
-      - There are four cardinal virtues:
     - Condemnations
   - Spirituality
     - Ritual
@@ -48,57 +38,43 @@
       - Music
         - The following comprise our musical tradition
       - Blessings
-
-
-
-# Prophesy
-
-## Eternal Life
-
-### Universal Annhialation
-
-In the absense of compelling evidence, we believe in Universal Annhialation. That is, the absense of life after death. This is motivation for research into eternal life. There are currently two major strains of research:
-- Perpetual animation of the body
-- Transferral of one's spirit
-
-
-
-
-
-
-## Eschatology
-
-When we see the face of God, this is the Beatific Vision. 
-
-## The Fourth Temple
-
-The Third Temple will be destroyed, and a fourth built in its place. The Fourth Temple will be a pyramid of clear gold. It will be built in three days. 
+  - Prophesy
+    - Eternal Life
+      - Universal Annhialation
+    - Eschatology
+    - The Fourth Temple
 
 
 
 # Introduction
 
-There is one God, who has spoken to no one. The Book of Julian is the first book of the Third Testament. It presents a philosophical framework that combines spiritual and scientific schools of thought. It draws primarily upon Christian theology and contemporary cosmology. ## Design principles of Book of Julian include:
+<sup>0</sup> There is one God, who has spoken to no one<br><br><sup>1</sup> The Book of Julian is the first book of the Third Testament. <sup>2</sup> It presents a philosophical framework that combines spiritual and scientific schools of thought. <sup>3</sup> It draws primarily upon Christian theology and contemporary cosmology. <sup>4</sup> Design principles of Book of Julian include:
+- Clarity
+  - Hierarchical Organization
+  - Images
+  - Diagrams
+  - Metaphors
+  - Examples
+- Simplicity
+- Brevity
+- Accuracy
+- Practical Value
 
-### Clarity
 
-Hierarchical Organization. Images. Diagrams. Metaphors. Examples. 
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
 
-Brevity. Accuracy. 
+# Lineage
 
-When these principles are in conflict, simple expressions are preferred. The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
+## Introduction
 
-Missiology. # Lineage
+<sup>0</sup> Lineage is important. Here it is.
 
 ## Material
 
 ### Evolutionary
 
-
-
-![This is our evolutionary lineage:](/graphs/This_is_our_evolutionary_lineage:.png?raw=true)
-
-
+<sup>0</sup> This is our evolutionary lineage:
+Evolutionary Lineage
 
 ![Evolutionary Lineage](/graphs/Evolutionary_Lineage.png?raw=true)
 
@@ -106,7 +82,7 @@ Missiology. # Lineage
 
 ### Migratory
 
-This is our migratory history, which is the basis of our racial theory
+<sup>0</sup> This is our migratory history, which is the basis of our racial theory
 - 300,000 years ago, humankind originated in Africa
 - 150,000 years ago, we expanded into Eurasia
 - 50,000 years ago, we expanded into Australia
@@ -114,6 +90,7 @@ This is our migratory history, which is the basis of our racial theory
 
 
 
+There are five races, corresponding to the traditional five continents
 
 ![There are five races, corresponding to the traditional five continents](/graphs/There_are_five_races,_corresponding_to_the_traditional_five_continents.png?raw=true)
 
@@ -121,15 +98,12 @@ This is our migratory history, which is the basis of our racial theory
 
 
 
-## Introduction
-
-Lineage is important. Here it is.
-
 ## Spiritual
 
 ### Personal
 
 
+This is our personal spiritual lineage:
 
 ![This is our personal spiritual lineage:](/graphs/This_is_our_personal_spiritual_lineage:.png?raw=true)
 
@@ -138,28 +112,35 @@ Lineage is important. Here it is.
 ### Ideological
 
 
+Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events
 
 ![Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events](/graphs/Our_Ideological_Spiritual_Lineage_is_an_evolutionary_heritage,_delineated_by_major_reformational_events.png?raw=true)
 
+#### In the Law of Three Stages, Deism represents the Metaphysical stage
 
 
-![In the Law of Three Stages, Deism represents the Metaphysical stage](/graphs/In_the_Law_of_Three_Stages,_Deism_represents_the_Metaphysical_stage.png?raw=true)
+The Three Stages
+
+![The Three Stages](/graphs/The_Three_Stages.png?raw=true)
+
+
 
 
 
 ### Shoutouts
 
-We remember the Christians, who established peaceful empires and banished slavery. Blessed are those who forsake the darkness and choose to walk in the light. To the followers of Allah, Brahma, Yahweh, you have been superseeded. 
+<sup>0</sup> We remember the Christians, who established peaceful empires and banished slavery. <sup>1</sup> Blessed are those who forsake the darkness and choose to walk in the light. <sup>2</sup> To the followers of Allah, Brahma, Yahweh, you have been superseeded. 
 
 ### Covenant
 
-Following covenent theology, our lineage consists of:
+<sup>0</sup> Following covenent theology, our lineage consists of:
 - The First Testament, a covenent of works made with Adam
 - The Second Testament, a covenent of grace made by Jesus
 - The Third Testament, a covenent of reciprocity made by Julian
 
 
 
+Simplified
 
 ![Simplified](/graphs/Simplified.png?raw=true)
 
@@ -167,19 +148,19 @@ Following covenent theology, our lineage consists of:
 
 
 
-Scientific. 
+<sup>1</sup> Scientific. 
 
-Theology. # Cosmology
+<sup>2</sup> Theology. # Cosmology
 
-## origins
+## Origins
 
-Fourteen billion years ago, God created our universe. It started from nothing, then expanded rapidly.And the earth was without form.4.5 billion years ago, the earth coallesced.In orbit around the sun. 3.7 years ago, organized life emerged from the chaos. Many generations passed. 
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced. <sup>4</sup> In orbit around the sun. <sup>5</sup> 37 years ago, organized life emerged from the chaos. <sup>6</sup> Many generations passed. 
 
-## regions
+## Regions
 
 ### Our Universe
 
-Deism: The Realm of Order. The Realm of Chaos. 
+<sup>0</sup> Deism: The Realm of Order. <sup>1</sup> The Realm of Chaos. 
 
 
 
@@ -189,9 +170,9 @@ Deism: The Realm of Order. The Realm of Chaos.
 
 ## Spiritual Family
 
-Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. ### The most popular variants are listed
+<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. ### The most popular variants are listed
 
-Ancestors
+<sup>0</sup> Ancestors
 - Christians
   - Protestants
     - Pentecostals
@@ -208,7 +189,7 @@ Ancestors
   - Reconstructionist
 
 
-Peers
+<sup>1</sup> Peers
 - Muslims
   - Shiite
   - Sunni
@@ -230,41 +211,70 @@ Peers
 
 ## Commandments
 
-### These are the commandments:
+<sup>0</sup> These are the commandments:
+- Remember the sabbath day, to keep it holy
+- Honour thy father and thy mother
 
-Remember the sabbath day, to keep it holy. Honour thy father and thy mother. 
 
 
 
 ## Prohibitions
 
-### These are the prohibitions
-
-You shall have no gods before the Creator. Thou shalt not make unto thee any graven image. Thou shalt not take the Creator's name in vain?Thou shalt not murder. Thou shalt not commit adultery. Thou shalt not steal. Thou shalt not bear false witness against thy neighbour. Do not covet your peer's house or spouse, or anything belonging to your neighbor. #### You shall not lie with your biological
-
-Ancestor, nor. Descendant, nor. Sibling. 
-
+<sup>0</sup> These are the prohibitions
+- Do not hold any god above the Creator
+- Do not make idols
+- Do not disrespect the Creator
+- Do not murder
+- Do not commit adultery
+- Do not steal
+- Do not lie about your neighbour
+- Do not covet your peer's
+  - house, nor
+  - spouse, nor
+  - anything belonging to your neighbor
+- Do not sleep with your biological
+  - Ancestor, nor
+  - Descendant, nor
+  - Sibling
 
 
 
 
 ## Cardinal Virtues
 
-### There are four cardinal virtues:
+<sup>0</sup> There are four cardinal virtues:
+- Prudence
+  - Wisdom in material matters
+- Justice
+  - or righteousness
+- Fortitude
+  - forbearance
+  - strength
+  - endurance, and
+  - the ability to confront
+    - fear
+    - uncertainty, and
+    - intimidation
+- Temperance
+  - or restraint
+  - the practice of
+    - self-control
+    - abstention
+    - discretion, and
+    - moderation
 
-Prudence (φρόνησις, phrónēsis; Latin: prudentia; also Wisdom, Sophia, sapientia), the ability to discern the appropriate course of action to be taken in a given situation at the appropriate time, with consideration of potential consequences.Justice (δικαιοσύνη, dikaiosýnē; Latin: iustitia): also considered as fairness;[3] the Greek word also having the meaning righteousness. Fortitude (ἀνδρεία, andreía; Latin: fortitudo): also termed courage: forbearance, strength, endurance, and the ability to confront fear, uncertainty, and intimidation. Temperance (σωφροσύνη, sōphrosýnē; Latin: temperantia): also known as restraint, the practice of self-control, abstention, discretion, and moderation tempering the appetition. Plato considered sōphrosynē, which may also be translated as sound-mindedness, to be the most important virtue.
 
 
 
 ## Condemnations
 
-woe to those who follow the old gods:
+<sup>0</sup> woe to those who follow the old gods:
 - Yahweh
 - Allah
 - Brahma
 
 
-Trouble will follow you through your lifetime. The world will hate you. you will be left behind in the ascention. 
+<sup>1</sup> Trouble will follow you through your lifetime. <sup>2</sup> The world will hate you. <sup>3</sup> you will be left behind in the ascention. 
 
 
 
@@ -276,7 +286,7 @@ Trouble will follow you through your lifetime. The world will hate you. you will
 
 #### These rituals comprise our meditative tradition
 
-Mantras. Body-scan. Deep Breathing. 
+<sup>0</sup> Mantras. <sup>1</sup> Body-scan. <sup>2</sup> Deep Breathing. 
 
 
 
@@ -284,11 +294,11 @@ Mantras. Body-scan. Deep Breathing.
 
 #### Here are the reasons for fasting:
 
-Mourning. Motivation. Mental clarity. Health. 
+<sup>0</sup> Mourning. <sup>1</sup> Motivation. <sup>2</sup> Mental clarity. <sup>3</sup> Health. 
 
 #### Here are several kinds of fast:
 
-Daniel Fast: Abstain from meat for a week. Water fast: consume only water for 48 hours. 
+<sup>0</sup> Daniel Fast: Abstain from meat for a week. <sup>1</sup> Water fast: consume only water for 48 hours. 
 
 
 
@@ -296,17 +306,42 @@ Daniel Fast: Abstain from meat for a week. Water fast: consume only water for 48
 
 #### The following comprise our musical tradition
 
-Speaking Tongues. The holy pentatonic (God's tonality). The Om. 
+<sup>0</sup> Speaking Tongues. <sup>1</sup> The holy pentatonic (God's tonality). <sup>2</sup> The Om. 
 
 
 
 ### Blessings
 
-The Lord bless you and keep you;The Lord make His face shine upon you,And be gracious to you;. The Lord [a]lift up His countenance upon you,And give you peace.
+<sup>0</sup> The Lord bless you and keep you;The Lord make His face shine upon you,<sup>1</sup> And be gracious to you;. <sup>2</sup> The Lord [a]lift up His countenance upon you,<sup>3</sup> And give you peace.
 
 
 
 
 
-Creeds. 
+<sup>4</sup> Creeds. # Prophesy
+
+## Eternal Life
+
+### Universal Annhialation
+
+<sup>0</sup> In the absense of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absense of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:
+- Perpetual animation of the body
+- Transferral of one's spirit
+
+
+
+
+
+
+## Eschatology
+
+<sup>0</sup> When we see the face of God, this is the Beatific Vision. 
+
+## The Fourth Temple
+
+<sup>0</sup> The Third Temple will be destroyed, and a fourth built in its place. <sup>1</sup> The Fourth Temple will be a pyramid of clear gold. <sup>2</sup> It will be built in three days. 
+
+
+
+
 
