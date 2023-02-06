@@ -84,9 +84,9 @@ Evolutionary Lineage
 
 <sup>0</sup> This is our migratory history, which is the basis of our racial theory
 - 300,000 years ago, humankind originated in Africa
-- 150,000 years ago, we expanded into Eurasia
-- 50,000 years ago, we expanded into Australia
-- 15,000 years ago, we expanded into America
+  - 150,000 years ago, we expanded into Eurasia
+    - 50,000 years ago, we expanded into Australia
+      - 15,000 years ago, we expanded into America
 
 
 
@@ -154,7 +154,12 @@ Simplified
 
 ## Origins
 
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced. <sup>4</sup> In orbit around the sun. <sup>5</sup> 37 years ago, organized life emerged from the chaos. <sup>6</sup> Many generations passed. 
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. 
+
+
+Topology
+
+![Topology](/graphs/Topology.png?raw=true)
 
 ## Regions
 
@@ -227,11 +232,11 @@ Simplified
 - Do not murder
 - Do not commit adultery
 - Do not steal
-- Do not lie about your neighbour
+- Do not lie about your peer
 - Do not covet your peer's
   - house, nor
   - spouse, nor
-  - anything belonging to your neighbor
+  - anything belonging to your peer
 - Do not sleep with your biological
   - Ancestor, nor
   - Descendant, nor
