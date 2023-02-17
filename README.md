@@ -74,14 +74,26 @@
 ### Evolutionary
 
 <sup>0</sup> This is our evolutionary lineage:<sup>1</sup> Evolutionary Lineage
-- The Fundamental Particles, which are inert- LUCA, who begat the Prokaryota- Asgards, who engulfed bacteria- Eukarya, who protect their centers- Amorphea, who swim with tails- Animalia, who propagate in pairs- Humankind, who communicate clearly- The Son of Man, who will usher in the new age
+- The Fundamental Particles, which are inert
+- LUCA, who begat the Prokaryota
+- Asgards, who engulfed bacteria
+- Eukarya, who protect their centers
+- Amorphea, who swim with tails
+- Animalia, who propagate in pairs
+- Humankind, who communicate clearly
+- The Son of Man, who will usher in the new age
+
 
 
 
 ### Migratory
 
 <sup>0</sup> This is our migratory history, which is the basis of our racial theory
-- 300,000 years ago, humankind originated in Africa- 150,000 years ago, we expanded into Eurasia- 50,000 years ago, we expanded into Australia- 15,000 years ago, we expanded into America
+- 300,000 years ago, humankind originated in Africa
+- 150,000 years ago, we expanded into Eurasia
+- 50,000 years ago, we expanded into Australia
+- 15,000 years ago, we expanded into America
+
 
 
 Simplified migratory chart
@@ -97,7 +109,15 @@ Simplified migratory chart
 ### Personal
 
 <sup>0</sup> This is our personal spiritual lineage:
-- Abraham, who established the first covenant- David, who unified the people- Jesus, who established the second covenant- Paul, who established the church- Constantine, who unified the people- Thomas Aquinas, who unified the doctrine- Martin Luther, who refined the doctrine- Julian, who established the third covenant
+- Abraham, who established the first covenant
+- David, who unified the people
+- Jesus, who established the second covenant
+- Paul, who established the church
+- Constantine, who unified the people
+- Thomas Aquinas, who unified the doctrine
+- Martin Luther, who refined the doctrine
+- Julian, who established the third covenant
+
 
 
 
