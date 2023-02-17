@@ -1,17 +1,14 @@
 {
+    "The Tree of Life": {},
     "This is our evolutionary lineage:": {},
     "Evolutionary Lineage": {
-        "meta": {"type": "list", "topology":"flat"},
-        "The Fundamental Particles, which are inert": {
-            "LUCA, who begat the Prokaryota": {
-                "Asgards, who engulfed bacteria": {
-                    "Eukarya, who protect their centers": {
-                        "Amorphea, who swim with tails": {
-                            "Animalia, who propagate in pairs": {
-                                "Humankind, who communicate clearly": {
-                                    "The Son of Man, who will usher in the new age": {}
-                                }
-                            }
+        "meta": {"type": "list", "topology": "flat"},
+        "The Fundamental Particles, which is the soil": {
+            "LUCA, which is the seed": {
+                "Eukarya, the trunk": {
+                    "Animalia, the largest branches": {
+                        "Humankind, the leaves": {
+                            "The Son of Man, who will usher in the new age": {}
                         }
                     }
                 }

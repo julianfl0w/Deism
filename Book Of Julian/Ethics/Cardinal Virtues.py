@@ -3,12 +3,13 @@
         "meta": {"type": "list"},
         "Prudence": {
             "Wisdom in material matters": {},
-			"Zhì (智, wisdom, knowledge)":{}
+            "Zhì (智, wisdom, knowledge)": {},
         },
-        "Justice": {"or righteousness": {}, 
-				   "Yì (义; 義, righteousness, justice)":{},
-				   "Lǐ (礼; 禮, propriety, rites)":{},
-				   },
+        "Justice": {
+            "righteousness": {},
+            "Yì (义; 義, righteousness, justice)": {"meta": {"ignore": True}},
+            "Lǐ (礼; 禮, propriety, rites)": {"meta": {"ignore": True}},
+        },
         "Fortitude": {
             "forbearance": {},
             "strength": {},
@@ -28,12 +29,7 @@
                 "moderation": {},
             },
         },
-        "Benevolence": {
-			"Rén (仁, benevolence, humaneness)":{}
-		},
-		"Xìn (信, sincerity, faithfulness)":{
-			
-		}
+        "Benevolence": {"Rén (仁, benevolence, humaneness)": {}},
+        "Xìn (信, sincerity, faithfulness)": {},
     }
-	
 }

@@ -8,9 +8,9 @@
         "Do not commit adultery": {},
         "Do not steal": {},
         "Do not lie about your peer": {},
-        "Do not covet your peer's":{
-            "house, nor":{},
-            "spouse, nor":{},
+        "Do not covet your peer's": {
+            "house, nor": {},
+            "spouse, nor": {},
             "anything belonging to your peer": {},
         },
         "Do not sleep with your biological": {

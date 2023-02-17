@@ -26,18 +26,17 @@ def copyDictUnique(indict, modifier):
 
 import copy
 
-lineColor = '#00ffff'
+lineColor = "#00ffff"
 lineColor = '"#88ffff"'
 # "color": "black",
 # "color": "\"#262626\"",
-    
+
 m = fractal_book.FractalBook(
-    
     meta={
         "priority": 1000,
         "ignore": False,
         "type": "default",
-        "topology":"nested",
+        "topology": "nested",
         "noPropagate": {},
         "font": {"color": "white"},
         "relationship": "descends",
@@ -48,7 +47,7 @@ m = fractal_book.FractalBook(
             "fontcolor": "black",
             "color": "black",
             # "color": "\"#262626\"",
-            "bgcolor": 'white',
+            "bgcolor": "white",
             # "fillcolor": "\"darkgray:gold\"",
             "gradientangle": 0,
             "dpi": 300,
@@ -60,7 +59,7 @@ m = fractal_book.FractalBook(
             "color": lineColor,
             "fontcolor": "black",
             # "fillcolor": "\"darkorchid4:grey10\"",
-            "fillcolor": 'white',
+            "fillcolor": "white",
             "style": "filled",
             "gradientangle": 270.05,
         },
