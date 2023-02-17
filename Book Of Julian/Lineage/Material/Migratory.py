@@ -1,6 +1,6 @@
 {
     "This is our migratory history, which is the basis of our racial theory": {
-	"meta": {"type": "list"},
+        "meta": {"type": "list", "topology":"flat"},
         "300,000 years ago, humankind originated in Africa": {
             "150,000 years ago, we expanded into Eurasia": {
                 "50,000 years ago, we expanded into Australia": {

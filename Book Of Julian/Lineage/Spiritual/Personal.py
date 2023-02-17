@@ -1,6 +1,6 @@
 {
     "This is our personal spiritual lineage:": {
-        "meta": {"type": "lineage"},
+        "meta": {"type": "list", "topology":"flat"},
         "Abraham, who established the first covenant": {
             "David, who unified the people": {
                 "Jesus, who established the second covenant": {

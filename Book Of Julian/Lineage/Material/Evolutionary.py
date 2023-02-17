@@ -1,7 +1,7 @@
 {
     "This is our evolutionary lineage:": {},
     "Evolutionary Lineage": {
-        "meta": {"type": "lineage"},
+        "meta": {"type": "list", "topology":"flat"},
         "The Fundamental Particles, which are inert": {
             "LUCA, who begat the Prokaryota": {
                 "Asgards, who engulfed bacteria": {

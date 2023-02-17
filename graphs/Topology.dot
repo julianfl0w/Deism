@@ -10,24 +10,24 @@ subgraph "cluster_113"{
 penwidth=1;
  rankdir=TB;
  shape=box;
- color="#ccffff";
+ color="#88ffff";
  fontcolor=black;
  fillcolor=white;
  style=filled;
  gradientangle=270.05;
  label="Heaven";
- "cluster_114" [penwidth=1, rankdir=TB, shape=box, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="God"]
+ "cluster_114" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="God"]
 subgraph "cluster_115"{
 penwidth=1;
  rankdir=TB;
  shape=box;
- color="#ccffff";
+ color="#88ffff";
  fontcolor=black;
  fillcolor=white;
  style=filled;
  gradientangle=270.05;
  label="The Cosmos";
- "cluster_116" [penwidth=1, rankdir=TB, shape=box, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Us"]
+ "cluster_116" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Us"]
 }
 }
 }
