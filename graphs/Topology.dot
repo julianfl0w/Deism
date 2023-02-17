@@ -1,33 +1,33 @@
 digraph D {
 rankdir = TB
 style = filled
-fontcolor = white
-color = white
-bgcolor = "#262626"
+fontcolor = black
+color = black
+bgcolor = white
 gradientangle = 0
 dpi = 300
-subgraph "cluster_112"{
+subgraph "cluster_113"{
 penwidth=1;
  rankdir=TB;
  shape=box;
- color=black;
- fontcolor=white;
- fillcolor="#6C2944:#29001C";
+ color="#ccffff";
+ fontcolor=black;
+ fillcolor=white;
  style=filled;
  gradientangle=270.05;
  label="Heaven";
- "cluster_113" [penwidth=1, rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="God"]
-subgraph "cluster_114"{
+ "cluster_114" [penwidth=1, rankdir=TB, shape=box, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="God"]
+subgraph "cluster_115"{
 penwidth=1;
  rankdir=TB;
  shape=box;
- color=black;
- fontcolor=white;
- fillcolor="#6C2944:#29001C";
+ color="#ccffff";
+ fontcolor=black;
+ fillcolor=white;
  style=filled;
  gradientangle=270.05;
  label="The Cosmos";
- "cluster_115" [penwidth=1, rankdir=TB, shape=box, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Us"]
+ "cluster_116" [penwidth=1, rankdir=TB, shape=box, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Us"]
 }
 }
 }

@@ -26,7 +26,13 @@ def copyDictUnique(indict, modifier):
 
 import copy
 
+lineColor = '#00ffff'
+lineColor = '"#ccffff"'
+# "color": "black",
+# "color": "\"#262626\"",
+    
 m = fractal_book.FractalBook(
+    
     meta={
         "priority": 1000,
         "ignore": False,
@@ -38,10 +44,10 @@ m = fractal_book.FractalBook(
         "graphParams": {
             "rankdir": "TB",
             "style": "filled",
-            "fontcolor": "white",
-            "color": "white",
+            "fontcolor": "black",
+            "color": "black",
             # "color": "\"#262626\"",
-            "bgcolor": '"#262626"',
+            "bgcolor": 'white',
             # "fillcolor": "\"darkgray:gold\"",
             "gradientangle": 0,
             "dpi": 300,
@@ -49,17 +55,15 @@ m = fractal_book.FractalBook(
         "boxParams": {
             "rankdir": "TB",
             "shape": "box",
-            "penwidth": 0,
-            # "color": "black",
-            # "color": "\"#262626\"",
-            "color": "black",
-            "fontcolor": "white",
+            "penwidth": 2,
+            "color": lineColor,
+            "fontcolor": "black",
             # "fillcolor": "\"darkorchid4:grey10\"",
-            "fillcolor": '"#6C2944:#29001C"',
+            "fillcolor": 'white',
             "style": "filled",
             "gradientangle": 270.05,
         },
-        "arrowParams": {"color": "white", "penwidth": 1},
+        "arrowParams": {"color": lineColor, "penwidth": 1},
     },
     origin="directory",
     source="Book Of Julian",
@@ -71,7 +75,7 @@ m = fractal_book.FractalBook(
 
 print(m.toTableOfContents)
 
-out = m.toMarkdown()
+out = m.toMarkdown(textColor="black")
 htmlString = out["html"]
 soup = bs(htmlString)
 htmlString = soup.prettify()

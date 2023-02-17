@@ -9,8 +9,9 @@
             }
         }
     },
-    "There are five races, corresponding to the traditional five continents": {
+    "Simplified migratory chart": {
         "meta": {"type": "lineage", "name": "Migratory Lineage"},
         "Africa": {"Europe": {}, "Asia": {"America": {}}, "Australia": {}},
     },
+    "Based upon the first migration, there are three races: African, Asian, and European":{}
 }

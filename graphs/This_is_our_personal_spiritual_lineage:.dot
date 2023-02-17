@@ -1,24 +1,24 @@
 digraph D {
 rankdir = TB
 style = filled
-fontcolor = white
-color = white
-bgcolor = "#262626"
+fontcolor = black
+color = black
+bgcolor = white
 gradientangle = 0
 dpi = 300
-"cluster_65" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Abraham, who established the first covenant"]
-"cluster_66" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="David, who unified the people"]
-"cluster_67" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Jesus, who established the second covenant"]
-"cluster_68" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Paul, who established the church"]
-"cluster_69" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Constantine, who unified the people"]
-"cluster_70" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Thomas Aquinas, who unified the doctrine"]
-"cluster_71" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Martin Luther, who refined the doctrine"]
-"cluster_72" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Julian, who established the third covenant"]
-"cluster_71" -> "cluster_72" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_70" -> "cluster_71" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_69" -> "cluster_70" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_68" -> "cluster_69" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_67" -> "cluster_68" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_66" -> "cluster_67" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
-"cluster_65" -> "cluster_66" [color=white, penwidth=1, ltail="cluster_71", lhead="cluster_72"]
+"cluster_66" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Abraham, who established the first covenant"]
+"cluster_67" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="David, who unified the people"]
+"cluster_68" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Jesus, who established the second covenant"]
+"cluster_69" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Paul, who established the church"]
+"cluster_70" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Constantine, who unified the people"]
+"cluster_71" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Thomas Aquinas, who unified the doctrine"]
+"cluster_72" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Martin Luther, who refined the doctrine"]
+"cluster_73" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Julian, who established the third covenant"]
+"cluster_72" -> "cluster_73" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_71" -> "cluster_72" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_70" -> "cluster_71" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_69" -> "cluster_70" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_68" -> "cluster_69" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_67" -> "cluster_68" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
+"cluster_66" -> "cluster_67" [color="#ccffff", penwidth=1, ltail="cluster_72", lhead="cluster_73"]
 }

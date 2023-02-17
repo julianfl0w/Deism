@@ -90,11 +90,11 @@ Evolutionary Lineage
 
 
 
-There are five races, corresponding to the traditional five continents
+Simplified migratory chart
 
-![There are five races, corresponding to the traditional five continents](/graphs/There_are_five_races,_corresponding_to_the_traditional_five_continents.png?raw=true)
+![Simplified migratory chart](/graphs/Simplified_migratory_chart.png?raw=true)
 
-
+<sup>1</sup> Based upon the first migration, there are three races: African, Asian, and European. 
 
 
 
@@ -250,8 +250,11 @@ Topology
 <sup>0</sup> There are four cardinal virtues:
 - Prudence
   - Wisdom in material matters
+  - Zhì (智, wisdom, knowledge)
 - Justice
   - or righteousness
+  - Yì (义; 義, righteousness, justice)
+  - Lǐ (礼; 禮, propriety, rites)
 - Fortitude
   - forbearance
   - strength
@@ -267,6 +270,9 @@ Topology
     - abstention
     - discretion, and
     - moderation
+- Benevolence
+  - Rén (仁, benevolence, humaneness)
+- Xìn (信, sincerity, faithfulness)
 
 
 

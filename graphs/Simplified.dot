@@ -1,14 +1,14 @@
 digraph D {
 rankdir = LR
 style = filled
-fontcolor = white
-color = white
-bgcolor = "#262626"
+fontcolor = black
+color = black
+bgcolor = white
 gradientangle = 0
 dpi = 300
-"cluster_98" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Works"]
-"cluster_99" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Grace"]
-"cluster_100" [rankdir=TB, shape=box, penwidth=0, color=black, fontcolor=white, fillcolor="#6C2944:#29001C", style=filled, gradientangle=270.05, label="Reciprocity"]
-"cluster_99" -> "cluster_100" [color=white, penwidth=1, ltail="cluster_99", lhead="cluster_100"]
-"cluster_98" -> "cluster_99" [color=white, penwidth=1, ltail="cluster_99", lhead="cluster_100"]
+"cluster_99" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Works"]
+"cluster_100" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Grace"]
+"cluster_101" [rankdir=TB, shape=box, penwidth=2, color="#ccffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Reciprocity"]
+"cluster_100" -> "cluster_101" [color="#ccffff", penwidth=1, ltail="cluster_100", lhead="cluster_101"]
+"cluster_99" -> "cluster_100" [color="#ccffff", penwidth=1, ltail="cluster_100", lhead="cluster_101"]
 }
