@@ -66,6 +66,7 @@ m = fractal_book.FractalBook(
         "arrowParams": {"color": lineColor, "penwidth": 1},
     },
     origin="directory",
+    #source="Book Of Julian",
     source="Book Of Julian",
     depth=0,
     parent=None,
@@ -73,7 +74,9 @@ m = fractal_book.FractalBook(
     displayVerseNo=True,
 )
 
-print(m.toTableOfContents)
+m.dump()
+
+#print(m.toTableOfContents)
 
 out = m.toMarkdown(textColor="black")
 htmlString = out["html"]

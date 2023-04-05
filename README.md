@@ -1,11 +1,35 @@
  Book Of Julian
 
+# Cosmology
+
+## Origins
+
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. 
+
+
+Topology
+
+![Topology](/graphs/Topology.png?raw=true)
+
+## Regions
+
+### Our Universe
+
+<sup>0</sup> Deism: The Realm of Order. <sup>1</sup> The Realm of Chaos. 
+
+
+
+
+
 # Table of Contents
 
 - Book Of Julian
+  - Cosmology
+    - Origins
+    - Regions
+      - Our Universe
   - Table of Contents
   - Introduction
-    - In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
   - Lineage
     - Material
       - Evolutionary
@@ -16,10 +40,6 @@
         - In the Law of Three Stages, Deism represents the Metaphysical stage
       - Shoutouts
       - Covenant
-  - Cosmology
-    - Origins
-    - Regions
-      - Our Universe
   - Wisdom
     - Wisdom
   - Emergence
@@ -45,6 +65,8 @@
       - Universal Annhialation
     - Eschatology
     - The Fourth Temple
+  - Appendix
+    - In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
 
 
 
@@ -63,104 +85,7 @@
 - Practical Value
 
 
-<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. ## In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
-
-<sup>0</sup> First Testament
-- Genesis
-- Exodus
-- Leviticus
-- Numbers
-- Deuteronomy
-- Joshua
-- Judges
-- Ruth
-- 1 Samuel
-- 2 Samuel
-- 1 Kings
-- 2 Kings
-- 1 Chronicles
-- 2 Chronicles
-- Ezra
-- Nehemiah
-- Esther
-- Job
-- Psalms
-- Proverbs
-- Ecclesiastes
-- Song of Solomon
-- Isaiah
-- Jeremiah
-- Lamentations
-- Ezekiel
-- Daniel
-- Hosea
-- Joel
-- Amos
-- Obadiah
-- Jonah
-- Micah
-- Nahum
-- Habakkuk
-- Zephaniah
-- Haggai
-- Zechariah
-- Malachi
-
-
-<sup>1</sup> Second Testament
-- Matthew
-- Mark
-- Luke
-- John
-- The Acts
-- Romans
-- 1 Corinthians
-- 2 Corinthians
-- Galatians
-- Ephesians
-- Philippians
-- Colossians
-- 1 Thessalonians
-- 2 Thessalonians
-- 1 Timothy
-- 2 Timothy
-- Titus
-- Philemon
-- Hebrews
-- James
-- 1 Peter
-- 2 Peter
-- 1 John
-- 2 John
-- 3 John
-- Jude
-- Revelation
-
-
-
-
-<sup>2</sup> The following remain apocryphal
-- 1 Esdras
-- 2 Esdras
-- Tobit
-- Judith
-- Rest of Esther
-- Wisdom
-- Ecclesiasticus
-- Baruch and the Epistle of Jeremy
-- Song of the Three Children
-- Story of Susanna
-- The Idol Bel and the Dragon
-- Prayer of Manasses
-- 1 Maccabees
-- 2 Maccabees
-
-
-<sup>3</sup> Finally, the canonical books of the Third Testament, which are the ultimate source of religious truth
-- Julian
-
-
-
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
 
 # Lineage
 
@@ -255,28 +180,7 @@ Simplified
 
 <sup>1</sup> Scientific. 
 
-<sup>2</sup> Theology. # Cosmology
-
-## Origins
-
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. 
-
-
-Topology
-
-![Topology](/graphs/Topology.png?raw=true)
-
-## Regions
-
-### Our Universe
-
-<sup>0</sup> Deism: The Realm of Order. <sup>1</sup> The Realm of Chaos. 
-
-
-
-
-
-# Wisdom
+<sup>2</sup> Theology. # Wisdom
 
 ## Wisdom
 
@@ -464,6 +368,107 @@ Topology
 ## The Fourth Temple
 
 <sup>0</sup> The Third Temple will be destroyed, and a fourth built in its place. <sup>1</sup> The Fourth Temple will be a pyramid of clear gold. <sup>2</sup> It will be built in three days. 
+
+
+
+# Appendix
+
+## In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
+
+<sup>0</sup> First Testament
+- Genesis
+- Exodus
+- Leviticus
+- Numbers
+- Deuteronomy
+- Joshua
+- Judges
+- Ruth
+- 1 Samuel
+- 2 Samuel
+- 1 Kings
+- 2 Kings
+- 1 Chronicles
+- 2 Chronicles
+- Ezra
+- Nehemiah
+- Esther
+- Job
+- Psalms
+- Proverbs
+- Ecclesiastes
+- Song of Solomon
+- Isaiah
+- Jeremiah
+- Lamentations
+- Ezekiel
+- Daniel
+- Hosea
+- Joel
+- Amos
+- Obadiah
+- Jonah
+- Micah
+- Nahum
+- Habakkuk
+- Zephaniah
+- Haggai
+- Zechariah
+- Malachi
+
+
+<sup>1</sup> Second Testament
+- Matthew
+- Mark
+- Luke
+- John
+- The Acts
+- Romans
+- 1 Corinthians
+- 2 Corinthians
+- Galatians
+- Ephesians
+- Philippians
+- Colossians
+- 1 Thessalonians
+- 2 Thessalonians
+- 1 Timothy
+- 2 Timothy
+- Titus
+- Philemon
+- Hebrews
+- James
+- 1 Peter
+- 2 Peter
+- 1 John
+- 2 John
+- 3 John
+- Jude
+- Revelation
+
+
+
+
+<sup>2</sup> The following remain apocryphal
+- 1 Esdras
+- 2 Esdras
+- Tobit
+- Judith
+- Rest of Esther
+- Wisdom
+- Ecclesiasticus
+- Baruch and the Epistle of Jeremy
+- Song of the Three Children
+- Story of Susanna
+- The Idol Bel and the Dragon
+- Prayer of Manasses
+- 1 Maccabees
+- 2 Maccabees
+
+
+<sup>3</sup> Finally, the canonical books of the Third Testament, which are the ultimate source of religious truth
+- Julian
+
 
 
 

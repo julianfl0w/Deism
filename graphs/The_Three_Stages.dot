@@ -6,9 +6,9 @@ color = black
 bgcolor = white
 gradientangle = 0
 dpi = 300
-"cluster_171" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Spiritual"]
-"cluster_172" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Metaphysical"]
-"cluster_173" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Positive"]
-"cluster_172" -> "cluster_173" [color="#88ffff", penwidth=1, ltail="cluster_172", lhead="cluster_173"]
-"cluster_171" -> "cluster_172" [color="#88ffff", penwidth=1, ltail="cluster_172", lhead="cluster_173"]
+"cluster_85" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Spiritual"]
+"cluster_86" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Metaphysical"]
+"cluster_87" [rankdir=TB, shape=box, penwidth=1, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Positive"]
+"cluster_86" -> "cluster_87" [color="#88ffff", penwidth=1, ltail="cluster_86", lhead="cluster_87"]
+"cluster_85" -> "cluster_86" [color="#88ffff", penwidth=1, ltail="cluster_86", lhead="cluster_87"]
 }
