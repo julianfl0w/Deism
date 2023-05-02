@@ -1,5 +1,5 @@
 {
-    "meta": {"priority":-10000},
+    "meta": {"priority": -10000},
     "Fourteen billion years ago, God created our universe": {},
     "It started from nothing, then expanded rapidly": {},
     "And the earth was without form": {},

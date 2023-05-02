@@ -42,31 +42,32 @@ Topology
         - Covenant
     - Wisdom
       - Wisdom
-    - Emergence
-      - Spiritual Family
-        - The most popular variants are listed
+    - Ritual
+      - Meditation
+        - These rituals comprise our meditative tradition
+      - Fasting
+        - Here are the reasons for fasting:
+        - Here are several kinds of fast:
+      - Sacrements
+      - Music
+        - The following comprise our musical tradition
+      - Holidays
+      - Blessings
     - Ethics
       - Commandments
       - Prohibitions
       - Cardinal Virtues
       - Condemnations
-    - Spirituality
-      - Ritual
-        - Meditation
-          - These rituals comprise our meditative tradition
-        - Fasting
-          - Here are the reasons for fasting:
-          - Here are several kinds of fast:
-        - Music
-          - The following comprise our musical tradition
-        - Blessings
     - Prophesy
       - Eternal Life
         - Universal Annhialation
       - Eschatology
       - The Fourth Temple
     - Appendix
-      - In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
+      - Canon
+        - In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
+      - Spiritual Family
+        - The most popular variants are listed
 
 
 
@@ -188,44 +189,58 @@ Simplified
 
 
 
-## Emergence
+<sup>10</sup> Emergence. ## Ritual
 
-### Spiritual Family
+### Meditation
 
-<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. #### The most popular variants are listed
+#### These rituals comprise our meditative tradition
 
-<sup>0</sup> Ancestors
-- Christians
-  - Protestants
-    - Pentecostals
-    - Lutherans
-    - Methodists
-    - Presbyterians
-- Catholics
-  - Vatican I
-  - Vatican II
-- Eastern Orthadox
-- Jews
-  - Orthadox
-  - Reformed
-  - Reconstructionist
+<sup>0</sup> Mantras. <sup>1</sup> Body-scan. <sup>2</sup> Deep Breathing. 
 
 
-<sup>1</sup> Peers
-- Muslims
-  - Shiite
-  - Sunni
-- Hindus
-- Sikhs
-- Buddhists
-  - Zen
-  - Regular Buddhist
-- New Religious Movements (NRMs)
+
+### Fasting
+
+#### Here are the reasons for fasting:
+
+<sup>0</sup> Mourning. <sup>1</sup> Motivation. <sup>2</sup> Mental clarity. <sup>3</sup> Health. 
+
+#### Here are several kinds of fast:
+
+<sup>0</sup> Daniel Fast: Abstain from meat for a week. <sup>1</sup> Water fast: consume only water for 48 hours. 
+
+
+
+### Sacrements
+
+<sup>0</sup> We recognize the following sacrements:
+- Birth?
+- Marriage
+- Burial
 
 
 
 
+### Music
 
+#### The following comprise our musical tradition
+
+<sup>0</sup> Speaking Tongues. <sup>1</sup> The holy pentatonic (God's tonality). <sup>2</sup> The Om. 
+
+
+
+### Holidays
+
+<sup>0</sup> We recognize the following holidays:
+- Christmas, during which time we remember the Ancestors
+- Easter, during which time we consider our Decendants
+
+
+
+
+### Blessings
+
+<sup>0</sup> The Lord bless you and keep you;The Lord make His face shine upon you,<sup>1</sup> And be gracious to you;. <sup>2</sup> The Lord [a]lift up His countenance upon you,<sup>3</sup> And give you peace.
 
 
 
@@ -306,47 +321,7 @@ Simplified
 
 
 
-## Spirituality
-
-### Ritual
-
-#### Meditation
-
-##### These rituals comprise our meditative tradition
-
-<sup>0</sup> Mantras. <sup>1</sup> Body-scan. <sup>2</sup> Deep Breathing. 
-
-
-
-#### Fasting
-
-##### Here are the reasons for fasting:
-
-<sup>0</sup> Mourning. <sup>1</sup> Motivation. <sup>2</sup> Mental clarity. <sup>3</sup> Health. 
-
-##### Here are several kinds of fast:
-
-<sup>0</sup> Daniel Fast: Abstain from meat for a week. <sup>1</sup> Water fast: consume only water for 48 hours. 
-
-
-
-#### Music
-
-##### The following comprise our musical tradition
-
-<sup>0</sup> Speaking Tongues. <sup>1</sup> The holy pentatonic (God's tonality). <sup>2</sup> The Om. 
-
-
-
-#### Blessings
-
-<sup>0</sup> The Lord bless you and keep you;The Lord make His face shine upon you,<sup>1</sup> And be gracious to you;. <sup>2</sup> The Lord [a]lift up His countenance upon you,<sup>3</sup> And give you peace.
-
-
-
-
-
-<sup>4</sup> Creeds. ## Prophesy
+<sup>4</sup> Spirituality. <sup>5</sup> Creeds. ## Prophesy
 
 ### Eternal Life
 
@@ -373,7 +348,9 @@ Simplified
 
 ## Appendix
 
-### In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
+### Canon
+
+#### In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
 
 <sup>0</sup> First Testament
 - Genesis
@@ -468,6 +445,45 @@ Simplified
 
 <sup>3</sup> Finally, the canonical books of the Third Testament, which are the ultimate source of religious truth
 - Julian
+
+
+
+
+### Spiritual Family
+
+<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. #### The most popular variants are listed
+
+<sup>0</sup> Ancestors
+- Christians
+  - Protestants
+    - Pentecostals
+    - Lutherans
+    - Methodists
+    - Presbyterians
+- Catholics
+  - Vatican I
+  - Vatican II
+- Eastern Orthadox
+- Jews
+  - Orthadox
+  - Reformed
+  - Reconstructionist
+
+
+<sup>1</sup> Peers
+- Muslims
+  - Shiite
+  - Sunni
+- Hindus
+- Sikhs
+- Buddhists
+  - Zen
+  - Regular Buddhist
+- New Religious Movements (NRMs)
+
+
+
+
 
 
 
