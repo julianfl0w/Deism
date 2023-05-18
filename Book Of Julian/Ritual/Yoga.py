@@ -22,19 +22,19 @@
             "Press your heels toward the ground and lengthen your spine": {},
             "Hold the pose and take deep breaths": {},
         },
+        "Cobra Pose": {
+            "Lie on your stomach with your legs extended and tops of your feet pressing into the mat.": {},
+            "Place your hands beneath your shoulders, fingers pointing forward.": {},
+            "Inhale and slowly lift your chest off the mat, keeping your elbows close to your body.": {},
+            "Lengthen your spine and gaze forward, keeping your shoulders relaxed.": {},
+            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {},
+        },
         "Upward-Facing Dog": {
             "Lie face down on the mat with your legs extended and tops of your feet pressing into the mat.": {},
             "Place your palms on the mat next to your ribs, fingers pointing forward.": {},
             "Inhale and press your hands firmly into the mat as you straighten your arms, lifting your chest off the mat.": {},
             "Roll your shoulders back and down, opening your chest and lifting your gaze.": {},
             "Keep your legs active, pressing the tops of your feet and thighs into the mat.": {},
-            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {},
-        },
-        "Cobra Pose": {
-            "Lie on your stomach with your legs extended and tops of your feet pressing into the mat.": {},
-            "Place your hands beneath your shoulders, fingers pointing forward.": {},
-            "Inhale and slowly lift your chest off the mat, keeping your elbows close to your body.": {},
-            "Lengthen your spine and gaze forward, keeping your shoulders relaxed.": {},
             "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {},
         },
         "Warrior I": {
