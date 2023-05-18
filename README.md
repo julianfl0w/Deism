@@ -365,7 +365,8 @@ Simplified
 - Do not sleep with your biological
   - Ancestor, nor
   - Descendant, nor
-  - Sibling
+  - Sibling, nor
+  - Ancestor's Sibling
 
 
 
