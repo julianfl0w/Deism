@@ -1,10 +1,10 @@
 {
     "These rituals comprise our meditative tradition": {
         "Mantras": {
-            "Divine Order, Harmony, and Truth":{},
-            "Embrace the Present Moment":{},
-            "Trust the process":{},
-            "Disregard fools":{},
+            "Divine Order, Harmony, and Truth": {},
+            "Embrace the Present Moment": {},
+            "Trust the process": {},
+            "Disregard fools": {},
         },
         "Body-scan": {
             "meta": {"type": "list"},
@@ -22,15 +22,14 @@
             "Shift your attention to your neck. Notice any areas of stiffness or relaxation in this part of your body": {},
             "Bring your focus to your head. Notice any sensations, such as warmth, coolness, or pressure": {},
             "Now, direct your awareness to your face. Notice any sensations or areas of tension, such as the jaw or forehead": {},
-            "Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed":{}
-
+            "Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed": {},
         },
         "Deep Breathing": {
-            "With this device, I can produce two tones: Bass and Slap":{},
-            "I will play each four times":{},
-            "When you hear the slap, breathe in":{},
-            "When you hear the bass, breathe out":{},
-            "deep_breathing.mp3":{},
+            "With this device, I can produce two tones: Bass and Slap": {},
+            "I will play each four times": {},
+            "When you hear the slap, breathe in": {},
+            "When you hear the bass, breathe out": {},
+            "deep_breathing.mp3": {},
         },
     }
 }

@@ -29,7 +29,9 @@
                 "moderation": {},
             },
         },
+    },
+    "And a few eastern additions:": {
         "Benevolence": {"Rén (仁, benevolence, humaneness)": {}},
         "Xìn (信, sincerity, faithfulness)": {},
-    }
+    },
 }
