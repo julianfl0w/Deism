@@ -56,8 +56,6 @@ Topology
       - Commandments
       - Prohibitions
       - Cardinal Virtues
-        - And a few eastern additions:
-          - Benevolence
       - Condemnations
     - Prophesy
       - Eternal Life
@@ -402,13 +400,11 @@ Simplified
     - moderation
 
 
-#### And a few eastern additions:
+<sup>1</sup> And a few eastern additions:
+- Benevolence
+  - Rén (仁, benevolence, humaneness)
+- Xìn (信, sincerity, faithfulness)
 
-##### Benevolence
-
-<sup>0</sup> Rén (仁, benevolence, humaneness). 
-
-<sup>1</sup> Xìn (信, sincerity, faithfulness). 
 
 
 
