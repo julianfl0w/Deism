@@ -1,7 +1,7 @@
 {
-    "We recognize the following sacrements:": {
+    "We recognize the following sacrements, or rites:": {
         "meta": {"type": "list"},
-        "Birth?": {},
+        "Birth": {},
         "Marriage": {},
         "Burial": {},
     }

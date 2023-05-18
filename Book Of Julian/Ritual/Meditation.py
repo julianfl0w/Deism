@@ -1,6 +1,7 @@
 {
     "These rituals comprise our meditative tradition": {
         "Mantras": {
+            "meta": {"type": "list"},
             "Divine Order, Harmony, and Truth": {},
             "Embrace the Present Moment": {},
             "Trust the process": {},
