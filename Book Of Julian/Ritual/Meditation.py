@@ -26,9 +26,9 @@
             "Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed": {},
         },
         "Deep Breathing": {
-            "With this device, I can produce two tones: Bass and Slap": {},
+            "With this device, I can produce two tones: Bass and Tone": {},
             "I will play each four times": {},
-            "When you hear the slap, breathe in": {},
+            "When you hear the tone, breathe in": {},
             "When you hear the bass, breathe out": {},
             "deep_breathing.mp3": {},
         },

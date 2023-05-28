@@ -4,7 +4,7 @@
 
 ### Origins
 
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. 
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
 
 
 Topology
@@ -221,7 +221,7 @@ Simplified
 
 ##### Deep Breathing
 
-<sup>0</sup> With this device, I can produce two tones: Bass and Slap. <sup>1</sup> I will play each four times. <sup>2</sup> When you hear the slap, breathe in. <sup>3</sup> When you hear the bass, breathe out. <sup>4</sup> deep_breathing.mp3. 
+<sup>0</sup> With this device, I can produce two tones: Bass and Tone. <sup>1</sup> I will play each four times. <sup>2</sup> When you hear the tone, breathe in. <sup>3</sup> When you hear the bass, breathe out. <sup>4</sup> deep_breathing.mp3. 
 
 
 
