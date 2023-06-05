@@ -1,6 +1,9 @@
+
 # Book Of Julian
 
+
 ## Cosmology
+
 
 ### Origins
 
@@ -11,7 +14,9 @@ Topology
 
 ![Topology](/graphs/Topology.png?raw=true)
 
+
 ### Regions
+
 
 #### Our Universe
 
@@ -21,52 +26,20 @@ Topology
 
 
 
+
 ## Table of Contents
 
   - Book Of Julian
     - Cosmology
-      - Origins
-      - Regions
-        - Our Universe
     - Table of Contents
     - Introduction
     - Lineage
-      - Material
-        - Evolutionary
-        - Migratory
-      - Spiritual
-        - Personal
-        - Ideological
-          - In the Law of Three Stages, Deism represents the Metaphysical stage
-        - Shoutouts
-        - Covenant
     - Wisdom
-      - Wisdom
     - Ritual
-      - Meditation
-        - These rituals comprise our meditative tradition
-          - Deep Breathing
-      - Fasting
-      - Sacrements
-      - Music
-      - Yoga
-      - Holidays
-      - Blessings
     - Ethics
-      - Commandments
-      - Prohibitions
-      - Cardinal Virtues
-      - Condemnations
     - Prophesy
-      - Eternal Life
-        - Universal Annhialation
-      - Eschatology
-      - The Fourth Temple
     - Appendix
-      - Canon
-        - In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
-      - Spiritual Family
-        - The most popular variants are listed
+
 
 
 
@@ -87,9 +60,12 @@ Topology
 
 <sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. 
 
+
 ## Lineage
 
-<sup>0</sup> Introduction. ### Material
+<sup>0</sup> Introduction. 
+### Material
+
 
 #### Evolutionary
 
@@ -100,6 +76,7 @@ Topology
 - Animalia, the largest branches
 - Humankind, the leaves
 - The Son of Man, who will usher in the new age
+
 
 
 
@@ -122,7 +99,9 @@ Simplified migratory chart
 
 
 
+
 ### Spiritual
+
 
 #### Personal
 
@@ -139,12 +118,14 @@ Simplified migratory chart
 
 
 
+
 #### Ideological
 
 
 Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events
 
 ![Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events](/graphs/Our_Ideological_Spiritual_Lineage_is_an_evolutionary_heritage,_delineated_by_major_reformational_events.png?raw=true)
+
 
 ##### In the Law of Three Stages, Deism represents the Metaphysical stage
 
@@ -157,9 +138,11 @@ The Three Stages
 
 
 
+
 #### Shoutouts
 
-<sup>0</sup> We remember the Christians, who established peaceful empires and banished slavery. <sup>1</sup> Blessed are those who forsake the darkness and choose to walk in the light. <sup>2</sup> To the followers of Allah, Brahma, Yahweh, you have been superseeded. 
+<sup>0</sup> We remember the Christians, who established peaceful empires and banished slavery. <sup>1</sup> Blessed are those who forsake the darkness and choose to walk in the light. 
+
 
 #### Covenant
 
@@ -180,17 +163,42 @@ Simplified
 
 <sup>1</sup> Scientific. 
 
-<sup>2</sup> Theology. ## Wisdom
+<sup>2</sup> Theology. 
+## Wisdom
+
 
 ### Wisdom
 
-<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[a](PR 16:16)</sup> . <sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[b](PR 13:10)</sup> . <sup>2</sup> Even fools are thought wise if they keep silent<sup>[c](PR 17:28)</sup> . <sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[d](EC 9:5)</sup> . <sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[e](EC 9:10)</sup> . <sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[f](PR 27:17)</sup> . <sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[g](PR 15:1)</sup> . <sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[h](PR 18:24)</sup> . <sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[i](PR 13:20)</sup> . <sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[j](PR 11:25)</sup> . 
+<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[a](PR 16:16)</sup> . 
+
+<sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[b](PR 13:10)</sup> . 
+
+<sup>2</sup> Even fools are thought wise if they keep silent<sup>[c](PR 17:28)</sup> . 
+
+<sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[d](EC 9:5)</sup> . 
+
+<sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[e](EC 9:10)</sup> . 
+
+<sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[f](PR 27:17)</sup> . 
+
+<sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[g](PR 15:1)</sup> . 
+
+<sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[h](PR 18:24)</sup> . 
+
+<sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[i](PR 13:20)</sup> . 
+
+<sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[j](PR 11:25)</sup> . 
 
 
 
-<sup>10</sup> Emergence. ## Ritual
+
+
+<sup>10</sup> Emergence. 
+## Ritual
+
 
 ### Meditation
+
 
 #### These rituals comprise our meditative tradition
 
@@ -219,9 +227,11 @@ Simplified
 - Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed
 
 
+
 ##### Deep Breathing
 
 <sup>0</sup> With this device, I can produce two tones: Bass and Tone. <sup>1</sup> I will play each four times. <sup>2</sup> When you hear the tone, breathe in. <sup>3</sup> When you hear the bass, breathe out. <sup>4</sup> deep_breathing.mp3. 
+
 
 
 
@@ -244,6 +254,7 @@ Simplified
 
 
 
+
 ### Sacrements
 
 <sup>0</sup> We recognize the following sacrements, or rites:
@@ -254,12 +265,14 @@ Simplified
 
 
 
+
 ### Music
 
 <sup>0</sup> The following comprise our musical tradition
 - Speaking Tongues
 - The holy pentatonic (God's tonality)
 - The Om
+
 
 
 
@@ -324,11 +337,13 @@ Simplified
 
 
 
+
 ### Holidays
 
 <sup>0</sup> We recognize the following holidays:
 - Christmas, during which time we remember the Ancestors
 - Easter, during which time we consider our Decendants
+
 
 
 
@@ -339,13 +354,16 @@ Simplified
 
 
 
+
 ## Ethics
+
 
 ### Commandments
 
 <sup>0</sup> These are the commandments:
 - Remember the sabbath day, to keep it holy
 - Honour thy father and thy mother
+
 
 
 
@@ -369,6 +387,7 @@ Simplified
   - Descendant, nor
   - Sibling, nor
   - Ancestor's Sibling
+
 
 
 
@@ -408,6 +427,7 @@ Simplified
 
 
 
+
 ### Condemnations
 
 <sup>0</sup> woe to those who follow the old gods:
@@ -420,9 +440,12 @@ Simplified
 
 
 
-<sup>4</sup> Spirituality. <sup>5</sup> Creeds. ## Prophesy
+<sup>4</sup> Spirituality. <sup>5</sup> Creeds. 
+## Prophesy
+
 
 ### Eternal Life
+
 
 #### Universal Annhialation
 
@@ -435,9 +458,11 @@ Simplified
 
 
 
+
 ### Eschatology
 
 <sup>0</sup> When we see the face of God, this is the Beatific Vision. 
+
 
 ### The Fourth Temple
 
@@ -445,9 +470,12 @@ Simplified
 
 
 
+
 ## Appendix
 
+
 ### Canon
+
 
 #### In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical
 
@@ -548,9 +576,11 @@ Simplified
 
 
 
+
 ### Spiritual Family
 
-<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. #### The most popular variants are listed
+<sup>0</sup> Our spiritual family is a taxonomy of modern religious systems, on the basis of creed. 
+#### The most popular variants are listed
 
 <sup>0</sup> Ancestors
 - Christians

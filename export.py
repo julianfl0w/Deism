@@ -80,7 +80,7 @@ m.dump()
 
 out = m.toMarkdown(textColor="black")
 htmlString = out["html"]
-soup = bs(htmlString)
+soup = bs(htmlString, features="lxml")
 htmlString = soup.prettify()
 
 with open("ABSA.html", "w+") as f:
