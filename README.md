@@ -17,10 +17,10 @@ Topology
 
 ### Regions
 
+<sup>0</sup> Our universe is governed by two forces: chaos and order. <sup>1</sup> Both are vital to our development. <sup>2</sup> Generally, Deism represents order. <sup>3</sup> Whoever is with us will gather. Whoever is not will scatter. 
+Our Universe
 
-#### Our Universe
-
-<sup>0</sup> Deism: The Realm of Order. <sup>1</sup> The Realm of Chaos. 
+![Our Universe](/graphs/Our_Universe.png?raw=true)
 
 
 
@@ -58,7 +58,14 @@ Topology
 - Practical Value
 
 
-<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. <sup>7</sup> The Book of Julian standardizes the Deist religion. <sup>8</sup> It shall be referred to as Standard Doctrine, against which the chaotic doctrines of the world can be compared. 
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. <sup>7</sup> The Book of Julian standardizes the Deist religion. <sup>8</sup> It shall be referred to as Standard Doctrine, against which the chaotic doctrines of the world can be compared. <sup>9</sup> Standard Doctrine is compatible with the following theories
+- Big Bang theory
+- Theory of Evolution
+- Out-of-Africa Theory
+- Creationism
+
+
+
 
 
 ## Lineage

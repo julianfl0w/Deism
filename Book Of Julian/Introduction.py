@@ -22,4 +22,11 @@
     "The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown": {},
     "The Book of Julian standardizes the Deist religion": {},
     "It shall be referred to as Standard Doctrine, against which the chaotic doctrines of the world can be compared": {},
+    "Standard Doctrine is compatible with the following theories": {
+        "meta": {"type": "list"},
+        "Big Bang theory": {},
+        "Theory of Evolution": {},
+        "Out-of-Africa Theory": {},
+        "Creationism": {},
+    },
 }
