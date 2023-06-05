@@ -19,5 +19,5 @@
         "Practical Value": {},
     },
     "When these principles are in conflict, simple expressions are preferred": {},
-    "The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown": {},
+    "The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown": {},
 }

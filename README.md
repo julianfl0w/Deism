@@ -85,7 +85,7 @@ Topology
 - Practical Value
 
 
-<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise man can understand it by lunchtime, and a fool by sundown. 
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. 
 
 ## Lineage
 
