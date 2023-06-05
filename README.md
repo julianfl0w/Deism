@@ -58,7 +58,7 @@ Topology
 - Practical Value
 
 
-<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. 
+<sup>5</sup> When these principles are in conflict, simple expressions are preferred. <sup>6</sup> The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown. <sup>7</sup> The Book of Julian standardizes the Deist religion. <sup>8</sup> It shall be referred to as Standard Doctrine, against which the chaotic doctrines of the world can be compared. 
 
 
 ## Lineage

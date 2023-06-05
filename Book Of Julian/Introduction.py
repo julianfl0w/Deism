@@ -20,4 +20,6 @@
     },
     "When these principles are in conflict, simple expressions are preferred": {},
     "The writings herein are so simple that a wise person can understand it by lunchtime, and a fool by sundown": {},
+    "The Book of Julian standardizes the Deist religion": {},
+    "It shall be referred to as Standard Doctrine, against which the chaotic doctrines of the world can be compared": {},
 }

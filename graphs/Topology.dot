@@ -6,17 +6,6 @@ color = black
 bgcolor = white
 gradientangle = 0
 dpi = 300
-subgraph "cluster_232"{
-penwidth=1;
- rankdir=TB;
- shape=box;
- color="#88ffff";
- fontcolor=black;
- fillcolor=white;
- style=filled;
- gradientangle=270.05;
- label="Heaven";
- "cluster_233" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="God"]
 subgraph "cluster_234"{
 penwidth=1;
  rankdir=TB;
@@ -26,8 +15,19 @@ penwidth=1;
  fillcolor=white;
  style=filled;
  gradientangle=270.05;
+ label="Heaven";
+ "cluster_235" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="God"]
+subgraph "cluster_236"{
+penwidth=1;
+ rankdir=TB;
+ shape=box;
+ color="#88ffff";
+ fontcolor=black;
+ fillcolor=white;
+ style=filled;
+ gradientangle=270.05;
  label="The Cosmos";
- "cluster_235" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Us"]
+ "cluster_237" [penwidth=1, rankdir=TB, shape=box, color="#88ffff", fontcolor=black, fillcolor=white, style=filled, gradientangle=270.05, label="Us"]
 }
 }
 }
