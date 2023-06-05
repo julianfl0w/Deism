@@ -10,9 +10,14 @@
 <sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coalesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
 
 
-Topology
+### Topology
 
-![Topology](/graphs/Topology.png?raw=true)
+
+Here is the Standard Model of God
+
+![Here is the Standard Model of God](/graphs/Here_is_the_Standard_Model_of_God.png?raw=true)
+
+
 
 
 ### Regions
