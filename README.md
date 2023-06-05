@@ -7,7 +7,7 @@
 
 ### Origins
 
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coallesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coalesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
 
 
 Topology
@@ -153,10 +153,10 @@ The Three Stages
 
 #### Covenant
 
-<sup>0</sup> Following covenent theology, our lineage consists of:
-- The First Testament, a covenent of works made with Adam
-- The Second Testament, a covenent of grace made by Jesus
-- The Third Testament, a covenent of love made by Julian
+<sup>0</sup> Following covenant theology, our lineage consists of:
+- The First Testament, a covenant of works made with Adam
+- The Second Testament, a covenant of grace made by Jesus
+- The Third Testament, a covenant of love made by Julian
 
 
 
@@ -256,15 +256,15 @@ Simplified
 <sup>1</sup> Here are several kinds of fast:
 - Daniel Fast: Abstain from meat for a week
 - Water fast: Consume only water for 48 hours
-- Intermittant fast: Eat once daily for a week
+- Intermittent fast: Eat once daily for a week
 
 
 
 
 
-### Sacrements
+### Sacraments
 
-<sup>0</sup> We recognize the following sacrements, or rites:
+<sup>0</sup> We recognize the following sacraments, or rites:
 - Birth
 - Marriage
 - Burial
@@ -349,7 +349,7 @@ Simplified
 
 <sup>0</sup> We recognize the following holidays:
 - Christmas, during which time we remember the Ancestors
-- Easter, during which time we consider our Decendants
+- Easter, during which time we consider our Descendants
 
 
 
@@ -369,7 +369,7 @@ Simplified
 
 <sup>0</sup> These are the commandments:
 - Remember the sabbath day, to keep it holy
-- Honour thy father and thy mother
+- Honor thy father and thy mother
 
 
 
@@ -454,9 +454,9 @@ Simplified
 ### Eternal Life
 
 
-#### Universal Annhialation
+#### Universal Annihilation
 
-<sup>0</sup> In the absense of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absense of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:
+<sup>0</sup> In the absence of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:
 - Perpetual animation of the body
 - Transferral of one's spirit
 

@@ -10,6 +10,6 @@
         "meta": {"type": "list"},
         "Daniel Fast: Abstain from meat for a week": {},
         "Water fast: Consume only water for 48 hours": {},
-        "Intermittant fast: Eat once daily for a week": {},
+        "Intermittent fast: Eat once daily for a week": {},
     },
 }
