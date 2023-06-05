@@ -22,10 +22,10 @@ Here is the Standard Model of God
 
 ### Regions
 
-<sup>0</sup> Our universe is governed by two forces: chaos and order. <sup>1</sup> Both are vital to our development. <sup>2</sup> Generally, Deism represents order. <sup>3</sup> Whoever is with us will gather. Whoever is not will scatter. 
-Our Universe
+<sup>0</sup> The cosmos are governed by two forces: chaos and order. <sup>1</sup> Both are vital to our development. <sup>2</sup> Generally, Deism represents order. <sup>3</sup> Whoever is with us will gather, whoever is not will scatter. 
+The Standard Dualism
 
-![Our Universe](/graphs/Our_Universe.png?raw=true)
+![The Standard Dualism](/graphs/The_Standard_Dualism.png?raw=true)
 
 
 
