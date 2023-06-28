@@ -1,6 +1,8 @@
 {
-    "These are the prohibitions": {
+    "These are the commandments:": {
         "meta": {"type": "list"},
+        "Remember the sabbath day, to keep it holy": {},
+        "Honor thy father and thy mother": {},
         "Do not hold any god above the Creator": {},  # condemn Yahweh, Allah, Brahma etc
         "Do not make idols": {},
         "Do not disrespect the Creator": {},

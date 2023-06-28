@@ -386,19 +386,11 @@ Simplified
 ## Ethics
 
 
-### Commandments
+### The Ten Commandments
 
 <sup>0</sup> These are the commandments:
 - Remember the sabbath day, to keep it holy
 - Honor thy father and thy mother
-
-
-
-
-
-### Prohibitions
-
-<sup>0</sup> These are the prohibitions
 - Do not hold any god above the Creator
 - Do not make idols
 - Do not disrespect the Creator
