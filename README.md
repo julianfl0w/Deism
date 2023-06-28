@@ -40,6 +40,7 @@ The Standard Dualism
     - Introduction
     - Lineage
     - Wisdom
+    - Ecclesiology
     - Ritual
     - Ethics
     - Prophesy
@@ -133,7 +134,7 @@ Simplified migratory chart
 
 #### Ideological
 
-
+<sup>0</sup> In the beginning, there was no religion, for there was no language. <sup>1</sup> Then there were many gods, for there were no standards. <sup>2</sup> This was the beginning of the Spiritual Age. <sup>3</sup> Then there was one God, and his name was Jehovah. <sup>4</sup> Then there were three Gods in one, the holy trinity. <sup>5</sup> Now there is one God, outside of this universe. <sup>6</sup> This is the path by which we have entered the Metaphysical Age. <sup>7</sup> In the Beatific Vision, when we see the face of God, we will enter the Positive Age. 
 Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events
 
 ![Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events](/graphs/Our_Ideological_Spiritual_Lineage_is_an_evolutionary_heritage,_delineated_by_major_reformational_events.png?raw=true)
@@ -205,7 +206,22 @@ Simplified
 
 
 
-<sup>10</sup> Emergence. 
+
+## Ecclesiology
+
+
+### OrgChart
+
+<sup>0</sup> Julian. 
+
+
+### Canonization
+
+<sup>0</sup> Any person who contributes to the Third Testament shall be considered Canonized by the Letter. <sup>1</sup> Furthermore, the Chief Theologian may bestow Sainthood upon dead persons, consistent with the practices and requirements of the Catholic church. 
+
+
+
+<sup>2</sup> Emergence. 
 ## Ritual
 
 
