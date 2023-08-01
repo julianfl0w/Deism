@@ -17,5 +17,5 @@ phases:
       - python export.py
 artifacts:
   files:
-    - 'build/*'  # Publish all files inside the build directory
+    - 'build/**/*'  # Publish all files inside the build directory and its subdirectories
   base-directory: 'build'
