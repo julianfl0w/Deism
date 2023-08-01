@@ -5,7 +5,7 @@ import json
 from bs4 import BeautifulSoup as bs
 
 here = os.path.dirname(os.path.abspath(__file__))
-
+os.makedirs("build", exist_ok=True)
 if True or "sinode" not in [pkg.key for pkg in pkg_resources.working_set]:
     sys.path = [os.path.join(here, "..", "sinode")] + sys.path
     DEV = True
@@ -66,7 +66,8 @@ m = fractal_book.FractalBook(
         "arrowParams": {"color": lineColor, "penwidth": 1},
     },
     origin="directory",
-    # source="Book Of Julian",
+    buildDir = "build",
+    graphsDir = "graphs",
     source="Book Of Julian",
     depth=1,
     parent=None,
@@ -76,10 +77,10 @@ m = fractal_book.FractalBook(
 
 m.dump()
 
-with open("julian_flare.json", "w+") as f:
+with open("build/julian_flare.json", "w+") as f:
     f.write(json.dumps(m.asFlare(), indent=2))
 
-with open("julian.json", "w+") as f:
+with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))
  
 # print(m.toTableOfContents)
@@ -89,9 +90,10 @@ htmlString = out["html"]
 soup = bs(htmlString, features="lxml")
 htmlString = soup.prettify()
 
-with open("ABSA.html", "w+") as f:
+with open("build/ABSA.html", "w+") as f:
     f.write(htmlString)
-with open("README.md", "w+") as f:
+with open("build/README.md", "w+") as f:
     f.write(out["markdown"])
 
+os.system("cp index.html build/index.html")
 # m.toPDF()
