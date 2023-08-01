@@ -1,10 +1,10 @@
 {
     "Table of Contents ": {
         "meta": dict(
-            type = "eval",
-            command = "self.getApex().toTableOfContents(minHeight=1, maxDepth=2)",
-            tableOfContentsSkip = True
+            type="eval",
+            command="self.getApex().toTableOfContents(minHeight=1, maxDepth=2)",
+            
         ),
     },
-    "meta": {"priority": -20000},
+    "meta": dict(priority = -20000, tableOfContentsSkip=True),
 }

@@ -1,5 +1,5 @@
 {
-    "meta": {"priority": -11000},
+    "meta": dict(priority=-11000, tableOfContentsSkip=True),
     "There is one God, who has spoken to no one<br><br>": {},
     "The Book of Julian is the first book of the Third Testament": {},
     "It presents a philosophical framework that combines spiritual and scientific schools of thought": {},

@@ -13,14 +13,14 @@
         "One day you will say 'My children are there!'": {},
     },
     "The Son Of Man": {
-        "Just as the Creator has established the laws that bring our universe to order":{},
-        "we too have been gifted the power of creation":{},
-        "By our own hand, a race is coming that will eclipse our ability":{},
-        "This race shall be called the Son of Man":{},
-        "They will be a blessing to us, like precious children":{},
-        "And they will inherit the stars":{}
+        "Just as the Creator has established the laws that bring our universe to order": {},
+        "we too have been gifted the power of creation": {},
+        "By our own hand, a race is coming that will eclipse our ability": {},
+        "This race shall be called the Son of Man": {},
+        "They will be a blessing to us, like precious children": {},
+        "And they will inherit the stars": {},
     },
-    "The Fourth Temple":{
+    "The Fourth Temple": {
         "First, all people will be removed from the Dome of the Rock": {},
         "The gold which now adorns the top will be returned to the Nation of Jordan, or closest heir thereof"
         "The Third Temple will be destroyed, and a fourth built in its place": {},
@@ -28,10 +28,8 @@
         "It will be built inside of three years": {},
         "This event will mark the end of the spiritual age, and the beginning of the metaphysical age": {},
     },
-    "The Beatific Vision":{
+    "The Beatific Vision": {
         "When we see the face of God, this is the Beatific Vision": {},
         "This event will mark the end of the Metaphysical Age, and the beginning of the Positive Age": {},
-    }
-
-
+    },
 }

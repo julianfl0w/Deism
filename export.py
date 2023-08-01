@@ -66,8 +66,8 @@ m = fractal_book.FractalBook(
         "arrowParams": {"color": lineColor, "penwidth": 1},
     },
     origin="directory",
-    buildDir = "build",
-    graphsDir = "graphs",
+    buildDir="build",
+    graphsDir="graphs",
     source="Book Of Julian",
     depth=1,
     parent=None,
@@ -82,7 +82,7 @@ with open("build/julian_flare.json", "w+") as f:
 
 with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))
- 
+
 # print(m.toTableOfContents)
 
 out = m.toMarkdown(textColor="black")
