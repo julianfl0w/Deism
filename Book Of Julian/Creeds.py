@@ -15,7 +15,7 @@
                 "And their complements": {},
             },
             "I believe the earth to be": {
-                "Aged 4.5 billion years": {},
+                "Aged 5 billion years": {},
                 "Spherical": {},
                 "And orbiting the sun": {},
             },
