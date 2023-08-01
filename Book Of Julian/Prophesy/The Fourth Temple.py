@@ -4,5 +4,5 @@
     "The Third Temple will be destroyed, and a fourth built in its place": {},
     "The Fourth Temple will be a pyramid of clear gold": {},
     "It will be built inside of three years": {},
-    "This event will mark the beginning of the metaphysical age": {},
+    "This event will mark the end of the spiritual age, and the beginning of the metaphysical age": {},
 }

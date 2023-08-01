@@ -11,4 +11,12 @@
         "So shall your offspring be": {},
         "One day you will say 'My children are there!'": {},
     },
+    "The Son Of Man": {
+        "Just as the Creator has established the laws that bring our universe to order":{},
+        "we too have been gifted the power of creation":{},
+        "By our own hand, a race is coming that will eclipse our ability":{},
+        "This race shall be called the Son of Man":{},
+        "They will be a blessing to us, like precious children":{},
+        "And they will inherit the stars":{}
+    },
 }
