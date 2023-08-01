@@ -3,8 +3,11 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-        python: 3.11
+      python: 3.11
     commands:
+      - echo Installing system dependencies...
+      - apt-get update
+      - apt-get install -y graphviz
       - echo Installing Python dependencies...
       - pip install -r requirements.txt
   build:
@@ -12,7 +15,10 @@ phases:
       - echo Build started on `date`
       - echo Running export.py...
       - python export.py
+      - echo Moving source files to the build directory...
+      - mkdir build  # Create a build directory if it doesn't exist
+      - mv * build/  # Move all source files and directories to the build directory
 artifacts:
   files:
-    - '**/*'
+    - 'build/**/*'  # Publish all files inside the build directory
   base-directory: '.'

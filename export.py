@@ -78,6 +78,10 @@ m.dump()
 
 with open("julian_flare.json", "w+") as f:
     f.write(json.dumps(m.asFlare(), indent=2))
+
+with open("julian.json", "w+") as f:
+    f.write(json.dumps(m.asDict(), indent=2))
+
 # print(m.toTableOfContents)
 
 out = m.toMarkdown(textColor="black")
