@@ -76,6 +76,8 @@ m = fractal_book.FractalBook(
 
 m.dump()
 
+with open("julian_flare.json", 'w+') as f:
+    f.write(json.dumps(m.asFlare(), indent=2))
 # print(m.toTableOfContents)
 
 out = m.toMarkdown(textColor="black")

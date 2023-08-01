@@ -221,7 +221,7 @@ Simplified
 
 
 
-<sup>2</sup> Emergence. 
+
 ## Ritual
 
 
@@ -460,7 +460,7 @@ Simplified
 
 
 
-<sup>4</sup> Spirituality. <sup>5</sup> Creeds. 
+<sup>4</sup> Creeds. 
 ## Prophesy
 
 

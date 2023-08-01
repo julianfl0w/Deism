@@ -1,0 +1,977 @@
+{
+  "name": "Book Of Julian",
+  "children": [
+    {
+      "name": "Cosmology",
+      "children": [
+        {
+          "name": "Origins",
+          "children": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        {
+          "name": "Topology",
+          "children": [
+            {
+              "name": "Here is the Standard Model of God",
+              "children": [
+                {
+                  "name": "Heaven",
+                  "children": [
+                    [],
+                    {
+                      "name": "The Cosmos",
+                      "children": [
+                        []
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Regions",
+          "children": [
+            [],
+            [],
+            [],
+            [],
+            {
+              "name": "The Standard Dualism",
+              "children": [
+                {
+                  "name": "The Cosmos",
+                  "children": [
+                    [],
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Table of Contents",
+      "children": [
+        []
+      ]
+    },
+    {
+      "name": "Introduction",
+      "children": [
+        [],
+        [],
+        [],
+        [],
+        {
+          "name": "Design principles of Book of Julian include:",
+          "children": [
+            {
+              "name": "Clarity",
+              "children": [
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            [],
+            [],
+            [],
+            []
+          ]
+        },
+        [],
+        [],
+        [],
+        [],
+        {
+          "name": "Standard Doctrine is compatible with the following theories",
+          "children": [
+            [],
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Lineage",
+      "children": [
+        [],
+        {
+          "name": "Material",
+          "children": [
+            {
+              "name": "Evolutionary",
+              "children": [
+                [],
+                [],
+                {
+                  "name": "Evolutionary Lineage",
+                  "children": [
+                    {
+                      "name": "The Fundamental Particles, which is the soil",
+                      "children": [
+                        {
+                          "name": "LUCA, which is the seed",
+                          "children": [
+                            {
+                              "name": "Eukarya, the trunk",
+                              "children": [
+                                {
+                                  "name": "Animalia, the largest branches",
+                                  "children": [
+                                    {
+                                      "name": "Humankind, the leaves",
+                                      "children": [
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Migratory",
+              "children": [
+                {
+                  "name": "This is our migratory history, which is the basis of our racial theory",
+                  "children": [
+                    {
+                      "name": "300,000 years ago, humankind originated in Africa",
+                      "children": [
+                        {
+                          "name": "150,000 years ago, we expanded into Eurasia",
+                          "children": [
+                            {
+                              "name": "50,000 years ago, we expanded into Australia",
+                              "children": [
+                                []
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Simplified migratory chart",
+                  "children": [
+                    {
+                      "name": "Africa",
+                      "children": [
+                        [],
+                        {
+                          "name": "Asia",
+                          "children": [
+                            []
+                          ]
+                        },
+                        []
+                      ]
+                    }
+                  ]
+                },
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spiritual",
+          "children": [
+            {
+              "name": "Personal",
+              "children": [
+                [],
+                {
+                  "name": "This is our personal spiritual lineage:",
+                  "children": [
+                    {
+                      "name": "Abraham, who established the first covenant",
+                      "children": [
+                        {
+                          "name": "David, who unified the people",
+                          "children": [
+                            {
+                              "name": "Jesus, who established the second covenant",
+                              "children": [
+                                {
+                                  "name": "Paul, who established the church",
+                                  "children": [
+                                    {
+                                      "name": "Constantine, who unified the people",
+                                      "children": [
+                                        {
+                                          "name": "Thomas Aquinas, who unified the doctrine",
+                                          "children": [
+                                            {
+                                              "name": "Martin Luther, who refined the doctrine",
+                                              "children": [
+                                                []
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Ideological",
+              "children": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                {
+                  "name": "Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events",
+                  "children": [
+                    {
+                      "name": "Atheism",
+                      "children": [
+                        {
+                          "name": "Polytheism",
+                          "children": [
+                            {
+                              "name": "Judaism",
+                              "children": [
+                                {
+                                  "name": "Christianity",
+                                  "children": [
+                                    [],
+                                    {
+                                      "name": "Protestantism",
+                                      "children": [
+                                        []
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "In the Law of Three Stages, Deism represents the Metaphysical stage",
+                  "children": [
+                    {
+                      "name": "The Three Stages",
+                      "children": [
+                        {
+                          "name": "Spiritual",
+                          "children": [
+                            {
+                              "name": "Metaphysical",
+                              "children": [
+                                []
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Shoutouts",
+              "children": [
+                [],
+                []
+              ]
+            },
+            {
+              "name": "Covenant",
+              "children": [
+                {
+                  "name": "Following covenant theology, our lineage consists of:",
+                  "children": [
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Simplified",
+                  "children": [
+                    {
+                      "name": "Works",
+                      "children": [
+                        {
+                          "name": "Grace",
+                          "children": [
+                            []
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        []
+      ]
+    },
+    [],
+    {
+      "name": "Wisdom",
+      "children": [
+        {
+          "name": "Wisdom",
+          "children": [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ecclesiology",
+      "children": [
+        {
+          "name": "OrgChart",
+          "children": [
+            []
+          ]
+        },
+        {
+          "name": "Canonization",
+          "children": [
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ritual",
+      "children": [
+        {
+          "name": "Meditation",
+          "children": [
+            {
+              "name": "These rituals comprise our meditative tradition",
+              "children": [
+                {
+                  "name": "Mantras",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Body-scan",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Deep Breathing",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Fasting",
+          "children": [
+            {
+              "name": "Here are the reasons for fasting:",
+              "children": [
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            {
+              "name": "Here are several kinds of fast:",
+              "children": [
+                [],
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sacraments",
+          "children": [
+            {
+              "name": "We recognize the following sacraments, or rites:",
+              "children": [
+                [],
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Music",
+          "children": [
+            {
+              "name": "The following comprise our musical tradition",
+              "children": [
+                [],
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Yoga",
+          "children": [
+            {
+              "name": "Here is the Deist Yoga routine",
+              "children": [
+                {
+                  "name": "Mountain Pose",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Forward Fold",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Downward-Facing Dog",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Cobra Pose",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Upward-Facing Dog",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Warrior I",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Tree Pose",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Bridge Pose",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Child's Pose",
+                  "children": [
+                    [],
+                    [],
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Holidays",
+          "children": [
+            {
+              "name": "We recognize the following holidays:",
+              "children": [
+                [],
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blessings",
+          "children": [
+            [],
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ethics",
+      "children": [
+        {
+          "name": "The Ten Commandments",
+          "children": [
+            {
+              "name": "These are the commandments:",
+              "children": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                {
+                  "name": "Do not covet your peer's",
+                  "children": [
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Do not sleep with your biological",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cardinal Virtues",
+          "children": [
+            {
+              "name": "There are four cardinal virtues:",
+              "children": [
+                {
+                  "name": "Prudence",
+                  "children": [
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Justice",
+                  "children": [
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Fortitude",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    {
+                      "name": "the ability to confront",
+                      "children": [
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Temperance",
+                  "children": [
+                    [],
+                    {
+                      "name": "the practice of",
+                      "children": [
+                        [],
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "And a few eastern additions:",
+              "children": [
+                {
+                  "name": "Benevolence",
+                  "children": [
+                    []
+                  ]
+                },
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Condemnations",
+          "children": [
+            {
+              "name": "woe to those who follow the old gods:",
+              "children": [
+                [],
+                [],
+                []
+              ]
+            },
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    [],
+    {
+      "name": "Prophesy",
+      "children": [
+        {
+          "name": "Eternal Life",
+          "children": [
+            {
+              "name": "Universal Annihilation",
+              "children": [
+                [],
+                [],
+                [],
+                {
+                  "name": "There are currently two major strains of research:",
+                  "children": [
+                    [],
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Eschatology",
+          "children": [
+            []
+          ]
+        },
+        {
+          "name": "The Fourth Temple",
+          "children": [
+            [],
+            [],
+            []
+          ]
+        }
+      ]
+    },
+    [],
+    {
+      "name": "Appendix",
+      "children": [
+        {
+          "name": "Canon",
+          "children": [
+            {
+              "name": "In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical",
+              "children": [
+                {
+                  "name": "First Testament",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                },
+                {
+                  "name": "Second Testament",
+                  "children": [
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    [],
+                    []
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "The following remain apocryphal",
+              "children": [
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                [],
+                []
+              ]
+            },
+            {
+              "name": "Finally, the canonical books of the Third Testament, which are the ultimate source of religious truth",
+              "children": [
+                []
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Spiritual Family",
+          "children": [
+            [],
+            {
+              "name": "The most popular variants are listed",
+              "children": [
+                {
+                  "name": "Ancestors",
+                  "children": [
+                    {
+                      "name": "Christians",
+                      "children": [
+                        {
+                          "name": "Protestants",
+                          "children": [
+                            [],
+                            [],
+                            [],
+                            []
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Catholics",
+                      "children": [
+                        [],
+                        []
+                      ]
+                    },
+                    [],
+                    {
+                      "name": "Jews",
+                      "children": [
+                        [],
+                        [],
+                        []
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "Peers",
+                  "children": [
+                    {
+                      "name": "Muslims",
+                      "children": [
+                        [],
+                        []
+                      ]
+                    },
+                    [],
+                    [],
+                    {
+                      "name": "Buddhists",
+                      "children": [
+                        [],
+                        []
+                      ]
+                    },
+                    []
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
