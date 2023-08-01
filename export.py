@@ -96,4 +96,5 @@ with open("build/README.md", "w+") as f:
     f.write(out["markdown"])
 
 os.system("cp index.html build/index.html")
+os.system("cp error.html build/error.html")
 # m.toPDF()
