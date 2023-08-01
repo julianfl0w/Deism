@@ -1,10 +1,7 @@
 {
     "meta": {"priority": 2000},
-    "Universal Annihilation": {
-        "In the absence of compelling evidence, we believe in Universal Annhialation": {},
-        "That is, the absence of life after death": {},
-        "When the brain stem ceases to function, there is no return": {},
-        "But take heart, children of Abraham!": {},
+    "Eternal Life": {
+        "Take heart, children of Abraham!": {},
         "For a day is coming when the problems of the body will affect us no longer": {},
     },
     "Manifest Destiny": {
@@ -22,7 +19,7 @@
     },
     "The Fourth Temple": {
         "First, all people will be removed from the Dome of the Rock": {},
-        "The gold which now adorns the top will be returned to the Nation of Jordan, or closest heir thereof":{},
+        "The gold which now adorns the top will be returned to the Nation of Jordan, or closest heir thereof": {},
         "The Third Temple will be destroyed, and a fourth built in its place": {},
         "The Fourth Temple will be a pyramid of clear gold": {},
         "It will be built inside of three years": {},

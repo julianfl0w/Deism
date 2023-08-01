@@ -1,1 +1,1 @@
-{"priority": 10000}
+{"priority": 10000, "skipFlare": True}
