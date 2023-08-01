@@ -1,3 +1,1 @@
-{
-        "Julian":{"meta":{"title":"Chief Theologian"}}
-        }
+{"Julian": {"meta": {"title": "Chief Theologian"}}}
