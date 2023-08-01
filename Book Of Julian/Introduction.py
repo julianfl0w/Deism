@@ -1,5 +1,5 @@
 {
-    "meta": {"priority": 0},
+    "meta": {"priority": -11000},
     "There is one God, who has spoken to no one<br><br>": {},
     "The Book of Julian is the first book of the Third Testament": {},
     "It presents a philosophical framework that combines spiritual and scientific schools of thought": {},

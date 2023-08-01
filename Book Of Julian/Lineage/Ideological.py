@@ -7,7 +7,7 @@
     "Now there is one God, outside of this universe": {},
     "This is the path by which we have entered the Metaphysical Age": {},
     "In the Beatific Vision, when we see the face of God, we will enter the Positive Age": {},
-    "Our Ideological Spiritual Lineage is an evolutionary heritage, delineated by major reformational events": {
+    "Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events": {
         "meta": {"type": "lineage", "name": "Ideological Spiritual Lineage"},
         "Atheism": {
             "Polytheism": {
