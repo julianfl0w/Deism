@@ -15,10 +15,7 @@ phases:
       - echo Build started on `date`
       - echo Running export.py...
       - python export.py
-      - echo Moving source files to the build directory...
-      - mkdir build  # Create a build directory if it doesn't exist
-      - mv * build/  # Move all source files and directories to the build directory
 artifacts:
   files:
-    - 'build/**/*'  # Publish all files inside the build directory
+    - '*'  # Publish all files inside the build directory
   base-directory: '.'
