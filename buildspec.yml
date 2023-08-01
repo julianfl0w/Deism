@@ -18,4 +18,4 @@ phases:
 artifacts:
   files:
     - 'build/**/*'  # Publish all files inside the build directory
-  base-directory: '.'
+  base-directory: 'build'
