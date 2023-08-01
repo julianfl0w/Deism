@@ -2,3 +2,4 @@ beautifulsoup4==4.10.0
 gtts==2.3.2
 mdpdf
 git+https://github.com/julianfl0w/sinode
+lxml
