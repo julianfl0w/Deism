@@ -761,13 +761,16 @@
                 [],
                 [],
                 [],
-                {
-                  "name": "There are currently two major strains of research:",
-                  "children": [
-                    [],
-                    []
-                  ]
-                }
+                [],
+                []
+              ]
+            },
+            {
+              "name": "Manifest Destiny",
+              "children": [
+                [],
+                [],
+                []
               ]
             }
           ]
@@ -775,12 +778,19 @@
         {
           "name": "Eschatology",
           "children": [
-            []
+            {
+              "name": "Scenarios",
+              "children": [
+                []
+              ]
+            }
           ]
         },
         {
           "name": "The Fourth Temple",
           "children": [
+            [],
+            [],
             [],
             [],
             []

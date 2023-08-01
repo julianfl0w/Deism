@@ -7,7 +7,7 @@
 
 ### Origins
 
-<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 45 billion years ago, the earth coalesced, in orbit around the sun. <sup>4</sup> 37 billion years ago, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
+<sup>0</sup> Fourteen billion years ago, God created our universe. <sup>1</sup> It started from nothing, then expanded rapidly. <sup>2</sup> And the earth was without form. <sup>3</sup> 5 billion years ago, the earth coalesced, in orbit around the sun. <sup>4</sup> Shortly thereafter, organized life emerged from the chaos. <sup>5</sup> Many generations passed. <sup>6</sup> 300 thousand years ago, humankind originated in Africa. <sup>7</sup> And we expanded throughout the earth. <sup>8</sup> At that time, chaos governed our steps. <sup>9</sup> But we were united under a common God. <sup>10</sup> Now we seek to know God. 
 
 
 ### Topology
@@ -469,24 +469,29 @@ Simplified
 
 #### Universal Annihilation
 
-<sup>0</sup> In the absence of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> This is motivation for research into eternal life. <sup>3</sup> There are currently two major strains of research:
-- Perpetual animation of the body
-- Transferral of one's spirit
+<sup>0</sup> In the absence of compelling evidence, we believe in Universal Annhialation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> When the brain stem ceases to function, there is no return. <sup>3</sup> But take heart, children of Abraham!<sup>4</sup> For a day is coming when the problems of the body will affect us no longer. 
 
 
+#### Manifest Destiny
 
+<sup>0</sup> People of God, look up at the sky and count the stars—if indeed you can count them. <sup>1</sup> So shall your offspring be. <sup>2</sup> One day you will say 'My children are there!'. 
 
 
 
 
 ### Eschatology
 
+
+#### Scenarios
+
 <sup>0</sup> When we see the face of God, this is the Beatific Vision. 
+
+
 
 
 ### The Fourth Temple
 
-<sup>0</sup> The Third Temple will be destroyed, and a fourth built in its place. <sup>1</sup> The Fourth Temple will be a pyramid of clear gold. <sup>2</sup> It will be built in three days. 
+<sup>0</sup> First, all people will be removed from the Dome of the Rock. <sup>1</sup> The gold which now adorns the top will be returned to the Nation of Jordan, or closest heir thereofThe Third Temple will be destroyed, and a fourth built in its place. <sup>2</sup> The Fourth Temple will be a pyramid of clear gold. <sup>3</sup> It will be built inside of three years. <sup>4</sup> This event will mark the beginning of the metaphysical age. 
 
 
 
