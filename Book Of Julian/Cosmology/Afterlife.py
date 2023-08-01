@@ -1,5 +1,5 @@
 {
-    "meta": dict(priority = 10),
+    "meta": dict(priority=10),
     "Universal Annihilation": {
         "In the absence of compelling evidence, we believe in Universal Annhialation": {},
         "That is, the absence of life after death": {},
