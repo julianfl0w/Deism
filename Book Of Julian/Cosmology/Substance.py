@@ -1,5 +1,5 @@
 {
-    "Scientific": {
+    "Scientific Creed": {
         "Until the secrets of heaven are revealed to us, for our own stability, we make a statement of faith": {
             "meta": {"type": "list"},
             "I believe in the four forces": {
@@ -25,16 +25,4 @@
             "The search continues": {},
         }
     },
-    "Nobody": {
-        "Nobody has spoken to God": {},
-        "Nobody knows the name of God": {},
-        "Nobody knows the character of God": {},
-        "Nobody may speak for God": {},
-        "No messenger exists for God": {},
-        "No human can claim genetic lineage from God": {},
-        "No human can claim spiritual lineage from God": {},
-    },
-    "One God":{
-        "There is one God who has spoken to no one":{}
-    }
 }

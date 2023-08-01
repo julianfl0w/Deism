@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Icicle Chart with D3.js</title>
+    <title>Sunburst Chart with D3.js</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
   </head>
   <body>
@@ -12,7 +12,7 @@
         .then((response) => response.json())
         .then((data) => {
           // Define the chart function
-          function createIcicleChart(data) {
+          function createSunburst(data) {
             // Specify the chart’s dimensions.
             const width = 928;
             const height = width;
@@ -49,11 +49,21 @@
               .attr("viewBox", [-width / 2, -height / 2, width, width])
               .style("font", "14px sans-serif"); // Set the font size to 14 pixels.
 
+            // Create root label here without text
+            const rootLabel = svg
+              .append("text")
+              .attr("text-anchor", "middle")
+              .style("font-size", "18px")
+              .style("font-weight", "bold")
+              .attr("y", 0); // adjust position as needed
+
+            rootLabel.text(data.name); // root name
+
             // Append the arcs.
             const path = svg
               .append("g")
               .selectAll("path")
-              .data(root.descendants().slice(1))
+              .data(root.descendants())
               .join("path")
               .attr("fill", (d) => {
                 while (d.depth > 1) d = d.parent;
@@ -106,6 +116,7 @@
 
             // Handle zoom on click.
             function clicked(event, p) {
+              rootLabel.text(p.data.name); // update the root label to the new root name
               parent.datum(p.parent || root);
 
               root.each(
@@ -182,7 +193,7 @@
 
           // Call the function to create the icicle chart and append it to the DOM
           const chartContainer = document.getElementById("chart");
-          chartContainer.appendChild(createIcicleChart(data));
+          chartContainer.appendChild(createSunburst(data));
         })
         .catch((error) => {
           console.error("Error loading JSON:", error);

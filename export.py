@@ -6,6 +6,8 @@ from bs4 import BeautifulSoup as bs
 
 here = os.path.dirname(os.path.abspath(__file__))
 os.makedirs("build", exist_ok=True)
+os.makedirs("build/graphs", exist_ok=True)
+
 if True or "sinode" not in [pkg.key for pkg in pkg_resources.working_set]:
     sys.path = [os.path.join(here, "..", "sinode")] + sys.path
     DEV = True
