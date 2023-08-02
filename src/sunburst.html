@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sunburst Chart with D3.js</title>
+    <title>Book of Julian Sunburst</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
   </head>
   <body>
     <div id="chart"></div>
+    <div id="selected-node-text"></div>
     <script>
       // Load the Flare data from the local JSON file
       fetch("julian_flare.json")
@@ -79,9 +80,9 @@
 
             // Make them clickable if they have children.
             path
-              .filter((d) => d.children)
               .style("cursor", "pointer")
               .on("click", clicked);
+              //.filter((d) => d.children)
 
             const format = d3.format(",d");
             path.append("title").text(
@@ -113,11 +114,14 @@
               .attr("fill", "none")
               .attr("pointer-events", "all")
               .on("click", clicked);
-
             // Handle zoom on click.
             function clicked(event, p) {
               rootLabel.text(p.data.name); // update the root label to the new root name
               parent.datum(p.parent || root);
+
+              // display its text in the dedicated HTML element.
+              document.getElementById("selected-node-text").innerHTML =
+                p.data.text;
 
               root.each(
                 (d) =>
