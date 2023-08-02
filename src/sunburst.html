@@ -3,10 +3,36 @@
   <head>
     <title>Book of Julian Sunburst</title>
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    <style>
+      .flex-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      @media (orientation: landscape) {
+        .flex-container {
+          flex-direction: row;
+        }
+      }
+
+      #chart {
+        width: 100%;
+        height: 100%;
+      }
+
+      #selected-node-text {
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+      }
+    </style>
   </head>
   <body>
-    <div id="chart"></div>
-    <div id="selected-node-text"></div>
+    <div class="flex-container">
+      <div id="chart"></div>
+      <div id="selected-node-text"></div>
+    </div>
     <script>
       // Load the Flare data from the local JSON file
       fetch("julian_flare.json")
@@ -78,7 +104,7 @@
               )
               .attr("d", (d) => arc(d.current));
 
-            // Make them clickable if they have children.
+            // Make them clickable
             path
               .style("cursor", "pointer")
               .on("click", clicked);
@@ -114,6 +140,7 @@
               .attr("fill", "none")
               .attr("pointer-events", "all")
               .on("click", clicked);
+              
             // Handle zoom on click.
             function clicked(event, p) {
               rootLabel.text(p.data.name); // update the root label to the new root name
@@ -198,6 +225,11 @@
           // Call the function to create the icicle chart and append it to the DOM
           const chartContainer = document.getElementById("chart");
           chartContainer.appendChild(createSunburst(data));
+
+          // Set the initial text content to the root node's text
+          const textContainer = document.getElementById("selected-node-text");
+          textContainer.innerHTML = data.text;
+
         })
         .catch((error) => {
           console.error("Error loading JSON:", error);
