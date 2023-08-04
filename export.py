@@ -79,6 +79,8 @@ m = fractal_book.FractalBook(
 
 m.dump()
 
+os.system("cp src/* build/")
+
 with open("build/julian_flare.json", "w+") as f:
     f.write(json.dumps(m.asFlare(), indent=2))
 
@@ -97,5 +99,4 @@ with open("build/ABSA.html", "w+") as f:
 with open("build/README.md", "w+") as f:
     f.write(out["markdown"])
 
-os.system("cp src/* build/")
 # m.toPDF()

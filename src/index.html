@@ -2,13 +2,12 @@
 <html>
   <head>
     <title>Book of Julian Sunburst</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <style>
-
       #chart {
         width: 100%;
-        height: 100vh; 
+        height: 100vh;
         margin-bottom: 100px;
       }
 
@@ -22,22 +21,19 @@
         display: flex;
         flex-direction: column;
         height: 100vh;
-        overflow: hidden; 
+        overflow: hidden;
       }
 
       @media (orientation: landscape) {
         .flex-container {
           flex-direction: row;
-          overflow: hidden; 
+          overflow: hidden;
         }
         #chart {
           margin-bottom: 0px;
           margin-right: 100px;
         }
-
-
-      } 
-
+      }
     </style>
   </head>
   <body>
@@ -92,7 +88,7 @@
             const rootLabel = svg
               .append("text")
               .attr("text-anchor", "middle")
-              .style("font-size", "18px")
+              .style("font-size", "22px")
               .style("font-weight", "bold")
               .attr("y", 0); // adjust position as needed
 
@@ -117,10 +113,8 @@
               .attr("d", (d) => arc(d.current));
 
             // Make them clickable
-            path
-              .style("cursor", "pointer")
-              .on("click", clicked);
-              //.filter((d) => d.children)
+            path.style("cursor", "pointer").on("click", clicked);
+            //.filter((d) => d.children)
 
             const format = d3.format(",d");
             path.append("title").text(
@@ -131,7 +125,6 @@
                   .reverse()
                   .join("/")}\n${format(d.value)}`
             );
-
             const label = svg
               .append("g")
               .attr("pointer-events", "none")
@@ -143,7 +136,9 @@
               .attr("dy", "0.35em")
               .attr("fill-opacity", (d) => +labelVisible(d.current))
               .attr("transform", (d) => labelTransform(d.current))
-              .text((d) => d.data.name);
+              .text((d) => d.data.name)              
+              .style("font-size", ((d) => d.depth === 1 ? "20px" : "12px"))
+              .style("font-weight", ((d) => d.depth === 1 ? "bold" : "bold"));
 
             const parent = svg
               .append("circle")
@@ -152,7 +147,7 @@
               .attr("fill", "none")
               .attr("pointer-events", "all")
               .on("click", clicked);
-              
+
             // Handle zoom on click.
             function clicked(event, p) {
               rootLabel.text(p.data.name); // update the root label to the new root name
@@ -241,7 +236,6 @@
           // Set the initial text content to the root node's text
           const textContainer = document.getElementById("selected-node-text");
           textContainer.innerHTML = data.text;
-
         })
         .catch((error) => {
           console.error("Error loading JSON:", error);
