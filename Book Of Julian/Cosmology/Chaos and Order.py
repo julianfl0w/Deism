@@ -10,9 +10,6 @@
             "relationship": "within",
             "boxParams": {"penwidth": 1},
         },
-        "The Cosmos": {
-            "Order": {},
-            "Chaos": {},
-        },
+        "The Cosmos": {"Order": {}, "Chaos": {}},
     },
 }

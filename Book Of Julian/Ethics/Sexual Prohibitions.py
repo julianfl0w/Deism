@@ -5,5 +5,5 @@
         "Descendant, nor": {},
         "Sibling, nor": {},
         "Ancestor's Sibling": {},
-    },
+    }
 }

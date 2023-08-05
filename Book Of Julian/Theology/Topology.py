@@ -7,5 +7,5 @@
             "boxParams": {"penwidth": 1},
         },
         "Heaven": {"God": {}, "The Cosmos": {"Us": {}}},
-    },
+    }
 }
