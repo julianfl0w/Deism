@@ -103,5 +103,5 @@ with open("build/ABSA.html", "w+") as f:
 with open("build/README.md", "w+") as f:
     f.write(out["markdown"])
 
-os.system("cp -r build/graphs src/graphs")
+os.system("cp -r build/graphs src")
 # m.toPDF()

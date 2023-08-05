@@ -7,11 +7,16 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
   <style>
+    figure {
+      border: none;
+      padding: 15px;
+      margin: auto;
+    }
 
-    #chart {
-      width: 100%;
-      height: 100vh;
-      margin-bottom: 100px;
+    figcaption {
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
     }
 
     #selected-node-text sup {
@@ -51,6 +56,12 @@
         overflow: hidden;
       }
 
+
+      #chart {
+        width: 100%;
+        height: 100%;
+      }
+
       #selected-node-text {
         font-size: 18px;
         width: 100%;
@@ -73,6 +84,8 @@
 
 
       #chart {
+        width: 100%;
+        height: 100%;
         margin-bottom: 0px;
         margin-right: 100px;
       }
@@ -112,10 +125,11 @@
           );
 
           // Compute the layout.
+          
           const hierarchy = d3
             .hierarchy(data)
             .sum((d) => d.value)
-            .sort((a, b) => b.value - a.value);
+            .sort((a, b) => d3.ascending(a.data.indexedName, b.data.indexedName)); // Sort by name
           const root = d3
             .partition()
             .size([2 * Math.PI, hierarchy.height + 1])(hierarchy);
@@ -157,7 +171,7 @@
             .join("path")
             .attr("fill", (d) => {
               while (d.depth > 1) d = d.parent;
-              return color(d.data.name);
+              return color(String(d.data.index) + d.data.indexedName);
             })
             .attr("fill-opacity", (d) =>
               arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0
@@ -176,7 +190,7 @@
             (d) =>
               `${d
                 .ancestors()
-                .map((d) => d.data.name)
+                .map((d) => d.data.indexedName)
                 .reverse()
                 .join("/")}\n${format(d.value)}`
           );
@@ -191,7 +205,7 @@
             .attr("dy", "0.35em")
             .attr("fill-opacity", (d) => +labelVisible(d.current))
             .attr("transform", (d) => labelTransform(d.current))
-            .text((d) => d.data.name)
+            .text((d) => d.data.indexedName)
             .style("font-size", ((d) => d.depth === 1 ? "20px" : "12px"))
             .style("font-weight", ((d) => d.depth === 1 ? "bold" : "bold"))
             .style("text-shadow", "1px 1px 8px rgba(255, 255, 255, 1)") // Apply white text shadow with raised opacity
