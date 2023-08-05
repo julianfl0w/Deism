@@ -7,58 +7,70 @@
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
   <style>
+
     #chart {
       width: 100%;
       height: 100vh;
       margin-bottom: 100px;
     }
 
-    #selected-node-text {
-      width: 100%;
-      line-height: 2;
-      /* Single-spaced lines */
-      height: 100vh;
-      overflow: auto;
-      font-size: 25px;
-      /* Default font size for larger screens */
-    }
-
     #selected-node-text sup {
-      user-select: none; /* Disables text selection */
+      user-select: none;
+      /* Disables text selection */
       vertical-align: baseline;
       /* Aligns the superscript to the baseline */
       position: relative;
       /* Positions the superscript relative to its normal position */
       top: -0.7em;
       /* Adjusts the top position of the superscript */
-      font-size: 50%;
+      font-size: 60%;
       /* Reduces the font size of the superscript */
       line-height: 1;
       /* Sets a consistent line height for the superscript */
-      margin-right: -0.5em; /* Reduces the distance to subsequent text */
+      margin-right: -0.3em;
+      /* Reduces the distance to subsequent text */
 
     }
 
     .flex-container {
       display: flex;
-      flex-direction: column;
-      height: 100vh;
-      overflow: hidden;
     }
 
-    .angled-text {
-      font-family: 'Raleway', sans-serif;
-      /* Using Raleway */
-      font-weight: 500;
-      /* Medium weight */
-    }
+    @media (orientation: portrait) {
+      .flex-container {
+        /* overflow: auto;  Enables scrolling in portrait mode */
+        overflow-y: auto;
+        /* Allows vertical scrolling */
+        overflow-x: clip;
+        /* Allows vertical scrolling */
+        flex-direction: column;
+        height: 100%;
+      }
 
+      .body {
+        overflow: hidden;
+      }
+
+      #selected-node-text {
+        font-size: 18px;
+        width: 100%;
+        /* keeps the width at 100% */
+        /* Larger font size for mobile devices */
+        line-height: 2;
+      }
+    }
 
     @media (orientation: landscape) {
       .flex-container {
         flex-direction: row;
         overflow: hidden;
+
       }
+
+      .body {
+        overflow: hidden;
+      }
+
 
       #chart {
         margin-bottom: 0px;
@@ -70,6 +82,8 @@
         /* Larger font size for mobile devices */
         line-height: 1.5;
         /* Single-spaced lines */
+        width: 100%;
+        /* keeps the width at 100% */
       }
     }
   </style>
@@ -199,7 +213,6 @@
             // display its text in the dedicated HTML element.
             var selectedNodeTextElement = document.getElementById("selected-node-text");
             selectedNodeTextElement.innerHTML = p.data.text;
-            selectedNodeTextElement.className = "angled-text"; // Apply the class
 
             root.each(
               (d) =>
