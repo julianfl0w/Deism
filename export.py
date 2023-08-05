@@ -84,6 +84,10 @@ os.system("cp src/* build/")
 with open("build/julian_flare.json", "w+") as f:
     f.write(json.dumps(m.asFlare(), indent=2))
 
+# for testing from the src folder
+with open("src/julian_flare.json", "w+") as f:
+    f.write(json.dumps(m.asFlare(), indent=2))
+
 with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))
 
@@ -99,4 +103,5 @@ with open("build/ABSA.html", "w+") as f:
 with open("build/README.md", "w+") as f:
     f.write(out["markdown"])
 
+os.system("cp -r build/graphs src/graphs")
 # m.toPDF()

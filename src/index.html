@@ -4,6 +4,7 @@
     <title>Book of Julian Sunburst</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
     <style>
       #chart {
         width: 100%;
@@ -23,6 +24,11 @@
         height: 100vh;
         overflow: hidden;
       }
+      .angled-text {
+        font-family: 'Raleway', sans-serif; /* Using Raleway */
+        font-weight: 500; /* Medium weight */
+      }
+
 
       @media (orientation: landscape) {
         .flex-container {
@@ -82,6 +88,7 @@
             const svg = d3
               .create("svg")
               .attr("viewBox", [-width / 2, -height / 2, width, width])
+              .style("font-family", "'Raleway', sans-serif") // Apply the Raleway font
               .style("font", "14px sans-serif"); // Set the font size to 14 pixels.
 
             // Create root label here without text
@@ -90,6 +97,7 @@
               .attr("text-anchor", "middle")
               .style("font-size", "22px")
               .style("font-weight", "bold")
+              .style("font-family", "'Raleway', sans-serif") // Apply the Raleway font
               .attr("y", 0); // adjust position as needed
 
             rootLabel.text(data.name); // root name
@@ -138,7 +146,9 @@
               .attr("transform", (d) => labelTransform(d.current))
               .text((d) => d.data.name)              
               .style("font-size", ((d) => d.depth === 1 ? "20px" : "12px"))
-              .style("font-weight", ((d) => d.depth === 1 ? "bold" : "bold"));
+              .style("font-weight", ((d) => d.depth === 1 ? "bold" : "bold"))
+              .style("text-shadow", "1px 1px 8px rgba(255, 255, 255, 1)") // Apply white text shadow with raised opacity
+              .style("font-family", "'Raleway', sans-serif"); // Apply the Raleway font
 
             const parent = svg
               .append("circle")
@@ -150,12 +160,15 @@
 
             // Handle zoom on click.
             function clicked(event, p) {
+              rootLabel = document.getElementById("root-label-id"); // Replace with the actual ID
+              rootLabel.className = "angled-text"; // Apply the class
               rootLabel.text(p.data.name); // update the root label to the new root name
               parent.datum(p.parent || root);
 
               // display its text in the dedicated HTML element.
-              document.getElementById("selected-node-text").innerHTML =
-                p.data.text;
+              var selectedNodeTextElement = document.getElementById("selected-node-text");
+              selectedNodeTextElement.innerHTML = p.data.text;
+              selectedNodeTextElement.className = "angled-text"; // Apply the class
 
               root.each(
                 (d) =>
