@@ -1,4 +1,5 @@
 {
+    "meta": dict(priority=0),
     "In the beginning, there was no religion, for there was no language": {},
     "Then there were many gods, for there were no standards": {},
     "This was the beginning of the Spiritual Age": {},

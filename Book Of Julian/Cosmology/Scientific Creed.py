@@ -1,4 +1,5 @@
 {
+    "meta": {"priority": -1000},
     "Until the secrets of heaven are revealed to us, for our own stability, we make a statement of faith": {
         "meta": {"type": "list"},
         "I believe in the four forces": {

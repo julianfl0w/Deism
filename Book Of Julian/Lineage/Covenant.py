@@ -1,4 +1,5 @@
 {
+    "meta": dict(priority=0),
     "Following covenant theology, our lineage consists of:": {
         "meta": {"type": "list"},
         "The First Testament, a covenant of works made with Adam": {},

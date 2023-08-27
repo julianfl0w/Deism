@@ -1,4 +1,5 @@
 {
+    "meta": dict(priority=0),
     "The Tree of Life": {},
     "This is our evolutionary lineage:": {},
     "Evolutionary Lineage": {

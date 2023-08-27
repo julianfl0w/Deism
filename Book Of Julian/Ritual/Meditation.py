@@ -1,6 +1,6 @@
 {
     "Mantras": {
-        "meta": {"type": "list"},
+        "meta": dict(type = "list", ignore = True),
         "Divine Order, Harmony, and Truth": {},
         "Embrace the Present Moment": {},
         "Trust the process": {},
