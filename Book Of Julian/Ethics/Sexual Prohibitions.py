@@ -4,6 +4,7 @@
         "Ancestor, nor": {},
         "Descendant, nor": {},
         "Sibling, nor": {},
-        "Ancestor's Sibling": {},
-    }
+        "Ancestor's Sibling,": {},
+    },
+    "Nor any beast.":{}
 }
