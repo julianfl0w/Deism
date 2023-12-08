@@ -1,0 +1,17 @@
+{
+    "What is the chief end of humankind?<br>": {"meta": dict(type = "default")},
+    "The chief end of humankind is to find God<br>":{},
+    "Hasn't God been found already in the form of Yahweh, Jesus, and Allah?<br>": {"meta": dict(type = "default")},
+    "No, as these are false Gods":{},
+    "No one has ever heard, nor seen them<br>":{},
+    "What is the purpose of religion?<br>": {"meta": dict(type = "default")},
+    "The purpose of religion is to empower the people socially<br>":{},
+    "Am I not then equally served by attending a traditional house of worship?<br>": {"meta": dict(type = "default")},
+    "If you appreciate traditional doctrine, this is the better path for you<br>":{},
+    "What is the Beatific Vision?<br>":{"meta": dict(type = "default")},
+    "The Beatific Vision will occur when humankind unequivocally witnesses the face of God<br>":{},
+    "How will we know this event has occurred?<br>": {"meta": dict(type = "default")},
+    "You will investigate the claims scientifically<br>":{},
+    "What is the Ascension?<br>":{"meta": dict(type = "default")},
+    "The Ascension is the period after the Beatific Vision in which we become communicant with God<br>":{},
+}

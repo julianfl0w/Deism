@@ -1,6 +1,6 @@
 {
     "meta": dict(priority=-30000, tableOfContentsSkip=True, skipFlare=True),
-    "Peace be upon you<br><br>": {},
+    "Children of Abraham, peace be upon you<br><br>": {},
     "There is one God, who has spoken to no one<br><br>": {},
     "The Book of Julian is the first book of the Third Testament": {},
     "It presents a philosophical framework that combines religious and scientific schools of thought": {},
@@ -15,6 +15,6 @@
         "Big Bang theory": {},
         "Theory of Evolution": {},
         "Out-of-Africa Theory": {},
-        "Universe Creationism": {},
+        "And Universe Creationism": {},
     },
 }
