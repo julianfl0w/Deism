@@ -6,7 +6,16 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
   <style>
+    /* Style for Google Translate widget container */
+    #google_translate_element {
+      position: absolute; /* Adjust position as needed */
+      top: 0; /* Example: Top of the page */
+      right: 0; /* Example: Right corner */
+      z-index: 1000; /* Ensure it's above other elements */
+    }
     figure {
       border: none;
       padding: 15px;
@@ -103,6 +112,26 @@
 </head>
 
 <body>
+  <!-- Google Translate widget container -->
+  <div id="google_translate_element"></div>
+
+  <div class="flex-container">
+    <div id="chart"></div>
+    <div id="selected-node-text"></div>
+  </div>
+  <script>
+    // Your existing JavaScript code...
+
+    // Function to initialize Google Translate widget
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'en', // Set the page language
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
+
+
   <div class="flex-container">
     <div id="chart"></div>
     <div id="selected-node-text"></div>
