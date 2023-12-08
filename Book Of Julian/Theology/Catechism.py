@@ -11,7 +11,7 @@
     "What is the Beatific Vision?":{"meta": dict(type = "prompt")},
     "The Beatific Vision will occur when humankind unequivocally witnesses the face of God":{},
     "How will we know this event has occurred?": {"meta": dict(type = "prompt")},
-    "You will investigate the claims scientifically",
+    "You will investigate the claims scientifically":{},
     "What is the Ascension?":{"meta": dict(type = "prompt")},
     "The Ascension is the period after the Beatific Vision in which we become communicant with God":{},
 }
