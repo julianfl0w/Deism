@@ -80,7 +80,7 @@
     "Human": {
       "Mind": {
         "JHU: Psychological First Aid": {"meta": {"reference": ["https://www.coursera.org/learn/psychological-first-aid"]}}, 
-        "Book Of Julian": {"meta": dict(required=1)}
+        "Book Of Julian": {"meta": dict(required=1, reference= ["https://bookofjulian.net/"])}
       },
       "Body": {
         "UC San Diego: Drug Discovery": {"meta": {"reference": ["https://www.coursera.org/learn/drug-discovery"]}},
