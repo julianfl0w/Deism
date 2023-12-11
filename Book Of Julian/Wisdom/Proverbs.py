@@ -29,4 +29,7 @@
     "A generous person will prosper; whoever refreshes others will be refreshed": {
         "meta": {"reference": ["PR 11:25"], "type": "wisdom"}
     },
+    "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.": {
+        "meta": {"reference": ["Four Books of Confucius"], "type": "wisdom"}
+    },
 }
