@@ -1,4 +1,5 @@
 {
+    "meta":dict(priority=0),
     "This is our migratory history, which is the basis of our racial theory": {
         "meta": {"type": "list", "topology": "flat"},
         "300,000 years ago, humankind originated in Africa": {
