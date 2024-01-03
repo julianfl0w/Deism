@@ -22,7 +22,8 @@
         },
         "Genetics": {
           "U of Melbourne: Epigenetic Control of Gene Expression": {"meta": {"reference": ["https://www.coursera.org/learn/epigenetics"]}},
-          "Genomic Data Science Specialization": {"meta": {"reference": ["https://www.coursera.org/specializations/genomic-data-science"]}}
+          "Genomic Data Science Specialization": {"meta": {"reference": ["https://www.coursera.org/specializations/genomic-data-science"]}},
+          "UMD: Genes and the Human Condition": {"meta": {"reference": ["https://www.coursera.org/learn/genes"]}}
         },
         "Linguistics": {
             "Miracles of Human Language: An Introduction to Linguistics": {"meta": {"reference": ["https://www.coursera.org/learn/human-language"]}},
@@ -36,7 +37,8 @@
           "Model Thinking": {"meta": {"reference": ["https://www.coursera.org/learn/model-thinking"]}},
           "UC Davis: Computational Social Science": {"meta": {"reference": ["https://www.coursera.org/specializations/computational-social-science-ucdavis"]}},
           "UQx: Principles of Microeconomics": {"meta": {"reference": ["https://www.edx.org/course/principles-of-microeconomics"]}},
-          "UQx: Anthropology of Current World Issues": {"meta": {"reference": ["https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues"]}}  
+          "UQx: Anthropology of Current World Issues": {"meta": {"reference": ["https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues"]}},
+          "University of Amsterdam: Classical Sociological Theory": {"meta": {"reference": ["https://www.coursera.org/learn/classical-sociological-theory/"]}}  
         },
         "Religion": {"A Journey through Western Christianity": {"meta": {"reference": ["https://www.coursera.org/learn/western-christianity-200-1650"]}}},
         "Government": {"American Government": {"meta": {"reference": ["https://www.edx.org/course/american-government"]}}},
