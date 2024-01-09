@@ -21,3 +21,4 @@ artifacts:
     location: 'gs://bookofdoctrine/'
     paths:
       - 'build/**'
+      - 'build/graphs/**'
