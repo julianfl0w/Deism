@@ -10,13 +10,6 @@ steps:
         apt-get install -y graphviz
         echo Installing Python dependencies...
         pip install -r requirements.txt
-
-  # Build step
-  - name: 'python:3.11'
-    entrypoint: 'bash'
-    args:
-      - '-c'
-      - |
         echo Build started on `date`
         echo Running export.py...
         python export.py
