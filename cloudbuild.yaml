@@ -13,10 +13,5 @@ steps:
         echo Build started on `date`
         echo Running export.py...
         python export.py
-
-# Artifacts
-artifacts:
-  objects:
-    location: 'gs://bookofdoctrine/build/'
-    paths:
-      - 'build/'
+        echo Uploading artifacts to GCS...
+        gsutil cp -r build/ gs://bookofdoctrine/build/
