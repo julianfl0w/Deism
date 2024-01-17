@@ -1,7 +1,8 @@
 {
   "Introduction":{
     "The Deist Curriculum is selected to advance the Third Testament Prophesies":{},
-    "It is roughly as rigorous as a collegiate Master\'s degree":{},
+    "It is roughly as rigorous as a collegiate Bachelor\'s degree":{},
+    "The Master\'s variant includes additional courses, and necessitates a thesis defense":{},
     "Anyone who completes this program may apply for Canonization":{},
     "If accepted, they shall be considered Canonized by the Degree":{},
   },

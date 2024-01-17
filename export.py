@@ -81,12 +81,14 @@ m.dump()
 
 os.system("cp src/* build/")
 
+julian_flare = json.dumps(m.asFlare(), indent=2)
+
 with open("build/julian_flare.json", "w+") as f:
-    f.write(json.dumps(m.asFlare(), indent=2))
+    f.write(julian_flare)
 
 # for testing from the src folder
 with open("src/julian_flare.json", "w+") as f:
-    f.write(json.dumps(m.asFlare(), indent=2))
+    f.write(julian_flare)
 
 with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))
