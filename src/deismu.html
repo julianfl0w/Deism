@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deism U</title>
+    <style>
+      .section .item-list {
+        display: none;
+        padding-left: 20px;
+      }
+      .section .item-list.active {
+        display: block;
+      }
+      .section-title {
+        cursor: pointer;
+        background-color: #f1f1f1;
+        padding: 10px;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+      }
+      .section-title:hover {
+        background-color: #ccc;
+      }
+    </style>
+    <script>
+      function addURL() {
+        // existing addURL function
+      }
+
+      function getCurriculum() {
+        fetch("curriculum.json")
+          .then((response) => response.json())
+          .then((jsonData) => {
+            createExpandableList(
+              jsonData,
+              document.getElementById("curriculumList")
+            );
+          })
+          .catch((error) => {
+            console.error("Fetch operation error:", error);
+            document.getElementById("curriculumList").textContent =
+              error.message;
+          });
+      }
+      function createExpandableList(data, container) {
+        function createList(itemData, parentElement) {
+          Object.keys(itemData).forEach((key) => {
+            if (key !== "meta") {
+              // Exclude 'meta' nodes
+              if (
+                typeof itemData[key] === "object" &&
+                itemData[key] !== null &&
+                !Array.isArray(itemData[key])
+              ) {
+                // Create section for the object
+                let section = document.createElement("div");
+                section.className = "section";
+
+                let sectionTitle = document.createElement("button");
+                sectionTitle.className = "section-title";
+                sectionTitle.innerText = key;
+                sectionTitle.onclick = function () {
+                  this.nextElementSibling.classList.toggle("active");
+                };
+
+                let itemList = document.createElement("div");
+                itemList.className = "item-list";
+
+                // Recursively create list for nested objects
+                createList(itemData[key], itemList);
+
+                section.appendChild(sectionTitle);
+                section.appendChild(itemList);
+                parentElement.appendChild(section);
+              } else {
+                // Create item for non-object data
+                let item = document.createElement("div");
+                item.className = "item";
+                item.innerText = key + ": " + itemData[key];
+                parentElement.appendChild(item);
+              }
+            }
+          });
+        }
+
+        createList(data, container);
+      }
+
+      // Existing DOMContentLoaded event listener
+
+      document.addEventListener("DOMContentLoaded", function () {
+        getCurriculum();
+      });
+    </script>
+  </head>
+  <body>
+    <h2>Introduction</h2>
+    <!-- existing introduction div -->
+
+    <button onclick="addURL()">Verify Certificate</button>
+    <pre id="result"></pre>
+
+    <h2>Your Progress</h2>
+    <div id="curriculumList"></div>
+  </body>
+</html>
