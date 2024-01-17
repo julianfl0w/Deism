@@ -1,0 +1,24 @@
+steps:
+  # Install step
+  - name: 'python:3.11'
+    entrypoint: 'bash'
+    args:
+      - '-c'
+      - |
+        echo Installing system dependencies...
+        apt-get update
+        apt-get install -y graphviz
+        echo Installing Python dependencies...
+        pip install -r requirements.txt
+        echo Build started on `date`
+        echo Running export.py...
+        python export.py
+
+
+# Artifacts
+artifacts:
+  objects:
+    location: 'gs://bookofdoctrine/'
+    paths:
+      - 'build/**'
+      - 'build/graphs/**'
