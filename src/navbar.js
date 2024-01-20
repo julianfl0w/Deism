@@ -142,7 +142,7 @@ const updateUI = async () => {
 
     if (isAuthenticated) {
         const user = await auth0.getUser();
-        document.getElementById("profile").innerHTML = JSON.stringify(user, null, 2);
+        document.getElementById("profileButton").innerHTML = JSON.stringify(user, null, 2);
     }
     updateNavbarBasedOnLoginStatus();
 };
