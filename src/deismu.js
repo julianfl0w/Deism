@@ -1,4 +1,3 @@
-
 function addURL() {
     // Prompt the user to enter a URL
     var urlToAdd = prompt(
@@ -97,62 +96,10 @@ function createExpandableList(data, container) {
     createList(data, container);
 }
 
-let auth0 = null;
-
-const configureAuth0 = async () => {
-    auth0 = await createAuth0Client({
-        domain: "bookofjulian.us.auth0.com", // Replace with your Auth0 domain
-        client_id: "rR4XKHjHUJyN7G7n9L7C7lkx7ZHJzIso", // Replace with your Auth0 client ID
-        redirect_uri: "https://bookofjulian.net/deismu.html",
-        //redirect_uri: window.location.origin
-    });
-
-    if (window.location.search.includes("code=")) {
-        await auth0.handleRedirectCallback();
-        window.history.replaceState(
-            {},
-            document.title,
-            window.location.pathname
-        );
-    }
-
-    updateUI();
-};
-
-const updateUI = async () => {
-    const isAuthenticated = await auth0.isAuthenticated();
-
-    if (isAuthenticated) {
-        // Retrieve user profile information
-        const user = await auth0.getUser();
-
-        // Display user information
-        document.getElementById("profile").innerHTML = JSON.stringify(
-            user,
-            null,
-            2
-        );
-    }
-};
-
-const dlogin = async () => {
-    await auth0.loginWithRedirect();
-};
-
-const dlogout = () => {
-    auth0.logout({ returnTo: window.location.origin });
-};
-
 function addListeners(){
 
     document.body.addEventListener('click', function(event) {
         switch (event.target.id) {
-            case 'btn-login':
-                dlogin(); // Function for login
-                break;
-            case 'btn-logout':
-                dlogout(); // Function for logout
-                break;
             case 'btn-verify-certificate':
                 addURL(); // Function for verifying certificate
                 break;

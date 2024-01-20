@@ -16,9 +16,6 @@
   </head>
 
   <body>
-    <!-- Google Translate widget container -->
-    <div id="google_translate_element"></div>
-
     <!-- Navigation Bar -->
     <ul class="navbar">
       <!-- Click the icon to go home!-->
@@ -44,7 +41,22 @@
         <a href="javascript:void(0)" id="deismuButton" class="dropbtn"
           >DeismU</a
         >
+      </li>     
+      <li>
+        <a href="javascript:void(0)" id="profileButton" class="dropbtn"
+          >DeismU</a
+        >
+      </li>         <li>
+        <a href="javascript:void(0)" id="loginButton" class="dropbtn"
+          >DeismU</a
+        >
+      </li>   
+      <!--
+      <li>
+        <div id="google_translate_element"></div>
       </li>
+       -->
+
     </ul>
 
     <!-- Main Content -->
@@ -53,8 +65,6 @@
       <div id="selected-node-text"></div>
 
       <script>
-        // Your existing JavaScript code...
-
         // Function to initialize Google Translate widget
         function googleTranslateElementInit() {
           new google.translate.TranslateElement(
