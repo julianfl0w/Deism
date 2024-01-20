@@ -35,7 +35,7 @@ function populatePillarSelect(pillars, alltext) {
 
     // Default option for pillarSelect
     pillarSelect.onclick = function () {
-        pillarSelect.textContent = "Book of Julian"
+        pillarSelect.textContent = "All Pillars"
         selectedNodeText.innerHTML = alltext; // Display text of the currently selected pillar
         chapterDropdown.innerHTML = ''; // Clear chapter dropdown
         chapterSelect.textContent = "All Chapters";
