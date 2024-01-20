@@ -1,202 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
-
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deism U</title>
-    <style>
-      .section .item-list {
-        display: none;
-        padding-left: 20px;
-      }
-      .section .item-list.active {
-        display: block;
-      }
-      .section-title {
-        cursor: pointer;
-        background-color: #f1f1f1;
-        padding: 10px;
-        border: none;
-        text-align: left;
-        outline: none;
-        font-size: 15px;
-      }
-      .section-title:hover {
-        background-color: #ccc;
-      }
-    </style>
-    <script>
-      function addURL() {
-        // Prompt the user to enter a URL
-        var urlToAdd = prompt(
-          "Please enter the Coursera certificate URL to verify:"
-        );
-        if (urlToAdd) {
-          // Send the URL to the Flask app for verification
-          fetch("http://127.0.0.1:5000/verify", {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ urls: [urlToAdd] }),
-          })
-            .then((response) => {
-              if (!response.ok) {
-                throw new Error(
-                  "Network response was not ok " + response.statusText
-                );
-              }
-              return response.json();
-            })
-            .then((data) => {
-              // Print the result to the screen
-              document.getElementById("result").textContent = JSON.stringify(
-                data,
-                null,
-                2
-              );
-            })
-            .catch((error) => {
-              console.error(
-                "There has been a problem with your fetch operation:",
-                error
-              );
-              document.getElementById("result").textContent = error.message;
-            });
-        }
-      }
-      function getCurriculum() {
-        fetch("curriculum.json")
-          .then((response) => response.json())
-          .then((jsonData) => {
-            createExpandableList(
-              jsonData,
-              document.getElementById("curriculumList")
-            );
-          })
-          .catch((error) => {
-            console.error("Fetch operation error:", error);
-            document.getElementById("curriculumList").textContent =
-              error.message;
-          });
-      }
-      function createExpandableList(data, container) {
-        function createList(itemData, parentElement) {
-          Object.keys(itemData).forEach((key) => {
-            if (key !== "meta") {
-              // Exclude 'meta' nodes
-              if (
-                typeof itemData[key] === "object" &&
-                itemData[key] !== null &&
-                !Array.isArray(itemData[key])
-              ) {
-                // Create section for the object
-                let section = document.createElement("div");
-                section.className = "section";
+    <link rel="stylesheet" type="text/css" href="deismu.css" />
 
-                let sectionTitle = document.createElement("button");
-                sectionTitle.className = "section-title";
-                sectionTitle.innerText = key;
-                sectionTitle.onclick = function () {
-                  this.nextElementSibling.classList.toggle("active");
-                };
-
-                let itemList = document.createElement("div");
-                itemList.className = "item-list";
-
-                // Recursively create list for nested objects
-                createList(itemData[key], itemList);
-
-                section.appendChild(sectionTitle);
-                section.appendChild(itemList);
-                parentElement.appendChild(section);
-              } else {
-                // Create item for non-object data
-                let item = document.createElement("div");
-                item.className = "item";
-                item.innerText = key + ": " + itemData[key];
-                parentElement.appendChild(item);
-              }
-            }
-          });
-        }
-
-        createList(data, container);
-      }
-
-      document.addEventListener("DOMContentLoaded", function () {
-        getCurriculum();
-        configureAuth0();
-      });
-    </script>
-    <script>
-      let auth0 = null;
-
-      const configureAuth0 = async () => {
-        auth0 = await createAuth0Client({
-          domain: "bookofjulian.us.auth0.com", // Replace with your Auth0 domain
-          client_id: "rR4XKHjHUJyN7G7n9L7C7lkx7ZHJzIso", // Replace with your Auth0 client ID
-          redirect_uri: "https://bookofjulian.net/deismu.html",
-          //redirect_uri: window.location.origin
-        });
-
-        if (window.location.search.includes("code=")) {
-          await auth0.handleRedirectCallback();
-          window.history.replaceState(
-            {},
-            document.title,
-            window.location.pathname
-          );
-        }
-
-        updateUI();
-      };
-
-      const updateUI = async () => {
-        const isAuthenticated = await auth0.isAuthenticated();
-
-        if (isAuthenticated) {
-          // Retrieve user profile information
-          const user = await auth0.getUser();
-
-          // Display user information
-          document.getElementById("profile").innerHTML = JSON.stringify(
-            user,
-            null,
-            2
-          );
-        }
-      };
-
-      const login = async () => {
-        await auth0.loginWithRedirect();
-      };
-
-      const logout = () => {
-        auth0.logout({ returnTo: window.location.origin });
-      };
-    </script>
+    <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+    <script src="deismu.js"></script>
   </head>
   <body>
-    <button id="btn-login" onclick="login()">Login</button>
-    <button id="btn-logout" onclick="logout()" style="display: none">
-      Logout
-    </button>
-
+    <h2>DeismU</h2>
+    <button id="btn-login">Login</button>
+    <button id="btn-logout" style="display: none">Logout</button>
+  
     <h2>Introduction</h2>
-    <!-- existing introduction div -->
-
-    <button onclick="addURL()">Verify Certificate</button>
-    <pre id="result"></pre>
-
+    <div>
+    The Deist Curriculum is selected to advance the Third Testament Prophesies. 
+    It is roughly as rigorous as a collegiate Bachelor's degree.
+    The Master's variant includes additional courses, and necessitates a thesis defense.
+    Anyone who completes this program may apply for Canonization.
+    If accepted, they shall be considered Canonized by the Degree.
+    </div>
+    
     <h2>Your Progress</h2>
     <div id="curriculumList"></div>
-
+  
+    <h2>Verify</h2>
+    <div>
+    Add the link to your Coursera or Credly Certificates below:
+    </div>
+    <button id="btn-verify-certificate">Verify Certificate</button>
+    <pre id="result"></pre>
+  
     <div id="user-profile">
       <p><strong>User Information:</strong></p>
       <p id="profile"></p>
     </div>
+  
+    <!-- Other contents -->
+
   </body>
+  
 </html>
