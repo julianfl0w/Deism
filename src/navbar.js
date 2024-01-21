@@ -50,28 +50,6 @@ function populatePillarSelect(pillars, alltext) {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    fetch("julian_flare.json")
-        .then((response) => response.json())
-        .then((data) => {
-            populatePillarSelect(data.children, data.text);
-        })
-        .catch((error) => {
-            console.error("Error loading JSON:", error);
-        });
-
-    setupEventListeners();
-    configureAuth0();
-});
-
-function setupEventListeners() {
-    document.getElementById('bojButton').addEventListener('click', function () {
-        window.location.href = 'index.html';
-    });
-
-    document.getElementById('deismuButton').addEventListener('click', loadDeismUContent);
-}
-
 function loadDeismUContent() {
     fetch('deismu.html?_=' + new Date().getTime())
         .then(response => response.text())
@@ -83,23 +61,41 @@ function loadDeismUContent() {
         })
         .catch(error => console.error('Error loading DeismU:', error));
 }
-function updateNavbarBasedOnLoginStatus() {
+
+async function loadUserContent() {
+    try {
+        const userDetails = await getUserDetails();
+        const selectedNodeText = document.getElementById('selected-node-text');
+        selectedNodeText.innerHTML = JSON.stringify(userDetails, null, 2); // Pretty print the JSON
+    } catch (error) {
+        console.error('Error loading user content:', error);
+        // Handle the error appropriately
+    }
+}
+
+
+async function updateNavbarBasedOnLoginStatus() {
     const profileButton = document.getElementById('profileButton');
     const loginButton = document.getElementById('loginButton');
-
-    if (isUserLoggedIn()) {
-        // User is logged in
-        const user = getUserDetails();
+    
+    // User is logged in
+    if (await isUserLoggedIn()) {
+        const user = await getUserDetails();
+        console.log(JSON.stringify(user));
         profileButton.innerHTML = `<img src="${user.picture}" alt="User" class="navbar-profile-pic">`;
         loginButton.textContent = 'Logout';
         loginButton.removeEventListener('click', dlogin);
         loginButton.addEventListener('click', dlogout);
-    } else {
+        profileButton.addEventListener('click', loadUserContent);
+
+    } 
+    else {
         // User is not logged in
         profileButton.textContent = ''; // Clear the profile button
         loginButton.textContent = 'Login';
         loginButton.removeEventListener('click', dlogout);
         loginButton.addEventListener('click', dlogin);
+        profileButton.removeEventListener('click', loadUserContent);
     }
 }
 
@@ -125,27 +121,44 @@ const dlogout = () => {
 
 let auth0 = null;
 
+
 const configureAuth0 = async () => {
+    console.log("Configure Auth0");
+    let thisOrigin = window.location.origin;
+    console.log(thisOrigin);
     auth0 = await createAuth0Client({
         domain: "bookofjulian.us.auth0.com",
         client_id: "rR4XKHjHUJyN7G7n9L7C7lkx7ZHJzIso",
-        redirect_uri: "https://bookofjulian.net/"
+        redirect_uri: thisOrigin // This will dynamically set the redirect URI
     });
 
+    console.log("Checking code");
     if (window.location.search.includes("code=")) {
         await auth0.handleRedirectCallback();
         window.history.replaceState({}, document.title, window.location.pathname);
     }
 
-    updateUI();
-};
-
-const updateUI = async () => {
-    const isAuthenticated = await auth0.isAuthenticated();
-
-    if (isAuthenticated) {
-        const user = await auth0.getUser();
-        document.getElementById("profileButton").innerHTML = JSON.stringify(user, null, 2);
-    }
+    console.log("Updating Navbar");
     updateNavbarBasedOnLoginStatus();
+    console.log("Updated Navbar");
 };
+
+
+console.log("DOM Loaded");
+fetch("julian_flare.json")
+    .then((response) => response.json())
+    .then((data) => {
+        populatePillarSelect(data.children, data.text);
+    })
+    .catch((error) => {
+        console.error("Error loading JSON:", error);
+    });
+
+    
+document.getElementById('bojButton').addEventListener('click', function () {
+    window.location.href = 'index.html';
+});
+
+document.getElementById('deismuButton').addEventListener('click', loadDeismUContent);
+
+configureAuth0();

@@ -69,15 +69,6 @@ figcaption {
         overflow: hidden;
     }
 
-    #chart {
-        width: 100%;
-        height: 100%;
-        padding-top: 10px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        padding-left: 15px;
-    }
-
     #selected-node-text {
         overflow-y: auto;
         /* Enable vertical scrolling */
@@ -149,32 +140,40 @@ figcaption {
 body {
     font-family: 'Raleway', sans-serif;
 }
-
 /* Navigation Bar Styles */
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    flex-direction: row; /* This ensures items are laid out horizontally by default */
     background-color: #333;
     overflow: hidden;
     border-bottom: 2px solid #ddd;
+    display: flex; /* Use flexbox for equal height and alignment */
+    align-items: center; /* Center-align items vertically */
+    justify-content: space-around; /* Distribute items evenly */
+    height: 75px; /* Fixed height of the navbar */
 }
 
+/* Remove float:left; it's not necessary with flexbox and can conflict with alignment */
 .navbar li {
-    float: left;
+    /* float: left; Remove or comment out this line */
+    flex: 1; /* Flex-grow to distribute space equally is fine, or use flex: 1 for equal width */
+    text-align: center; /* Center align the text */
 }
-
 
 .navbar li a,
 .dropbtn {
-    display: inline-block;
+    display: block; /* Change from inline-block to block for better control */
     color: white;
     text-align: center;
     padding: 14px 16px;
+    font-size: 30px; /* Adjusted font size */
     text-decoration: none;
     transition: background-color 0.3s;
-    /* Smooth transition for hover effect */
+    /* ... existing styles ... */
 }
+
 
 .navbar li a:hover,
 .dropdown:hover .dropbtn {
@@ -196,8 +195,12 @@ body {
     background-color: #555; /* Adjust hover background color if needed */
     color: #ddd; /* Change text color on hover for readability */
 }
-
-
+.navbar-profile-pic {
+    height: 50px; /* Adjust height to fit within the navbar's height */
+    width: 50px; /* Set a width to keep the aspect ratio */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the area without stretching */
+}
 /* Dropdown Styles */
 .dropdown-content {
     color: black;
@@ -243,4 +246,33 @@ body {
 #selected-node-text {
     margin: 20px;
     /* Add some margin around the text */
+}
+
+/* Media Query for Portrait Mode */
+@media (orientation: portrait) {
+    .navbar {
+        display: flex; /* or `display: block;` if flex is not needed */
+        flex-direction: column;
+        overflow-y: auto; /* Allows vertical scrolling if content overflows */
+        height: auto; /* or `100vh` if you want the navbar to fit the viewport height */
+    }
+
+    .navbar li {    
+        display: block; /* Make sure list items are displayed as block elements */
+        /* Make list items take full width */
+        width: 100%;
+    }
+
+    .navbar li a,
+    .dropbtn {
+        /* Ensure full width anchors and buttons */
+        width: 100%;
+        /* You might want to remove or adjust padding here if necessary */
+    }
+
+    /* Adjust dropdown menus if necessary */
+    .dropdown-content {
+        /* Ensure dropdowns take full width */
+        width: 100%;
+    }
 }
