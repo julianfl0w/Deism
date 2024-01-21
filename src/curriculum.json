@@ -32,7 +32,7 @@
       },
       "Human": {
         "meta": {
-          "required": 2
+          "required": 4
         },
         "Bio": {
           "Stats": {
@@ -180,7 +180,7 @@
     "Design": {
       "Human": {
         "meta": {
-          "required": 1
+          "required": 4
         },
         "Body": {
           "U at Buffalo: Computer Vision Basics": {
@@ -332,7 +332,7 @@
     },
     "Maintain": {
       "meta": {
-        "required": 2
+        "required": 4
       },
       "Human": {
         "Mind": {

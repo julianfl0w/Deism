@@ -103,13 +103,16 @@ function updateNavbarBasedOnLoginStatus() {
     }
 }
 
-
-function isUserLoggedIn() {
-    // Implement this function
+async function isUserLoggedIn() {
+    return await auth0.isAuthenticated();
 }
 
-function getUserDetails() {
-    // Implement this function
+async function getUserDetails() {
+    if (await isUserLoggedIn()) {
+        return await auth0.getUser();
+    } else {
+        return null; // or handle the case where the user is not logged in
+    }
 }
 
 const dlogin = async () => {
