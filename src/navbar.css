@@ -1,0 +1,94 @@
+/* Navigation Bar Styles */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+    border-bottom: 2px solid #ddd;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 75px;
+}
+
+.navbar li {
+    flex: 1;
+    text-align: center;
+}
+
+.navbar li a,
+.dropbtn {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: background-color 0.3s;
+}
+
+.navbar li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #555;
+}
+
+/* Dropdown Styles */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; /* Set to black (#333) for consistency 
+    */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white; /* Ensure text is white for readability */
+    text-align: left;
+    transition: background-color 0.3s;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+    color: #ddd; /* Lighter color for contrast on hover */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.navbar-profile-pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+/* Media Query for Portrait Mode */
+@media (orientation: portrait) {
+    .navbar {
+        display: flex; /* or `display: block;` if flex is not needed */
+        flex-direction: column;
+        overflow-y: auto; /* Allows vertical scrolling if content overflows */
+        height: auto; /* or `100vh` if you want the navbar to fit the viewport height */
+    }
+
+    .navbar li {    
+        display: block; /* Make sure list items are displayed as block elements */
+        /* Make list items take full width */
+        width: 100%;
+    }
+
+    .navbar li a,
+    .dropbtn {
+        /* Ensure full width anchors and buttons */
+        width: 100%;
+        /* You might want to remove or adjust padding here if necessary */
+    }
+
+    /* Adjust dropdown menus if necessary */
+    .dropdown-content {
+        /* Ensure dropdowns take full width */
+        width: 100%;
+    }
+}

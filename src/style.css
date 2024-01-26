@@ -1,24 +1,3 @@
-/* Style for Google Translate widget container */
-/* Style for Google Translate widget container */
-#google_translate_element {
-    display: inline-block; /* Aligns with other inline or inline-block elements */
-    vertical-align: middle; /* Aligns vertically with other items */
-    /*padding: 14px 16px; /* Consistent padding with other nav items */
-    margin-right: 10px; /* Spacing from the next item */
-}
-
-#google_translate_element .goog-te-gadget-simple {
-    color: white !important; /* Change text color */
-    background-color: #333 !important; /* Change background color */
-    border: none !important; /* Remove border if desired */
-}
-#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value,
-#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value span {
-    color: white !important;
-}
-
-
-
 figure {
     border: none;
     padding: 15px;
@@ -33,246 +12,56 @@ figcaption {
 
 #selected-node-text sup {
     user-select: none;
-    /* Disables text selection */
     vertical-align: baseline;
-    /* Aligns the superscript to the baseline */
     position: relative;
-    /* Positions the superscript relative to its normal position */
     top: -0.7em;
-    /* Adjusts the top position of the superscript */
     font-size: 60%;
-    /* Reduces the font size of the superscript */
     line-height: 1;
-    /* Sets a consistent line height for the superscript */
     margin-right: -0.3em;
-    /* Reduces the distance to subsequent text */
 }
 
 .flex-container {
     display: flex;
-    height: 100vh;
-    /* Set the height to the full viewport height */
+    justify-content: center;
+    flex-grow: 1;
+    /* Make sure the flex-container can scroll if its content overflows */
+    overflow-y: auto;
 }
 
 @media (orientation: portrait) {
     .flex-container {
-        /* overflow: auto;  Enables scrolling in portrait mode */
-        overflow-y: auto;
-        /* Allows vertical scrolling */
-        overflow-x: clip;
-        /* Allows vertical scrolling */
         flex-direction: column;
-        height: 100%;
-    }
-
-    .body {
-        overflow: hidden;
     }
 
     #selected-node-text {
-        overflow-y: auto;
-        /* Enable vertical scrolling */
+        overflow-y: visible; /* Ensures scrollbar appears if content overflows */
         flex-grow: 1;
-        /* Allow the text div to fill the remaining space */
         font-size: 18px;
-        width: 100%;
-        flex-grow: 1;
-        /* Allow the text div to fill the remaining space */
-        /* keeps the width at 100% */
-        /* Larger font size for mobile devices */
         line-height: 2;
-
-        padding-top: 10px;
-        padding-right: 30;
-        padding-bottom: 10px;
-        padding-left: 30;
+        padding: 10px 30px;
     }
 }
 
 @media (orientation: landscape) {
     body {
         margin: 0;
-        padding: 0;
-        overflow: hidden;
-        /* This will prevent the body from scrolling */
+        overflow: auto; /* Prevents body scrolling in landscape */
     }
 
     .flex-container {
         flex-direction: row;
-        overflow: hidden;
-    }
-
-    .body {
-        overflow: hidden;
-    }
-
-    #chart {
-        overflow: hidden;
-        width: 100%;
-        height: 100%;
-        padding-top: 10px;
-        padding-right: 15px;
-        padding-bottom: 10px;
-        padding-left: 15px;
+        /* Removed overflow: hidden to allow for internal scrolling */
     }
 
     #selected-node-text {
-        overflow-y: auto;
-        /* Enable vertical scrolling */
-        flex-grow: 1;
-        /* Allow the text div to fill the remaining space */
-
+        overflow-y: auto; /* Allows for a vertical scrollbar */
         font-size: 18px;
-        /* Larger font size for mobile devices */
-        line-height: 1.5;
-        /* Single-spaced lines */
-        width: 100%;
-        /* keeps the width at 100% */
-
-        padding-top: 10px;
-        padding-right: 35%;
-        padding-bottom: 35%;
-        padding-left: 5px;
+        line-height: 1.75;
+        padding: 0 30%; /* Adjust padding as needed */
+        font-family: 'Raleway', sans-serif;
     }
 }
 
-/* General Styles */
 body {
     font-family: 'Raleway', sans-serif;
-}
-/* Navigation Bar Styles */
-.navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    flex-direction: row; /* This ensures items are laid out horizontally by default */
-    background-color: #333;
-    overflow: hidden;
-    border-bottom: 2px solid #ddd;
-    display: flex; /* Use flexbox for equal height and alignment */
-    align-items: center; /* Center-align items vertically */
-    justify-content: space-around; /* Distribute items evenly */
-    height: 75px; /* Fixed height of the navbar */
-}
-
-/* Remove float:left; it's not necessary with flexbox and can conflict with alignment */
-.navbar li {
-    /* float: left; Remove or comment out this line */
-    flex: 1; /* Flex-grow to distribute space equally is fine, or use flex: 1 for equal width */
-    text-align: center; /* Center align the text */
-}
-
-.navbar li a,
-.dropbtn {
-    display: block; /* Change from inline-block to block for better control */
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: 30px; /* Adjusted font size */
-    text-decoration: none;
-    transition: background-color 0.3s;
-    /* ... existing styles ... */
-}
-
-
-.navbar li a:hover,
-.dropdown:hover .dropbtn {
-    background-color: #555;
-    /* Hover effect for dropdown button */
-}
-/* Dropdown Styles */
-.navbar .dropdown-content a {
-    color: white; /* Change text color to white */
-    background-color: #333; /* Adjust hover background color if needed */
-
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-
-.navbar .dropdown-content a:hover {
-    background-color: #555; /* Adjust hover background color if needed */
-    color: #ddd; /* Change text color on hover for readability */
-}
-.navbar-profile-pic {
-    height: 50px; /* Adjust height to fit within the navbar's height */
-    width: 50px; /* Set a width to keep the aspect ratio */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the area without stretching */
-}
-/* Dropdown Styles */
-.dropdown-content {
-    color: black;
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-/* Dropdown Styles */
-.dropdown-content a {
-    color: black;
-    /* Text color is black by default */
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-    transition: background-color 0.3s;
-    /* Smooth transition for hover effect */
-}
-
-.dropdown-content a:hover {
-    color: white;
-    /* Text color changes to white on hover */
-    background-color: #ddd;
-    /* Background color on hover */
-}
-
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-/* Main Content Styles */
-.flex-container {
-    display: flex;
-    justify-content: center;
-    /* Center the content horizontally */
-}
-
-#selected-node-text {
-    margin: 20px;
-    /* Add some margin around the text */
-}
-
-/* Media Query for Portrait Mode */
-@media (orientation: portrait) {
-    .navbar {
-        display: flex; /* or `display: block;` if flex is not needed */
-        flex-direction: column;
-        overflow-y: auto; /* Allows vertical scrolling if content overflows */
-        height: auto; /* or `100vh` if you want the navbar to fit the viewport height */
-    }
-
-    .navbar li {    
-        display: block; /* Make sure list items are displayed as block elements */
-        /* Make list items take full width */
-        width: 100%;
-    }
-
-    .navbar li a,
-    .dropbtn {
-        /* Ensure full width anchors and buttons */
-        width: 100%;
-        /* You might want to remove or adjust padding here if necessary */
-    }
-
-    /* Adjust dropdown menus if necessary */
-    .dropdown-content {
-        /* Ensure dropdowns take full width */
-        width: 100%;
-    }
 }

@@ -75,6 +75,7 @@ m = fractal_book.FractalBook(
     parent=None,
     skipGraphs=False,
     displayVerseNo=True,
+    align="left"
 )
 
 m.dump()

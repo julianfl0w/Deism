@@ -66,7 +66,21 @@ async function loadUserContent() {
     try {
         const userDetails = await getUserDetails();
         const selectedNodeText = document.getElementById('selected-node-text');
-        selectedNodeText.innerHTML = JSON.stringify(userDetails, null, 2); // Pretty print the JSON
+        //selectedNodeText.innerHTML = JSON.stringify(userDetails, null, 2); // Pretty print the JSON
+        // Create a custom object with only user's name and picture
+        const simplifiedUserDetails = {
+            name: userDetails.name,
+            picture: userDetails.picture
+        };
+        // Display user's name as a centered header and picture as a full-width image
+        selectedNodeText.innerHTML = `
+        <div style="text-align: center;">
+            <h3>${userDetails.name}</h3>
+            <img src="${userDetails.picture}" alt="${userDetails.name}'s Profile Picture" style="width: 100%; height: auto; display: block; margin: auto;">
+        </div>
+        `;
+
+
     } catch (error) {
         console.error('Error loading user content:', error);
         // Handle the error appropriately
@@ -77,7 +91,7 @@ async function loadUserContent() {
 async function updateNavbarBasedOnLoginStatus() {
     const profileButton = document.getElementById('profileButton');
     const loginButton = document.getElementById('loginButton');
-    
+
     // User is logged in
     if (await isUserLoggedIn()) {
         const user = await getUserDetails();
@@ -88,7 +102,7 @@ async function updateNavbarBasedOnLoginStatus() {
         loginButton.addEventListener('click', dlogout);
         profileButton.addEventListener('click', loadUserContent);
 
-    } 
+    }
     else {
         // User is not logged in
         profileButton.textContent = ''; // Clear the profile button
@@ -154,7 +168,7 @@ fetch("julian_flare.json")
         console.error("Error loading JSON:", error);
     });
 
-    
+
 document.getElementById('bojButton').addEventListener('click', function () {
     window.location.href = 'index.html';
 });
