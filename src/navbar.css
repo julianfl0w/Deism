@@ -36,8 +36,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333; /* Set to black (#333) for consistency 
-    */
+    background-color: #333; /* Set to black (#333) for consistency */
     z-index: 1;
 }
 
@@ -45,6 +44,8 @@
     color: white; /* Ensure text is white for readability */
     text-align: left;
     transition: background-color 0.3s;
+    padding: 10px 15px; /* Add padding to dropdown items */
+
 }
 
 .dropdown-content a:hover {
