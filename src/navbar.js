@@ -49,10 +49,10 @@ function populatePillarSelect(pillars, alltext) {
     const chapterSelect = document.getElementById("chapterSelect");
 
     pillarSelect.onclick = function () {
-        pillarSelect.textContent = "All Pillars";
+        pillarSelect.textContent = "Pillars";
         selectedNodeText.innerHTML = alltext;
         chapterDropdown.innerHTML = '';
-        chapterSelect.textContent = "All Chapters";
+        chapterSelect.textContent = "Chapters";
     };
     pillarSelect.onclick();
 
