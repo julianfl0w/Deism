@@ -45,7 +45,7 @@ figcaption {
 @media (orientation: landscape) {
     body {
         margin: 0;
-        overflow: auto; /* Prevents body scrolling in landscape */
+        overflow-y: auto; /* Prevents body scrolling in landscape */
     }
 
     .flex-container {
