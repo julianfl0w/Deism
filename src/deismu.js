@@ -1,4 +1,4 @@
-function addURL() {
+function addURL(auth0) {
     // Prompt the user to enter a URL
     var urlToAdd = prompt(
         "Please enter the Coursera certificate URL to verify:"
@@ -37,6 +37,39 @@ function addURL() {
             });
     }
 }
+
+async function getCompletedCourses(auth0) {
+    try {
+        // Obtain the JWT token
+        const token = await auth0.getTokenSilently();
+
+        // Set up your API endpoint
+        const apiEndpoint = 'https://your-api-endpoint.com/user-courses';
+
+        // Make the API request
+        const response = await fetch(apiEndpoint, {
+            headers: {
+                Authorization: `Bearer ${token}`
+            }
+        });
+
+        // Check if the response is successful
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        // Parse the JSON response
+        const courses = await response.json();
+        
+        return courses;
+    } catch (error) {
+        console.error('Error fetching completed courses:', error);
+        throw error;
+    }
+}
+
+
+
 function getCurriculum() {
     fetch("curriculum.json")
         .then((response) => response.json())
@@ -52,11 +85,14 @@ function getCurriculum() {
                 error.message;
         });
 }
+
 function createExpandableList(data, container) {
     function createList(itemData, parentElement) {
         Object.keys(itemData).forEach((key) => {
+            // Check if the current item has a meta dictionary with a reference list
+            let hasReference = itemData[key]?.meta?.reference?.length > 0;
+
             if (key !== "meta") {
-                // Exclude 'meta' nodes
                 if (
                     typeof itemData[key] === "object" &&
                     itemData[key] !== null &&
@@ -69,9 +105,18 @@ function createExpandableList(data, container) {
                     let sectionTitle = document.createElement("button");
                     sectionTitle.className = "section-title";
                     sectionTitle.innerText = key;
-                    sectionTitle.onclick = function () {
-                        this.nextElementSibling.classList.toggle("active");
-                    };
+
+                    if (hasReference) {
+                        sectionTitle.onclick = function () {
+                            window.open(itemData[key].meta.reference[0], '_blank');
+                        };
+                        sectionTitle.style.textDecoration = "underline";
+                        sectionTitle.style.cursor = "pointer";
+                    } else {
+                        sectionTitle.onclick = function () {
+                            this.nextElementSibling.classList.toggle("active");
+                        };
+                    }
 
                     let itemList = document.createElement("div");
                     itemList.className = "item-list";
@@ -86,7 +131,18 @@ function createExpandableList(data, container) {
                     // Create item for non-object data
                     let item = document.createElement("div");
                     item.className = "item";
-                    item.innerText = key + ": " + itemData[key];
+
+                    if (hasReference) {
+                        item.onclick = function () {
+                            window.open(itemData.meta.reference[0], '_blank');
+                        };
+                        item.style.textDecoration = "underline";
+                        item.style.cursor = "pointer";
+                        item.innerText = key + ": " + itemData[key];
+                    } else {
+                        item.innerText = key + ": " + itemData[key];
+                    }
+
                     parentElement.appendChild(item);
                 }
             }
@@ -96,12 +152,12 @@ function createExpandableList(data, container) {
     createList(data, container);
 }
 
-function addListeners(){
 
+function addListeners(auth0){
     document.body.addEventListener('click', function(event) {
         switch (event.target.id) {
             case 'btn-verify-certificate':
-                addURL(); // Function for verifying certificate
+                addURL(auth0); // Function for verifying certificate
                 break;
         }
     });

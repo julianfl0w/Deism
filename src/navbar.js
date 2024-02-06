@@ -1,6 +1,29 @@
-// Function to populate chapter dropdown
+function toggleHamburgerMenu() {
+    const menuItems = document.querySelector('.menu-items'); // Adjust the selector as needed
+    const hamburgerIcon = document.querySelector('.hamburger'); // Adjust the selector as needed
+
+    // Toggle a class that controls the visibility of the menu items
+    menuItems.classList.toggle('active');
+
+    // Optional: Change the icon or appearance of the hamburger button when the menu is open
+    // For example, if you want to change the icon to an 'X' when the menu is open, you could toggle another class here
+    hamburgerIcon.classList.toggle('open');
+}
+
+
+function createDropdownOption(dropdown, itemName, itemText, onClickAction) {
+    const chapterDropdown = document.getElementById("chapterDropdown");
+    const pillarDropdown = document.getElementById("pillarDropdown");
+    const option = document.createElement("a");
+    option.textContent = itemName;
+    option.href = "javascript:void(0);";
+    option.onclick = onClickAction;
+    dropdown.appendChild(option);
+}
+
 function populateChapterSelect(chapters, alltext) {
     const chapterDropdown = document.getElementById("chapterDropdown");
+    const chapterSelect = document.getElementById("chapterSelect");
     const selectedNodeText = document.getElementById("selected-node-text");
 
     chapterSelect.onclick = function () {
@@ -11,26 +34,22 @@ function populateChapterSelect(chapters, alltext) {
 
     chapterDropdown.innerHTML = '';
     chapters.forEach((chapter) => {
-        const option = document.createElement("a");
-        option.textContent = chapter.name;
-        option.href = "javascript:void(0);";
-        option.onclick = function () {
+        createDropdownOption(chapterDropdown, chapter.name, chapter.text, function () {
             chapterSelect.textContent = chapter.name;
             selectedNodeText.innerHTML = chapter.text;
-        };
-        chapterDropdown.appendChild(option);
+        });
     });
 }
 
 function populatePillarSelect(pillars, alltext) {
-    const selectedNodeText = document.getElementById("selected-node-text");
     const pillarDropdown = document.getElementById("pillarDropdown");
     const pillarSelect = document.getElementById("pillarSelect");
+    const selectedNodeText = document.getElementById("selected-node-text");
     const chapterDropdown = document.getElementById("chapterDropdown");
     const chapterSelect = document.getElementById("chapterSelect");
 
     pillarSelect.onclick = function () {
-        pillarSelect.textContent = "All Pillars"
+        pillarSelect.textContent = "All Pillars";
         selectedNodeText.innerHTML = alltext;
         chapterDropdown.innerHTML = '';
         chapterSelect.textContent = "All Chapters";
@@ -38,17 +57,14 @@ function populatePillarSelect(pillars, alltext) {
     pillarSelect.onclick();
 
     pillars.forEach((pillar) => {
-        const option = document.createElement("a");
-        option.textContent = pillar.name;
-        option.href = "javascript:void(0);";
-        option.onclick = function () {
+        createDropdownOption(pillarDropdown, pillar.name, pillar.text, function () {
             pillarSelect.textContent = pillar.name;
             selectedNodeText.innerHTML = pillar.text;
             populateChapterSelect(pillar.children, pillar.text);
-        };
-        pillarDropdown.appendChild(option);
+        });
     });
 }
+
 
 function loadDeismUContent() {
     fetch('deismu.html?_=' + new Date().getTime())
@@ -56,7 +72,7 @@ function loadDeismUContent() {
         .then(html => {
             const selectedNodeText = document.getElementById('selected-node-text');
             selectedNodeText.innerHTML = html;
-            addListeners();
+            addListeners(auth0);
             getCurriculum();
         })
         .catch(error => console.error('Error loading DeismU:', error));
@@ -176,3 +192,5 @@ document.getElementById('bojButton').addEventListener('click', function () {
 document.getElementById('deismuButton').addEventListener('click', loadDeismUContent);
 
 configureAuth0();
+
+
