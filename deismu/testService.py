@@ -3,6 +3,7 @@ import json
 
 # Endpoint of the Flask app to test
 flask_endpoint = "http://localhost:5000/verify"
+#flask_endpoint = "http://23.20.174.7:5000/verify"
 
 # JSON payload with the URL to test
 json_payload = {
