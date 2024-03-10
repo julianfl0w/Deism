@@ -13,7 +13,7 @@ if True or "sinode" not in [pkg.key for pkg in pkg_resources.working_set]:
     DEV = True
 else:
     DEV = False
-import sinode.fractal_book as fractal_book
+import sinode.sinode.fractal_book as fractal_book
 
 
 def copyDictUnique(indict, modifier):
