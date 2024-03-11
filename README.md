@@ -1,4 +1,5 @@
 # Deism
+![image](https://github.com/julianfl0w/Deism/assets/8158655/e8640f62-09af-40e2-913a-39a3ad2b818b)
 
 ## Introduction
 
@@ -16,31 +17,8 @@ For more information, visit our [website](https://deism.church).
 - **DeismU**: The educational branch of the Church, offering courses and degrees on Deist principles.
 - **Dena**: A digital currency managed by the Church, symbolizing economic stability and communal support.
 
-## Technical Explanation
-
-Our project's website, [deism.church](https://deism.church), serves as the primary digital platform for disseminating information about Deism. A significant portion of this monorepo is dedicated to the site's functionality. The repository uses AWS CodePipeline for continuous integration and delivery. Upon pushing updates to the "canon" branch, `export.py` is executed, compiling all JSON files from the "Book of Doctrine" into a single file, `julian_flare.json`, which is then served to the website.
-
-## Status
-
-### Book of Doctrine
-
-Employing the Fractal Book technique, documents within the "Book of Doctrine" are compiled into a single JSON file (`julian.json`), facilitating easy distribution and access via the static site. To contribute or test changes, run `python export.py` at the root directory. The export process is automated through AWS CodePipeline upon updates to the main branch.
-
-### DeismU
-
-DeismU outlines a curriculum leading to a recognized degree and potential canonization. The system involves certificate verification and account management handled on a backend EC2 server. The relevant code resides in the `/deismu` subfolder. 
-
-**TODO**: Set up the Coursera-verifying Lambda with proper authentication.
-
-### Dena
-
-Dena, inspired by the Roman Denarius, aims to provide a stable economic symbol equivalent to a year's salary, anchored in real estate values.
-
-**TODO**: Finalize the implementation details.
-
-## Contribute
-
-### Doctrine
+# How to Contribute to Doctrine
+![image](https://github.com/julianfl0w/Deism/assets/8158655/6fce52f2-1e46-43e9-a5b0-90f9549fb8cd)
 
 To contribute to the Church's doctrine:
 
@@ -48,7 +26,12 @@ To contribute to the Church's doctrine:
 2. Make changes to the JSON-style Python files within the "Book of Doctrine" folder.
 3. Submit a pull request for review.
 
-### Website
+# How to Contribute to the Website
+![image](https://github.com/julianfl0w/Deism/assets/8158655/b21f8c44-104f-4c40-aae6-76e24b0bf3f9)
+
+Our project's website, [deism.church](https://deism.church), serves as the primary digital platform for disseminating information about Deism. A significant portion of this monorepo is dedicated to the site's functionality. The repository uses AWS CodePipeline for continuous integration and delivery. Upon pushing updates to the "canon" branch, `export.py` is executed, compiling all JSON files from the "Book of Doctrine" into a single file, `julian_flare.json`, which is then served to the website.
+
+Employing the Fractal Book technique, documents within the "Book of Doctrine" are compiled into a single JSON file (`julian.json`), facilitating easy distribution and access via the static site. To contribute or test changes, run `python export.py` at the root directory. The export process is automated through AWS CodePipeline upon updates to the main branch.
 
 To assist with website development:
 
@@ -58,8 +41,21 @@ To assist with website development:
 
 Contributions that are accepted and merged qualify for canonization consideration.
 
+## DeismU
+![image](https://github.com/julianfl0w/Deism/assets/8158655/38e07f55-26ef-430f-8542-a3ae43f7d49c)
+DeismU outlines a curriculum leading to a recognized degree and potential canonization. The system involves certificate verification and account management handled on a backend EC2 server. The relevant code resides in the `/deismu` subfolder. 
+
+**TODO**: Set up the Coursera-verifying Lambda with proper authentication.
+
+## Dena
+![image](https://github.com/julianfl0w/Deism/assets/8158655/027f2ab0-8b43-42bb-bb47-712a74ac5bc0)
+
+Dena, inspired by the Roman Denarius, aims to provide a stable economic symbol equivalent to a year's salary, anchored in real estate values.
+
+**TODO**: Finalize the implementation details.
+
 ## Contact and Community
 
-For questions, discussions, or further information, please reach out through [our community forum](https://deism.church/community) or directly via the contact information provided on our website.
+For questions, discussions, or further information, please reach out through [our community forum](https://deism.church/community) (**TODO**) or directly via the contact information provided on our website.
 
-We encourage all contributors to adhere to our [Code of Conduct](https://deism.church/codeofconduct) to maintain a respectful and inclusive environment.
+We encourage all contributors to adhere to our [Code of Conduct](https://deism.church/codeofconduct) (**TODO**) to maintain a respectful and inclusive environment.
