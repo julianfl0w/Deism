@@ -31,7 +31,7 @@ To contribute to the Church's doctrine:
 
 Our project's website, [deism.church](https://deism.church), serves as the primary digital platform for disseminating information about Deism. A significant portion of this monorepo is dedicated to the site's functionality. The repository uses AWS CodePipeline for continuous integration and delivery. Upon pushing updates to the "canon" branch, `export.py` is executed, compiling all JSON files from the "Book of Doctrine" into a single file, `julian_flare.json`, which is then served to the website.
 
-Employing the Fractal Book technique, documents within the "Book of Doctrine" are compiled into a single JSON file (`julian.json`), facilitating easy distribution and access via the static site. To contribute or test changes, run `python export.py` at the root directory. The export process is automated through AWS CodePipeline upon updates to the main branch.
+Employing the Fractal Book technique, documents within the "Book of Doctrine" are compiled into a single JSON file (`julian.json`), facilitating easy distribution and access via the static site. To contribute or test changes, run `python export.py` at the root directory. The export process is automated through AWS CodePipeline upon updates to the `canon` branch.
 
 To assist with website development:
 
