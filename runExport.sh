@@ -1,1 +1,1 @@
-docker run --rm --net=host -v $(pwd):/app -w /app python:3.11 /bin/bash fromDocker.sh
+docker run --rm -v $(pwd):/app -w /app python:3.11 /bin/bash fromDocker.sh
