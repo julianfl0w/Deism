@@ -1,0 +1,1 @@
+docker run -it --rm --net=host -v $(pwd):/app -w /app python:3.11 /bin/bash

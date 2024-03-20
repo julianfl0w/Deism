@@ -9,11 +9,11 @@ os.makedirs("build", exist_ok=True)
 os.makedirs("build/graphs", exist_ok=True)
 
 if True or "sinode" not in [pkg.key for pkg in pkg_resources.working_set]:
-    sys.path = [os.path.join(here, "..")] + sys.path
+    sys.path = [os.path.join(here, "..", "sinode")] + sys.path
     DEV = True
 else:
     DEV = False
-import sinode.sinode.fractal_book as fractal_book
+import sinode.fractal_book as fractal_book
 
 
 def copyDictUnique(indict, modifier):
@@ -80,7 +80,7 @@ m = fractal_book.FractalBook(
 
 m.dump()
 
-os.system("cp src/* build/")
+os.system("cp -r src/* build/")
 
 julian_flare = json.dumps(m.asFlare(), indent=2)
 
