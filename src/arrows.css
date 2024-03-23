@@ -1,0 +1,22 @@
+.arrow-button {
+    /* Base styles for all buttons */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+  }
+  
+  .back-arrow {
+    background-image: url('back.png');
+  }
+  
+  .up-arrow {
+    background-image: url('up.png');
+  }
+  
+  .forward-arrow {
+    background-image: url('forward.png');
+  }
+  

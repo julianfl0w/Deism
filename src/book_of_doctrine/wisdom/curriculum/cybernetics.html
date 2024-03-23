@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Church of God (Deist)</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="/navbar.css" />
+  <link rel="stylesheet" type="text/css" href="/arrows.css" /> <!-- Reference to arrows.css -->
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <ul class="navbar">
+    <li><a href="javascript:void(0)" id="bojButton" class="dropbtn">Book of Doctrine</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" id="pillarSelect" class="dropbtn">All Pillars</a>
+      <div class="dropdown-content" id="pillarDropdown"></div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" id="chapterSelect" class="dropbtn">All Chapters</a>
+      <div class="dropdown-content" id="chapterDropdown"></div>
+    </li>
+    <li><a href="javascript:void(0)" id="deismuButton" class="dropbtn">DeismU</a></li>
+    <li><a href="javascript:void(0)" id="profileButton" class="dropbtn">Profile</a></li>
+    <li><a href="javascript:void(0)" id="loginButton" class="dropbtn">Login</a></li>
+  </ul>
+
+  <!-- Main Content -->
+  <div class="flex-container">
+    <div id="chart"></div>
+    <div>
+      <!-- Arrow buttons (top) -->
+      <a href="./book_of_doctrine/wisdom/curriculum/introduction.html" class="arrow-button back-arrow"></a>
+      <a href="./book_of_doctrine/wisdom/curriculum.html" class="arrow-button up-arrow"></a>
+      <a href="./book_of_doctrine/wisdom/curriculum/introduction.html" class="arrow-button forward-arrow"></a>
+
+      <div id="selected-node-text"><sup>5</sup> Cybernetics
+<ol><li>
+Observe<ol>
+<li>
+The Cosmos<ol>
+<li>
+Khan: College Physics 1<sup><a href=https://www.khanacademy.org/science/ap-college-physics-1>275</a></sup> </li><li>
+Khan: Introduction to Chemistry<sup><a href=https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/introduction-to-chemistry>276</a></sup> </li><li>
+ANUx: Astrophysics: Cosmology<sup><a href=https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology>277</a></sup> </li></ol>
+</li><li>
+Human<ol>
+<li>
+Bio<ol>
+<li>
+Stats<ol>
+<li>
+Google: The Power of Statistics<sup><a href=https://www.coursera.org/learn/the-power-of-statistics>323</a></sup> </li></ol>
+</li><li>
+Chem<ol>
+<li>
+HarvardX: Principles of Biochemistry<sup><a href=https://www.edx.org/learn/biochemistry/harvard-university-principles-of-biochemistry>325</a></sup> </li></ol>
+</li></ol>
+</li><li>
+Genetics<ol>
+<li>
+U of Melbourne: Epigenetic Control of Gene Expression<sup><a href=https://www.coursera.org/learn/epigenetics>329</a></sup> </li><li>
+Genomic Data Science Specialization<sup><a href=https://www.coursera.org/specializations/genomic-data-science>330</a></sup> </li><li>
+UMD: Genes and the Human Condition<sup><a href=https://www.coursera.org/learn/genes>331</a></sup> </li></ol>
+</li><li>
+Linguistics<ol>
+<li>
+Miracles of Human Language: An Introduction to Linguistics<sup><a href=https://www.coursera.org/learn/human-language>334</a></sup> </li><li>
+Esperanto in 12 Lessons<sup><a href=https://esperanto12.net/en/>335</a></sup> </li></ol>
+</li><li>
+Psych<ol>
+<li>
+St. Margaret's Episcopal School: Introduction to Psychology<sup><a href=https://www.edx.org/course/introduction-to-psychology>338</a></sup> </li><li>
+Yale: Introduction to Psychology<sup><a href=https://www.coursera.org/learn/introduction-psychology>339</a></sup> </li></ol>
+</li><li>
+Society<ol>
+<li>
+Model Thinking<sup><a href=https://www.coursera.org/learn/model-thinking>345</a></sup> </li><li>
+UC Davis: Computational Social Science<sup><a href=https://www.coursera.org/specializations/computational-social-science-ucdavis>346</a></sup> </li><li>
+UQx: Principles of Microeconomics<sup><a href=https://www.edx.org/course/principles-of-microeconomics>347</a></sup> </li><li>
+UQx: Anthropology of Current World Issues<sup><a href=https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues>348</a></sup> </li><li>
+University of Amsterdam: Classical Sociological Theory<sup><a href=https://www.coursera.org/learn/classical-sociological-theory/>349</a></sup> </li></ol>
+</li><li>
+Religion<ol>
+<li>
+A Journey through Western Christianity<sup><a href=https://www.coursera.org/learn/western-christianity-200-1650>351</a></sup> </li></ol>
+</li><li>
+Government<ol>
+<li>
+American Government<sup><a href=https://www.edx.org/course/american-government>353</a></sup> </li></ol>
+</li><li>
+History<ol>
+<li>
+China<ol>
+<li>
+ChinaX<sup><a href=https://www.edx.org/school/tsinghuax>357</a></sup> </li></ol>
+</li></ol>
+</li></ol>
+</li></ol>
+</li><li>
+Design<ol>
+<li>
+Human<ol>
+<li>
+Body<ol>
+<li>
+U at Buffalo: Computer Vision Basics<sup><a href=https://www.coursera.org/learn/computer-vision-basics>710</a></sup> </li><li>
+StanfordOnline: Musculoskeletal Primer for the Non-Orthopedist<sup><a href=https://www.edx.org/learn/medicine/stanford-university-musculoskeletal-primer-for-the-non-orthopedist>711</a></sup> </li></ol>
+</li><li>
+Networks<ol>
+<li>
+Google: Computer Networking Basics<sup><a href=https://www.coursera.org/learn/computer-networking>717</a></sup> </li><li>
+Wireless Communications for Everybody<sup><a href=https://www.coursera.org/learn/wireless-communications>718</a></sup> </li><li>
+IITBombayX: Signals and Systems, Part 1<sup><a href=https://www.edx.org/learn/engineering/iitbombay-signals-and-systems-part-1>719</a></sup> </li><li>
+Stanford: Cryptography I<sup><a href=https://www.coursera.org/learn/crypto>720</a></sup> </li><li>
+IBM: Introduction to Blockchain<sup><a href=https://www.edx.org/learn/blockchain/ibm-introduction-to-blockchain>721</a></sup> </li></ol>
+</li><li>
+Ops<ol>
+<li>
+Agile Scrum Practitioner<sup><a href=scrum.org>724</a></sup> </li><li>
+Google Project Management: Professional Certificate<sup><a href=https://www.coursera.org/google-certificates/project-management-certificate>725</a></sup> </li></ol>
+</li><li>
+Mind<ol>
+<li>
+Neural Networks and Deep Learning<sup><a href=https://www.coursera.org/learn/neural-networks-deep-learning>728</a></sup> </li><li>
+Programming Massively Parallel Processors with CUDA<sup><a href=https://www.udacity.com/course/programming-massively-parallel-processors-with-cuda--ud977>729</a></sup> </li></ol>
+</li><li>
+Comms<ol>
+<li>
+Graphic<ol>
+<li>
+IBM: Introduction to Web Development with HTML, CSS, JavaScript<sup><a href=https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript>747</a></sup> </li><li>
+Meta Android Developer Professional Certificate<sup><a href=https://www.coursera.org/professional-certificates/meta-android-developer>748</a></sup> </li><li>
+Michigan State: Game Design and Development with Unity 2020 Specialization<sup><a href=https://www.coursera.org/specializations/game-development>749</a></sup> </li></ol>
+</li><li>
+Cloud Cert<ol>
+<li>
+AWS Cloud Solutions Architect<sup><a href=https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect>754</a></sup> </li><li>
+AWS Cloud Quest<sup><a href=https://aws.amazon.com/training/digital/aws-cloud-quest/>755</a></sup> </li><li>
+Google Cloud Digital Leader<sup><a href=https://cloud.google.com/learn/certification/cloud-digital-leader>756</a></sup> </li><li>
+Azure Fundamentals<sup><a href=https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/>757</a></sup> </li></ol>
+</li></ol>
+</li></ol>
+</li></ol>
+</li><li>
+Maintain<ol>
+<li>
+Human<ol>
+<li>
+Mind<ol>
+<li>
+JHU: Psychological First Aid<sup><a href=https://www.coursera.org/learn/psychological-first-aid>858</a></sup> </li><li>
+Book Of Julian<sup><a href=https://bookofjulian.net/>859</a></sup> </li></ol>
+</li><li>
+Body<ol>
+<li>
+UC San Diego: Drug Discovery<sup><a href=https://www.coursera.org/learn/drug-discovery>865</a></sup> </li><li>
+UQx: Introduction to Biomedical Imaging<sup><a href=https://www.edx.org/learn/biomedical-engineering/the-university-of-queensland-introduction-to-biomedical-imaging>866</a></sup> </li><li>
+GeorgetownX: Genomic Medicine Gets Personal<sup><a href=https://www.edx.org/course/genomic-medicine-gets-personal>867</a></sup> </li><li>
+Blood Film Morphology - A Practical Guide<sup><a href=https://www.coursera.org/learn/blood-film-morphology>868</a></sup> </li><li>
+Stanford: Introduction to Food and Health<sup><a href=https://www.coursera.org/learn/food-and-health>869</a></sup> </li></ol>
+</li></ol>
+</li></ol>
+</li></ol>
+
+</div>
+
+      <!-- Arrow buttons (bottom) -->
+      <a href="./book_of_doctrine/wisdom/curriculum/introduction.html" class="arrow-button back-arrow"></a>
+      <a href="./book_of_doctrine/wisdom/curriculum.html" class="arrow-button up-arrow"></a>
+      <a href="./book_of_doctrine/wisdom/curriculum/introduction.html" class="arrow-button forward-arrow"></a>
+    </div>
+  </div>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+  <script src="/navbar.js"></script>
+  <script src="/deismu.js"></script>
+</body>
+
+</html>
