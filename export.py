@@ -82,7 +82,12 @@ m.dump()
 
 os.system("cp -r src/* build/")
 
-julian_flare = json.dumps(m.asFlare(), indent=2)
+os.system("rm -rf src/book_of_doctrine")
+os.system("rm src/book_of_doctrine.html")
+os.system("cp -r src/* build/")
+with open("./src/index_template.html") as f:
+    template = f.read()
+julian_flare = json.dumps(m.exportStatic(template=template, buildDir = "./build"), indent=2)
 
 with open("build/julian_flare.json", "w+") as f:
     f.write(julian_flare)
@@ -90,6 +95,9 @@ with open("build/julian_flare.json", "w+") as f:
 # for testing from the src folder
 with open("src/julian_flare.json", "w+") as f:
     f.write(julian_flare)
+
+os.system('cp -r "build/book_of_doctrine" "src/book_of_doctrine"')
+os.system('cp -r "build/book_of_doctrine.html" "src/book_of_doctrine.html"')
 
 with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))

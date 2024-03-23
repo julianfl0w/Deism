@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Church of God (Deist)</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <script src="https://d3js.org/d3.v6.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="/navbar.css" />
+  <link rel="stylesheet" type="text/css" href="/arrows.css" /> <!-- Reference to arrows.css -->
+  <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body>
+  <!-- Navigation Bar -->
+  <ul class="navbar">
+    <li><a href="javascript:void(0)" id="bojButton" class="dropbtn">Book of Doctrine</a></li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" id="pillarSelect" class="dropbtn">All Pillars</a>
+      <div class="dropdown-content" id="pillarDropdown"></div>
+    </li>
+    <li class="dropdown">
+      <a href="javascript:void(0)" id="chapterSelect" class="dropbtn">All Chapters</a>
+      <div class="dropdown-content" id="chapterDropdown"></div>
+    </li>
+    <li><a href="javascript:void(0)" id="deismuButton" class="dropbtn">DeismU</a></li>
+    <li><a href="javascript:void(0)" id="profileButton" class="dropbtn">Profile</a></li>
+    <li><a href="javascript:void(0)" id="loginButton" class="dropbtn">Login</a></li>
+  </ul>
+
+  <!-- Main Content -->
+  <div class="flex-container">
+    <div id="chart"></div>
+    <div>
+      <!-- Arrow buttons (top) -->
+      <a href="./book_of_doctrine/prophesy/the_beatific_vision.html" class="arrow-button back-arrow"></a>
+      <a href="./book_of_doctrine/prophesy.html" class="arrow-button up-arrow"></a>
+      <a href="./book_of_doctrine/prophesy/manifest_destiny.html" class="arrow-button forward-arrow"></a>
+
+      <div id="selected-node-text"><h4><a name=Eternal_Life>Eternal Life</a></h4>
+<p align="left"><sup>0</sup> Take heart, children of Abraham!<sup>1</sup> For a day is coming when the problems of the body will affect us no longer. 
+</p></div>
+
+      <!-- Arrow buttons (bottom) -->
+      <a href="./book_of_doctrine/prophesy/the_beatific_vision.html" class="arrow-button back-arrow"></a>
+      <a href="./book_of_doctrine/prophesy.html" class="arrow-button up-arrow"></a>
+      <a href="./book_of_doctrine/prophesy/manifest_destiny.html" class="arrow-button forward-arrow"></a>
+    </div>
+  </div>
+
+  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
+  <script src="/navbar.js"></script>
+  <script src="/deismu.js"></script>
+</body>
+
+</html>
