@@ -70,16 +70,17 @@ m = fractal_book.FractalBook(
     origin="directory",
     buildDir="build",
     graphsDir="graphs",
-    source="Book Of Julian",
+    source="Book Of Doctrine",
     depth=1,
     parent=None,
     skipGraphs=False,
     displayVerseNo=True,
+    align="left"
 )
 
 m.dump()
 
-os.system("cp src/* build/")
+os.system("cp -r src/* build/")
 
 os.system("rm -rf src/book_of_doctrine")
 os.system("rm src/book_of_doctrine.html")

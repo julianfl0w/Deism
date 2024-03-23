@@ -1,0 +1,67 @@
+figure {
+    border: none;
+    padding: 15px;
+    margin: auto;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+}
+
+#selected-node-text sup {
+    user-select: none;
+    vertical-align: baseline;
+    position: relative;
+    top: -0.7em;
+    font-size: 60%;
+    line-height: 1;
+    margin-right: -0.3em;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    /* Make sure the flex-container can scroll if its content overflows */
+    overflow-y: auto;
+}
+
+@media (orientation: portrait) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    #selected-node-text {
+        overflow-y: visible; /* Ensures scrollbar appears if content overflows */
+        flex-grow: 1;
+        font-size: 18px;
+        line-height: 2;
+        padding: 10px 30px;
+    }
+}
+
+@media (orientation: landscape) {
+    body {
+        margin: 0;
+        overflow-y: auto; /* Prevents body scrolling in landscape */
+    }
+
+    .flex-container {
+        flex-direction: row;
+        /* Removed overflow: hidden to allow for internal scrolling */
+    }
+
+    #selected-node-text {
+        overflow-y: auto; /* Allows for a vertical scrollbar */
+        font-size: 18px;
+        line-height: 1.75;
+        padding: 0 30%; /* Adjust padding as needed */
+        font-family: 'Raleway', sans-serif;
+    }
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
