@@ -10,24 +10,17 @@ function toggleHamburgerMenu() {
     hamburgerIcon.classList.toggle('open');
 }
 
-
-function createDropdownOption(dropdown, itemName, itemText, onClickAction) {
-    const chapterDropdown = document.getElementById("chapterDropdown");
-    const pillarDropdown = document.getElementById("pillarDropdown");
+function createDropdownOption(dropdown, itemName, itemText, itemUrl) {
     const option = document.createElement("a");
     option.textContent = itemName;
-    option.href = "javascript:void(0);";
-    option.onclick = onClickAction;
+    option.href = itemUrl; // Set the href to the item's URL
     dropdown.appendChild(option);
 }
-
 function populateChapterSelect(chapters, alltext) {
     const chapterDropdown = document.getElementById("chapterDropdown");
     const chapterSelect = document.getElementById("chapterSelect");
-    const selectedNodeText = document.getElementById("selected-node-text");
 
     chapterSelect.onclick = function () {
-        selectedNodeText.innerHTML = alltext;
         chapterSelect.textContent = "All Chapters";
     };
     chapterSelect.onclick();
@@ -36,32 +29,36 @@ function populateChapterSelect(chapters, alltext) {
     chapters.forEach((chapter) => {
         createDropdownOption(chapterDropdown, chapter.name, chapter.text, function () {
             chapterSelect.textContent = chapter.name;
-            selectedNodeText.innerHTML = chapter.text;
+
+            // Save selected chapter name to localStorage
+            localStorage.setItem('selectedChapter', chapter.name);
         });
     });
 }
-
 function populatePillarSelect(pillars, alltext) {
     const pillarDropdown = document.getElementById("pillarDropdown");
     const pillarSelect = document.getElementById("pillarSelect");
-    const selectedNodeText = document.getElementById("selected-node-text");
-    const chapterDropdown = document.getElementById("chapterDropdown");
-    const chapterSelect = document.getElementById("chapterSelect");
 
-    pillarSelect.onclick = function () {
-        pillarSelect.textContent = "Pillars";
-        selectedNodeText.innerHTML = alltext;
-        chapterDropdown.innerHTML = '';
-        chapterSelect.textContent = "Chapters";
-    };
-    pillarSelect.onclick();
+    pillarSelect.textContent = "Pillars";
+    pillarDropdown.innerHTML = '';
+
+    // Retrieve the saved pillar state from localStorage
+    const savedPillarName = localStorage.getItem('selectedPillar');
 
     pillars.forEach((pillar) => {
-        createDropdownOption(pillarDropdown, pillar.name, pillar.text, function () {
+        createDropdownOption(pillarDropdown, pillar.name, pillar.text, pillar.url, function () {
             pillarSelect.textContent = pillar.name;
-            selectedNodeText.innerHTML = pillar.text;
             populateChapterSelect(pillar.children, pillar.text);
+
+            // Save the selected pillar name to localStorage
+            localStorage.setItem('selectedPillar', pillar.name);
         });
+
+        // If there's a saved pillar state and it matches the current pillar, restore it
+        if (pillar.name === savedPillarName) {
+            pillarSelect.textContent = pillar.name;
+            populateChapterSelect(pillar.children, pillar.text);
+        }
     });
 }
 
@@ -71,7 +68,7 @@ function loadDeismUContent() {
         .then(response => response.text())
         .then(html => {
             const selectedNodeText = document.getElementById('selected-node-text');
-            selectedNodeText.innerHTML = html;
+            //selectedNodeText.innerHTML = html;
             addListeners(auth0);
             getCurriculum();
         })
@@ -89,12 +86,12 @@ async function loadUserContent() {
             picture: userDetails.picture
         };
         // Display user's name as a centered header and picture as a full-width image
-        selectedNodeText.innerHTML = `
-        <div style="text-align: center;">
-            <h3>${userDetails.name}</h3>
-            <img src="${userDetails.picture}" alt="${userDetails.name}'s Profile Picture" style="width: 100%; height: auto; display: block; margin: auto;">
-        </div>
-        `;
+        //selectedNodeText.innerHTML = `
+        //<div style="text-align: center;">
+        //    <h3>${userDetails.name}</h3>
+        //    <img src="${userDetails.picture}" alt="${userDetails.name}'s Profile Picture" style="width: 100%; height: auto; display: block; margin: auto;">
+        //</div>
+        //`;
 
 
     } catch (error) {
@@ -102,7 +99,6 @@ async function loadUserContent() {
         // Handle the error appropriately
     }
 }
-
 
 async function updateNavbarBasedOnLoginStatus() {
     const profileButton = document.getElementById('profileButton');
@@ -118,6 +114,8 @@ async function updateNavbarBasedOnLoginStatus() {
         loginButton.addEventListener('click', dlogout);
         profileButton.addEventListener('click', loadUserContent);
 
+        // Save state to localStorage
+        localStorage.setItem('navbarState', 'loggedIn');
     }
     else {
         // User is not logged in
@@ -126,8 +124,26 @@ async function updateNavbarBasedOnLoginStatus() {
         loginButton.removeEventListener('click', dlogout);
         loginButton.addEventListener('click', dlogin);
         profileButton.removeEventListener('click', loadUserContent);
+
+        // Save state to localStorage
+        localStorage.setItem('navbarState', 'loggedOut');
     }
 }
+
+function restoreNavbarState() {
+    const state = localStorage.getItem('navbarState');
+    
+    if (state === 'loggedIn') {
+        // Logic to set navbar to logged in state
+        updateNavbarBasedOnLoginStatus(); // Assuming this function sets the correct state based on login
+    } else {
+        // Logic to set navbar to logged out state
+        updateNavbarBasedOnLoginStatus(); // This function will detect logged out state and set it accordingly
+    }
+}
+
+// Call this function when your page loads
+restoreNavbarState();
 
 async function isUserLoggedIn() {
     return await auth0.isAuthenticated();
@@ -175,7 +191,7 @@ const configureAuth0 = async () => {
 
 
 console.log("DOM Loaded");
-fetch("julian_flare.json")
+fetch("/julian_flare.json")
     .then((response) => response.json())
     .then((data) => {
         populatePillarSelect(data.children, data.text);

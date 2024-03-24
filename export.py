@@ -97,7 +97,7 @@ with open("src/julian_flare.json", "w+") as f:
     f.write(julian_flare)
 
 os.system('cp -r "build/book_of_doctrine" "src/book_of_doctrine"')
-os.system('cp -r "build/book_of_doctrine.html" "src/book_of_doctrine.html"')
+os.system('cp "build/index.html" "src/index.html"')
 
 with open("build/julian.json", "w+") as f:
     f.write(json.dumps(m.asDict(), indent=2))
