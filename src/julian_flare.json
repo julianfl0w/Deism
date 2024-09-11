@@ -3,6 +3,52 @@
   "name": "Book Of Doctrine",
   "children": [
     {
+      "url": "/book_of_doctrine/introduction.html",
+      "name": "Introduction",
+      "children": [],
+      "indexedName": "0\n\nIntroduction",
+      "meta": {
+        "priority": -30000,
+        "ignore": false,
+        "type": "default",
+        "topology": "nested",
+        "noPropagate": {},
+        "font": {
+          "color": "white"
+        },
+        "relationship": "descends",
+        "engine": "dot",
+        "graphParams": {
+          "rankdir": "TB",
+          "style": "filled",
+          "fontcolor": "black",
+          "color": "black",
+          "bgcolor": "white",
+          "gradientangle": 0,
+          "dpi": 300
+        },
+        "boxParams": {
+          "rankdir": "TB",
+          "shape": "box",
+          "penwidth": 1,
+          "color": "\"#88ffff\"",
+          "fontcolor": "black",
+          "fillcolor": "white",
+          "style": "filled",
+          "gradientangle": 270.05,
+          "label": "\"Australia\""
+        },
+        "arrowParams": {
+          "color": "\"#88ffff\"",
+          "penwidth": 1,
+          "ltail": "\"cluster_235\"",
+          "lhead": "\"cluster_239\""
+        }
+      },
+      "value": 100.0,
+      "parent": "Book Of Doctrine"
+    },
+    {
       "url": "/book_of_doctrine/origins.html",
       "name": "Origins",
       "children": [
@@ -49,7 +95,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 20.833333333333332,
+          "value": 16.666666666666668,
           "parent": "Origins"
         },
         {
@@ -95,7 +141,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 20.833333333333332,
+          "value": 16.666666666666668,
           "parent": "Origins"
         },
         {
@@ -145,7 +191,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 6.944444444444444,
+              "value": 5.555555555555556,
               "parent": "Ideological"
             },
             {
@@ -192,7 +238,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 6.944444444444444,
+              "value": 5.555555555555556,
               "parent": "Ideological"
             },
             {
@@ -238,7 +284,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 6.944444444444444,
+              "value": 5.555555555555556,
               "parent": "Ideological"
             }
           ],
@@ -325,7 +371,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 20.833333333333332,
+          "value": 16.666666666666668,
           "parent": "Origins"
         },
         {
@@ -371,7 +417,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 20.833333333333332,
+          "value": 16.666666666666668,
           "parent": "Origins"
         },
         {
@@ -417,11 +463,11 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 20.833333333333332,
+          "value": 16.666666666666668,
           "parent": "Origins"
         }
       ],
-      "indexedName": "0\n\nOrigins",
+      "indexedName": "1\n\nOrigins",
       "meta": {
         "priority": -10001,
         "ignore": false,
@@ -508,7 +554,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 41.666666666666664,
+          "value": 33.333333333333336,
           "parent": "Nature"
         },
         {
@@ -554,7 +600,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 41.666666666666664,
+          "value": 33.333333333333336,
           "parent": "Nature"
         },
         {
@@ -604,7 +650,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 41.666666666666664,
+              "value": 33.333333333333336,
               "parent": "Afterlife"
             }
           ],
@@ -649,7 +695,7 @@
           }
         }
       ],
-      "indexedName": "1\n\nNature",
+      "indexedName": "2\n\nNature",
       "meta": {
         "priority": -10000,
         "ignore": false,
@@ -736,7 +782,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 41.666666666666664,
+          "value": 33.333333333333336,
           "parent": "Church"
         },
         {
@@ -786,7 +832,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Communications"
             },
             {
@@ -832,7 +878,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Communications"
             }
           ],
@@ -919,11 +965,11 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 41.666666666666664,
+          "value": 33.333333333333336,
           "parent": "Church"
         }
       ],
-      "indexedName": "2\n\nChurch",
+      "indexedName": "3\n\nChurch",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -1014,7 +1060,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Faith"
             },
             {
@@ -1060,7 +1106,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Faith"
             }
           ],
@@ -1151,7 +1197,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Catechism"
             },
             {
@@ -1197,7 +1243,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 20.833333333333332,
+              "value": 16.666666666666668,
               "parent": "Catechism"
             }
           ],
@@ -1284,11 +1330,11 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 41.666666666666664,
+          "value": 33.333333333333336,
           "parent": "God"
         }
       ],
-      "indexedName": "3\n\nGod",
+      "indexedName": "4\n\nGod",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -1375,7 +1421,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 62.5,
+          "value": 50.0,
           "parent": "Wisdom"
         },
         {
@@ -1425,7 +1471,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 31.25,
+              "value": 25.0,
               "parent": "Curriculum"
             },
             {
@@ -1471,7 +1517,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 31.25,
+              "value": 25.0,
               "parent": "Curriculum"
             }
           ],
@@ -1516,7 +1562,7 @@
           }
         }
       ],
-      "indexedName": "4\n\nWisdom",
+      "indexedName": "5\n\nWisdom",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -1607,7 +1653,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 5.208333333333333,
+              "value": 4.166666666666667,
               "parent": "Meditation"
             },
             {
@@ -1653,7 +1699,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 5.208333333333333,
+              "value": 4.166666666666667,
               "parent": "Meditation"
             },
             {
@@ -1699,7 +1745,7 @@
                   "lhead": "\"cluster_239\""
                 }
               },
-              "value": 5.208333333333333,
+              "value": 4.166666666666667,
               "parent": "Meditation"
             }
           ],
@@ -1786,7 +1832,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -1832,7 +1878,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -1878,7 +1924,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -1924,7 +1970,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -1970,7 +2016,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -2016,7 +2062,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         },
         {
@@ -2062,11 +2108,11 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 15.625,
+          "value": 12.5,
           "parent": "Ritual"
         }
       ],
-      "indexedName": "5\n\nRitual",
+      "indexedName": "6\n\nRitual",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -2153,7 +2199,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Ethics"
         },
         {
@@ -2199,7 +2245,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Ethics"
         },
         {
@@ -2245,7 +2291,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Ethics"
         },
         {
@@ -2291,7 +2337,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Ethics"
         },
         {
@@ -2337,11 +2383,11 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Ethics"
         }
       ],
-      "indexedName": "6\n\nEthics",
+      "indexedName": "7\n\nEthics",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -2428,7 +2474,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Prophesy"
         },
         {
@@ -2474,7 +2520,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Prophesy"
         },
         {
@@ -2520,7 +2566,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Prophesy"
         },
         {
@@ -2566,7 +2612,7 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Prophesy"
         },
         {
@@ -2612,13 +2658,470 @@
               "lhead": "\"cluster_239\""
             }
           },
-          "value": 25.0,
+          "value": 20.0,
           "parent": "Prophesy"
         }
       ],
-      "indexedName": "7\n\nProphesy",
+      "indexedName": "8\n\nProphesy",
       "meta": {
         "priority": 2000,
+        "ignore": false,
+        "type": "default",
+        "topology": "nested",
+        "noPropagate": {},
+        "font": {
+          "color": "white"
+        },
+        "relationship": "descends",
+        "engine": "dot",
+        "graphParams": {
+          "rankdir": "TB",
+          "style": "filled",
+          "fontcolor": "black",
+          "color": "black",
+          "bgcolor": "white",
+          "gradientangle": 0,
+          "dpi": 300
+        },
+        "boxParams": {
+          "rankdir": "TB",
+          "shape": "box",
+          "penwidth": 1,
+          "color": "\"#88ffff\"",
+          "fontcolor": "black",
+          "fillcolor": "white",
+          "style": "filled",
+          "gradientangle": 270.05,
+          "label": "\"Australia\""
+        },
+        "arrowParams": {
+          "color": "\"#88ffff\"",
+          "penwidth": 1,
+          "ltail": "\"cluster_235\"",
+          "lhead": "\"cluster_239\""
+        }
+      }
+    },
+    {
+      "url": "/book_of_doctrine/appendix.html",
+      "name": "Appendix",
+      "children": [
+        {
+          "url": "/book_of_doctrine/appendix/canon.html",
+          "name": "Canon",
+          "children": [
+            {
+              "url": "/book_of_doctrine/appendix/canon/with_respect_to_the_major_religious_texts,_we_use_the_following_abbreviations:.html",
+              "name": "With respect to the major religious texts, we use the following abbreviations:",
+              "children": [],
+              "indexedName": "0\n\nWith respect to the major religious texts, we use the following abbreviations:",
+              "meta": {
+                "type": "list",
+                "priority": 10000,
+                "ignore": false,
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 8.333333333333334,
+              "parent": "Canon"
+            },
+            {
+              "url": "/book_of_doctrine/appendix/canon/in_the_tradition_of_king_james,_we_claim_the_following_books_as_legacy._consuming_them_will_not_harm_you,_but_they_are_no_longer_canonical.html",
+              "name": "In the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical",
+              "children": [],
+              "indexedName": "1\n\nIn the tradition of King James, we claim the following books as legacy. Consuming them will not harm you, but they are no longer canonical",
+              "meta": {
+                "priority": 10000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 8.333333333333334,
+              "parent": "Canon"
+            },
+            {
+              "url": "/book_of_doctrine/appendix/canon/the_following_remain_apocryphal.html",
+              "name": "The following remain apocryphal",
+              "children": [],
+              "indexedName": "2\n\nThe following remain apocryphal",
+              "meta": {
+                "type": "list",
+                "priority": 10000,
+                "ignore": false,
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 8.333333333333334,
+              "parent": "Canon"
+            },
+            {
+              "url": "/book_of_doctrine/appendix/canon/finally,_the_canonical_books_of_the_third_testament,_which_are_the_ultimate_source_of_religious_truth.html",
+              "name": "Finally, the canonical books of the Third Testament, which are the ultimate source of religious truth",
+              "children": [],
+              "indexedName": "3\n\nFinally, the canonical books of the Third Testament, which are the ultimate source of religious truth",
+              "meta": {
+                "type": "list",
+                "priority": 10000,
+                "ignore": false,
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 8.333333333333334,
+              "parent": "Canon"
+            }
+          ],
+          "indexedName": "0\n\nCanon",
+          "meta": {
+            "priority": 10000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Australia\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_235\"",
+              "lhead": "\"cluster_239\""
+            }
+          }
+        },
+        {
+          "url": "/book_of_doctrine/appendix/design_principles.html",
+          "name": "Design Principles",
+          "children": [],
+          "indexedName": "1\n\nDesign Principles",
+          "meta": {
+            "priority": 10000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Australia\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_235\"",
+              "lhead": "\"cluster_239\""
+            }
+          },
+          "value": 33.333333333333336,
+          "parent": "Appendix"
+        },
+        {
+          "url": "/book_of_doctrine/appendix/religious_family.html",
+          "name": "Religious Family",
+          "children": [
+            {
+              "url": "/book_of_doctrine/appendix/religious_family/our_religious_family_is_a_taxonomy_of_modern_religious_systems,_on_the_basis_of_creed.html",
+              "name": "Our religious family is a taxonomy of modern religious systems, on the basis of creed",
+              "children": [],
+              "indexedName": "0\n\nOur religious family is a taxonomy of modern religious systems, on the basis of creed",
+              "meta": {
+                "priority": 10000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Religious Family"
+            },
+            {
+              "url": "/book_of_doctrine/appendix/religious_family/the_most_popular_variants_are_listed.html",
+              "name": "The most popular variants are listed",
+              "children": [],
+              "indexedName": "1\n\nThe most popular variants are listed",
+              "meta": {
+                "priority": 10000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Australia\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_235\"",
+                  "lhead": "\"cluster_239\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Religious Family"
+            }
+          ],
+          "indexedName": "2\n\nReligious Family",
+          "meta": {
+            "priority": 10000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Australia\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_235\"",
+              "lhead": "\"cluster_239\""
+            }
+          }
+        }
+      ],
+      "indexedName": "9\n\nAppendix",
+      "meta": {
+        "priority": 10000,
         "ignore": false,
         "type": "default",
         "topology": "nested",

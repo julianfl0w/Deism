@@ -1,22 +1,17 @@
-function toggleHamburgerMenu() {
-    const menuItems = document.querySelector('.menu-items'); // Adjust the selector as needed
-    const hamburgerIcon = document.querySelector('.hamburger'); // Adjust the selector as needed
+let auth0 = null;
 
-    // Toggle a class that controls the visibility of the menu items
-    menuItems.classList.toggle('active');
-
-    // Optional: Change the icon or appearance of the hamburger button when the menu is open
-    // For example, if you want to change the icon to an 'X' when the menu is open, you could toggle another class here
-    hamburgerIcon.classList.toggle('open');
-}
-
-function createDropdownOption(dropdown, itemName, itemText, itemUrl) {
+function createDropdownOption(dropdown, itemName, itemUrl, onClick) {
     const option = document.createElement("a");
     option.textContent = itemName;
-    option.href = itemUrl; // Set the href to the item's URL
+    option.href = itemUrl; // Use the itemUrl for navigation
+    option.addEventListener('click', (event) => {
+        onClick(); // Execute the custom logic
+        // Optional: If you want to prevent navigation for specific conditions, you can call event.preventDefault();
+    });
     dropdown.appendChild(option);
 }
-function populateChapterSelect(chapters, alltext) {
+
+function populateChapterSelect(chapters) {
     const chapterDropdown = document.getElementById("chapterDropdown");
     const chapterSelect = document.getElementById("chapterSelect");
 
@@ -27,7 +22,7 @@ function populateChapterSelect(chapters, alltext) {
 
     chapterDropdown.innerHTML = '';
     chapters.forEach((chapter) => {
-        createDropdownOption(chapterDropdown, chapter.name, chapter.text, function () {
+        createDropdownOption(chapterDropdown, chapter.name, chapter.url, function () {
             chapterSelect.textContent = chapter.name;
 
             // Save selected chapter name to localStorage
@@ -35,32 +30,38 @@ function populateChapterSelect(chapters, alltext) {
         });
     });
 }
-function populatePillarSelect(pillars, alltext) {
+
+function populatePillarSelect(pillars) {
     const pillarDropdown = document.getElementById("pillarDropdown");
     const pillarSelect = document.getElementById("pillarSelect");
 
-    pillarSelect.textContent = "Pillars";
-    pillarDropdown.innerHTML = '';
+    pillarDropdown.innerHTML = ''; // Clear existing options
 
     // Retrieve the saved pillar state from localStorage
     const savedPillarName = localStorage.getItem('selectedPillar');
 
     pillars.forEach((pillar) => {
-        createDropdownOption(pillarDropdown, pillar.name, pillar.text, pillar.url, function () {
+        createDropdownOption(pillarDropdown, pillar.name, pillar.url,   function () {
             pillarSelect.textContent = pillar.name;
-            populateChapterSelect(pillar.children, pillar.text);
+            populateChapterSelect(pillar.children);
 
             // Save the selected pillar name to localStorage
             localStorage.setItem('selectedPillar', pillar.name);
         });
 
-        // If there's a saved pillar state and it matches the current pillar, restore it
+        // Restore saved pillar state
         if (pillar.name === savedPillarName) {
             pillarSelect.textContent = pillar.name;
-            populateChapterSelect(pillar.children, pillar.text);
+            populateChapterSelect(pillar.children);
         }
     });
+
+    // If no saved state is found, set default text
+    if (!savedPillarName) {
+        pillarSelect.textContent = "Pillars";
+    }
 }
+
 
 
 function loadDeismUContent() {
@@ -86,13 +87,11 @@ async function loadUserContent() {
             picture: userDetails.picture
         };
         // Display user's name as a centered header and picture as a full-width image
-        //selectedNodeText.innerHTML = `
-        //<div style="text-align: center;">
-        //    <h3>${userDetails.name}</h3>
-        //    <img src="${userDetails.picture}" alt="${userDetails.name}'s Profile Picture" style="width: 100%; height: auto; display: block; margin: auto;">
-        //</div>
-        //`;
-
+        selectedNodeText.innerHTML = `
+        <div style="text-align: center;">
+            <h3>${userDetails.name}</h3>
+            <img src="${userDetails.picture}" alt="${userDetails.name}'s Profile Picture" style="width: 100%; height: auto; display: block; margin: auto;">
+        </div>`
 
     } catch (error) {
         console.error('Error loading user content:', error);
@@ -146,6 +145,9 @@ function restoreNavbarState() {
 restoreNavbarState();
 
 async function isUserLoggedIn() {
+    if (!auth0) {
+        return false;
+    }
     return await auth0.isAuthenticated();
 }
 
@@ -164,9 +166,6 @@ const dlogin = async () => {
 const dlogout = () => {
     auth0.logout({ returnTo: window.location.origin });
 };
-
-let auth0 = null;
-
 
 const configureAuth0 = async () => {
     console.log("Configure Auth0");
@@ -194,7 +193,7 @@ console.log("DOM Loaded");
 fetch("/julian_flare.json")
     .then((response) => response.json())
     .then((data) => {
-        populatePillarSelect(data.children, data.text);
+        populatePillarSelect(data.children);
     })
     .catch((error) => {
         console.error("Error loading JSON:", error);
