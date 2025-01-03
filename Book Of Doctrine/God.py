@@ -1,4 +1,4 @@
-{
+Catechism = {
     "Introduction": {
         "The Deist Catechism is an accessible summary of Deist thought":{},
         "It serves children and adults, instructing them in what is right, and insulating them from what is wrong":{},
@@ -43,4 +43,31 @@
         "What is the Ascension?<br>": {"meta": dict(type="default")},
         "The Ascension is the period after the Beatific Vision in which we become communicant with God<br>": {},
     },
+}
+
+Central_Topology = {
+    "God is outside of the Cosmos, in Heaven": {},
+    "The Cosmos, as God's creation, are also contained within Heaven": {},
+    "The Children of Abraham presently occupy only a small part of the Cosmos": {},
+    "Cosmological Topology": {
+        "meta": {
+            "type": "lineage",
+            "relationship": "within",
+            "boxParams": {"penwidth": 1},
+        },
+        "Heaven": {"God": {}, "The Cosmos": {"Us": {}}},
+    },
+}
+
+Faith = {
+    "Nobody Creed": {
+        "Nobody has spoken to God": {},
+        "Nobody may speak for God": {},
+        "Nobody knows the name of God": {},
+        "Nobody knows the character of God": {},
+        "No messenger exists for God": {},
+        "No human can claim genetic lineage from God": {},
+        "No human can claim spiritual lineage from God": {},
+    },
+    "One God Creed": {"There is one God who has spoken to no one": {}},
 }

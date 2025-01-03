@@ -36,13 +36,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       },
       "value": 100.0,
@@ -86,13 +86,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 16.666666666666668,
@@ -132,13 +132,105 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 16.666666666666668,
+          "parent": "Origins"
+        },
+        {
+          "url": "/book_of_doctrine/origins/migratory.html",
+          "name": "Migratory",
+          "children": [],
+          "indexedName": "2\n\nMigratory",
+          "meta": {
+            "priority": 0,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 16.666666666666668,
+          "parent": "Origins"
+        },
+        {
+          "url": "/book_of_doctrine/origins/covenant.html",
+          "name": "Covenant",
+          "children": [],
+          "indexedName": "3\n\nCovenant",
+          "meta": {
+            "priority": 0,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 16.666666666666668,
@@ -182,13 +274,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 5.555555555555556,
@@ -229,13 +321,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 5.555555555555556,
@@ -275,20 +367,20 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 5.555555555555556,
               "parent": "Ideological"
             }
           ],
-          "indexedName": "2\n\nIdeological",
+          "indexedName": "4\n\nIdeological",
           "meta": {
             "priority": 0,
             "ignore": false,
@@ -318,107 +410,15 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
-        },
-        {
-          "url": "/book_of_doctrine/origins/covenant.html",
-          "name": "Covenant",
-          "children": [],
-          "indexedName": "3\n\nCovenant",
-          "meta": {
-            "priority": 0,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 16.666666666666668,
-          "parent": "Origins"
-        },
-        {
-          "url": "/book_of_doctrine/origins/migratory.html",
-          "name": "Migratory",
-          "children": [],
-          "indexedName": "4\n\nMigratory",
-          "meta": {
-            "priority": 0,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 16.666666666666668,
-          "parent": "Origins"
         },
         {
           "url": "/book_of_doctrine/origins/personal.html",
@@ -454,13 +454,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 16.666666666666668,
@@ -497,13 +497,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -545,13 +545,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 33.333333333333336,
@@ -591,13 +591,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 33.333333333333336,
@@ -641,13 +641,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 33.333333333333336,
@@ -684,13 +684,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
         }
@@ -725,652 +725,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
-        }
-      }
-    },
-    {
-      "url": "/book_of_doctrine/church.html",
-      "name": "Church",
-      "children": [
-        {
-          "url": "/book_of_doctrine/church/orgchart.html",
-          "name": "OrgChart",
-          "children": [],
-          "indexedName": "0\n\nOrgChart",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 33.333333333333336,
-          "parent": "Church"
-        },
-        {
-          "url": "/book_of_doctrine/church/communications.html",
-          "name": "Communications",
-          "children": [
-            {
-              "url": "/book_of_doctrine/church/communications/missiology.html",
-              "name": "Missiology",
-              "children": [],
-              "indexedName": "0\n\nMissiology",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Communications"
-            },
-            {
-              "url": "/book_of_doctrine/church/communications/standards.html",
-              "name": "Standards",
-              "children": [],
-              "indexedName": "1\n\nStandards",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Communications"
-            }
-          ],
-          "indexedName": "1\n\nCommunications",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          }
-        },
-        {
-          "url": "/book_of_doctrine/church/canonization.html",
-          "name": "Canonization",
-          "children": [],
-          "indexedName": "2\n\nCanonization",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 33.333333333333336,
-          "parent": "Church"
-        }
-      ],
-      "indexedName": "3\n\nChurch",
-      "meta": {
-        "priority": 1000,
-        "ignore": false,
-        "type": "default",
-        "topology": "nested",
-        "noPropagate": {},
-        "font": {
-          "color": "white"
-        },
-        "relationship": "descends",
-        "engine": "dot",
-        "graphParams": {
-          "rankdir": "TB",
-          "style": "filled",
-          "fontcolor": "black",
-          "color": "black",
-          "bgcolor": "white",
-          "gradientangle": 0,
-          "dpi": 300
-        },
-        "boxParams": {
-          "rankdir": "TB",
-          "shape": "box",
-          "penwidth": 1,
-          "color": "\"#88ffff\"",
-          "fontcolor": "black",
-          "fillcolor": "white",
-          "style": "filled",
-          "gradientangle": 270.05,
-          "label": "\"Australia\""
-        },
-        "arrowParams": {
-          "color": "\"#88ffff\"",
-          "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
-        }
-      }
-    },
-    {
-      "url": "/book_of_doctrine/god.html",
-      "name": "God",
-      "children": [
-        {
-          "url": "/book_of_doctrine/god/faith.html",
-          "name": "Faith",
-          "children": [
-            {
-              "url": "/book_of_doctrine/god/faith/nobody_creed.html",
-              "name": "Nobody Creed",
-              "children": [],
-              "indexedName": "0\n\nNobody Creed",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Faith"
-            },
-            {
-              "url": "/book_of_doctrine/god/faith/one_god_creed.html",
-              "name": "One God Creed",
-              "children": [],
-              "indexedName": "1\n\nOne God Creed",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Faith"
-            }
-          ],
-          "indexedName": "0\n\nFaith",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          }
-        },
-        {
-          "url": "/book_of_doctrine/god/catechism.html",
-          "name": "Catechism",
-          "children": [
-            {
-              "url": "/book_of_doctrine/god/catechism/introduction.html",
-              "name": "Introduction",
-              "children": [],
-              "indexedName": "0\n\nIntroduction",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Catechism"
-            },
-            {
-              "url": "/book_of_doctrine/god/catechism/catechism.html",
-              "name": "Catechism",
-              "children": [],
-              "indexedName": "1\n\nCatechism",
-              "meta": {
-                "priority": 1000,
-                "ignore": false,
-                "type": "default",
-                "topology": "nested",
-                "noPropagate": {},
-                "font": {
-                  "color": "white"
-                },
-                "relationship": "descends",
-                "engine": "dot",
-                "graphParams": {
-                  "rankdir": "TB",
-                  "style": "filled",
-                  "fontcolor": "black",
-                  "color": "black",
-                  "bgcolor": "white",
-                  "gradientangle": 0,
-                  "dpi": 300
-                },
-                "boxParams": {
-                  "rankdir": "TB",
-                  "shape": "box",
-                  "penwidth": 1,
-                  "color": "\"#88ffff\"",
-                  "fontcolor": "black",
-                  "fillcolor": "white",
-                  "style": "filled",
-                  "gradientangle": 270.05,
-                  "label": "\"Australia\""
-                },
-                "arrowParams": {
-                  "color": "\"#88ffff\"",
-                  "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
-                }
-              },
-              "value": 16.666666666666668,
-              "parent": "Catechism"
-            }
-          ],
-          "indexedName": "1\n\nCatechism",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          }
-        },
-        {
-          "url": "/book_of_doctrine/god/central_topology.html",
-          "name": "Central Topology",
-          "children": [],
-          "indexedName": "2\n\nCentral Topology",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 33.333333333333336,
-          "parent": "God"
-        }
-      ],
-      "indexedName": "4\n\nGod",
-      "meta": {
-        "priority": 1000,
-        "ignore": false,
-        "type": "default",
-        "topology": "nested",
-        "noPropagate": {},
-        "font": {
-          "color": "white"
-        },
-        "relationship": "descends",
-        "engine": "dot",
-        "graphParams": {
-          "rankdir": "TB",
-          "style": "filled",
-          "fontcolor": "black",
-          "color": "black",
-          "bgcolor": "white",
-          "gradientangle": 0,
-          "dpi": 300
-        },
-        "boxParams": {
-          "rankdir": "TB",
-          "shape": "box",
-          "penwidth": 1,
-          "color": "\"#88ffff\"",
-          "fontcolor": "black",
-          "fillcolor": "white",
-          "style": "filled",
-          "gradientangle": 270.05,
-          "label": "\"Australia\""
-        },
-        "arrowParams": {
-          "color": "\"#88ffff\"",
-          "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -1412,13 +773,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 50.0,
@@ -1462,13 +823,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 25.0,
@@ -1508,13 +869,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 25.0,
@@ -1551,18 +912,18 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
         }
       ],
-      "indexedName": "5\n\nWisdom",
+      "indexedName": "3\n\nWisdom",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -1592,13 +953,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -1644,13 +1005,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 4.166666666666667,
@@ -1690,13 +1051,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 4.166666666666667,
@@ -1736,13 +1097,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 4.166666666666667,
@@ -1779,159 +1140,21 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
-        },
-        {
-          "url": "/book_of_doctrine/ritual/fasting.html",
-          "name": "Fasting",
-          "children": [],
-          "indexedName": "1\n\nFasting",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 12.5,
-          "parent": "Ritual"
-        },
-        {
-          "url": "/book_of_doctrine/ritual/sacraments.html",
-          "name": "Sacraments",
-          "children": [],
-          "indexedName": "2\n\nSacraments",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 12.5,
-          "parent": "Ritual"
-        },
-        {
-          "url": "/book_of_doctrine/ritual/music.html",
-          "name": "Music",
-          "children": [],
-          "indexedName": "3\n\nMusic",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 12.5,
-          "parent": "Ritual"
         },
         {
           "url": "/book_of_doctrine/ritual/yoga.html",
           "name": "Yoga",
           "children": [],
-          "indexedName": "4\n\nYoga",
+          "indexedName": "1\n\nYoga",
           "meta": {
             "priority": 1000,
             "ignore": false,
@@ -1961,13 +1184,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 12.5,
@@ -1977,7 +1200,7 @@
           "url": "/book_of_doctrine/ritual/holidays.html",
           "name": "Holidays",
           "children": [],
-          "indexedName": "5\n\nHolidays",
+          "indexedName": "2\n\nHolidays",
           "meta": {
             "priority": 1000,
             "ignore": false,
@@ -2007,13 +1230,151 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 12.5,
+          "parent": "Ritual"
+        },
+        {
+          "url": "/book_of_doctrine/ritual/sacraments.html",
+          "name": "Sacraments",
+          "children": [],
+          "indexedName": "3\n\nSacraments",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 12.5,
+          "parent": "Ritual"
+        },
+        {
+          "url": "/book_of_doctrine/ritual/music.html",
+          "name": "Music",
+          "children": [],
+          "indexedName": "4\n\nMusic",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 12.5,
+          "parent": "Ritual"
+        },
+        {
+          "url": "/book_of_doctrine/ritual/guidance.html",
+          "name": "Guidance",
+          "children": [],
+          "indexedName": "5\n\nGuidance",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 12.5,
@@ -2053,23 +1414,23 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 12.5,
           "parent": "Ritual"
         },
         {
-          "url": "/book_of_doctrine/ritual/guidance.html",
-          "name": "Guidance",
+          "url": "/book_of_doctrine/ritual/fasting.html",
+          "name": "Fasting",
           "children": [],
-          "indexedName": "7\n\nGuidance",
+          "indexedName": "7\n\nFasting",
           "meta": {
             "priority": 1000,
             "ignore": false,
@@ -2099,20 +1460,20 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 12.5,
           "parent": "Ritual"
         }
       ],
-      "indexedName": "6\n\nRitual",
+      "indexedName": "4\n\nRitual",
       "meta": {
         "priority": 1000,
         "ignore": false,
@@ -2142,13 +1503,652 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
+        }
+      }
+    },
+    {
+      "url": "/book_of_doctrine/god.html",
+      "name": "God",
+      "children": [
+        {
+          "url": "/book_of_doctrine/god/faith.html",
+          "name": "Faith",
+          "children": [
+            {
+              "url": "/book_of_doctrine/god/faith/nobody_creed.html",
+              "name": "Nobody Creed",
+              "children": [],
+              "indexedName": "0\n\nNobody Creed",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Faith"
+            },
+            {
+              "url": "/book_of_doctrine/god/faith/one_god_creed.html",
+              "name": "One God Creed",
+              "children": [],
+              "indexedName": "1\n\nOne God Creed",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Faith"
+            }
+          ],
+          "indexedName": "0\n\nFaith",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          }
+        },
+        {
+          "url": "/book_of_doctrine/god/catechism.html",
+          "name": "Catechism",
+          "children": [
+            {
+              "url": "/book_of_doctrine/god/catechism/introduction.html",
+              "name": "Introduction",
+              "children": [],
+              "indexedName": "0\n\nIntroduction",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Catechism"
+            },
+            {
+              "url": "/book_of_doctrine/god/catechism/catechism.html",
+              "name": "Catechism",
+              "children": [],
+              "indexedName": "1\n\nCatechism",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Catechism"
+            }
+          ],
+          "indexedName": "1\n\nCatechism",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          }
+        },
+        {
+          "url": "/book_of_doctrine/god/central_topology.html",
+          "name": "Central Topology",
+          "children": [],
+          "indexedName": "2\n\nCentral Topology",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 33.333333333333336,
+          "parent": "God"
+        }
+      ],
+      "indexedName": "5\n\nGod",
+      "meta": {
+        "priority": 1000,
+        "ignore": false,
+        "type": "default",
+        "topology": "nested",
+        "noPropagate": {},
+        "font": {
+          "color": "white"
+        },
+        "relationship": "descends",
+        "engine": "dot",
+        "graphParams": {
+          "rankdir": "TB",
+          "style": "filled",
+          "fontcolor": "black",
+          "color": "black",
+          "bgcolor": "white",
+          "gradientangle": 0,
+          "dpi": 300
+        },
+        "boxParams": {
+          "rankdir": "TB",
+          "shape": "box",
+          "penwidth": 1,
+          "color": "\"#88ffff\"",
+          "fontcolor": "black",
+          "fillcolor": "white",
+          "style": "filled",
+          "gradientangle": 270.05,
+          "label": "\"Positive\""
+        },
+        "arrowParams": {
+          "color": "\"#88ffff\"",
+          "penwidth": 1,
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
+        }
+      }
+    },
+    {
+      "url": "/book_of_doctrine/church.html",
+      "name": "Church",
+      "children": [
+        {
+          "url": "/book_of_doctrine/church/canonization.html",
+          "name": "Canonization",
+          "children": [],
+          "indexedName": "0\n\nCanonization",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 33.333333333333336,
+          "parent": "Church"
+        },
+        {
+          "url": "/book_of_doctrine/church/orgchart.html",
+          "name": "OrgChart",
+          "children": [],
+          "indexedName": "1\n\nOrgChart",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 33.333333333333336,
+          "parent": "Church"
+        },
+        {
+          "url": "/book_of_doctrine/church/communications.html",
+          "name": "Communications",
+          "children": [
+            {
+              "url": "/book_of_doctrine/church/communications/missiology.html",
+              "name": "Missiology",
+              "children": [],
+              "indexedName": "0\n\nMissiology",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Communications"
+            },
+            {
+              "url": "/book_of_doctrine/church/communications/standards.html",
+              "name": "Standards",
+              "children": [],
+              "indexedName": "1\n\nStandards",
+              "meta": {
+                "priority": 1000,
+                "ignore": false,
+                "type": "default",
+                "topology": "nested",
+                "noPropagate": {},
+                "font": {
+                  "color": "white"
+                },
+                "relationship": "descends",
+                "engine": "dot",
+                "graphParams": {
+                  "rankdir": "TB",
+                  "style": "filled",
+                  "fontcolor": "black",
+                  "color": "black",
+                  "bgcolor": "white",
+                  "gradientangle": 0,
+                  "dpi": 300
+                },
+                "boxParams": {
+                  "rankdir": "TB",
+                  "shape": "box",
+                  "penwidth": 1,
+                  "color": "\"#88ffff\"",
+                  "fontcolor": "black",
+                  "fillcolor": "white",
+                  "style": "filled",
+                  "gradientangle": 270.05,
+                  "label": "\"Positive\""
+                },
+                "arrowParams": {
+                  "color": "\"#88ffff\"",
+                  "penwidth": 1,
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
+                }
+              },
+              "value": 16.666666666666668,
+              "parent": "Communications"
+            }
+          ],
+          "indexedName": "2\n\nCommunications",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          }
+        }
+      ],
+      "indexedName": "6\n\nChurch",
+      "meta": {
+        "priority": 1000,
+        "ignore": false,
+        "type": "default",
+        "topology": "nested",
+        "noPropagate": {},
+        "font": {
+          "color": "white"
+        },
+        "relationship": "descends",
+        "engine": "dot",
+        "graphParams": {
+          "rankdir": "TB",
+          "style": "filled",
+          "fontcolor": "black",
+          "color": "black",
+          "bgcolor": "white",
+          "gradientangle": 0,
+          "dpi": 300
+        },
+        "boxParams": {
+          "rankdir": "TB",
+          "shape": "box",
+          "penwidth": 1,
+          "color": "\"#88ffff\"",
+          "fontcolor": "black",
+          "fillcolor": "white",
+          "style": "filled",
+          "gradientangle": 270.05,
+          "label": "\"Positive\""
+        },
+        "arrowParams": {
+          "color": "\"#88ffff\"",
+          "penwidth": 1,
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -2157,10 +2157,102 @@
       "name": "Ethics",
       "children": [
         {
+          "url": "/book_of_doctrine/ethics/cardinal_virtues.html",
+          "name": "Cardinal Virtues",
+          "children": [],
+          "indexedName": "0\n\nCardinal Virtues",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 20.0,
+          "parent": "Ethics"
+        },
+        {
+          "url": "/book_of_doctrine/ethics/sexual_prohibitions.html",
+          "name": "Sexual Prohibitions",
+          "children": [],
+          "indexedName": "1\n\nSexual Prohibitions",
+          "meta": {
+            "priority": 1000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 20.0,
+          "parent": "Ethics"
+        },
+        {
           "url": "/book_of_doctrine/ethics/the_ten_commandments.html",
           "name": "The Ten Commandments",
           "children": [],
-          "indexedName": "0\n\nThe Ten Commandments",
+          "indexedName": "2\n\nThe Ten Commandments",
           "meta": {
             "type": "list",
             "priority": 1000,
@@ -2190,59 +2282,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 20.0,
-          "parent": "Ethics"
-        },
-        {
-          "url": "/book_of_doctrine/ethics/cardinal_virtues.html",
-          "name": "Cardinal Virtues",
-          "children": [],
-          "indexedName": "1\n\nCardinal Virtues",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2252,7 +2298,7 @@
           "url": "/book_of_doctrine/ethics/the_third_covenent.html",
           "name": "The Third Covenent",
           "children": [],
-          "indexedName": "2\n\nThe Third Covenent",
+          "indexedName": "3\n\nThe Third Covenent",
           "meta": {
             "priority": 1000,
             "ignore": false,
@@ -2282,59 +2328,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 20.0,
-          "parent": "Ethics"
-        },
-        {
-          "url": "/book_of_doctrine/ethics/sexual_prohibitions.html",
-          "name": "Sexual Prohibitions",
-          "children": [],
-          "indexedName": "3\n\nSexual Prohibitions",
-          "meta": {
-            "priority": 1000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2374,13 +2374,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2417,13 +2417,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -2465,13 +2465,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2511,13 +2511,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2557,13 +2557,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2603,13 +2603,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2649,13 +2649,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           },
           "value": 20.0,
@@ -2692,13 +2692,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     },
@@ -2706,6 +2706,52 @@
       "url": "/book_of_doctrine/appendix.html",
       "name": "Appendix",
       "children": [
+        {
+          "url": "/book_of_doctrine/appendix/design_principles.html",
+          "name": "Design Principles",
+          "children": [],
+          "indexedName": "0\n\nDesign Principles",
+          "meta": {
+            "priority": 10000,
+            "ignore": false,
+            "type": "default",
+            "topology": "nested",
+            "noPropagate": {},
+            "font": {
+              "color": "white"
+            },
+            "relationship": "descends",
+            "engine": "dot",
+            "graphParams": {
+              "rankdir": "TB",
+              "style": "filled",
+              "fontcolor": "black",
+              "color": "black",
+              "bgcolor": "white",
+              "gradientangle": 0,
+              "dpi": 300
+            },
+            "boxParams": {
+              "rankdir": "TB",
+              "shape": "box",
+              "penwidth": 1,
+              "color": "\"#88ffff\"",
+              "fontcolor": "black",
+              "fillcolor": "white",
+              "style": "filled",
+              "gradientangle": 270.05,
+              "label": "\"Positive\""
+            },
+            "arrowParams": {
+              "color": "\"#88ffff\"",
+              "penwidth": 1,
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
+            }
+          },
+          "value": 33.333333333333336,
+          "parent": "Appendix"
+        },
         {
           "url": "/book_of_doctrine/appendix/canon.html",
           "name": "Canon",
@@ -2744,13 +2790,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 8.333333333333334,
@@ -2790,13 +2836,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 8.333333333333334,
@@ -2836,13 +2882,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 8.333333333333334,
@@ -2882,20 +2928,20 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 8.333333333333334,
               "parent": "Canon"
             }
           ],
-          "indexedName": "0\n\nCanon",
+          "indexedName": "1\n\nCanon",
           "meta": {
             "priority": 10000,
             "ignore": false,
@@ -2925,61 +2971,15 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
-        },
-        {
-          "url": "/book_of_doctrine/appendix/design_principles.html",
-          "name": "Design Principles",
-          "children": [],
-          "indexedName": "1\n\nDesign Principles",
-          "meta": {
-            "priority": 10000,
-            "ignore": false,
-            "type": "default",
-            "topology": "nested",
-            "noPropagate": {},
-            "font": {
-              "color": "white"
-            },
-            "relationship": "descends",
-            "engine": "dot",
-            "graphParams": {
-              "rankdir": "TB",
-              "style": "filled",
-              "fontcolor": "black",
-              "color": "black",
-              "bgcolor": "white",
-              "gradientangle": 0,
-              "dpi": 300
-            },
-            "boxParams": {
-              "rankdir": "TB",
-              "shape": "box",
-              "penwidth": 1,
-              "color": "\"#88ffff\"",
-              "fontcolor": "black",
-              "fillcolor": "white",
-              "style": "filled",
-              "gradientangle": 270.05,
-              "label": "\"Australia\""
-            },
-            "arrowParams": {
-              "color": "\"#88ffff\"",
-              "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
-            }
-          },
-          "value": 33.333333333333336,
-          "parent": "Appendix"
         },
         {
           "url": "/book_of_doctrine/appendix/religious_family.html",
@@ -3019,13 +3019,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 16.666666666666668,
@@ -3065,13 +3065,13 @@
                   "fillcolor": "white",
                   "style": "filled",
                   "gradientangle": 270.05,
-                  "label": "\"Australia\""
+                  "label": "\"Positive\""
                 },
                 "arrowParams": {
                   "color": "\"#88ffff\"",
                   "penwidth": 1,
-                  "ltail": "\"cluster_235\"",
-                  "lhead": "\"cluster_239\""
+                  "ltail": "\"cluster_609\"",
+                  "lhead": "\"cluster_610\""
                 }
               },
               "value": 16.666666666666668,
@@ -3108,13 +3108,13 @@
               "fillcolor": "white",
               "style": "filled",
               "gradientangle": 270.05,
-              "label": "\"Australia\""
+              "label": "\"Positive\""
             },
             "arrowParams": {
               "color": "\"#88ffff\"",
               "penwidth": 1,
-              "ltail": "\"cluster_235\"",
-              "lhead": "\"cluster_239\""
+              "ltail": "\"cluster_609\"",
+              "lhead": "\"cluster_610\""
             }
           }
         }
@@ -3149,13 +3149,13 @@
           "fillcolor": "white",
           "style": "filled",
           "gradientangle": 270.05,
-          "label": "\"Australia\""
+          "label": "\"Positive\""
         },
         "arrowParams": {
           "color": "\"#88ffff\"",
           "penwidth": 1,
-          "ltail": "\"cluster_235\"",
-          "lhead": "\"cluster_239\""
+          "ltail": "\"cluster_609\"",
+          "lhead": "\"cluster_610\""
         }
       }
     }
@@ -3190,13 +3190,13 @@
       "fillcolor": "white",
       "style": "filled",
       "gradientangle": 270.05,
-      "label": "\"Australia\""
+      "label": "\"Positive\""
     },
     "arrowParams": {
       "color": "\"#88ffff\"",
       "penwidth": 1,
-      "ltail": "\"cluster_235\"",
-      "lhead": "\"cluster_239\""
+      "ltail": "\"cluster_609\"",
+      "lhead": "\"cluster_610\""
     }
   }
 }
