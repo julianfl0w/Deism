@@ -18,6 +18,8 @@
         "No. God does not hear us<br>":{},
         "Should you glorify God?<br>":{},
         "Sure, if you would like<br>":{},
+        "How much faith should I put in the testaments three?<br>":{},
+        "The first two testaments represent humankind's struggle for truth. The third represents our modern understanding. All are fallible, and the first two are errant.<br>":{},
         "Who were our first parents?<br>":{},
         "Chromosomal Adam and Eve, from Africa<br>":{},
         "Of what were our first parents made?<br>":{},
