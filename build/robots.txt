@@ -1,0 +1,5 @@
+# This is an empty robots.txt file
+# It allows all web crawlers full access to all content
+
+User-agent: *
+Disallow:

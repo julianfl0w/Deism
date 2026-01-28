@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book of Julian</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+
+    <style>
+      /* Style for Google Translate widget container */
+      #google_translate_element {
+        position: absolute; /* Adjust position as needed */
+        top: 0; /* Example: Top of the page */
+        right: 0; /* Example: Right corner */
+        z-index: 1000; /* Ensure it's above other elements */
+      }
+      figure {
+        border: none;
+        padding: 15px;
+        margin: auto;
+      }
+
+      figcaption {
+        font-style: italic;
+        padding: 2px;
+        text-align: center;
+      }
+
+      #selected-node-text sup {
+        user-select: none;
+        /* Disables text selection */
+        vertical-align: baseline;
+        /* Aligns the superscript to the baseline */
+        position: relative;
+        /* Positions the superscript relative to its normal position */
+        top: -0.7em;
+        /* Adjusts the top position of the superscript */
+        font-size: 60%;
+        /* Reduces the font size of the superscript */
+        line-height: 1;
+        /* Sets a consistent line height for the superscript */
+        margin-right: -0.3em;
+        /* Reduces the distance to subsequent text */
+      }
+
+      .flex-container {
+        display: flex;
+        height: 100vh; /* Set the height to the full viewport height */
+      }
+
+      @media (orientation: portrait) {
+        .flex-container {
+          /* overflow: auto;  Enables scrolling in portrait mode */
+          overflow-y: auto;
+          /* Allows vertical scrolling */
+          overflow-x: clip;
+          /* Allows vertical scrolling */
+          flex-direction: column;
+          height: 100%;
+        }
+
+        .body {
+          overflow: hidden;
+        }
+
+        #selected-node-text {
+          overflow-y: auto; /* Enable vertical scrolling */
+          flex-grow: 1; /* Allow the text div to fill the remaining space */
+          font-size: 18px;
+          width: 100%;
+          flex-grow: 1; /* Allow the text div to fill the remaining space */
+          /* keeps the width at 100% */
+          /* Larger font size for mobile devices */
+          line-height: 2;
+
+          padding-top: 10px;
+          padding-right: 15px;
+          padding-bottom: 10px;
+          padding-left: 15px;
+        }
+      }
+
+      @media (orientation: landscape) {
+        body {
+          margin: 0;
+          padding: 0;
+          overflow: hidden; /* This will prevent the body from scrolling */
+        }
+
+        .flex-container {
+          flex-direction: row;
+          overflow: hidden;
+        }
+
+        .body {
+          overflow: hidden;
+        }
+
+        #selected-node-text {
+          overflow-y: auto; /* Enable vertical scrolling */
+          flex-grow: 1; /* Allow the text div to fill the remaining space */
+
+          font-size: 18px;
+          /* Larger font size for mobile devices */
+          line-height: 1.5;
+          /* Single-spaced lines */
+          width: 100%;
+          /* keeps the width at 100% */
+
+          padding-top: 10px;
+          padding-right: 30%;
+          padding-bottom: 10px;
+          padding-left: 5px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Google Translate widget container -->
+    <div id="google_translate_element"></div>
+
+    <div class="flex-container">
+      <div id="chart"></div>
+      <div id="selected-node-text"></div>
+    </div>
+    <script>
+      // Your existing JavaScript code...
+
+      // Function to initialize Google Translate widget
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en", // Set the page language
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element"
+        );
+      }
+    </script>
+
+    <script>
+      // JavaScript to reset scroll position on page reload
+      window.onload = function () {
+        // Scroll to the top of the window
+        window.scrollTo(0, 0);
+
+        // If you need to reset the scroll of a specific element, use:
+        // document.getElementById('yourElementId').scrollTop = 0;
+      };
+    </script>
+
+    <div class="flex-container">
+      <div id="chart"></div>
+      <div id="selected-node-text"></div>
+    </div>
+    <script>
+      const radiusScaleFactor = 1.2; // Increase this factor to make arcs larger
+
+      // Load the Flare data from the local JSON file
+      fetch("julian_flare.json")
+        .then((response) => response.json())
+        .then((data) => {
+          // Set the initial text content to the root node's text
+          const textContainer = document.getElementById("selected-node-text");
+          textContainer.innerHTML = data.text;
+        })
+        .catch((error) => {
+          console.error("Error loading JSON:", error);
+        });
+    </script>
+  </body>
+</html>

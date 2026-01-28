@@ -1,0 +1,27 @@
+/* Style for Google Translate widget container */
+/* Style for Google Translate widget container */
+#google_translate_element {
+    display: inline-block;
+    /* Aligns with other inline or inline-block elements */
+    vertical-align: middle;
+    /* Aligns vertically with other items */
+    /*padding: 14px 16px; /* Consistent padding with other nav items */
+    margin-right: 10px;
+    /* Spacing from the next item */
+}
+
+#google_translate_element .goog-te-gadget-simple {
+    color: white !important;
+    /* Change text color */
+    background-color: #333 !important;
+    /* Change background color */
+    border: none !important;
+    /* Remove border if desired */
+}
+
+#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value,
+#google_translate_element .goog-te-gadget-simple a.goog-te-menu-value span {
+    color: white !important;
+}
+
+
