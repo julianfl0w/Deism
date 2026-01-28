@@ -65,6 +65,58 @@ function populatePillarSelect(pillars, alltext) {
     });
 }
 
+function buildOverviewNode(node) {
+    const selectedNodeText = document.getElementById("selected-node-text");
+
+    if (node.children && node.children.length) {
+        const details = document.createElement("details");
+        details.className = "overview-branch";
+
+        const summary = document.createElement("summary");
+        summary.textContent = node.name;
+        summary.addEventListener("click", () => {
+            if (selectedNodeText) {
+                selectedNodeText.innerHTML = node.text || "";
+            }
+        });
+
+        details.appendChild(summary);
+
+        const childrenContainer = document.createElement("div");
+        childrenContainer.className = "overview-children";
+        node.children.forEach((child) => {
+            childrenContainer.appendChild(buildOverviewNode(child));
+        });
+        details.appendChild(childrenContainer);
+
+        return details;
+    }
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "overview-leaf";
+    button.textContent = node.name;
+    button.addEventListener("click", () => {
+        if (selectedNodeText) {
+            selectedNodeText.innerHTML = node.text || "";
+        }
+    });
+    return button;
+}
+
+function populateOverviewTree(data) {
+    const overviewTree = document.getElementById("overview-tree");
+    if (!overviewTree) {
+        return;
+    }
+
+    overviewTree.innerHTML = "";
+    const root = buildOverviewNode(data);
+    if (root.tagName === "DETAILS") {
+        root.open = true;
+    }
+    overviewTree.appendChild(root);
+}
 
 function loadDeismUContent() {
     fetch('deismu.html?_=' + new Date().getTime())
@@ -107,6 +159,9 @@ async function loadUserContent() {
 async function updateNavbarBasedOnLoginStatus() {
     const profileButton = document.getElementById('profileButton');
     const loginButton = document.getElementById('loginButton');
+    if (!profileButton || !loginButton) {
+        return;
+    }
 
     // User is logged in
     if (await isUserLoggedIn()) {
@@ -179,6 +234,7 @@ fetch("julian_flare.json")
     .then((response) => response.json())
     .then((data) => {
         populatePillarSelect(data.children, data.text);
+        populateOverviewTree(data);
     })
     .catch((error) => {
         console.error("Error loading JSON:", error);
@@ -189,8 +245,41 @@ document.getElementById('bojButton').addEventListener('click', function () {
     window.location.href = 'index.html';
 });
 
-document.getElementById('deismuButton').addEventListener('click', loadDeismUContent);
+function getArrowTarget(selector) {
+    const link = document.querySelector(selector);
+    if (link && link.getAttribute('href')) {
+        return link.getAttribute('href');
+    }
+    return null;
+}
 
-configureAuth0();
+document.addEventListener('keydown', (event) => {
+    const active = document.activeElement;
+    if (active && (active.tagName === 'INPUT' || active.tagName === 'TEXTAREA')) {
+        return;
+    }
 
+    let target = null;
+    if (event.key === 'ArrowLeft') {
+        target = getArrowTarget('.back-arrow');
+    } else if (event.key === 'ArrowUp') {
+        target = getArrowTarget('.up-arrow');
+    } else if (event.key === 'ArrowRight') {
+        target = getArrowTarget('.forward-arrow');
+    }
 
+    if (target) {
+        event.preventDefault();
+        window.location.href = target;
+    }
+});
+
+const deismuButton = document.getElementById('deismuButton');
+if (deismuButton) {
+    deismuButton.addEventListener('click', loadDeismUContent);
+}
+
+const loginButton = document.getElementById('loginButton');
+if (loginButton && typeof createAuth0Client !== 'undefined') {
+    configureAuth0();
+}

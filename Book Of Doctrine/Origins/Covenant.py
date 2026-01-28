@@ -1,3 +1,5 @@
+from _graphs import graph
+
 {
     "meta": dict(priority=0),
     "Following covenant theology, our lineage consists of:": {
@@ -6,8 +8,5 @@
         "The Second Testament, a covenant of grace made by Jesus": {},
         "The Third Testament, a covenant of love made by Julian": {},
     },
-    "Simplified": {
-        "meta": {"type": "lineage", "graphParams": {"rankdir": "LR"}},
-        "Works": {"Grace": {"Love": {}}},
-    },
+    "Simplified": graph("Origins/graphs/simplified_covenant.py"),
 }

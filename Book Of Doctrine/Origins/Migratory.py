@@ -1,3 +1,5 @@
+from _graphs import graph
+
 {
     "meta":dict(priority=0),
     "This is our migratory history, which is the basis of our racial theory": {
@@ -10,9 +12,6 @@
             }
         },
     },
-    "Simplified migratory chart": {
-        "meta": {"type": "lineage", "name": "Migratory Lineage"},
-        "Africa": {"Europe": {}, "Asia": {"America": {}}, "Australia": {}},
-    },
+    "Simplified migratory chart": graph("Origins/graphs/migratory_lineage.py"),
     "Based upon the first migration, there are three races: African, Asian, and European": {},
 }

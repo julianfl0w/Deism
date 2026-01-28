@@ -1,3 +1,5 @@
+from _graphs import graph
+
 {
     "meta": dict(priority=0),
     "Introduction":{
@@ -10,21 +12,10 @@
         "This is the path by which we have entered the Metaphysical Age": {},
         "In the Beatific Vision, when we see the face of God, we will enter the Positive Age": {},
     },
-    "Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events": {
-        "meta": {"type": "lineage", "name": "Ideological Spiritual Lineage"},
-        "Atheism": {
-            "Polytheism": {
-                "Judaism": {
-                    "Christianity": {"Islam": {}, "Protestantism": {"Deism": {}}}
-                },
-                "Hinduism": {},
-            }
-        },
-    },
+    "Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events": graph(
+        "Origins/graphs/ideological_spiritual_lineage.py"
+    ),
     "In the Law of Three Stages, Deism represents the Metaphysical stage": {
-        "The Three Stages": {
-            "meta": {"type": "lineage", "graphParams": {"rankdir": "LR"}},
-            "Spiritual": {"Metaphysical": {"Positive": {}}},
-        }
+        "The Three Stages": graph("Origins/graphs/three_stages.py")
     },
 }
