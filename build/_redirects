@@ -1,0 +1,5 @@
+# Legacy build-path URLs from older generated pages.
+/build/* /:splat 301
+
+# Prefer the canonical root URL for the home page.
+/index.html / 301

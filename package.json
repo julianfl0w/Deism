@@ -1,0 +1,13 @@
+{
+  "name": "deism-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python export.py",
+    "deploy:cloudflare": "set -a && . ./.env.cloudflare && set +a && wrangler pages deploy build --project-name deism",
+    "preview:cloudflare": "set -a && . ./.env.cloudflare && set +a && wrangler pages dev build"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

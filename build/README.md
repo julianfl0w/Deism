@@ -156,7 +156,7 @@ The Standard Dualism
 
 #### Universal Annihilation
 
-<sup>0</sup> We believe in Universal Annihilation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> When the brain stem ceases to function, there is no return. <sup>3</sup> All go to the same place. All came from the dust and all return to the dust<sup>[1749](EC 3:20)</sup> . 
+<sup>0</sup> We believe in Universal Annihilation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> When the brain stem ceases to function, there is no return. <sup>3</sup> All go to the same place. All came from the dust and all return to the dust<sup>[3938](EC 3:20)</sup> . 
 
 <sup>4</sup> This place is Sheol, the grave. 
 
@@ -454,27 +454,27 @@ The Standard Dualism
 
 ### Proverbs
 
-<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[1750](PR 16:16)</sup> . 
+<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[3939](PR 16:16)</sup> . 
 
-<sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[1751](PR 13:10)</sup> . 
+<sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[3940](PR 13:10)</sup> . 
 
-<sup>2</sup> Even fools are thought wise if they keep silent<sup>[1752](PR 17:28)</sup> . 
+<sup>2</sup> Even fools are thought wise if they keep silent<sup>[3941](PR 17:28)</sup> . 
 
-<sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[1753](EC 9:5)</sup> . 
+<sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[3942](EC 9:5)</sup> . 
 
-<sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[1754](EC 9:10)</sup> . 
+<sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[3943](EC 9:10)</sup> . 
 
-<sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[1755](PR 27:17)</sup> . 
+<sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[3944](PR 27:17)</sup> . 
 
-<sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[1756](PR 15:1)</sup> . 
+<sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[3945](PR 15:1)</sup> . 
 
-<sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[1757](PR 18:24)</sup> . 
+<sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[3946](PR 18:24)</sup> . 
 
-<sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[1758](PR 13:20)</sup> . 
+<sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[3947](PR 13:20)</sup> . 
 
-<sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[1759](PR 11:25)</sup> . 
+<sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[3948](PR 11:25)</sup> . 
 
-<sup>10</sup> By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.<sup>[1760](Four Books of Confucius)</sup> . 
+<sup>10</sup> By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.<sup>[3949](Four Books of Confucius)</sup> . 
 
 
 
@@ -490,76 +490,76 @@ The Standard Dualism
 - Observe
   - The Cosmos
     - Khan: College Physics 1
-<sup>[1761](https://www.khanacademy.org/science/ap-college-physics-1)</sup>     - Khan: Introduction to Chemistry
-<sup>[1762](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/introduction-to-chemistry)</sup>     - ANUx: Astrophysics: Cosmology
-<sup>[1763](https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology)</sup>   - Human
+<sup>[3950](https://www.khanacademy.org/science/ap-college-physics-1)</sup>     - Khan: Introduction to Chemistry
+<sup>[3951](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/introduction-to-chemistry)</sup>     - ANUx: Astrophysics: Cosmology
+<sup>[3952](https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology)</sup>   - Human
     - Bio
       - Stats
         - Google: The Power of Statistics
-<sup>[1767](https://www.coursera.org/learn/the-power-of-statistics)</sup>       - Chem
+<sup>[3956](https://www.coursera.org/learn/the-power-of-statistics)</sup>       - Chem
         - HarvardX: Principles of Biochemistry
-<sup>[1769](https://www.edx.org/learn/biochemistry/harvard-university-principles-of-biochemistry)</sup>     - Genetics
+<sup>[3958](https://www.edx.org/learn/biochemistry/harvard-university-principles-of-biochemistry)</sup>     - Genetics
       - U of Melbourne: Epigenetic Control of Gene Expression
-<sup>[1775](https://www.coursera.org/learn/epigenetics)</sup>       - Genomic Data Science Specialization
-<sup>[1776](https://www.coursera.org/specializations/genomic-data-science)</sup>       - UMD: Genes and the Human Condition
-<sup>[1777](https://www.coursera.org/learn/genes)</sup>     - Linguistics
+<sup>[3964](https://www.coursera.org/learn/epigenetics)</sup>       - Genomic Data Science Specialization
+<sup>[3965](https://www.coursera.org/specializations/genomic-data-science)</sup>       - UMD: Genes and the Human Condition
+<sup>[3966](https://www.coursera.org/learn/genes)</sup>     - Linguistics
       - Miracles of Human Language: An Introduction to Linguistics
-<sup>[1781](https://www.coursera.org/learn/human-language)</sup>       - Esperanto in 12 Lessons
-<sup>[1782](https://esperanto12.net/en/)</sup>     - Psych
+<sup>[3970](https://www.coursera.org/learn/human-language)</sup>       - Esperanto in 12 Lessons
+<sup>[3971](https://esperanto12.net/en/)</sup>     - Psych
       - St. Margaret's Episcopal School: Introduction to Psychology
-<sup>[1785](https://www.edx.org/course/introduction-to-psychology)</sup>       - Yale: Introduction to Psychology
-<sup>[1786](https://www.coursera.org/learn/introduction-psychology)</sup>     - Society
+<sup>[3974](https://www.edx.org/course/introduction-to-psychology)</sup>       - Yale: Introduction to Psychology
+<sup>[3975](https://www.coursera.org/learn/introduction-psychology)</sup>     - Society
       - Model Thinking
-<sup>[1789](https://www.coursera.org/learn/model-thinking)</sup>       - UC Davis: Computational Social Science
-<sup>[1790](https://www.coursera.org/specializations/computational-social-science-ucdavis)</sup>       - UQx: Principles of Microeconomics
-<sup>[1791](https://www.edx.org/course/principles-of-microeconomics)</sup>       - UQx: Anthropology of Current World Issues
-<sup>[1792](https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues)</sup>       - University of Amsterdam: Classical Sociological Theory
-<sup>[1793](https://www.coursera.org/learn/classical-sociological-theory/)</sup>     - Religion
+<sup>[3978](https://www.coursera.org/learn/model-thinking)</sup>       - UC Davis: Computational Social Science
+<sup>[3979](https://www.coursera.org/specializations/computational-social-science-ucdavis)</sup>       - UQx: Principles of Microeconomics
+<sup>[3980](https://www.edx.org/course/principles-of-microeconomics)</sup>       - UQx: Anthropology of Current World Issues
+<sup>[3981](https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues)</sup>       - University of Amsterdam: Classical Sociological Theory
+<sup>[3982](https://www.coursera.org/learn/classical-sociological-theory/)</sup>     - Religion
       - A Journey through Western Christianity
-<sup>[1799](https://www.coursera.org/learn/western-christianity-200-1650)</sup>     - Government
+<sup>[3988](https://www.coursera.org/learn/western-christianity-200-1650)</sup>     - Government
       - American Government
-<sup>[1801](https://www.edx.org/course/american-government)</sup>     - History
+<sup>[3990](https://www.edx.org/course/american-government)</sup>     - History
       - China
         - ChinaX
-<sup>[1803](https://www.edx.org/school/tsinghuax)</sup> - Design
+<sup>[3992](https://www.edx.org/school/tsinghuax)</sup> - Design
   - Human
     - Body
       - U at Buffalo: Computer Vision Basics
-<sup>[1933](https://www.coursera.org/learn/computer-vision-basics)</sup>       - StanfordOnline: Musculoskeletal Primer for the Non-Orthopedist
-<sup>[1934](https://www.edx.org/learn/medicine/stanford-university-musculoskeletal-primer-for-the-non-orthopedist)</sup>     - Networks
+<sup>[4122](https://www.coursera.org/learn/computer-vision-basics)</sup>       - StanfordOnline: Musculoskeletal Primer for the Non-Orthopedist
+<sup>[4123](https://www.edx.org/learn/medicine/stanford-university-musculoskeletal-primer-for-the-non-orthopedist)</sup>     - Networks
       - Google: Computer Networking Basics
-<sup>[1937](https://www.coursera.org/learn/computer-networking)</sup>       - Wireless Communications for Everybody
-<sup>[1938](https://www.coursera.org/learn/wireless-communications)</sup>       - IITBombayX: Signals and Systems, Part 1
-<sup>[1939](https://www.edx.org/learn/engineering/iitbombay-signals-and-systems-part-1)</sup>       - Stanford: Cryptography I
-<sup>[1940](https://www.coursera.org/learn/crypto)</sup>       - IBM: Introduction to Blockchain
-<sup>[1941](https://www.edx.org/learn/blockchain/ibm-introduction-to-blockchain)</sup>     - Ops
+<sup>[4126](https://www.coursera.org/learn/computer-networking)</sup>       - Wireless Communications for Everybody
+<sup>[4127](https://www.coursera.org/learn/wireless-communications)</sup>       - IITBombayX: Signals and Systems, Part 1
+<sup>[4128](https://www.edx.org/learn/engineering/iitbombay-signals-and-systems-part-1)</sup>       - Stanford: Cryptography I
+<sup>[4129](https://www.coursera.org/learn/crypto)</sup>       - IBM: Introduction to Blockchain
+<sup>[4130](https://www.edx.org/learn/blockchain/ibm-introduction-to-blockchain)</sup>     - Ops
       - Agile Scrum Practitioner
-<sup>[1947](scrum.org)</sup>       - Google Project Management: Professional Certificate
-<sup>[1948](https://www.coursera.org/google-certificates/project-management-certificate)</sup>     - Mind
+<sup>[4136](scrum.org)</sup>       - Google Project Management: Professional Certificate
+<sup>[4137](https://www.coursera.org/google-certificates/project-management-certificate)</sup>     - Mind
       - Neural Networks and Deep Learning
-<sup>[1951](https://www.coursera.org/learn/neural-networks-deep-learning)</sup>       - Programming Massively Parallel Processors with CUDA
-<sup>[1952](https://www.udacity.com/course/programming-massively-parallel-processors-with-cuda--ud977)</sup>     - Comms
+<sup>[4140](https://www.coursera.org/learn/neural-networks-deep-learning)</sup>       - Programming Massively Parallel Processors with CUDA
+<sup>[4141](https://www.udacity.com/course/programming-massively-parallel-processors-with-cuda--ud977)</sup>     - Comms
       - Graphic
         - IBM: Introduction to Web Development with HTML, CSS, JavaScript
-<sup>[1955](https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript)</sup>         - Meta Android Developer Professional Certificate
-<sup>[1956](https://www.coursera.org/professional-certificates/meta-android-developer)</sup>         - Michigan State: Game Design and Development with Unity 2020 Specialization
-<sup>[1957](https://www.coursera.org/specializations/game-development)</sup>       - Cloud Cert
+<sup>[4144](https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript)</sup>         - Meta Android Developer Professional Certificate
+<sup>[4145](https://www.coursera.org/professional-certificates/meta-android-developer)</sup>         - Michigan State: Game Design and Development with Unity 2020 Specialization
+<sup>[4146](https://www.coursera.org/specializations/game-development)</sup>       - Cloud Cert
         - AWS Cloud Solutions Architect
-<sup>[1961](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)</sup>         - AWS Cloud Quest
-<sup>[1962](https://aws.amazon.com/training/digital/aws-cloud-quest/)</sup>         - Google Cloud Digital Leader
-<sup>[1963](https://cloud.google.com/learn/certification/cloud-digital-leader)</sup>         - Azure Fundamentals
-<sup>[1964](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)</sup> - Maintain
+<sup>[4150](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)</sup>         - AWS Cloud Quest
+<sup>[4151](https://aws.amazon.com/training/digital/aws-cloud-quest/)</sup>         - Google Cloud Digital Leader
+<sup>[4152](https://cloud.google.com/learn/certification/cloud-digital-leader)</sup>         - Azure Fundamentals
+<sup>[4153](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)</sup> - Maintain
   - Human
     - Mind
       - JHU: Psychological First Aid
-<sup>[2133](https://www.coursera.org/learn/psychological-first-aid)</sup>       - Book Of Julian
-<sup>[2134](https://bookofjulian.net/)</sup>     - Body
+<sup>[4322](https://www.coursera.org/learn/psychological-first-aid)</sup>       - Book Of Julian
+<sup>[4323](https://bookofjulian.net/)</sup>     - Body
       - UC San Diego: Drug Discovery
-<sup>[2137](https://www.coursera.org/learn/drug-discovery)</sup>       - UQx: Introduction to Biomedical Imaging
-<sup>[2138](https://www.edx.org/learn/biomedical-engineering/the-university-of-queensland-introduction-to-biomedical-imaging)</sup>       - GeorgetownX: Genomic Medicine Gets Personal
-<sup>[2139](https://www.edx.org/course/genomic-medicine-gets-personal)</sup>       - Blood Film Morphology - A Practical Guide
-<sup>[2140](https://www.coursera.org/learn/blood-film-morphology)</sup>       - Stanford: Introduction to Food and Health
-<sup>[2141](https://www.coursera.org/learn/food-and-health)</sup> 
+<sup>[4326](https://www.coursera.org/learn/drug-discovery)</sup>       - UQx: Introduction to Biomedical Imaging
+<sup>[4327](https://www.edx.org/learn/biomedical-engineering/the-university-of-queensland-introduction-to-biomedical-imaging)</sup>       - GeorgetownX: Genomic Medicine Gets Personal
+<sup>[4328](https://www.edx.org/course/genomic-medicine-gets-personal)</sup>       - Blood Film Morphology - A Practical Guide
+<sup>[4329](https://www.coursera.org/learn/blood-film-morphology)</sup>       - Stanford: Introduction to Food and Health
+<sup>[4330](https://www.coursera.org/learn/food-and-health)</sup> 
 
 
 
