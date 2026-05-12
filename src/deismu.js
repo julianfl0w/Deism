@@ -71,7 +71,7 @@ async function getCompletedCourses(auth0) {
 
 
 function getCurriculum() {
-    fetch("curriculum.json")
+    fetch("/curriculum.json")
         .then((response) => response.json())
         .then((jsonData) => {
             createExpandableList(

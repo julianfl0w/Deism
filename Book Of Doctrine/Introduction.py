@@ -1,5 +1,5 @@
 {
-    "meta": dict(priority=-30000, tableOfContentsSkip=True, skipFlare=True),
+    "meta": dict(priority=-30000),
     "Children of Abraham, peace be upon you<br><br>": {},
     "There is one God, who has spoken to no one<br><br>": {},
     "The Book of Doctrine is the first book of the Third Testament": {},

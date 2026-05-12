@@ -2,20 +2,29 @@
 <html>
 
 <head>
-  <title>Church of God (Deist)</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <title>Appendix | Religious Family | Book of Doctrine</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Religious Family Our religious family is a taxonomy of modern religious systems, on the basis of creed. The most popular variants are listed Ancestors..." />
+<meta name="robots" content="index, follow, max-image-preview:large" />
+<link rel="canonical" href="https://deism.church/book_of_doctrine/appendix/religious_family.html" />
+<meta property="og:title" content="Appendix | Religious Family | Book of Doctrine" />
+<meta property="og:description" content="Religious Family Our religious family is a taxonomy of modern religious systems, on the basis of creed. The most popular variants are listed Ancestors..." />
+<meta property="og:url" content="https://deism.church/book_of_doctrine/appendix/religious_family.html" />
+<meta property="og:type" content="article" />
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"CreativeWork","name":"Appendix | Religious Family | Book of Doctrine","url":"https://deism.church/book_of_doctrine/appendix/religious_family.html","isPartOf":{"@type":"Book","name":"Book of Doctrine","url":"https://deism.church/"}}</script>
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" type="text/css" href="/style.css" />
-  <link rel="stylesheet" type="text/css" href="/navbar.css" />
-  <link rel="stylesheet" type="text/css" href="/arrows.css" /> <!-- Reference to arrows.css -->
+  <link rel="stylesheet" type="text/css" href="/style.css?v=20260512150243" />
+  <link rel="stylesheet" type="text/css" href="/navbar.css?v=20260512150243" />
+  <link rel="stylesheet" type="text/css" href="/arrows.css?v=20260512150243" />
   <script type="text/javascript"
     src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
   <!-- Navigation Bar -->
-  <nav>
   <ul class="navbar">
     <li><a href="javascript:void(0)" id="bojButton" class="dropbtn">Book of Doctrine</a></li>
     <li class="dropdown">
@@ -26,21 +35,16 @@
       <a href="javascript:void(0)" id="chapterSelect" class="dropbtn">All Chapters</a>
       <div class="dropdown-content" id="chapterDropdown"></div>
     </li>
-    <li><a href="javascript:void(0)" id="deismuButton" class="dropbtn">DeismU</a></li>
-    <li><a href="javascript:void(0)" id="profileButton" class="dropbtn">Profile</a></li>
-    <li><a href="javascript:void(0)" id="loginButton" class="dropbtn">Login</a></li>
   </ul>
-</nav>
 
   <!-- Main Content -->
   <div class="flex-container">
-    <div id="chart"></div>
-    <div>
-      <!-- Arrow buttons (top) -->
-      <a href="/book_of_doctrine/appendix/canon.html" class="arrow-button back-arrow"></a>
-      <a href="/book_of_doctrine/appendix.html" class="arrow-button up-arrow"></a>
-      <a href="/book_of_doctrine/appendix/design_principles.html" class="arrow-button forward-arrow"></a>
-
+    <div id="overview-panel">
+      <div class="overview-title">Overview</div>
+      <div id="overview-tree"></div>
+    </div>
+    <div class="content-panel">
+      <div id="chart"></div>
       <div id="selected-node-text"><h4><a href=/book_of_doctrine/appendix/religious_family.html>Religious Family</a></h4>
 <sup>0</sup> Our religious family is a taxonomy of modern religious systems, on the basis of creed. <h5><a href=/book_of_doctrine/appendix/religious_family/the_most_popular_variants_are_listed.html>The most popular variants are listed</a></h5>
 <sup>0</sup> Ancestors
@@ -87,17 +91,29 @@ New Religious Movements (NRMs)</li></ol>
 
 
 </div>
-
-      <!-- Arrow buttons (bottom) -->
-      <a href="/book_of_doctrine/appendix/canon.html" class="arrow-button back-arrow"></a>
-      <a href="/book_of_doctrine/appendix.html" class="arrow-button up-arrow"></a>
-      <a href="/book_of_doctrine/appendix/design_principles.html" class="arrow-button forward-arrow"></a>
+    </div>
+    <div id="nav-panel">
+      <div class="nav-title">Navigate</div>
+      <div class="nav-search">
+        <label class="nav-search-label" for="navSearchInput">Search doctrine</label>
+        <input
+          id="navSearchInput"
+          class="nav-search-input"
+          type="search"
+          placeholder="Search chapters and sections"
+          autocomplete="off" />
+        <div id="navSearchResults" class="nav-search-results" hidden></div>
+      </div>
+      <div class="nav-arrows">
+        <a href="/book_of_doctrine/appendix/design_principles.html" class="arrow-button back-arrow"></a>
+        <a href="/book_of_doctrine/appendix.html" class="arrow-button up-arrow"></a>
+        <a href="/book_of_doctrine/appendix/canon.html" class="arrow-button forward-arrow"></a>
+      </div>
     </div>
   </div>
 
-  <script src="https://cdn.auth0.com/js/auth0-spa-js/1.13/auth0-spa-js.production.js"></script>
-  <script src="/navbar.js"></script>
-  <script src="/deismu.js"></script>
+  <script src="/navbar.js?v=20260512150243"></script>
+  <script src="/deismu.js?v=20260512150243"></script>
 </body>
 
 </html>

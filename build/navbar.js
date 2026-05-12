@@ -10,6 +10,10 @@ function toggleHamburgerMenu() {
     hamburgerIcon.classList.toggle('open');
 }
 
+let navSearchIndex = [];
+let navSearchMatches = [];
+let navSearchActiveIndex = -1;
+
 
 function createDropdownOption(dropdown, itemName, itemText, onClickAction) {
     const chapterDropdown = document.getElementById("chapterDropdown");
@@ -118,8 +122,177 @@ function populateOverviewTree(data) {
     overviewTree.appendChild(root);
 }
 
+function buildSearchIndex(node, trail = []) {
+    const path = [...trail, node.name].filter(Boolean);
+    const entries = [];
+
+    if (node.url && trail.length > 0) {
+        entries.push({
+            name: node.name,
+            url: node.url,
+            text: node.text || "",
+            path,
+            searchText: path.join(" ").toLowerCase(),
+        });
+    }
+
+    (node.children || []).forEach((child) => {
+        entries.push(...buildSearchIndex(child, path));
+    });
+
+    return entries;
+}
+
+function renderSearchResults(matches) {
+    const results = document.getElementById("navSearchResults");
+    if (!results) {
+        return;
+    }
+
+    results.innerHTML = "";
+    navSearchMatches = matches;
+    navSearchActiveIndex = matches.length ? 0 : -1;
+
+    if (!matches.length) {
+        results.hidden = false;
+        const empty = document.createElement("div");
+        empty.className = "nav-search-empty";
+        empty.textContent = "No matching sections.";
+        results.appendChild(empty);
+        return;
+    }
+
+    results.hidden = false;
+    matches.forEach((match, index) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "nav-search-result";
+        if (index === navSearchActiveIndex) {
+            button.classList.add("is-active");
+        }
+
+        const title = document.createElement("span");
+        title.className = "nav-search-result-title";
+        title.textContent = match.name;
+
+        const path = document.createElement("span");
+        path.className = "nav-search-result-path";
+        path.textContent = match.path.slice(1).join(" / ");
+
+        button.appendChild(title);
+        button.appendChild(path);
+        button.addEventListener("mousedown", (event) => {
+            event.preventDefault();
+            selectSearchMatch(match);
+        });
+        results.appendChild(button);
+    });
+}
+
+function updateActiveSearchResult(nextIndex) {
+    const results = document.getElementById("navSearchResults");
+    if (!results || !navSearchMatches.length) {
+        return;
+    }
+
+    navSearchActiveIndex = (nextIndex + navSearchMatches.length) % navSearchMatches.length;
+    Array.from(results.children).forEach((child, index) => {
+        child.classList.toggle("is-active", index === navSearchActiveIndex);
+    });
+}
+
+function hideSearchResults() {
+    const results = document.getElementById("navSearchResults");
+    if (!results) {
+        return;
+    }
+    results.hidden = true;
+}
+
+function selectSearchMatch(match) {
+    const input = document.getElementById("navSearchInput");
+    if (input) {
+        input.value = match.path.slice(1).join(" / ");
+    }
+    hideSearchResults();
+    window.location.href = match.url;
+}
+
+function updateSearchResults(query) {
+    const normalized = query.trim().toLowerCase();
+    if (!normalized) {
+        hideSearchResults();
+        return;
+    }
+
+    const matches = navSearchIndex
+        .filter((entry) => entry.searchText.includes(normalized))
+        .sort((left, right) => {
+            const leftStarts = left.searchText.startsWith(normalized) ? 0 : 1;
+            const rightStarts = right.searchText.startsWith(normalized) ? 0 : 1;
+            if (leftStarts !== rightStarts) {
+                return leftStarts - rightStarts;
+            }
+            return left.path.length - right.path.length;
+        })
+        .slice(0, 8);
+
+    renderSearchResults(matches);
+}
+
+function initNavSearch(data) {
+    const input = document.getElementById("navSearchInput");
+    const results = document.getElementById("navSearchResults");
+    if (!input || !results) {
+        return;
+    }
+
+    navSearchIndex = buildSearchIndex(data);
+
+    input.addEventListener("input", () => {
+        updateSearchResults(input.value);
+    });
+
+    input.addEventListener("focus", () => {
+        if (input.value.trim()) {
+            updateSearchResults(input.value);
+        }
+    });
+
+    input.addEventListener("keydown", (event) => {
+        if (!navSearchMatches.length) {
+            return;
+        }
+
+        if (event.key === "ArrowDown") {
+            event.preventDefault();
+            updateActiveSearchResult(navSearchActiveIndex + 1);
+            return;
+        }
+
+        if (event.key === "ArrowUp") {
+            event.preventDefault();
+            updateActiveSearchResult(navSearchActiveIndex - 1);
+            return;
+        }
+
+        if (event.key === "Enter") {
+            event.preventDefault();
+            if (navSearchActiveIndex >= 0) {
+                selectSearchMatch(navSearchMatches[navSearchActiveIndex]);
+            }
+        }
+    });
+
+    input.addEventListener("blur", () => {
+        window.setTimeout(() => {
+            hideSearchResults();
+        }, 150);
+    });
+}
+
 function loadDeismUContent() {
-    fetch('deismu.html?_=' + new Date().getTime())
+    fetch('/deismu.html?_=' + new Date().getTime())
         .then(response => response.text())
         .then(html => {
             const selectedNodeText = document.getElementById('selected-node-text');
@@ -230,11 +403,12 @@ const configureAuth0 = async () => {
 
 
 console.log("DOM Loaded");
-fetch("julian_flare.json")
+fetch("/julian_flare.json")
     .then((response) => response.json())
     .then((data) => {
         populatePillarSelect(data.children, data.text);
         populateOverviewTree(data);
+        initNavSearch(data);
     })
     .catch((error) => {
         console.error("Error loading JSON:", error);
@@ -242,7 +416,7 @@ fetch("julian_flare.json")
 
 
 document.getElementById('bojButton').addEventListener('click', function () {
-    window.location.href = 'index.html';
+    window.location.href = '/';
 });
 
 function getArrowTarget(selector) {

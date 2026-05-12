@@ -18,9 +18,6 @@
         "And Universe Creationism": {}
       }
     },
-    "Table of Contents": {
-      "Table of Contents ": {}
-    },
     "Origins": {
       "Genesis": {
         "Fourteen billion years ago, God created our universe": {},
@@ -35,32 +32,11 @@
         "But we were united under a common God": {},
         "Now we seek to know God": {}
       },
-      "Migratory": {
-        "This is our migratory history, which is the basis of our racial theory": {
-          "300,000 years ago, humankind originated in Africa": {
-            "150,000 years ago, we expanded into Eurasia": {
-              "50,000 years ago, we expanded into Australia": {
-                "15,000 years ago, we expanded into America": {}
-              }
-            }
-          }
-        },
-        "Simplified migratory chart": {
-          "Africa": {
-            "Europe": {},
-            "Asia": {
-              "America": {}
-            },
-            "Australia": {}
-          }
-        },
-        "Based upon the first migration, there are three races: African, Asian, and European": {}
-      },
       "Covenant": {
         "Following covenant theology, our lineage consists of:": {
-          "The First Testament, a covenant of works made with Adam": {},
-          "The Second Testament, a covenant of grace made by Jesus": {},
-          "The Third Testament, a covenant of love made by Julian": {}
+          "The First Testament, a covenant of works requiring animal sacrifice, making no promise of a life after death": {},
+          "The Second Testament, a covenant of grace, alluding to a life after death": {},
+          "The Third Testament, a covenant of love, making no promise of a life after death": {}
         },
         "Simplified": {
           "Works": {
@@ -123,25 +99,35 @@
           }
         }
       },
+      "Migratory": {
+        "This is our migratory history, which is the basis of our racial theory": {
+          "300,000 years ago, humankind originated in Africa": {},
+          "150,000 years ago, we expanded into Eurasia": {},
+          "50,000 years ago, we expanded into Australia": {},
+          "15,000 years ago, we expanded into America": {}
+        },
+        "Simplified migratory chart": {
+          "Africa": {
+            "Europe": {},
+            "Asia": {
+              "America": {}
+            },
+            "Australia": {}
+          }
+        },
+        "Based upon the first migration, there are three races: African, Asian, and European": {}
+      },
       "Personal": {
         "The Tree of Spirit": {},
-        "This is our personal spiritual lineage:": {
-          "Abraham, who established the first covenant": {
-            "David, who unified the people": {
-              "Jesus, who established the second covenant": {
-                "Paul, who established the church": {
-                  "Constantine, who unified the people": {
-                    "Thomas Aquinas, who unified the doctrine": {
-                      "Martin Luther, who refined the doctrine": {
-                        "Julian, who established the third covenant": {}
-                      }
-                    }
-                  }
-                }
-              }
-            }
-          }
-        }
+        "Deism recognizes the following theologians as a part of our lineage": {},
+        "Abraham, who established the first covenant": {},
+        "David, who unified the people": {},
+        "Jesus, who established the second covenant": {},
+        "Paul, who established the church": {},
+        "Constantine, who unified the people": {},
+        "Thomas Aquinas, who unified the doctrine": {},
+        "Martin Luther, who refined the doctrine": {},
+        "And finally Julian Coy, who established the third covenant and administers the Deist religion worldwide": {}
       }
     },
     "Nature": {
@@ -195,83 +181,11 @@
         "Cosmology is the study of the products of God's creation": {}
       }
     },
-    "Ethics": {
-      "The Ten Commandments": {
-        "Remember the sabbath day, to keep it holy": {},
-        "Honor thy father and thy mother": {},
-        "Do not hold any god above the Creator": {},
-        "Do not make idols": {},
-        "Do not disrespect the Creator": {},
-        "Do not murder": {},
-        "Do not commit adultery": {},
-        "Do not steal": {},
-        "Do not lie about your peer": {},
-        "Do not covet your peer's": {
-          "house, nor": {},
-          "spouse, nor": {},
-          "anything belonging to your peer": {}
-        }
-      },
-      "The Third Covenent": {
-        "Treat others as you would have them treat you": {}
-      },
-      "PLUR": {
-        "Peace": {},
-        "Love": {},
-        "Unity": {},
-        "Respect": {}
-      },
-      "Cardinal Virtues": {
-        "There are four cardinal virtues:": {
-          "Prudence": {
-            "Wisdom in material matters": {},
-            "Zh\u00ec (\u667a, wisdom, knowledge)": {}
-          },
-          "Justice": {
-            "righteousness": {},
-            "Y\u00ec (\u4e49; \u7fa9, righteousness, justice)": {},
-            "L\u01d0 (\u793c; \u79ae, propriety, rites)": {}
-          },
-          "Fortitude": {
-            "forbearance": {},
-            "strength": {},
-            "endurance, and": {},
-            "the ability to confront": {
-              "fear": {},
-              "uncertainty, and": {},
-              "intimidation": {}
-            }
-          },
-          "Temperance": {
-            "or restraint": {},
-            "the practice of": {
-              "self-control": {},
-              "abstention": {},
-              "discretion, and": {},
-              "moderation": {}
-            }
-          }
-        },
-        "And a few eastern additions:": {
-          "Benevolence": {
-            "R\u00e9n (\u4ec1, benevolence, humaneness)": {}
-          },
-          "X\u00ecn (\u4fe1, sincerity, faithfulness)": {}
-        }
-      },
-      "Sexual Prohibitions": {
-        "Do not sleep with your biological": {
-          "Ancestor, nor": {},
-          "Descendant, nor": {},
-          "Sibling, nor": {},
-          "Ancestor's Sibling,": {}
-        },
-        "Nor any beast.": {}
-      }
-    },
     "Church": {
-      "OrgChart": {
-        "Julian": {}
+      "Canonization": {
+        "Any person who contributes to the Third Testament shall be considered Canonized by the Letter": {},
+        "Furthermore, the Chief Theologian may bestow Sainthood upon dead persons, consistent with the practices and requirements of the Catholic church": {},
+        "Finally, any person who completes a curriculum shall be considered Canonized by the Degree": {}
       },
       "Communications": {
         "Missiology": {
@@ -281,197 +195,85 @@
             "Social Media": {},
             "Corporate Events": {}
           }
+        }
+      }
+    },
+    "God": {
+      "Catechism": {
+        "Introduction": {
+          "The Deist Catechism is an accessible summary of Deist thought": {},
+          "It serves children and adults, instructing them in what is right, and insulating them from what is wrong": {},
+          "The Deist Catechism exists to edify the intellect, inspire ethical living, and cultivate a sense of awe and wonder towards the universe.": {}
         },
-        "Standards": {
-          "Vowel Set": {
-            "/\u0254/": {
-              "a": {},
-              "ball": {}
-            },
-            "/\u025b/": {
-              "e": {},
-              "bed": {}
-            },
-            "/i/": {
-              "i": {},
-              "eat": {}
-            },
-            "/o\u028a/": {
-              "o": {},
-              "boat": {}
-            },
-            "/u/": {
-              "u": {},
-              "boot": {}
+        "Catechism": {
+          "What is the chief end of humankind?<br>": {},
+          "The chief end of humankind is to find God<br>": {},
+          "Hasn't God been found already in the form of Yahweh, Jesus, and Allah?<br>": {},
+          "No, as these are false Gods": {},
+          "No one has ever heard, nor seen them<br>": {},
+          "Where is God?<br>": {},
+          "God is outside of this universe<br>": {},
+          "Can you see God?<br>": {},
+          "Not at this time<br>": {},
+          "Does God hear our prayers?<br>": {},
+          "No. God does not hear us<br>": {},
+          "Should you glorify God?<br>": {},
+          "Sure, if you would like<br>": {},
+          "Who were our first parents?<br>": {},
+          "Chromosomal Adam and Eve, from Africa<br>": {},
+          "Of what were our first parents made?<br>": {},
+          "They were the continuation of an earlier, similar species<br>": {},
+          "What is a covenant?<br>": {},
+          "An agreement between two or more persons.<br>": {},
+          "How many Gods are there?<br>": {},
+          "One. The Creator God<br>": {},
+          "Does God know all things?<br>": {},
+          "No<br>": {},
+          "Who wrote the Bible?<br>": {},
+          "Ordinary people<br>": {},
+          "Should I live my life according to the first two testaments?<br>": {},
+          "No, as they are legacy. A better life doctrine is the Third Testament, which has superseded the first two<br>": {},
+          "What is the purpose of religion?<br>": {},
+          "The purpose of religion is to empower the people socially<br>": {},
+          "Am I not then equally served by attending a traditional house of worship?<br>": {},
+          "If you appreciate traditional doctrine, this is the better path for you<br>": {},
+          "What is the Beatific Vision?<br>": {},
+          "The Beatific Vision will occur when humankind unequivocally witnesses the face of God<br>": {},
+          "How will we know this event has occurred?<br>": {},
+          "You will investigate the claims scientifically<br>": {},
+          "What is the Ascension?<br>": {},
+          "The Ascension is the period after the Beatific Vision in which we become communicant with God<br>": {}
+        }
+      },
+      "Central Topology": {
+        "God is outside of the Cosmos, in Heaven": {},
+        "The Cosmos, as God's creation, are also contained within Heaven": {},
+        "The Children of Abraham presently occupy only a small part of the Cosmos": {},
+        "Cosmological Topology": {
+          "Heaven": {
+            "God": {},
+            "The Cosmos": {
+              "Us": {}
             }
           }
         }
       },
-      "Canonization": {
-        "Any person who contributes to the Third Testament shall be considered Canonized by the Letter": {},
-        "Furthermore, the Chief Theologian may bestow Sainthood upon dead persons, consistent with the practices and requirements of the Catholic church": {},
-        "Finally, any person who completes a curriculum shall be considered Canonized by the Degree": {}
-      }
-    },
-    "Ritual": {
-      "Yoga": {
-        "Here is the Deist Yoga routine": {
-          "Mountain Pose": {
-            "Stand tall with your feet together": {},
-            "Straighten your spine and relax your shoulders": {},
-            "Place your hands by your sides with palms facing forward": {},
-            "Take deep breaths and find your balance": {}
-          },
-          "Forward Fold": {
-            "From Mountain Pose, exhale and bend forward at the hips": {},
-            "Keep your back straight as you fold forward": {},
-            "Allow your hands to hang down towards the floor": {},
-            "If possible, reach for your toes or grasp the backs of your ankles": {},
-            "Relax your head, neck, and shoulders, and let the weight of your upper body stretch your hamstrings and lower back": {},
-            "Hold the pose for a few breaths or longer": {},
-            "To release, engage your core and slowly come back up to standing": {}
-          },
-          "Downward-Facing Dog": {
-            "Walk your hands outward": {},
-            "Straighten your arms and legs, forming an inverted 'V' shape": {},
-            "Press your heels toward the ground and lengthen your spine": {},
-            "Hold the pose and take deep breaths": {}
-          },
-          "Cobra Pose": {
-            "Lie on your stomach with your legs extended and tops of your feet pressing into the mat.": {},
-            "Place your hands beneath your shoulders, fingers pointing forward.": {},
-            "Inhale and slowly lift your chest off the mat, keeping your elbows close to your body.": {},
-            "Lengthen your spine and gaze forward, keeping your shoulders relaxed.": {},
-            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {}
-          },
-          "Upward-Facing Dog": {
-            "Lie face down on the mat with your legs extended and tops of your feet pressing into the mat.": {},
-            "Place your palms on the mat next to your ribs, fingers pointing forward.": {},
-            "Inhale and press your hands firmly into the mat as you straighten your arms, lifting your chest off the mat.": {},
-            "Roll your shoulders back and down, opening your chest and lifting your gaze.": {},
-            "Keep your legs active, pressing the tops of your feet and thighs into the mat.": {},
-            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {}
-          },
-          "Warrior I": {
-            "Start in a standing position with your feet hip-width apart": {},
-            "Step your right foot forward and turn your left foot slightly outward": {},
-            "Bend your right knee, keeping it aligned with your ankle": {},
-            "Raise your arms overhead and gaze forward": {},
-            "Hold the pose, feeling strength in your legs and grounding through your feet": {}
-          },
-          "Tree Pose": {
-            "Stand tall with your feet together and arms by your sides": {},
-            "Shift your weight onto your left foot and lift your right foot off the ground": {},
-            "Place the sole of your right foot against your inner left thigh or calf": {},
-            "Bring your hands to your heart center or extend them overhead": {},
-            "Find your balance and focus on a steady breath": {}
-          },
-          "Bridge Pose": {
-            "Lie on your back with your knees bent and feet hip-distance apart": {},
-            "Place your arms alongside your body with palms facing down": {},
-            "Press your feet into the mat and lift your hips upward": {},
-            "Engage your core and thighs as you lift your chest toward your chin": {},
-            "Hold the pose, breathing deeply and feeling the stretch in your chest and hips": {}
-          },
-          "Child's Pose": {
-            "Start on your hands and knees, with your knees slightly wider than hip-width apart": {},
-            "Lower your hips back towards your heels as you reach your arms forward": {},
-            "Rest your forehead on the mat and": {}
-          }
-        }
-      },
-      "Fasting": {
-        "Here are the reasons for fasting:": {
-          "Mourning": {},
-          "Motivation": {},
-          "Mental clarity": {},
-          "Health": {}
+      "Faith": {
+        "Nobody Creed": {
+          "Nobody has spoken to God": {},
+          "Nobody may speak for God": {},
+          "Nobody knows the name of God": {},
+          "Nobody knows the character of God": {},
+          "No messenger exists for God": {},
+          "No human can claim genetic lineage from God": {},
+          "No human can claim spiritual lineage from God": {}
         },
-        "Here are several kinds of fast:": {
-          "Daniel Fast: Abstain from meat for a week": {},
-          "Water fast: Consume only water for 48 hours": {},
-          "Intermittent fast: Eat once daily for a week": {}
+        "One God Creed": {
+          "There is one God who has spoken to no one": {}
         }
-      },
-      "Music": {
-        "The following comprise our musical tradition": {
-          "Speaking Tongues": {},
-          "The holy pentatonic (God's tonality)": {},
-          "The Om": {}
-        },
-        "The singing of songs from foreign doctrines is expressly permitted.": {},
-        "When you do so, your aim should be to understand these people, so as to absorb them into the true doctrine.": {}
-      },
-      "Sacraments": {
-        "We recognize the following sacraments, or rites:": {
-          "Birth": {},
-          "Marriage": {},
-          "Burial": {}
-        }
-      },
-      "Blessings": {
-        "The Lord bless you and keep you;The Lord make His face shine upon you,": {},
-        "And be gracious to you;": {},
-        "The Lord [a]lift up His countenance upon you,": {},
-        "And give you peace.": {}
-      },
-      "Holidays": {
-        "We recognize the following holidays:": {
-          "Christmas, during which time we remember the Ancestors": {},
-          "Easter, during which time we consider our Descendants": {}
-        }
-      },
-      "Meditation": {
-        "Mantras": {
-          "Divine Order, Harmony, and Truth": {},
-          "Embrace the Present Moment": {},
-          "Trust the process": {},
-          "Disregard fools": {}
-        },
-        "Body-scan": {
-          "Begin by finding a comfortable position, either sitting or lying down": {},
-          "Bring your attention to your feet. Notice any sensations or feelings in your feet": {},
-          "Now, shift your attention to your lower legs. Feel the sensations in your calf muscles and shins": {},
-          "Direct your awareness to your knees. Notice any sensations or tension in this area": {},
-          "Shift your attention to your thighs. Feel the weight and sensations in your upper legs": {},
-          "Bring your focus to your hips and pelvis. Notice any sensations or areas of tightness": {},
-          "Now, move your attention to your abdomen. Feel the rise and fall of your breath in this area": {},
-          "Direct your awareness to your chest. Notice the gentle expansion and contraction with each breath": {},
-          "Shift your attention to your upper back. Feel the sensations and any areas of tension in this region": {},
-          "Bring your focus to your shoulders. Notice any tightness or release of tension in this area": {},
-          "Now, direct your awareness to your arms and hands. Feel any sensations or tingling in your limbs": {},
-          "Shift your attention to your neck. Notice any areas of stiffness or relaxation in this part of your body": {},
-          "Bring your focus to your head. Notice any sensations, such as warmth, coolness, or pressure": {},
-          "Now, direct your awareness to your face. Notice any sensations or areas of tension, such as the jaw or forehead": {},
-          "Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed": {}
-        },
-        "Deep Breathing": {
-          "With this device, I can produce two tones: Bass and Tone": {},
-          "I will play each four times": {},
-          "When you hear the tone, breathe in": {},
-          "When you hear the bass, breathe out": {},
-          "deep_breathing.mp3": {}
-        }
-      },
-      "Guidance": {
-        "Variants of the Socratic method, such as Rogerian Psychotherapy, are a useful general-purpose tool to discover hidden thought in the mind of another": {},
-        "Tarot is likewise an effective means to help friends help themselves": {}
       }
     },
     "Wisdom": {
-      "Proverbs": {
-        "How much better to get wisdom than gold, to get insight rather than silver!": {},
-        "Where there is strife, there is pride, but wisdom is found in those who take advice": {},
-        "Even fools are thought wise if they keep silent": {},
-        "For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten": {},
-        "Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom": {},
-        "As iron sharpens iron, so one person sharpens another": {},
-        "A gentle answer turns away wrath, but a harsh word stirs up anger.": {},
-        "One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother": {},
-        "Walk with the wise and become wise, for a companion of fools suffers harm": {},
-        "A generous person will prosper; whoever refreshes others will be refreshed": {},
-        "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.": {}
-      },
       "Curriculum": {
         "Introduction": {
           "The Deist Curriculum is selected to advance the Third Testament Prophesies": {},
@@ -581,81 +383,236 @@
             }
           }
         }
+      },
+      "Proverbs": {
+        "How much better to get wisdom than gold, to get insight rather than silver!": {},
+        "Where there is strife, there is pride, but wisdom is found in those who take advice": {},
+        "Even fools are thought wise if they keep silent": {},
+        "For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten": {},
+        "Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom": {},
+        "As iron sharpens iron, so one person sharpens another": {},
+        "A gentle answer turns away wrath, but a harsh word stirs up anger.": {},
+        "One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother": {},
+        "Walk with the wise and become wise, for a companion of fools suffers harm": {},
+        "A generous person will prosper; whoever refreshes others will be refreshed": {},
+        "By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.": {}
       }
     },
-    "God": {
-      "Catechism": {
-        "Introduction": {
-          "The Deist Catechism is an accessible summary of Deist thought": {},
-          "It serves children and adults, instructing them in what is right, and insulating them from what is wrong": {},
-          "The Deist Catechism exists to edify the intellect, inspire ethical living, and cultivate a sense of awe and wonder towards the universe.": {}
-        },
-        "Catechism": {
-          "What is the chief end of humankind?<br>": {},
-          "The chief end of humankind is to find God<br>": {},
-          "Hasn't God been found already in the form of Yahweh, Jesus, and Allah?<br>": {},
-          "No, as these are false Gods": {},
-          "No one has ever heard, nor seen them<br>": {},
-          "Where is God?<br>": {},
-          "God is outside of this universe<br>": {},
-          "Can you see God?<br>": {},
-          "Not at this time<br>": {},
-          "Does God hear our prayers?<br>": {},
-          "No. God does not hear us<br>": {},
-          "Should you glorify God?<br>": {},
-          "Sure, if you would like<br>": {},
-          "How much faith should I put in the testaments three?<br>": {},
-          "The first two testaments represent humankind's struggle for truth. The third represents our modern understanding. All are fallible, and the first two are errant.<br>": {},
-          "Who were our first parents?<br>": {},
-          "Chromosomal Adam and Eve, from Africa<br>": {},
-          "Of what were our first parents made?<br>": {},
-          "They were the continuation of an earlier, similar species<br>": {},
-          "What is a covenant?<br>": {},
-          "An agreement between two or more persons.<br>": {},
-          "How many Gods are there?<br>": {},
-          "One. The Creator God<br>": {},
-          "Does God know all things?<br>": {},
-          "No<br>": {},
-          "Who wrote the Bible?<br>": {},
-          "Ordinary people<br>": {},
-          "Should I live my life according to the first two testaments?<br>": {},
-          "No, as they are legacy. A better life doctrine is the Third Testament, which has superseded the first two<br>": {},
-          "What is the purpose of religion?<br>": {},
-          "The purpose of religion is to empower the people socially<br>": {},
-          "Am I not then equally served by attending a traditional house of worship?<br>": {},
-          "If you appreciate traditional doctrine, this is the better path for you<br>": {},
-          "What is the Beatific Vision?<br>": {},
-          "The Beatific Vision will occur when humankind unequivocally witnesses the face of God<br>": {},
-          "How will we know this event has occurred?<br>": {},
-          "You will investigate the claims scientifically<br>": {},
-          "What is the Ascension?<br>": {},
-          "The Ascension is the period after the Beatific Vision in which we become communicant with God<br>": {}
-        }
-      },
-      "Faith": {
-        "Nobody Creed": {
-          "Nobody has spoken to God": {},
-          "Nobody knows the name of God": {},
-          "Nobody knows the character of God": {},
-          "Nobody may speak for God": {},
-          "No messenger exists for God": {},
-          "No human can claim genetic lineage from God": {},
-          "No human can claim spiritual lineage from God": {}
-        },
-        "One God Creed": {
-          "There is one God who has spoken to no one": {}
-        }
-      },
-      "Central Topology": {
-        "God is outside of the Cosmos, in Heaven": {},
-        "The Cosmos, as God's creation, are also contained within Heaven": {},
-        "The Children of Abraham presently occupy only a small part of the Cosmos": {},
-        "Cosmological Topology": {
-          "Heaven": {
-            "God": {},
-            "The Cosmos": {
-              "Us": {}
+    "Ethics": {
+      "Cardinal Virtues": {
+        "There are four cardinal virtues:": {
+          "Prudence": {
+            "Wisdom in material matters": {},
+            "Zh\u00ec (\u667a, wisdom, knowledge)": {}
+          },
+          "Justice": {
+            "righteousness": {},
+            "Y\u00ec (\u4e49; \u7fa9, righteousness, justice)": {},
+            "L\u01d0 (\u793c; \u79ae, propriety, rites)": {}
+          },
+          "Fortitude": {
+            "forbearance": {},
+            "strength": {},
+            "endurance, and": {},
+            "the ability to confront": {
+              "fear": {},
+              "uncertainty, and": {},
+              "intimidation": {}
             }
+          },
+          "Temperance": {
+            "or restraint": {},
+            "the practice of": {
+              "self-control": {},
+              "abstention": {},
+              "discretion, and": {},
+              "moderation": {}
+            }
+          }
+        },
+        "And a few eastern additions:": {
+          "Benevolence": {
+            "R\u00e9n (\u4ec1, benevolence, humaneness)": {}
+          },
+          "X\u00ecn (\u4fe1, sincerity, faithfulness)": {}
+        }
+      },
+      "PLUR": {
+        "Peace": {},
+        "Love": {},
+        "Unity": {},
+        "Respect": {}
+      },
+      "Sexual Prohibitions": {
+        "Do not sleep with your biological": {
+          "Ancestor, nor": {},
+          "Descendant, nor": {},
+          "Sibling, nor": {},
+          "Ancestor's Sibling,": {}
+        },
+        "Nor any beast.": {}
+      },
+      "The Ten Commandments": {
+        "Remember the sabbath day, to keep it holy": {},
+        "Honor thy father and thy mother": {},
+        "Do not hold any god above the Creator": {},
+        "Do not make idols": {},
+        "Do not disrespect the Creator": {},
+        "Do not murder": {},
+        "Do not commit adultery": {},
+        "Do not steal": {},
+        "Do not lie about your peer": {},
+        "Do not covet your peer's": {
+          "house, nor": {},
+          "spouse, nor": {},
+          "anything belonging to your peer": {}
+        }
+      },
+      "The Third Covenant": {
+        "Treat others as you would have them treat you": {}
+      }
+    },
+    "Ritual": {
+      "Blessings": {
+        "The Lord bless you and keep you;The Lord make His face shine upon you,": {},
+        "And be gracious to you;": {},
+        "The Lord [a]lift up His countenance upon you,": {},
+        "And give you peace.": {}
+      },
+      "Fasting": {
+        "Here are the reasons for fasting:": {
+          "Mourning": {},
+          "Motivation": {},
+          "Mental clarity": {},
+          "Health": {}
+        },
+        "Here are several kinds of fast:": {
+          "Daniel Fast: Abstain from meat for a week": {},
+          "Water fast: Consume only water for 48 hours": {},
+          "Intermittent fast: Eat once daily for a week": {}
+        }
+      },
+      "Guidance": {
+        "Variants of the Socratic method, such as Rogerian Psychotherapy, are a useful general-purpose tool to discover hidden thought in the mind of another": {},
+        "Tarot is likewise an effective means to help friends help themselves": {}
+      },
+      "Holidays": {
+        "We recognize the following holidays:": {
+          "Christmas, during which time we remember the Ancestors": {},
+          "Easter, during which time we consider our Descendants": {}
+        }
+      },
+      "Meditation": {
+        "Mantras": {
+          "Divine Order, Harmony, and Truth": {},
+          "Embrace the Present Moment": {},
+          "Trust the process": {},
+          "Disregard fools": {}
+        },
+        "Body-scan": {
+          "Begin by finding a comfortable position, either sitting or lying down": {},
+          "Bring your attention to your feet. Notice any sensations or feelings in your feet": {},
+          "Now, shift your attention to your lower legs. Feel the sensations in your calf muscles and shins": {},
+          "Direct your awareness to your knees. Notice any sensations or tension in this area": {},
+          "Shift your attention to your thighs. Feel the weight and sensations in your upper legs": {},
+          "Bring your focus to your hips and pelvis. Notice any sensations or areas of tightness": {},
+          "Now, move your attention to your abdomen. Feel the rise and fall of your breath in this area": {},
+          "Direct your awareness to your chest. Notice the gentle expansion and contraction with each breath": {},
+          "Shift your attention to your upper back. Feel the sensations and any areas of tension in this region": {},
+          "Bring your focus to your shoulders. Notice any tightness or release of tension in this area": {},
+          "Now, direct your awareness to your arms and hands. Feel any sensations or tingling in your limbs": {},
+          "Shift your attention to your neck. Notice any areas of stiffness or relaxation in this part of your body": {},
+          "Bring your focus to your head. Notice any sensations, such as warmth, coolness, or pressure": {},
+          "Now, direct your awareness to your face. Notice any sensations or areas of tension, such as the jaw or forehead": {},
+          "Finally, bring your attention to your entire body as a whole. Feel the sensation of being present and relaxed": {}
+        },
+        "Deep Breathing": {
+          "With this device, I can produce two tones: Bass and Tone": {},
+          "I will play each four times": {},
+          "When you hear the tone, breathe in": {},
+          "When you hear the bass, breathe out": {},
+          "deep_breathing.mp3": {}
+        }
+      },
+      "Music": {
+        "The following comprise our musical tradition": {
+          "Speaking Tongues": {},
+          "The holy pentatonic (God's tonality)": {},
+          "The Om": {}
+        },
+        "It is permitted to sing the music of any faith": {},
+        "If it causes you to prefer a specific faith to the Doctine, you should join that faith": {}
+      },
+      "Sacraments": {
+        "We recognize the following sacraments, or rites:": {
+          "Birth": {},
+          "Marriage": {},
+          "Burial": {}
+        }
+      },
+      "Yoga": {
+        "Here is the Deist Yoga routine": {
+          "Mountain Pose": {
+            "Stand tall with your feet together": {},
+            "Straighten your spine and relax your shoulders": {},
+            "Place your hands by your sides with palms facing forward": {},
+            "Take deep breaths and find your balance": {}
+          },
+          "Forward Fold": {
+            "From Mountain Pose, exhale and bend forward at the hips": {},
+            "Keep your back straight as you fold forward": {},
+            "Allow your hands to hang down towards the floor": {},
+            "If possible, reach for your toes or grasp the backs of your ankles": {},
+            "Relax your head, neck, and shoulders, and let the weight of your upper body stretch your hamstrings and lower back": {},
+            "Hold the pose for a few breaths or longer": {},
+            "To release, engage your core and slowly come back up to standing": {}
+          },
+          "Downward-Facing Dog": {
+            "Walk your hands outward": {},
+            "Straighten your arms and legs, forming an inverted 'V' shape": {},
+            "Press your heels toward the ground and lengthen your spine": {},
+            "Hold the pose and take deep breaths": {}
+          },
+          "Cobra Pose": {
+            "Lie on your stomach with your legs extended and tops of your feet pressing into the mat.": {},
+            "Place your hands beneath your shoulders, fingers pointing forward.": {},
+            "Inhale and slowly lift your chest off the mat, keeping your elbows close to your body.": {},
+            "Lengthen your spine and gaze forward, keeping your shoulders relaxed.": {},
+            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {}
+          },
+          "Upward-Facing Dog": {
+            "Lie face down on the mat with your legs extended and tops of your feet pressing into the mat.": {},
+            "Place your palms on the mat next to your ribs, fingers pointing forward.": {},
+            "Inhale and press your hands firmly into the mat as you straighten your arms, lifting your chest off the mat.": {},
+            "Roll your shoulders back and down, opening your chest and lifting your gaze.": {},
+            "Keep your legs active, pressing the tops of your feet and thighs into the mat.": {},
+            "Hold the pose, breathing deeply and feeling the stretch in your abdomen and chest.": {}
+          },
+          "Warrior I": {
+            "Start in a standing position with your feet hip-width apart": {},
+            "Step your right foot forward and turn your left foot slightly outward": {},
+            "Bend your right knee, keeping it aligned with your ankle": {},
+            "Raise your arms overhead and gaze forward": {},
+            "Hold the pose, feeling strength in your legs and grounding through your feet": {}
+          },
+          "Tree Pose": {
+            "Stand tall with your feet together and arms by your sides": {},
+            "Shift your weight onto your left foot and lift your right foot off the ground": {},
+            "Place the sole of your right foot against your inner left thigh or calf": {},
+            "Bring your hands to your heart center or extend them overhead": {},
+            "Find your balance and focus on a steady breath": {}
+          },
+          "Bridge Pose": {
+            "Lie on your back with your knees bent and feet hip-distance apart": {},
+            "Place your arms alongside your body with palms facing down": {},
+            "Press your feet into the mat and lift your hips upward": {},
+            "Engage your core and thighs as you lift your chest toward your chin": {},
+            "Hold the pose, breathing deeply and feeling the stretch in your chest and hips": {}
+          },
+          "Child's Pose": {
+            "Start on your hands and knees, with your knees slightly wider than hip-width apart": {},
+            "Lower your hips back towards your heels as you reach your arms forward": {},
+            "Rest your forehead on the mat and": {}
           }
         }
       }
@@ -692,6 +649,22 @@
       }
     },
     "Appendix": {
+      "Design Principles": {
+        "Design principles of Book of Julian include:": {
+          "Clarity": {
+            "Hierarchical Organization": {},
+            "Images": {},
+            "Diagrams": {},
+            "Metaphors": {},
+            "Examples": {}
+          },
+          "Simplicity": {},
+          "Brevity": {},
+          "Accuracy": {},
+          "Practical Value": {}
+        },
+        "When these principles are in conflict, simple expressions are preferred": {}
+      },
       "Religious Family": {
         "Our religious family is a taxonomy of modern religious systems, on the basis of creed": {},
         "The most popular variants are listed": {
@@ -729,22 +702,6 @@
             "New Religious Movements (NRMs)": {}
           }
         }
-      },
-      "Design Principles": {
-        "Design principles of Book of Julian include:": {
-          "Clarity": {
-            "Hierarchical Organization": {},
-            "Images": {},
-            "Diagrams": {},
-            "Metaphors": {},
-            "Examples": {}
-          },
-          "Simplicity": {},
-          "Brevity": {},
-          "Accuracy": {},
-          "Practical Value": {}
-        },
-        "When these principles are in conflict, simple expressions are preferred": {}
       },
       "Canon": {
         "With respect to the major religious texts, we use the following abbreviations:": {

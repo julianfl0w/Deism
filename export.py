@@ -1,5 +1,5 @@
 import ast
-from datetime import date
+from datetime import date, datetime, UTC
 import html as html_lib
 import json
 import os
@@ -19,6 +19,7 @@ BUILD_DIR = ROOT_DIR / "build"
 GRAPHS_DIR_NAME = "graphs"
 BASE_URL_PREFIX = ""
 SITE_URL = os.environ.get("SITE_URL", "https://deism.church").rstrip("/")
+ASSET_VERSION = os.environ.get("ASSET_VERSION", datetime.now(UTC).strftime("%Y%m%d%H%M%S"))
 
 LINE_COLOR = '"#88ffff"'
 
@@ -51,6 +52,10 @@ DEFAULT_META = {
         "gradientangle": 270.05,
     },
     "arrowParams": {"color": LINE_COLOR, "penwidth": 1},
+}
+
+SPECIAL_NODE_NAMES = {
+    "Recognized_Theologians": "Personal",
 }
 
 
@@ -90,7 +95,35 @@ def load_python_data(path, extra_globals=None):
         if key in globals_dict:
             return globals_dict[key]
 
+    assigned_data = {}
+    for statement in module.body:
+        if not isinstance(statement, ast.Assign):
+            continue
+        for target in statement.targets:
+            if not isinstance(target, ast.Name):
+                continue
+            name = target.id
+            if name.startswith("_") or name not in globals_dict:
+                continue
+            value = globals_dict[name]
+            if isinstance(value, dict):
+                assigned_data[display_name_from_symbol(name, path.stem)] = value
+
+    if assigned_data:
+        return assigned_data
+
     raise ValueError(f"No data expression or DATA/GRAPH/CONTENT in {path}")
+
+
+def display_name_from_symbol(symbol, module_name):
+    if symbol in SPECIAL_NODE_NAMES:
+        return SPECIAL_NODE_NAMES[symbol]
+
+    suffix = f"_{module_name}"
+    if symbol.endswith(suffix):
+        symbol = symbol[: -len(suffix)]
+
+    return symbol.replace("_", " ")
 
 
 def create_node(name, parent, depth, context):
@@ -112,10 +145,18 @@ def create_node(name, parent, depth, context):
         "depth": depth,
         "meta": meta,
         "origin": None,
+        "explicitPriority": False,
+        "sourceOrder": context["nodeNumber"],
         "clusterName": f"\"cluster_{context['nodeNumber']}\"",
     }
     context["nodeNumber"] += 1
     return node
+
+
+def apply_meta(node, meta):
+    if "priority" in meta:
+        node["explicitPriority"] = True
+    node["meta"] = depth_first_dict_merge(meta, node["meta"])
 
 
 def process_text(node, source, context):
@@ -131,7 +172,7 @@ def process_text(node, source, context):
     if isinstance(source, dict):
         for key, value in source.items():
             if key == "meta":
-                node["meta"] = depth_first_dict_merge(value, node["meta"])
+                apply_meta(node, value)
                 continue
             child = create_node(key, node, node["depth"] + 1, context)
             child["origin"] = "text"
@@ -148,6 +189,7 @@ def build_from_file(path, parent, depth, context):
     node["origin"] = "file"
     source = load_python_data(path)
     process_text(node, source, context)
+    promote_priority_from_children(node)
     if parent is not None:
         parent["children"].append(node)
     return node
@@ -162,7 +204,7 @@ def build_from_directory(path, parent, depth, context):
     for entry_name in os.listdir(path):
         resolved = path / entry_name
         if entry_name == "meta.py":
-            node["meta"] = depth_first_dict_merge(load_python_data(resolved), node["meta"])
+            apply_meta(node, load_python_data(resolved))
             continue
 
         if resolved.is_dir():
@@ -172,11 +214,28 @@ def build_from_directory(path, parent, depth, context):
             continue
 
         if resolved.suffix == ".py":
-            if entry_name.startswith("_"):
+            if entry_name.startswith("_") or entry_name == "json2html.py":
                 continue
             build_from_file(resolved, node, depth + 1, context)
 
+    if parent is not None:
+        promote_priority_from_children(node)
     return node
+
+
+def promote_priority_from_children(node):
+    if node["explicitPriority"]:
+        return
+
+    child_priorities = [
+        child["meta"].get("priority", 1000)
+        for child in node["children"]
+        if child.get("explicitPriority")
+    ]
+    if not child_priorities:
+        return
+
+    node["meta"]["priority"] = min(child_priorities)
 
 
 def compute_height_no_lists(node):
@@ -195,7 +254,9 @@ def compute_height_no_lists(node):
 def sort_children_by_priority(node):
     for child in node["children"]:
         sort_children_by_priority(child)
-    node["children"].sort(key=lambda c: c["meta"].get("priority", 1000))
+    node["children"].sort(
+        key=lambda c: (c["meta"].get("priority", 1000), c.get("sourceOrder", 0))
+    )
 
 
 def get_ancestors(node):
@@ -227,8 +288,8 @@ def gen_url(node):
         node["urlPath"], slugify(node["name"]) + ".html"
     )
     if node["parent"] is None:
-        node["url"] = "/"
-        node["path"] = "index.html"
+        node["url"] = "/book_of_doctrine/"
+        node["path"] = os.path.join("book_of_doctrine", "index.html")
     return node["url"]
 
 
@@ -810,6 +871,7 @@ def export_static(node, index=0, value=1000.0, build_dir=None, template="SELECTE
     this_html = template.replace("SELECTED_NODE_TEXT", node_render["html"])
     this_html = this_html.replace("PAGE_TITLE", html_lib.escape(page_title(node), quote=True))
     this_html = this_html.replace("SEO_META", seo_tags(node, node_render["html"]))
+    this_html = this_html.replace("ASSET_VERSION", ASSET_VERSION)
     this_html = this_html.replace("ASSET_PREFIX", prefix)
     this_html = this_html.replace("BACK_ARROW_LINK", gen_url(get_elder_sibling(node)))
     this_html = this_html.replace("FORWARD_ARROW_LINK", gen_url(get_younger_sibling(node)))
@@ -825,8 +887,6 @@ def export_static(node, index=0, value=1000.0, build_dir=None, template="SELECTE
     url = gen_url(node)
     if url not in static_urls:
         static_urls.append(url)
-    if node["parent"] is None:
-        write_text(Path(build_dir) / "index.html", this_html)
 
     return retdict
 
@@ -835,6 +895,20 @@ def ensure_clean_build():
     if BUILD_DIR.exists():
         shutil.rmtree(BUILD_DIR)
     shutil.copytree(SRC_DIR, BUILD_DIR)
+    for generated_path in (
+        BUILD_DIR / "book_of_doctrine",
+        BUILD_DIR / "book_of_doctrine.html",
+        BUILD_DIR / "julian.json",
+        BUILD_DIR / "julian_flare.json",
+        BUILD_DIR / "canon.json",
+        BUILD_DIR / "sitemap.xml",
+        BUILD_DIR / "ABSA.html",
+        BUILD_DIR / "README.md",
+    ):
+        if generated_path.is_dir():
+            shutil.rmtree(generated_path)
+        elif generated_path.exists():
+            generated_path.unlink()
 
 
 def write_text(path, content):
@@ -842,6 +916,12 @@ def write_text(path, content):
     path.parent.mkdir(parents=True, exist_ok=True)
     print(f"writing {path}")
     path.write_text(content, encoding="utf-8")
+
+
+def write_landing_page():
+    landing_html = (SRC_DIR / "landing.html").read_text(encoding="utf-8")
+    landing_html = landing_html.replace("ASSET_VERSION", ASSET_VERSION)
+    write_text(BUILD_DIR / "index.html", landing_html)
 
 
 def copy_tree(src, dest):
@@ -863,7 +943,7 @@ def main():
     root["verseNo"] = 0
     root["referenceNo"] = 0
     root["skipGraphs"] = False
-    root["staticUrls"] = ["/"]
+    root["staticUrls"] = ["/", "/book_of_doctrine/"]
 
     compute_height_no_lists(root)
     sort_children_by_priority(root)
@@ -871,12 +951,6 @@ def main():
     ensure_clean_build()
 
     template = (SRC_DIR / "index_template.html").read_text(encoding="utf-8")
-    # Normalize older templates so builds don't retain stale headers/asset links.
-    template = template.replace('href="/style.css"', 'href="ASSET_PREFIXstyle.css"')
-    template = template.replace('href="/navbar.css"', 'href="ASSET_PREFIXnavbar.css"')
-    template = template.replace('href="/arrows.css"', 'href="ASSET_PREFIXarrows.css"')
-    template = template.replace('src="/navbar.js"', 'src="ASSET_PREFIXnavbar.js"')
-    template = template.replace('src="/deismu.js"', 'src="ASSET_PREFIXdeismu.js"')
     template = template.replace('<li><a href="javascript:void(0)" id="deismuButton" class="dropbtn">DeismU</a></li>', "")
     template = template.replace('<li><a href="javascript:void(0)" id="profileButton" class="dropbtn">Profile</a></li>', "")
     template = template.replace('<li><a href="javascript:void(0)" id="loginButton" class="dropbtn">Login</a></li>', "")
@@ -888,6 +962,7 @@ def main():
     write_text(BUILD_DIR / "julian.json", json.dumps(as_dict(root), indent=2))
     write_text(BUILD_DIR / "canon.json", json.dumps(build_canon_records(root), indent=2))
     write_text(BUILD_DIR / "sitemap.xml", build_sitemap(root))
+    write_landing_page()
 
     out = to_markdown(root)
     html_string = bs(out["html"], features="lxml").prettify()

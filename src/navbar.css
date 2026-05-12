@@ -1,11 +1,29 @@
 /* Navigation Bar Styles */
+:root {
+    --navbar-bg: #333;
+    --navbar-border: #ddd;
+    --navbar-hover-bg: #555;
+    --navbar-text: #fff;
+    --navbar-hover-text: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --navbar-bg: #1f1f1f;
+        --navbar-border: #3a3a3a;
+        --navbar-hover-bg: #343434;
+        --navbar-text: #f4f4f4;
+        --navbar-hover-text: #ffffff;
+    }
+}
+
 .navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: visible;
-    background-color: #333;
-    border-bottom: 2px solid #ddd;
+    background-color: var(--navbar-bg);
+    border-bottom: 2px solid var(--navbar-border);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -21,7 +39,7 @@
 .navbar li a,
 .dropbtn {
     display: block;
-    color: white;
+    color: var(--navbar-text);
     text-decoration: none;
     font-size: 30px;
     transition: background-color 0.3s;
@@ -29,28 +47,28 @@
 
 .navbar li a:hover,
 .dropdown:hover .dropbtn {
-    background-color: #555;
+    background-color: var(--navbar-hover-bg);
 }
 
 /* Dropdown Styles */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #333; /* Set to black (#333) for consistency */
+    background-color: var(--navbar-bg);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: white; /* Ensure text is white for readability */
+    color: var(--navbar-text);
     text-align: left;
     transition: background-color 0.3s;
-    padding: 10px 15px; /* Add padding to dropdown items */
+    padding: 10px 15px;
 
 }
 
 .dropdown-content a:hover {
-    background-color: #555;
-    color: #ddd; /* Lighter color for contrast on hover */
+    background-color: var(--navbar-hover-bg);
+    color: var(--navbar-hover-text);
 }
 
 .dropdown:hover .dropdown-content {
