@@ -14,6 +14,115 @@ let navSearchIndex = [];
 let navSearchMatches = [];
 let navSearchActiveIndex = -1;
 
+function normalizeSearchText(value) {
+    return (value || "")
+        .toLowerCase()
+        .replace(/<[^>]*>/g, " ")
+        .replace(/[^a-z0-9\s]+/g, " ")
+        .replace(/\s+/g, " ")
+        .trim();
+}
+
+function fuzzyMatchScore(query, candidate) {
+    if (!query || !candidate) {
+        return null;
+    }
+
+    if (candidate.includes(query)) {
+        return 1000 - (candidate.indexOf(query) * 2) - (candidate.length - query.length);
+    }
+
+    let candidateIndex = 0;
+    let score = 0;
+    let consecutive = 0;
+    let firstMatchIndex = -1;
+
+    for (let queryIndex = 0; queryIndex < query.length; queryIndex += 1) {
+        const char = query[queryIndex];
+        let found = false;
+
+        while (candidateIndex < candidate.length) {
+            if (candidate[candidateIndex] === char) {
+                if (firstMatchIndex < 0) {
+                    firstMatchIndex = candidateIndex;
+                }
+                consecutive += 1;
+                score += 8 + consecutive;
+                candidateIndex += 1;
+                found = true;
+                break;
+            }
+
+            consecutive = 0;
+            candidateIndex += 1;
+        }
+
+        if (!found) {
+            return null;
+        }
+    }
+
+    return score - firstMatchIndex - (candidate.length - query.length);
+}
+
+function scoreQueryAgainstCandidate(query, candidate) {
+    if (!query || !candidate) {
+        return null;
+    }
+
+    const phraseScore = fuzzyMatchScore(query, candidate);
+    const tokens = query.split(" ").filter(Boolean);
+    let tokenScore = 0;
+    let exactTokenMatches = 0;
+
+    for (const token of tokens) {
+        if (candidate.includes(token)) {
+            exactTokenMatches += 1;
+            tokenScore += 220 - candidate.indexOf(token);
+            continue;
+        }
+
+        if (token.length < 4) {
+            return phraseScore;
+        }
+
+        const fuzzyTokenScore = fuzzyMatchScore(token, candidate);
+        if (fuzzyTokenScore === null) {
+            return phraseScore;
+        }
+        tokenScore += Math.max(20, fuzzyTokenScore);
+    }
+
+    if (!tokens.length) {
+        return phraseScore;
+    }
+
+    if (tokens.length > 1 && exactTokenMatches === 0) {
+        return null;
+    }
+
+    if (phraseScore === null) {
+        return tokenScore;
+    }
+
+    return Math.max(phraseScore, tokenScore + 120);
+}
+
+function excerptSearchText(text, query) {
+    if (!text) {
+        return "";
+    }
+
+    const index = text.indexOf(query);
+    if (index < 0) {
+        return text.slice(0, 120);
+    }
+
+    const start = Math.max(0, index - 36);
+    const end = Math.min(text.length, index + query.length + 60);
+    return text.slice(start, end);
+}
+
 
 function createDropdownOption(dropdown, itemName, itemText, onClickAction) {
     const chapterDropdown = document.getElementById("chapterDropdown");
@@ -127,12 +236,15 @@ function buildSearchIndex(node, trail = []) {
     const entries = [];
 
     if (node.url && trail.length > 0) {
+        const pathText = normalizeSearchText(path.join(" "));
+        const textContent = normalizeSearchText(node.text || "");
         entries.push({
             name: node.name,
             url: node.url,
             text: node.text || "",
             path,
-            searchText: path.join(" ").toLowerCase(),
+            pathText,
+            textContent,
         });
     }
 
@@ -179,8 +291,15 @@ function renderSearchResults(matches) {
         path.className = "nav-search-result-path";
         path.textContent = match.path.slice(1).join(" / ");
 
+        const excerpt = document.createElement("span");
+        excerpt.className = "nav-search-result-path";
+        excerpt.textContent = match.excerpt;
+
         button.appendChild(title);
         button.appendChild(path);
+        if (match.excerpt) {
+            button.appendChild(excerpt);
+        }
         button.addEventListener("mousedown", (event) => {
             event.preventDefault();
             selectSearchMatch(match);
@@ -219,19 +338,38 @@ function selectSearchMatch(match) {
 }
 
 function updateSearchResults(query) {
-    const normalized = query.trim().toLowerCase();
+    const normalized = normalizeSearchText(query);
     if (!normalized) {
         hideSearchResults();
         return;
     }
 
     const matches = navSearchIndex
-        .filter((entry) => entry.searchText.includes(normalized))
+        .map((entry) => {
+            const titleScore = scoreQueryAgainstCandidate(normalized, normalizeSearchText(entry.name));
+            const pathScore = scoreQueryAgainstCandidate(normalized, entry.pathText);
+            const textScore = scoreQueryAgainstCandidate(normalized, entry.textContent);
+
+            if (titleScore === null && pathScore === null && textScore === null) {
+                return null;
+            }
+
+            const weightedScore = Math.max(
+                titleScore !== null ? titleScore + 250 : Number.NEGATIVE_INFINITY,
+                pathScore !== null ? pathScore + 150 : Number.NEGATIVE_INFINITY,
+                textScore !== null ? textScore : Number.NEGATIVE_INFINITY
+            );
+
+            return {
+                ...entry,
+                score: weightedScore,
+                excerpt: excerptSearchText(entry.textContent, normalized),
+            };
+        })
+        .filter(Boolean)
         .sort((left, right) => {
-            const leftStarts = left.searchText.startsWith(normalized) ? 0 : 1;
-            const rightStarts = right.searchText.startsWith(normalized) ? 0 : 1;
-            if (leftStarts !== rightStarts) {
-                return leftStarts - rightStarts;
+            if (right.score !== left.score) {
+                return right.score - left.score;
             }
             return left.path.length - right.path.length;
         })
