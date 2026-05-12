@@ -22,6 +22,9 @@ SITE_URL = os.environ.get("SITE_URL", "https://deism.church").rstrip("/")
 ASSET_VERSION = os.environ.get("ASSET_VERSION", datetime.now(UTC).strftime("%Y%m%d%H%M%S"))
 
 LINE_COLOR = '"#88ffff"'
+DARK_GRAPH_BG = '"#121212"'
+DARK_GRAPH_FG = '"#f1f1f1"'
+DARK_GRAPH_BOX_FILL = '"#1b1b1b"'
 
 DEFAULT_META = {
     "priority": 1000,
@@ -497,18 +500,79 @@ def as_dot_notation(node, start_depth):
     return dot_notation
 
 
-def to_graphviz(node, prefix):
+def graph_theme_overrides(theme):
+    if theme == "dark":
+        return {
+            "graphParams": {
+                "fontcolor": DARK_GRAPH_FG,
+                "color": DARK_GRAPH_FG,
+                "bgcolor": DARK_GRAPH_BG,
+            },
+            "boxParams": {
+                "fontcolor": DARK_GRAPH_FG,
+                "fillcolor": DARK_GRAPH_BOX_FILL,
+            },
+            "arrowParams": {},
+        }
+    return {"graphParams": {}, "boxParams": {}, "arrowParams": {}}
+
+
+def themed_dot_string(node, theme, output_format="png"):
+    overrides = graph_theme_overrides(theme)
     dot_string = "digraph D {\n"
-    for key, value in node["meta"]["graphParams"].items():
+    graph_params = depth_first_dict_merge(overrides["graphParams"], node["meta"]["graphParams"])
+    if output_format == "svg":
+        graph_params.pop("dpi", None)
+    for key, value in graph_params.items():
         dot_string += key + " = " + str(value) + "\n"
 
-    for child in node["children"]:
+    themed_node = deepcopy(node)
+
+    def apply_theme(curr):
+        curr["meta"]["graphParams"] = depth_first_dict_merge(
+            overrides["graphParams"], curr["meta"]["graphParams"]
+        )
+        curr["meta"]["boxParams"] = depth_first_dict_merge(
+            overrides["boxParams"], curr["meta"]["boxParams"]
+        )
+        curr["meta"]["arrowParams"] = depth_first_dict_merge(
+            overrides["arrowParams"], curr["meta"]["arrowParams"]
+        )
+        for child in curr["children"]:
+            apply_theme(child)
+
+    apply_theme(themed_node)
+
+    for child in themed_node["children"]:
         dot_string += as_dot_notation(child, start_depth=child["depth"])
     dot_string += "}"
+    return dot_string
+
+
+def render_graph_variant(node, build_graph_dir, engine, theme_suffix="", output_format="svg"):
+    dot_string = themed_dot_string(
+        node, "dark" if theme_suffix else "light", output_format=output_format
+    )
+    filename = node["name"].replace(" ", "_") + theme_suffix
+    dot_filename = os.path.join(build_graph_dir, filename + ".dot")
+    with open(dot_filename, "w+", encoding="utf-8") as f:
+        f.write(dot_string)
+    output_image = os.path.join(build_graph_dir, filename + f".{output_format}")
+    runstring = f"{engine} -T{output_format} {dot_filename} -o '{output_image}'"
+    os.system(runstring)
+    return output_image
+
+
+def to_graphviz(node, prefix):
+    output_format = "svg"
+    light_dot_string = themed_dot_string(node, "light", output_format=output_format)
 
     apex = get_apex(node)
     node["imageName"] = os.path.join(
-        apex["graphsDir"], node["name"].replace(" ", "_") + ".png"
+        apex["graphsDir"], node["name"].replace(" ", "_") + f".{output_format}"
+    )
+    node["imageDarkName"] = os.path.join(
+        apex["graphsDir"], node["name"].replace(" ", "_") + f"_dark.{output_format}"
     )
 
     if not apex.get("skipGraphs"):
@@ -520,10 +584,11 @@ def to_graphviz(node, prefix):
             os.makedirs(build_graph_dir, exist_ok=True)
             dot_filename = os.path.join(build_graph_dir, node["name"].replace(" ", "_") + ".dot")
             with open(dot_filename, "w+", encoding="utf-8") as f:
-                f.write(dot_string)
+                f.write(light_dot_string)
             node["buildImageName"] = os.path.join(apex["buildDir"], node["imageName"])
-            runstring = f"{engine} -Tpng {dot_filename} -o '{node['buildImageName']}'"
+            runstring = f"{engine} -T{output_format} {dot_filename} -o '{node['buildImageName']}'"
             os.system(runstring)
+            render_graph_variant(node, build_graph_dir, engine, "_dark", output_format=output_format)
 
     if apex.get("skipGraphs"):
         return {"html": "", "markdown": ""}
@@ -535,10 +600,15 @@ def to_graphviz(node, prefix):
     )
     html_string = (
         "<br>"
-        + '<figure><img src="'
+        + "<figure><picture>"
+        + '<source srcset="'
+        + prefix
+        + node["imageDarkName"]
+        + '" media="(prefers-color-scheme: dark)" type="image/svg+xml">'
+        + '<img src="'
         + prefix
         + node["imageName"]
-        + f'" width="100%"><figcaption>{node["name"]}</figcaption></figure>\n'
+        + f'" width="100%" alt="{html_lib.escape(node["name"], quote=True)}"></picture><figcaption>{node["name"]}</figcaption></figure>\n'
     )
     return {"html": html_string, "markdown": markdown_string}
 

@@ -181,24 +181,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://deism.church/book_of_doctrine/wisdom/curriculum/introduction.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deism.church/book_of_doctrine/wisdom/curriculum/cybernetics.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://deism.church/book_of_doctrine/wisdom/curriculum.html</loc>
-    <lastmod>2026-05-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://deism.church/book_of_doctrine/wisdom/proverbs.html</loc>
     <lastmod>2026-05-12</lastmod>
     <changefreq>weekly</changefreq>

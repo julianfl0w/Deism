@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hadith | Curriculum | Church of God (Deist)</title>
+    <meta
+      name="description"
+      content="The Deist Curriculum as noncanonical hadith: ancillary instruction and course guidance for study and formation." />
+    <link rel="canonical" href="https://deism.church/hadith/curriculum.html" />
+    <meta property="og:title" content="Hadith | Curriculum | Church of God (Deist)" />
+    <meta
+      property="og:description"
+      content="The Deist Curriculum as noncanonical hadith: ancillary instruction and course guidance for study and formation." />
+    <meta property="og:url" content="https://deism.church/hadith/curriculum.html" />
+    <meta property="og:type" content="article" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="/deismu.css" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        --page-bg: #f6f3ec;
+        --panel-bg: #fffdf8;
+        --border-color: #d8d1c2;
+        --text-color: #1a1712;
+        --muted-text: #5f574b;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --page-bg: #121212;
+          --panel-bg: #1b1b1b;
+          --border-color: #343434;
+          --text-color: #efefef;
+          --muted-text: #b8b8b8;
+        }
+      }
+
+      body {
+        margin: 0;
+        font-family: Raleway, sans-serif;
+        background: var(--page-bg);
+        color: var(--text-color);
+      }
+
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 40px 20px 72px;
+      }
+
+      .eyebrow {
+        margin: 0 0 12px;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: var(--muted-text);
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.2rem, 5vw, 4rem);
+      }
+
+      .lede {
+        max-width: 760px;
+        margin: 0 0 28px;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: var(--muted-text);
+      }
+
+      .notice {
+        margin: 0 0 28px;
+        padding: 16px 18px;
+        border: 1px solid var(--border-color);
+        background: var(--panel-bg);
+      }
+
+      .notice strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      #curriculumList {
+        display: grid;
+        gap: 10px;
+      }
+
+      .section-title {
+        width: 100%;
+        box-sizing: border-box;
+        background: var(--panel-bg);
+        color: var(--text-color);
+        border: 1px solid var(--border-color);
+      }
+
+      .item {
+        padding: 8px 0 8px 12px;
+        color: var(--muted-text);
+      }
+
+      a {
+        color: inherit;
+      }
+    </style>
+    <script src="/deismu.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">Hadith</p>
+      <h1>Curriculum</h1>
+      <p class="lede">
+        The Deist Curriculum remains available as instructional hadith: useful for study,
+        formation, and canonization practice, but no longer part of the Book of Doctrine.
+      </p>
+      <div class="notice">
+        <strong>Noncanonical</strong>
+        This curriculum is ancillary guidance rather than doctrine.
+      </div>
+      <div id="curriculumList"></div>
+    </main>
+    <script>
+      window.addEventListener("DOMContentLoaded", function () {
+        getCurriculum();
+      });
+    </script>
+  </body>
+</html>

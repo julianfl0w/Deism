@@ -4,3 +4,5 @@
 # Prefer the canonical root URL for the home page.
 /index.html / 301
 /book_of_doctrine/index.html /book_of_doctrine/ 301
+/book_of_doctrine/wisdom/curriculum/* /hadith/curriculum.html 301
+/book_of_doctrine/wisdom/curriculum.html /hadith/curriculum.html 301

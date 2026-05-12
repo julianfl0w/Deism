@@ -33,7 +33,7 @@
 
 Simplified
 
-![Simplified](../../../graphs/Simplified.png?raw=true)
+![Simplified](../../../graphs/Simplified.svg?raw=true)
 
 
 
@@ -62,7 +62,7 @@ Simplified
 
 Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events
 
-![Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events](../../../graphs/Our_Ideological_Lineage_is_an_evolutionary_heritage,_delineated_by_major_reformational_events.png?raw=true)
+![Our Ideological Lineage is an evolutionary heritage, delineated by major reformational events](../../../graphs/Our_Ideological_Lineage_is_an_evolutionary_heritage,_delineated_by_major_reformational_events.svg?raw=true)
 
 
 #### In the Law of Three Stages, Deism represents the Metaphysical stage
@@ -70,7 +70,7 @@ Our Ideological Lineage is an evolutionary heritage, delineated by major reforma
 
 The Three Stages
 
-![The Three Stages](../../../../graphs/The_Three_Stages.png?raw=true)
+![The Three Stages](../../../../graphs/The_Three_Stages.svg?raw=true)
 
 
 
@@ -89,7 +89,7 @@ The Three Stages
 
 Simplified migratory chart
 
-![Simplified migratory chart](../../../graphs/Simplified_migratory_chart.png?raw=true)
+![Simplified migratory chart](../../../graphs/Simplified_migratory_chart.svg?raw=true)
 
 <sup>1</sup> Based upon the first migration, there are three races: African, Asian, and European. 
 
@@ -135,7 +135,7 @@ Simplified migratory chart
 <sup>0</sup> The cosmos are governed by two forces: chaos and order. <sup>1</sup> Both are vital to our development. <sup>2</sup> Generally, Deism represents order. <sup>3</sup> Whoever is with us will gather, whoever is not will scatter. 
 The Standard Dualism
 
-![The Standard Dualism](../../../graphs/The_Standard_Dualism.png?raw=true)
+![The Standard Dualism](../../../graphs/The_Standard_Dualism.svg?raw=true)
 
 
 
@@ -145,7 +145,7 @@ The Standard Dualism
 
 #### Universal Annihilation
 
-<sup>0</sup> We believe in Universal Annihilation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> When the brain stem ceases to function, there is no return. <sup>3</sup> All go to the same place. All came from the dust and all return to the dust<sup>[3938](EC 3:20)</sup> . 
+<sup>0</sup> We believe in Universal Annihilation. <sup>1</sup> That is, the absence of life after death. <sup>2</sup> When the brain stem ceases to function, there is no return. <sup>3</sup> All go to the same place. All came from the dust and all return to the dust<sup>[86](EC 3:20)</sup> . 
 
 <sup>4</sup> This place is Sheol, the grave. 
 
@@ -203,7 +203,7 @@ The Standard Dualism
 <sup>0</sup> God is outside of the Cosmos, in Heaven. <sup>1</sup> The Cosmos, as God's creation, are also contained within Heaven. <sup>2</sup> The Children of Abraham presently occupy only a small part of the Cosmos. 
 Cosmological Topology
 
-![Cosmological Topology](../../../graphs/Cosmological_Topology.png?raw=true)
+![Cosmological Topology](../../../graphs/Cosmological_Topology.svg?raw=true)
 
 
 
@@ -228,114 +228,29 @@ Cosmological Topology
 ## Wisdom
 
 
-### Curriculum
-
-
-#### Introduction
-
-<sup>0</sup> The Deist Curriculum is selected to advance the Third Testament Prophesies. <sup>1</sup> It is roughly as rigorous as a collegiate Bachelor's degree. <sup>2</sup> The Master's variant includes additional courses, and necessitates a thesis defense. <sup>3</sup> Anyone who completes this program may apply for Canonization. <sup>4</sup> If accepted, they shall be considered Canonized by the Degree. 
-
-<sup>5</sup> Cybernetics
-- Observe
-  - The Cosmos
-    - Khan: College Physics 1
-<sup>[3939](https://www.khanacademy.org/science/ap-college-physics-1)</sup>     - Khan: Introduction to Chemistry
-<sup>[3940](https://www.khanacademy.org/science/chemistry/atomic-structure-and-properties/introduction-to-the-atom/v/introduction-to-chemistry)</sup>     - ANUx: Astrophysics: Cosmology
-<sup>[3941](https://www.edx.org/learn/astrophysics/australian-national-university-astrophysics-cosmology)</sup>   - Human
-    - Bio
-      - Stats
-        - Google: The Power of Statistics
-<sup>[3945](https://www.coursera.org/learn/the-power-of-statistics)</sup>       - Chem
-        - HarvardX: Principles of Biochemistry
-<sup>[3947](https://www.edx.org/learn/biochemistry/harvard-university-principles-of-biochemistry)</sup>     - Genetics
-      - U of Melbourne: Epigenetic Control of Gene Expression
-<sup>[3953](https://www.coursera.org/learn/epigenetics)</sup>       - Genomic Data Science Specialization
-<sup>[3954](https://www.coursera.org/specializations/genomic-data-science)</sup>       - UMD: Genes and the Human Condition
-<sup>[3955](https://www.coursera.org/learn/genes)</sup>     - Linguistics
-      - Miracles of Human Language: An Introduction to Linguistics
-<sup>[3959](https://www.coursera.org/learn/human-language)</sup>       - Esperanto in 12 Lessons
-<sup>[3960](https://esperanto12.net/en/)</sup>     - Psych
-      - St. Margaret's Episcopal School: Introduction to Psychology
-<sup>[3963](https://www.edx.org/course/introduction-to-psychology)</sup>       - Yale: Introduction to Psychology
-<sup>[3964](https://www.coursera.org/learn/introduction-psychology)</sup>     - Society
-      - Model Thinking
-<sup>[3967](https://www.coursera.org/learn/model-thinking)</sup>       - UC Davis: Computational Social Science
-<sup>[3968](https://www.coursera.org/specializations/computational-social-science-ucdavis)</sup>       - UQx: Principles of Microeconomics
-<sup>[3969](https://www.edx.org/course/principles-of-microeconomics)</sup>       - UQx: Anthropology of Current World Issues
-<sup>[3970](https://www.edx.org/learn/anthropology/the-university-of-queensland-anthropology-of-current-world-issues)</sup>       - University of Amsterdam: Classical Sociological Theory
-<sup>[3971](https://www.coursera.org/learn/classical-sociological-theory/)</sup>     - Religion
-      - A Journey through Western Christianity
-<sup>[3977](https://www.coursera.org/learn/western-christianity-200-1650)</sup>     - Government
-      - American Government
-<sup>[3979](https://www.edx.org/course/american-government)</sup>     - History
-      - China
-        - ChinaX
-<sup>[3981](https://www.edx.org/school/tsinghuax)</sup> - Design
-  - Human
-    - Body
-      - U at Buffalo: Computer Vision Basics
-<sup>[4111](https://www.coursera.org/learn/computer-vision-basics)</sup>       - StanfordOnline: Musculoskeletal Primer for the Non-Orthopedist
-<sup>[4112](https://www.edx.org/learn/medicine/stanford-university-musculoskeletal-primer-for-the-non-orthopedist)</sup>     - Networks
-      - Google: Computer Networking Basics
-<sup>[4115](https://www.coursera.org/learn/computer-networking)</sup>       - Wireless Communications for Everybody
-<sup>[4116](https://www.coursera.org/learn/wireless-communications)</sup>       - IITBombayX: Signals and Systems, Part 1
-<sup>[4117](https://www.edx.org/learn/engineering/iitbombay-signals-and-systems-part-1)</sup>       - Stanford: Cryptography I
-<sup>[4118](https://www.coursera.org/learn/crypto)</sup>       - IBM: Introduction to Blockchain
-<sup>[4119](https://www.edx.org/learn/blockchain/ibm-introduction-to-blockchain)</sup>     - Ops
-      - Agile Scrum Practitioner
-<sup>[4125](scrum.org)</sup>       - Google Project Management: Professional Certificate
-<sup>[4126](https://www.coursera.org/google-certificates/project-management-certificate)</sup>     - Mind
-      - Neural Networks and Deep Learning
-<sup>[4129](https://www.coursera.org/learn/neural-networks-deep-learning)</sup>       - Programming Massively Parallel Processors with CUDA
-<sup>[4130](https://www.udacity.com/course/programming-massively-parallel-processors-with-cuda--ud977)</sup>     - Comms
-      - Graphic
-        - IBM: Introduction to Web Development with HTML, CSS, JavaScript
-<sup>[4133](https://www.coursera.org/learn/introduction-to-web-development-with-html-css-javacript)</sup>         - Meta Android Developer Professional Certificate
-<sup>[4134](https://www.coursera.org/professional-certificates/meta-android-developer)</sup>         - Michigan State: Game Design and Development with Unity 2020 Specialization
-<sup>[4135](https://www.coursera.org/specializations/game-development)</sup>       - Cloud Cert
-        - AWS Cloud Solutions Architect
-<sup>[4139](https://www.coursera.org/professional-certificates/aws-cloud-solutions-architect)</sup>         - AWS Cloud Quest
-<sup>[4140](https://aws.amazon.com/training/digital/aws-cloud-quest/)</sup>         - Google Cloud Digital Leader
-<sup>[4141](https://cloud.google.com/learn/certification/cloud-digital-leader)</sup>         - Azure Fundamentals
-<sup>[4142](https://docs.microsoft.com/en-us/learn/certifications/azure-fundamentals/)</sup> - Maintain
-  - Human
-    - Mind
-      - JHU: Psychological First Aid
-<sup>[4311](https://www.coursera.org/learn/psychological-first-aid)</sup>       - Book Of Julian
-<sup>[4312](https://bookofjulian.net/)</sup>     - Body
-      - UC San Diego: Drug Discovery
-<sup>[4315](https://www.coursera.org/learn/drug-discovery)</sup>       - UQx: Introduction to Biomedical Imaging
-<sup>[4316](https://www.edx.org/learn/biomedical-engineering/the-university-of-queensland-introduction-to-biomedical-imaging)</sup>       - GeorgetownX: Genomic Medicine Gets Personal
-<sup>[4317](https://www.edx.org/course/genomic-medicine-gets-personal)</sup>       - Blood Film Morphology - A Practical Guide
-<sup>[4318](https://www.coursera.org/learn/blood-film-morphology)</sup>       - Stanford: Introduction to Food and Health
-<sup>[4319](https://www.coursera.org/learn/food-and-health)</sup> 
-
-
-
-
 ### Proverbs
 
-<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[4367](PR 16:16)</sup> . 
+<sup>0</sup> How much better to get wisdom than gold, to get insight rather than silver!<sup>[87](PR 16:16)</sup> . 
 
-<sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[4368](PR 13:10)</sup> . 
+<sup>1</sup> Where there is strife, there is pride, but wisdom is found in those who take advice<sup>[88](PR 13:10)</sup> . 
 
-<sup>2</sup> Even fools are thought wise if they keep silent<sup>[4369](PR 17:28)</sup> . 
+<sup>2</sup> Even fools are thought wise if they keep silent<sup>[89](PR 17:28)</sup> . 
 
-<sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[4370](EC 9:5)</sup> . 
+<sup>3</sup> For the living know that they will die, but the dead know nothing; they have no further reward, and even their name is forgotten<sup>[90](EC 9:5)</sup> . 
 
-<sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[4371](EC 9:10)</sup> . 
+<sup>4</sup> Whatever your hand finds to do, do it with all your might, for in the realm of the dead, where you are going, there is neither working nor planning nor knowledge nor wisdom<sup>[91](EC 9:10)</sup> . 
 
-<sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[4372](PR 27:17)</sup> . 
+<sup>5</sup> As iron sharpens iron, so one person sharpens another<sup>[92](PR 27:17)</sup> . 
 
-<sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[4373](PR 15:1)</sup> . 
+<sup>6</sup> A gentle answer turns away wrath, but a harsh word stirs up anger.<sup>[93](PR 15:1)</sup> . 
 
-<sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[4374](PR 18:24)</sup> . 
+<sup>7</sup> One who has unreliable friends soon comes to ruin, but there is a friend who sticks closer than a brother<sup>[94](PR 18:24)</sup> . 
 
-<sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[4375](PR 13:20)</sup> . 
+<sup>8</sup> Walk with the wise and become wise, for a companion of fools suffers harm<sup>[95](PR 13:20)</sup> . 
 
-<sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[4376](PR 11:25)</sup> . 
+<sup>9</sup> A generous person will prosper; whoever refreshes others will be refreshed<sup>[96](PR 11:25)</sup> . 
 
-<sup>10</sup> By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.<sup>[4377](Four Books of Confucius)</sup> . 
+<sup>10</sup> By three methods we may learn wisdom: First, by reflection, which is noblest; Second, by imitation, which is easiest; and third by experience, which is the bitterest.<sup>[97](Four Books of Confucius)</sup> . 
 
 
 
