@@ -598,16 +598,16 @@ def to_graphviz(node, prefix):
         + "\n"
         + ("\n![" + node["name"] + "](" + prefix + node["imageName"] + "?raw=true)\n\n")
     )
+    image_path = "/" + node["imageName"]
+    dark_image_path = "/" + node["imageDarkName"]
     html_string = (
         "<br>"
         + "<figure><picture>"
         + '<source srcset="'
-        + prefix
-        + node["imageDarkName"]
+        + dark_image_path
         + '" media="(prefers-color-scheme: dark)" type="image/svg+xml">'
         + '<img src="'
-        + prefix
-        + node["imageName"]
+        + image_path
         + f'" width="100%" alt="{html_lib.escape(node["name"], quote=True)}"></picture><figcaption>{node["name"]}</figcaption></figure>\n'
     )
     return {"html": html_string, "markdown": markdown_string}

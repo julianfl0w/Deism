@@ -19,4 +19,10 @@
   .forward-arrow {
     background-image: url('forward.png');
   }
+
+  @media (prefers-color-scheme: dark) {
+    .arrow-button {
+      filter: invert(1);
+    }
+  }
   

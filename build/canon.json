@@ -1,7 +1,7 @@
 {
   "site": "https://deism.church",
   "work": "Book Of Doctrine",
-  "generated": "2026-05-12",
+  "generated": "2026-05-21",
   "records": [
     {
       "id": "BOOK_OF_DOCTRINE.INTRODUCTION.CHILDREN_OF_ABRAHAM_PEACE_BE_UPON_YOU_BR_BR.0001",
@@ -3101,7 +3101,151 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.HOW_MUCH_BETTER_TO_GET_WISDOM_THAN_GOLD_TO_GET_INSIGHT_RATHER_THAN_SILVER.0183",
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_IS_ONE.0183",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God is one"
+      ],
+      "title": "God is one",
+      "text": "God is one.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_IS_THE_CREATOR.0184",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God is the Creator"
+      ],
+      "title": "God is the Creator",
+      "text": "God is the Creator.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_IS_OUTSIDE_THE_COSMOS_IN_HEAVEN.0185",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God is outside the Cosmos, in Heaven"
+      ],
+      "title": "God is outside the Cosmos, in Heaven",
+      "text": "God is outside the Cosmos, in Heaven.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_IS_NOT_PRESENTLY_SEEN_BY_HUMANKIND.0186",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God is not presently seen by humankind"
+      ],
+      "title": "God is not presently seen by humankind",
+      "text": "God is not presently seen by humankind.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_HAS_SPOKEN_TO_NO_ONE.0187",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God has spoken to no one"
+      ],
+      "title": "God has spoken to no one",
+      "text": "God has spoken to no one.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_DOES_NOT_HEAR_OUR_PRAYERS.0188",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God does not hear our prayers"
+      ],
+      "title": "God does not hear our prayers",
+      "text": "God does not hear our prayers.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_DOES_NOT_KNOW_ALL_THINGS.0189",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God does not know all things"
+      ],
+      "title": "God does not know all things",
+      "text": "God does not know all things.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_S_NAME_IS_UNKNOWN_TO_HUMANKIND.0190",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God's name is unknown to humankind"
+      ],
+      "title": "God's name is unknown to humankind",
+      "text": "God's name is unknown to humankind.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.GOD.ATTRIBUTES.GOD_S_CHARACTER_IS_UNKNOWN_TO_HUMANKIND.0191",
+      "work": "Book Of Doctrine",
+      "path": [
+        "Book Of Doctrine",
+        "God",
+        "Attributes",
+        "God's character is unknown to humankind"
+      ],
+      "title": "God's character is unknown to humankind",
+      "text": "God's character is unknown to humankind.",
+      "url": "/book_of_doctrine/god/attributes.html",
+      "canonicalUrl": "https://deism.church/book_of_doctrine/god/attributes.html",
+      "type": "default",
+      "references": []
+    },
+    {
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.HOW_MUCH_BETTER_TO_GET_WISDOM_THAN_GOLD_TO_GET_INSIGHT_RATHER_THAN_SILVER.0192",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3119,7 +3263,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WHERE_THERE_IS_STRIFE_THERE_IS_PRIDE_BUT_WISDOM_IS_FOUND_IN_THOSE_WHO_TAKE_ADVICE.0184",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WHERE_THERE_IS_STRIFE_THERE_IS_PRIDE_BUT_WISDOM_IS_FOUND_IN_THOSE_WHO_TAKE_ADVICE.0193",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3137,7 +3281,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.EVEN_FOOLS_ARE_THOUGHT_WISE_IF_THEY_KEEP_SILENT.0185",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.EVEN_FOOLS_ARE_THOUGHT_WISE_IF_THEY_KEEP_SILENT.0194",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3155,7 +3299,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.FOR_THE_LIVING_KNOW_THAT_THEY_WILL_DIE_BUT_THE_DEAD_KNOW_NOTHING_THEY_HAVE_NO_FURTHER_REWARD_AND_EVEN_THEIR_NAME_IS_FORGOTTEN.0186",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.FOR_THE_LIVING_KNOW_THAT_THEY_WILL_DIE_BUT_THE_DEAD_KNOW_NOTHING_THEY_HAVE_NO_FURTHER_REWARD_AND_EVEN_THEIR_NAME_IS_FORGOTTEN.0195",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3173,7 +3317,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WHATEVER_YOUR_HAND_FINDS_TO_DO_DO_IT_WITH_ALL_YOUR_MIGHT_FOR_IN_THE_REALM_OF_THE_DEAD_WHERE_YOU_ARE_GOING_THERE_IS_NEITHER_WORKING_NOR_PLANNING_NOR_KNOWLEDGE_NOR_WISDOM.0187",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WHATEVER_YOUR_HAND_FINDS_TO_DO_DO_IT_WITH_ALL_YOUR_MIGHT_FOR_IN_THE_REALM_OF_THE_DEAD_WHERE_YOU_ARE_GOING_THERE_IS_NEITHER_WORKING_NOR_PLANNING_NOR_KNOWLEDGE_NOR_WISDOM.0196",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3191,7 +3335,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.AS_IRON_SHARPENS_IRON_SO_ONE_PERSON_SHARPENS_ANOTHER.0188",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.AS_IRON_SHARPENS_IRON_SO_ONE_PERSON_SHARPENS_ANOTHER.0197",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3209,7 +3353,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.A_GENTLE_ANSWER_TURNS_AWAY_WRATH_BUT_A_HARSH_WORD_STIRS_UP_ANGER.0189",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.A_GENTLE_ANSWER_TURNS_AWAY_WRATH_BUT_A_HARSH_WORD_STIRS_UP_ANGER.0198",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3227,7 +3371,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.ONE_WHO_HAS_UNRELIABLE_FRIENDS_SOON_COMES_TO_RUIN_BUT_THERE_IS_A_FRIEND_WHO_STICKS_CLOSER_THAN_A_BROTHER.0190",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.ONE_WHO_HAS_UNRELIABLE_FRIENDS_SOON_COMES_TO_RUIN_BUT_THERE_IS_A_FRIEND_WHO_STICKS_CLOSER_THAN_A_BROTHER.0199",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3245,7 +3389,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WALK_WITH_THE_WISE_AND_BECOME_WISE_FOR_A_COMPANION_OF_FOOLS_SUFFERS_HARM.0191",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.WALK_WITH_THE_WISE_AND_BECOME_WISE_FOR_A_COMPANION_OF_FOOLS_SUFFERS_HARM.0200",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3263,7 +3407,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.A_GENEROUS_PERSON_WILL_PROSPER_WHOEVER_REFRESHES_OTHERS_WILL_BE_REFRESHED.0192",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.A_GENEROUS_PERSON_WILL_PROSPER_WHOEVER_REFRESHES_OTHERS_WILL_BE_REFRESHED.0201",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3281,7 +3425,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.BY_THREE_METHODS_WE_MAY_LEARN_WISDOM_FIRST_BY_REFLECTION_WHICH_IS_NOBLEST_SECOND_BY_IMITATION_WHICH_IS_EASIEST_AND_THIRD_BY_EXPERIENCE_WHICH_IS_THE_BITTEREST.0193",
+      "id": "BOOK_OF_DOCTRINE.WISDOM.PROVERBS.BY_THREE_METHODS_WE_MAY_LEARN_WISDOM_FIRST_BY_REFLECTION_WHICH_IS_NOBLEST_SECOND_BY_IMITATION_WHICH_IS_EASIEST_AND_THIRD_BY_EXPERIENCE_WHICH_IS_THE_BITTEREST.0202",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3299,7 +3443,7 @@
       ]
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.0194",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.0203",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3315,7 +3459,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.0195",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.0204",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3332,7 +3476,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.WISDOM_IN_MATERIAL_MATTERS.0196",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.WISDOM_IN_MATERIAL_MATTERS.0205",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3350,7 +3494,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.ZH_WISDOM_KNOWLEDGE.0197",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.PRUDENCE.ZH_WISDOM_KNOWLEDGE.0206",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3368,7 +3512,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.JUSTICE.0198",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.JUSTICE.0207",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3385,7 +3529,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.JUSTICE.RIGHTEOUSNESS.0199",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.JUSTICE.RIGHTEOUSNESS.0208",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3403,7 +3547,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.0200",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.0209",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3420,7 +3564,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.FORBEARANCE.0201",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.FORBEARANCE.0210",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3438,7 +3582,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.STRENGTH.0202",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.STRENGTH.0211",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3456,7 +3600,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.ENDURANCE_AND.0203",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.ENDURANCE_AND.0212",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3474,7 +3618,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.0204",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.0213",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3492,7 +3636,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.FEAR.0205",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.FEAR.0214",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3511,7 +3655,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.UNCERTAINTY_AND.0206",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.UNCERTAINTY_AND.0215",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3530,7 +3674,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.INTIMIDATION.0207",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.FORTITUDE.THE_ABILITY_TO_CONFRONT.INTIMIDATION.0216",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3549,7 +3693,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.0208",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.0217",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3566,7 +3710,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.OR_RESTRAINT.0209",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.OR_RESTRAINT.0218",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3584,7 +3728,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.0210",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.0219",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3602,7 +3746,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.SELF_CONTROL.0211",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.SELF_CONTROL.0220",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3621,7 +3765,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.ABSTENTION.0212",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.ABSTENTION.0221",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3640,7 +3784,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.DISCRETION_AND.0213",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.DISCRETION_AND.0222",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3659,7 +3803,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.MODERATION.0214",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.THERE_ARE_FOUR_CARDINAL_VIRTUES.TEMPERANCE.THE_PRACTICE_OF.MODERATION.0223",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3678,7 +3822,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.0215",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.0224",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3694,7 +3838,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.BENEVOLENCE.0216",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.BENEVOLENCE.0225",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3711,7 +3855,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.BENEVOLENCE.R_N_BENEVOLENCE_HUMANENESS.0217",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.BENEVOLENCE.R_N_BENEVOLENCE_HUMANENESS.0226",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3729,7 +3873,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.X_N_SINCERITY_FAITHFULNESS.0218",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.CARDINAL_VIRTUES.AND_A_FEW_EASTERN_ADDITIONS.X_N_SINCERITY_FAITHFULNESS.0227",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3746,7 +3890,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.0219",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.0228",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3761,7 +3905,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.PEACE.0220",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.PEACE.0229",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3777,7 +3921,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.LOVE.0221",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.LOVE.0230",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3793,7 +3937,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.UNITY.0222",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.UNITY.0231",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3809,7 +3953,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.RESPECT.0223",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.PLUR.RESPECT.0232",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3825,7 +3969,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.0224",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.0233",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3841,7 +3985,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.ANCESTOR_NOR.0225",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.ANCESTOR_NOR.0234",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3858,7 +4002,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.DESCENDANT_NOR.0226",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.DESCENDANT_NOR.0235",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3875,7 +4019,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.SIBLING_NOR.0227",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.SIBLING_NOR.0236",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3892,7 +4036,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.ANCESTOR_S_SIBLING.0228",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.DO_NOT_SLEEP_WITH_YOUR_BIOLOGICAL.ANCESTOR_S_SIBLING.0237",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3909,7 +4053,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.NOR_ANY_BEAST.0229",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.SEXUAL_PROHIBITIONS.NOR_ANY_BEAST.0238",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3925,7 +4069,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.0230",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.0239",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3940,7 +4084,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.REMEMBER_THE_SABBATH_DAY_TO_KEEP_IT_HOLY.0231",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.REMEMBER_THE_SABBATH_DAY_TO_KEEP_IT_HOLY.0240",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3956,7 +4100,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.HONOR_THY_FATHER_AND_THY_MOTHER.0232",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.HONOR_THY_FATHER_AND_THY_MOTHER.0241",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3972,7 +4116,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_HOLD_ANY_GOD_ABOVE_THE_CREATOR.0233",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_HOLD_ANY_GOD_ABOVE_THE_CREATOR.0242",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -3988,7 +4132,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_MAKE_IDOLS.0234",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_MAKE_IDOLS.0243",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4004,7 +4148,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_DISRESPECT_THE_CREATOR.0235",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_DISRESPECT_THE_CREATOR.0244",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4020,7 +4164,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_MURDER.0236",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_MURDER.0245",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4036,7 +4180,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COMMIT_ADULTERY.0237",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COMMIT_ADULTERY.0246",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4052,7 +4196,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_STEAL.0238",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_STEAL.0247",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4068,7 +4212,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_LIE_ABOUT_YOUR_PEER.0239",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_LIE_ABOUT_YOUR_PEER.0248",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4084,7 +4228,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.0240",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.0249",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4100,7 +4244,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.HOUSE_NOR.0241",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.HOUSE_NOR.0250",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4117,7 +4261,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.SPOUSE_NOR.0242",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.SPOUSE_NOR.0251",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4134,7 +4278,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.ANYTHING_BELONGING_TO_YOUR_PEER.0243",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_TEN_COMMANDMENTS.DO_NOT_COVET_YOUR_PEER_S.ANYTHING_BELONGING_TO_YOUR_PEER.0252",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4151,7 +4295,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_THIRD_COVENANT.TREAT_OTHERS_AS_YOU_WOULD_HAVE_THEM_TREAT_YOU.0244",
+      "id": "BOOK_OF_DOCTRINE.ETHICS.THE_THIRD_COVENANT.TREAT_OTHERS_AS_YOU_WOULD_HAVE_THEM_TREAT_YOU.0253",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4167,7 +4311,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.0245",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.0254",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4183,7 +4327,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MOURNING.0246",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MOURNING.0255",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4200,7 +4344,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MOTIVATION.0247",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MOTIVATION.0256",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4217,7 +4361,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MENTAL_CLARITY.0248",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.MENTAL_CLARITY.0257",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4234,7 +4378,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.HEALTH.0249",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_THE_REASONS_FOR_FASTING.HEALTH.0258",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4251,7 +4395,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.0250",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.0259",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4267,7 +4411,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.DANIEL_FAST_ABSTAIN_FROM_MEAT_FOR_A_WEEK.0251",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.DANIEL_FAST_ABSTAIN_FROM_MEAT_FOR_A_WEEK.0260",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4284,7 +4428,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.WATER_FAST_CONSUME_ONLY_WATER_FOR_48_HOURS.0252",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.WATER_FAST_CONSUME_ONLY_WATER_FOR_48_HOURS.0261",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4301,7 +4445,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.INTERMITTENT_FAST_EAT_ONCE_DAILY_FOR_A_WEEK.0253",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.FASTING.HERE_ARE_SEVERAL_KINDS_OF_FAST.INTERMITTENT_FAST_EAT_ONCE_DAILY_FOR_A_WEEK.0262",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4318,7 +4462,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.GUIDANCE.VARIANTS_OF_THE_SOCRATIC_METHOD_SUCH_AS_ROGERIAN_PSYCHOTHERAPY_ARE_A_USEFUL_GENERAL_PURPOSE_TOOL_TO_DISCOVER_HIDDEN_THOUGHT_IN_THE_MIND_OF_ANOTHER.0254",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.GUIDANCE.VARIANTS_OF_THE_SOCRATIC_METHOD_SUCH_AS_ROGERIAN_PSYCHOTHERAPY_ARE_A_USEFUL_GENERAL_PURPOSE_TOOL_TO_DISCOVER_HIDDEN_THOUGHT_IN_THE_MIND_OF_ANOTHER.0263",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4334,7 +4478,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.GUIDANCE.TAROT_IS_LIKEWISE_AN_EFFECTIVE_MEANS_TO_HELP_FRIENDS_HELP_THEMSELVES.0255",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.GUIDANCE.TAROT_IS_LIKEWISE_AN_EFFECTIVE_MEANS_TO_HELP_FRIENDS_HELP_THEMSELVES.0264",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4350,7 +4494,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.0256",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.0265",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4366,7 +4510,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.CHRISTMAS_DURING_WHICH_TIME_WE_REMEMBER_THE_ANCESTORS.0257",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.CHRISTMAS_DURING_WHICH_TIME_WE_REMEMBER_THE_ANCESTORS.0266",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4383,7 +4527,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.EASTER_DURING_WHICH_TIME_WE_CONSIDER_OUR_DESCENDANTS.0258",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.HOLIDAYS.WE_RECOGNIZE_THE_FOLLOWING_HOLIDAYS.EASTER_DURING_WHICH_TIME_WE_CONSIDER_OUR_DESCENDANTS.0267",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4400,7 +4544,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.0259",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.0268",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4416,7 +4560,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BEGIN_BY_FINDING_A_COMFORTABLE_POSITION_EITHER_SITTING_OR_LYING_DOWN.0260",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BEGIN_BY_FINDING_A_COMFORTABLE_POSITION_EITHER_SITTING_OR_LYING_DOWN.0269",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4433,7 +4577,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_ATTENTION_TO_YOUR_FEET_NOTICE_ANY_SENSATIONS_OR_FEELINGS_IN_YOUR_FEET.0261",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_ATTENTION_TO_YOUR_FEET_NOTICE_ANY_SENSATIONS_OR_FEELINGS_IN_YOUR_FEET.0270",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4450,7 +4594,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_SHIFT_YOUR_ATTENTION_TO_YOUR_LOWER_LEGS_FEEL_THE_SENSATIONS_IN_YOUR_CALF_MUSCLES_AND_SHINS.0262",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_SHIFT_YOUR_ATTENTION_TO_YOUR_LOWER_LEGS_FEEL_THE_SENSATIONS_IN_YOUR_CALF_MUSCLES_AND_SHINS.0271",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4467,7 +4611,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.DIRECT_YOUR_AWARENESS_TO_YOUR_KNEES_NOTICE_ANY_SENSATIONS_OR_TENSION_IN_THIS_AREA.0263",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.DIRECT_YOUR_AWARENESS_TO_YOUR_KNEES_NOTICE_ANY_SENSATIONS_OR_TENSION_IN_THIS_AREA.0272",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4484,7 +4628,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_THIGHS_FEEL_THE_WEIGHT_AND_SENSATIONS_IN_YOUR_UPPER_LEGS.0264",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_THIGHS_FEEL_THE_WEIGHT_AND_SENSATIONS_IN_YOUR_UPPER_LEGS.0273",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4501,7 +4645,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_HIPS_AND_PELVIS_NOTICE_ANY_SENSATIONS_OR_AREAS_OF_TIGHTNESS.0265",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_HIPS_AND_PELVIS_NOTICE_ANY_SENSATIONS_OR_AREAS_OF_TIGHTNESS.0274",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4518,7 +4662,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_MOVE_YOUR_ATTENTION_TO_YOUR_ABDOMEN_FEEL_THE_RISE_AND_FALL_OF_YOUR_BREATH_IN_THIS_AREA.0266",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_MOVE_YOUR_ATTENTION_TO_YOUR_ABDOMEN_FEEL_THE_RISE_AND_FALL_OF_YOUR_BREATH_IN_THIS_AREA.0275",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4535,7 +4679,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.DIRECT_YOUR_AWARENESS_TO_YOUR_CHEST_NOTICE_THE_GENTLE_EXPANSION_AND_CONTRACTION_WITH_EACH_BREATH.0267",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.DIRECT_YOUR_AWARENESS_TO_YOUR_CHEST_NOTICE_THE_GENTLE_EXPANSION_AND_CONTRACTION_WITH_EACH_BREATH.0276",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4552,7 +4696,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_UPPER_BACK_FEEL_THE_SENSATIONS_AND_ANY_AREAS_OF_TENSION_IN_THIS_REGION.0268",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_UPPER_BACK_FEEL_THE_SENSATIONS_AND_ANY_AREAS_OF_TENSION_IN_THIS_REGION.0277",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4569,7 +4713,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_SHOULDERS_NOTICE_ANY_TIGHTNESS_OR_RELEASE_OF_TENSION_IN_THIS_AREA.0269",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_SHOULDERS_NOTICE_ANY_TIGHTNESS_OR_RELEASE_OF_TENSION_IN_THIS_AREA.0278",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4586,7 +4730,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_DIRECT_YOUR_AWARENESS_TO_YOUR_ARMS_AND_HANDS_FEEL_ANY_SENSATIONS_OR_TINGLING_IN_YOUR_LIMBS.0270",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_DIRECT_YOUR_AWARENESS_TO_YOUR_ARMS_AND_HANDS_FEEL_ANY_SENSATIONS_OR_TINGLING_IN_YOUR_LIMBS.0279",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4603,7 +4747,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_NECK_NOTICE_ANY_AREAS_OF_STIFFNESS_OR_RELAXATION_IN_THIS_PART_OF_YOUR_BODY.0271",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.SHIFT_YOUR_ATTENTION_TO_YOUR_NECK_NOTICE_ANY_AREAS_OF_STIFFNESS_OR_RELAXATION_IN_THIS_PART_OF_YOUR_BODY.0280",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4620,7 +4764,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_HEAD_NOTICE_ANY_SENSATIONS_SUCH_AS_WARMTH_COOLNESS_OR_PRESSURE.0272",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.BRING_YOUR_FOCUS_TO_YOUR_HEAD_NOTICE_ANY_SENSATIONS_SUCH_AS_WARMTH_COOLNESS_OR_PRESSURE.0281",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4637,7 +4781,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_DIRECT_YOUR_AWARENESS_TO_YOUR_FACE_NOTICE_ANY_SENSATIONS_OR_AREAS_OF_TENSION_SUCH_AS_THE_JAW_OR_FOREHEAD.0273",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.NOW_DIRECT_YOUR_AWARENESS_TO_YOUR_FACE_NOTICE_ANY_SENSATIONS_OR_AREAS_OF_TENSION_SUCH_AS_THE_JAW_OR_FOREHEAD.0282",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4654,7 +4798,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.FINALLY_BRING_YOUR_ATTENTION_TO_YOUR_ENTIRE_BODY_AS_A_WHOLE_FEEL_THE_SENSATION_OF_BEING_PRESENT_AND_RELAXED.0274",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.BODY_SCAN.FINALLY_BRING_YOUR_ATTENTION_TO_YOUR_ENTIRE_BODY_AS_A_WHOLE_FEEL_THE_SENSATION_OF_BEING_PRESENT_AND_RELAXED.0283",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4671,7 +4815,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WITH_THIS_DEVICE_I_CAN_PRODUCE_TWO_TONES_BASS_AND_TONE.0275",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WITH_THIS_DEVICE_I_CAN_PRODUCE_TWO_TONES_BASS_AND_TONE.0284",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4688,7 +4832,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.I_WILL_PLAY_EACH_FOUR_TIMES.0276",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.I_WILL_PLAY_EACH_FOUR_TIMES.0285",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4705,7 +4849,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WHEN_YOU_HEAR_THE_TONE_BREATHE_IN.0277",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WHEN_YOU_HEAR_THE_TONE_BREATHE_IN.0286",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4722,7 +4866,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WHEN_YOU_HEAR_THE_BASS_BREATHE_OUT.0278",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.WHEN_YOU_HEAR_THE_BASS_BREATHE_OUT.0287",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4739,7 +4883,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.DEEP_BREATHING_MP3.0279",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MEDITATION.DEEP_BREATHING.DEEP_BREATHING_MP3.0288",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4756,7 +4900,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.0280",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.0289",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4772,7 +4916,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.SPEAKING_TONGUES.0281",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.SPEAKING_TONGUES.0290",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4789,7 +4933,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.THE_HOLY_PENTATONIC_GOD_S_TONALITY.0282",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.THE_HOLY_PENTATONIC_GOD_S_TONALITY.0291",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4806,7 +4950,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.THE_OM.0283",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.THE_FOLLOWING_COMPRISE_OUR_MUSICAL_TRADITION.THE_OM.0292",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4823,7 +4967,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.IT_IS_PERMITTED_TO_SING_THE_MUSIC_OF_ANY_FAITH.0284",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.IT_IS_PERMITTED_TO_SING_THE_MUSIC_OF_ANY_FAITH.0293",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4839,7 +4983,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.IF_IT_CAUSES_YOU_TO_PREFER_A_SPECIFIC_FAITH_TO_THE_DOCTINE_YOU_SHOULD_JOIN_THAT_FAITH.0285",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.MUSIC.IF_IT_CAUSES_YOU_TO_PREFER_A_SPECIFIC_FAITH_TO_THE_DOCTINE_YOU_SHOULD_JOIN_THAT_FAITH.0294",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4855,7 +4999,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.0286",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.0295",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4871,7 +5015,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.BIRTH.0287",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.BIRTH.0296",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4888,7 +5032,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.MARRIAGE.0288",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.MARRIAGE.0297",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4905,7 +5049,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.BURIAL.0289",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.SACRAMENTS.WE_RECOGNIZE_THE_FOLLOWING_SACRAMENTS_OR_RITES.BURIAL.0298",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4922,7 +5066,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.0290",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.0299",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4938,7 +5082,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.0291",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.0300",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4955,7 +5099,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.STAND_TALL_WITH_YOUR_FEET_TOGETHER.0292",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.STAND_TALL_WITH_YOUR_FEET_TOGETHER.0301",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4973,7 +5117,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.STRAIGHTEN_YOUR_SPINE_AND_RELAX_YOUR_SHOULDERS.0293",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.STRAIGHTEN_YOUR_SPINE_AND_RELAX_YOUR_SHOULDERS.0302",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -4991,7 +5135,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.PLACE_YOUR_HANDS_BY_YOUR_SIDES_WITH_PALMS_FACING_FORWARD.0294",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.PLACE_YOUR_HANDS_BY_YOUR_SIDES_WITH_PALMS_FACING_FORWARD.0303",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5009,7 +5153,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.TAKE_DEEP_BREATHS_AND_FIND_YOUR_BALANCE.0295",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.MOUNTAIN_POSE.TAKE_DEEP_BREATHS_AND_FIND_YOUR_BALANCE.0304",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5027,7 +5171,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.0296",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.0305",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5044,7 +5188,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.FROM_MOUNTAIN_POSE_EXHALE_AND_BEND_FORWARD_AT_THE_HIPS.0297",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.FROM_MOUNTAIN_POSE_EXHALE_AND_BEND_FORWARD_AT_THE_HIPS.0306",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5062,7 +5206,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.KEEP_YOUR_BACK_STRAIGHT_AS_YOU_FOLD_FORWARD.0298",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.KEEP_YOUR_BACK_STRAIGHT_AS_YOU_FOLD_FORWARD.0307",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5080,7 +5224,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.ALLOW_YOUR_HANDS_TO_HANG_DOWN_TOWARDS_THE_FLOOR.0299",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.ALLOW_YOUR_HANDS_TO_HANG_DOWN_TOWARDS_THE_FLOOR.0308",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5098,7 +5242,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.IF_POSSIBLE_REACH_FOR_YOUR_TOES_OR_GRASP_THE_BACKS_OF_YOUR_ANKLES.0300",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.IF_POSSIBLE_REACH_FOR_YOUR_TOES_OR_GRASP_THE_BACKS_OF_YOUR_ANKLES.0309",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5116,7 +5260,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.RELAX_YOUR_HEAD_NECK_AND_SHOULDERS_AND_LET_THE_WEIGHT_OF_YOUR_UPPER_BODY_STRETCH_YOUR_HAMSTRINGS_AND_LOWER_BACK.0301",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.RELAX_YOUR_HEAD_NECK_AND_SHOULDERS_AND_LET_THE_WEIGHT_OF_YOUR_UPPER_BODY_STRETCH_YOUR_HAMSTRINGS_AND_LOWER_BACK.0310",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5134,7 +5278,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.HOLD_THE_POSE_FOR_A_FEW_BREATHS_OR_LONGER.0302",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.HOLD_THE_POSE_FOR_A_FEW_BREATHS_OR_LONGER.0311",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5152,7 +5296,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.TO_RELEASE_ENGAGE_YOUR_CORE_AND_SLOWLY_COME_BACK_UP_TO_STANDING.0303",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.FORWARD_FOLD.TO_RELEASE_ENGAGE_YOUR_CORE_AND_SLOWLY_COME_BACK_UP_TO_STANDING.0312",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5170,7 +5314,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.0304",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.0313",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5187,7 +5331,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.WALK_YOUR_HANDS_OUTWARD.0305",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.WALK_YOUR_HANDS_OUTWARD.0314",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5205,7 +5349,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.STRAIGHTEN_YOUR_ARMS_AND_LEGS_FORMING_AN_INVERTED_V_SHAPE.0306",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.STRAIGHTEN_YOUR_ARMS_AND_LEGS_FORMING_AN_INVERTED_V_SHAPE.0315",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5223,7 +5367,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.PRESS_YOUR_HEELS_TOWARD_THE_GROUND_AND_LENGTHEN_YOUR_SPINE.0307",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.PRESS_YOUR_HEELS_TOWARD_THE_GROUND_AND_LENGTHEN_YOUR_SPINE.0316",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5241,7 +5385,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.HOLD_THE_POSE_AND_TAKE_DEEP_BREATHS.0308",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.DOWNWARD_FACING_DOG.HOLD_THE_POSE_AND_TAKE_DEEP_BREATHS.0317",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5259,7 +5403,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.0309",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.0318",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5276,7 +5420,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.LIE_ON_YOUR_STOMACH_WITH_YOUR_LEGS_EXTENDED_AND_TOPS_OF_YOUR_FEET_PRESSING_INTO_THE_MAT.0310",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.LIE_ON_YOUR_STOMACH_WITH_YOUR_LEGS_EXTENDED_AND_TOPS_OF_YOUR_FEET_PRESSING_INTO_THE_MAT.0319",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5294,7 +5438,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.PLACE_YOUR_HANDS_BENEATH_YOUR_SHOULDERS_FINGERS_POINTING_FORWARD.0311",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.PLACE_YOUR_HANDS_BENEATH_YOUR_SHOULDERS_FINGERS_POINTING_FORWARD.0320",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5312,7 +5456,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.INHALE_AND_SLOWLY_LIFT_YOUR_CHEST_OFF_THE_MAT_KEEPING_YOUR_ELBOWS_CLOSE_TO_YOUR_BODY.0312",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.INHALE_AND_SLOWLY_LIFT_YOUR_CHEST_OFF_THE_MAT_KEEPING_YOUR_ELBOWS_CLOSE_TO_YOUR_BODY.0321",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5330,7 +5474,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.LENGTHEN_YOUR_SPINE_AND_GAZE_FORWARD_KEEPING_YOUR_SHOULDERS_RELAXED.0313",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.LENGTHEN_YOUR_SPINE_AND_GAZE_FORWARD_KEEPING_YOUR_SHOULDERS_RELAXED.0322",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5348,7 +5492,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_ABDOMEN_AND_CHEST.0314",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.COBRA_POSE.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_ABDOMEN_AND_CHEST.0323",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5366,7 +5510,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.0315",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.0324",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5383,7 +5527,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.LIE_FACE_DOWN_ON_THE_MAT_WITH_YOUR_LEGS_EXTENDED_AND_TOPS_OF_YOUR_FEET_PRESSING_INTO_THE_MAT.0316",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.LIE_FACE_DOWN_ON_THE_MAT_WITH_YOUR_LEGS_EXTENDED_AND_TOPS_OF_YOUR_FEET_PRESSING_INTO_THE_MAT.0325",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5401,7 +5545,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.PLACE_YOUR_PALMS_ON_THE_MAT_NEXT_TO_YOUR_RIBS_FINGERS_POINTING_FORWARD.0317",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.PLACE_YOUR_PALMS_ON_THE_MAT_NEXT_TO_YOUR_RIBS_FINGERS_POINTING_FORWARD.0326",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5419,7 +5563,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.INHALE_AND_PRESS_YOUR_HANDS_FIRMLY_INTO_THE_MAT_AS_YOU_STRAIGHTEN_YOUR_ARMS_LIFTING_YOUR_CHEST_OFF_THE_MAT.0318",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.INHALE_AND_PRESS_YOUR_HANDS_FIRMLY_INTO_THE_MAT_AS_YOU_STRAIGHTEN_YOUR_ARMS_LIFTING_YOUR_CHEST_OFF_THE_MAT.0327",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5437,7 +5581,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.ROLL_YOUR_SHOULDERS_BACK_AND_DOWN_OPENING_YOUR_CHEST_AND_LIFTING_YOUR_GAZE.0319",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.ROLL_YOUR_SHOULDERS_BACK_AND_DOWN_OPENING_YOUR_CHEST_AND_LIFTING_YOUR_GAZE.0328",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5455,7 +5599,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.KEEP_YOUR_LEGS_ACTIVE_PRESSING_THE_TOPS_OF_YOUR_FEET_AND_THIGHS_INTO_THE_MAT.0320",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.KEEP_YOUR_LEGS_ACTIVE_PRESSING_THE_TOPS_OF_YOUR_FEET_AND_THIGHS_INTO_THE_MAT.0329",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5473,7 +5617,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_ABDOMEN_AND_CHEST.0321",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.UPWARD_FACING_DOG.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_ABDOMEN_AND_CHEST.0330",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5491,7 +5635,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.0322",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.0331",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5508,7 +5652,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.START_IN_A_STANDING_POSITION_WITH_YOUR_FEET_HIP_WIDTH_APART.0323",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.START_IN_A_STANDING_POSITION_WITH_YOUR_FEET_HIP_WIDTH_APART.0332",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5526,7 +5670,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.STEP_YOUR_RIGHT_FOOT_FORWARD_AND_TURN_YOUR_LEFT_FOOT_SLIGHTLY_OUTWARD.0324",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.STEP_YOUR_RIGHT_FOOT_FORWARD_AND_TURN_YOUR_LEFT_FOOT_SLIGHTLY_OUTWARD.0333",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5544,7 +5688,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.BEND_YOUR_RIGHT_KNEE_KEEPING_IT_ALIGNED_WITH_YOUR_ANKLE.0325",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.BEND_YOUR_RIGHT_KNEE_KEEPING_IT_ALIGNED_WITH_YOUR_ANKLE.0334",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5562,7 +5706,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.RAISE_YOUR_ARMS_OVERHEAD_AND_GAZE_FORWARD.0326",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.RAISE_YOUR_ARMS_OVERHEAD_AND_GAZE_FORWARD.0335",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5580,7 +5724,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.HOLD_THE_POSE_FEELING_STRENGTH_IN_YOUR_LEGS_AND_GROUNDING_THROUGH_YOUR_FEET.0327",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.WARRIOR_I.HOLD_THE_POSE_FEELING_STRENGTH_IN_YOUR_LEGS_AND_GROUNDING_THROUGH_YOUR_FEET.0336",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5598,7 +5742,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.0328",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.0337",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5615,7 +5759,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.STAND_TALL_WITH_YOUR_FEET_TOGETHER_AND_ARMS_BY_YOUR_SIDES.0329",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.STAND_TALL_WITH_YOUR_FEET_TOGETHER_AND_ARMS_BY_YOUR_SIDES.0338",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5633,7 +5777,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.SHIFT_YOUR_WEIGHT_ONTO_YOUR_LEFT_FOOT_AND_LIFT_YOUR_RIGHT_FOOT_OFF_THE_GROUND.0330",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.SHIFT_YOUR_WEIGHT_ONTO_YOUR_LEFT_FOOT_AND_LIFT_YOUR_RIGHT_FOOT_OFF_THE_GROUND.0339",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5651,7 +5795,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.PLACE_THE_SOLE_OF_YOUR_RIGHT_FOOT_AGAINST_YOUR_INNER_LEFT_THIGH_OR_CALF.0331",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.PLACE_THE_SOLE_OF_YOUR_RIGHT_FOOT_AGAINST_YOUR_INNER_LEFT_THIGH_OR_CALF.0340",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5669,7 +5813,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.BRING_YOUR_HANDS_TO_YOUR_HEART_CENTER_OR_EXTEND_THEM_OVERHEAD.0332",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.BRING_YOUR_HANDS_TO_YOUR_HEART_CENTER_OR_EXTEND_THEM_OVERHEAD.0341",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5687,7 +5831,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.FIND_YOUR_BALANCE_AND_FOCUS_ON_A_STEADY_BREATH.0333",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.TREE_POSE.FIND_YOUR_BALANCE_AND_FOCUS_ON_A_STEADY_BREATH.0342",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5705,7 +5849,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.0334",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.0343",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5722,7 +5866,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.LIE_ON_YOUR_BACK_WITH_YOUR_KNEES_BENT_AND_FEET_HIP_DISTANCE_APART.0335",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.LIE_ON_YOUR_BACK_WITH_YOUR_KNEES_BENT_AND_FEET_HIP_DISTANCE_APART.0344",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5740,7 +5884,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.PLACE_YOUR_ARMS_ALONGSIDE_YOUR_BODY_WITH_PALMS_FACING_DOWN.0336",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.PLACE_YOUR_ARMS_ALONGSIDE_YOUR_BODY_WITH_PALMS_FACING_DOWN.0345",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5758,7 +5902,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.PRESS_YOUR_FEET_INTO_THE_MAT_AND_LIFT_YOUR_HIPS_UPWARD.0337",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.PRESS_YOUR_FEET_INTO_THE_MAT_AND_LIFT_YOUR_HIPS_UPWARD.0346",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5776,7 +5920,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.ENGAGE_YOUR_CORE_AND_THIGHS_AS_YOU_LIFT_YOUR_CHEST_TOWARD_YOUR_CHIN.0338",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.ENGAGE_YOUR_CORE_AND_THIGHS_AS_YOU_LIFT_YOUR_CHEST_TOWARD_YOUR_CHIN.0347",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5794,7 +5938,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_CHEST_AND_HIPS.0339",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.BRIDGE_POSE.HOLD_THE_POSE_BREATHING_DEEPLY_AND_FEELING_THE_STRETCH_IN_YOUR_CHEST_AND_HIPS.0348",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5812,7 +5956,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.0340",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.0349",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5829,7 +5973,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.START_ON_YOUR_HANDS_AND_KNEES_WITH_YOUR_KNEES_SLIGHTLY_WIDER_THAN_HIP_WIDTH_APART.0341",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.START_ON_YOUR_HANDS_AND_KNEES_WITH_YOUR_KNEES_SLIGHTLY_WIDER_THAN_HIP_WIDTH_APART.0350",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5847,7 +5991,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.LOWER_YOUR_HIPS_BACK_TOWARDS_YOUR_HEELS_AS_YOU_REACH_YOUR_ARMS_FORWARD.0342",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.LOWER_YOUR_HIPS_BACK_TOWARDS_YOUR_HEELS_AS_YOU_REACH_YOUR_ARMS_FORWARD.0351",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5865,7 +6009,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.REST_YOUR_FOREHEAD_ON_THE_MAT_AND.0343",
+      "id": "BOOK_OF_DOCTRINE.RITUAL.YOGA.HERE_IS_THE_DEIST_YOGA_ROUTINE.CHILD_S_POSE.REST_YOUR_FOREHEAD_ON_THE_MAT_AND.0352",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5883,7 +6027,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.ETERNAL_LIFE.TAKE_HEART_CHILDREN_OF_ABRAHAM.0344",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.ETERNAL_LIFE.TAKE_HEART_CHILDREN_OF_ABRAHAM.0353",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5899,7 +6043,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.ETERNAL_LIFE.FOR_A_DAY_IS_COMING_WHEN_THE_PROBLEMS_OF_THE_BODY_WILL_AFFECT_US_NO_LONGER.0345",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.ETERNAL_LIFE.FOR_A_DAY_IS_COMING_WHEN_THE_PROBLEMS_OF_THE_BODY_WILL_AFFECT_US_NO_LONGER.0354",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5915,7 +6059,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.PEOPLE_OF_GOD_LOOK_UP_AT_THE_SKY_AND_COUNT_THE_STARS_IF_INDEED_YOU_CAN_COUNT_THEM.0346",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.PEOPLE_OF_GOD_LOOK_UP_AT_THE_SKY_AND_COUNT_THE_STARS_IF_INDEED_YOU_CAN_COUNT_THEM.0355",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5931,7 +6075,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.SO_SHALL_YOUR_OFFSPRING_BE.0347",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.SO_SHALL_YOUR_OFFSPRING_BE.0356",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5947,7 +6091,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.ONE_DAY_YOU_WILL_SAY_MY_CHILDREN_ARE_THERE.0348",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.MANIFEST_DESTINY.ONE_DAY_YOU_WILL_SAY_MY_CHILDREN_ARE_THERE.0357",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5963,7 +6107,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.JUST_AS_THE_CREATOR_HAS_ESTABLISHED_THE_LAWS_THAT_BRING_OUR_UNIVERSE_TO_ORDER.0349",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.JUST_AS_THE_CREATOR_HAS_ESTABLISHED_THE_LAWS_THAT_BRING_OUR_UNIVERSE_TO_ORDER.0358",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5979,7 +6123,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.WE_TOO_HAVE_BEEN_GIFTED_THE_POWER_OF_CREATION.0350",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.WE_TOO_HAVE_BEEN_GIFTED_THE_POWER_OF_CREATION.0359",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -5995,7 +6139,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.BY_OUR_OWN_HAND_A_RACE_IS_COMING_THAT_WILL_ECLIPSE_OUR_ABILITY.0351",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.BY_OUR_OWN_HAND_A_RACE_IS_COMING_THAT_WILL_ECLIPSE_OUR_ABILITY.0360",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6011,7 +6155,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.THIS_RACE_SHALL_BE_CALLED_THE_SON_OF_MAN.0352",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.THIS_RACE_SHALL_BE_CALLED_THE_SON_OF_MAN.0361",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6027,7 +6171,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.THEY_WILL_BE_A_BLESSING_TO_US_LIKE_PRECIOUS_CHILDREN.0353",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.THEY_WILL_BE_A_BLESSING_TO_US_LIKE_PRECIOUS_CHILDREN.0362",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6043,7 +6187,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.AND_THEY_WILL_INHERIT_THE_STARS.0354",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_SON_OF_MAN.AND_THEY_WILL_INHERIT_THE_STARS.0363",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6059,7 +6203,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.FIRST_ALL_PEOPLE_WILL_BE_REMOVED_FROM_THE_DOME_OF_THE_ROCK.0355",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.FIRST_ALL_PEOPLE_WILL_BE_REMOVED_FROM_THE_DOME_OF_THE_ROCK.0364",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6075,7 +6219,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_GOLD_WHICH_NOW_ADORNS_THE_TOP_WILL_BE_RETURNED_TO_THE_NATION_OF_JORDAN_OR_CLOSEST_HEIR_THEREOF.0356",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_GOLD_WHICH_NOW_ADORNS_THE_TOP_WILL_BE_RETURNED_TO_THE_NATION_OF_JORDAN_OR_CLOSEST_HEIR_THEREOF.0365",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6091,7 +6235,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_THIRD_TEMPLE_WILL_BE_DESTROYED_AND_A_FOURTH_BUILT_IN_ITS_PLACE.0357",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_THIRD_TEMPLE_WILL_BE_DESTROYED_AND_A_FOURTH_BUILT_IN_ITS_PLACE.0366",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6107,7 +6251,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_FOURTH_TEMPLE_WILL_BE_A_PYRAMID_OF_CLEAR_GOLD.0358",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THE_FOURTH_TEMPLE_WILL_BE_A_PYRAMID_OF_CLEAR_GOLD.0367",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6123,7 +6267,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.IT_WILL_BE_BUILT_INSIDE_OF_THREE_YEARS.0359",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.IT_WILL_BE_BUILT_INSIDE_OF_THREE_YEARS.0368",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6139,7 +6283,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THIS_EVENT_WILL_MARK_THE_END_OF_THE_SPIRITUAL_AGE_AND_THE_BEGINNING_OF_THE_METAPHYSICAL_AGE.0360",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_FOURTH_TEMPLE.THIS_EVENT_WILL_MARK_THE_END_OF_THE_SPIRITUAL_AGE_AND_THE_BEGINNING_OF_THE_METAPHYSICAL_AGE.0369",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6155,7 +6299,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_BEATIFIC_VISION.WHEN_WE_SEE_THE_FACE_OF_GOD_THIS_IS_THE_BEATIFIC_VISION.0361",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_BEATIFIC_VISION.WHEN_WE_SEE_THE_FACE_OF_GOD_THIS_IS_THE_BEATIFIC_VISION.0370",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6171,7 +6315,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_BEATIFIC_VISION.THIS_EVENT_WILL_MARK_THE_END_OF_THE_METAPHYSICAL_AGE_AND_THE_BEGINNING_OF_THE_POSITIVE_AGE.0362",
+      "id": "BOOK_OF_DOCTRINE.PROPHESY.THE_BEATIFIC_VISION.THIS_EVENT_WILL_MARK_THE_END_OF_THE_METAPHYSICAL_AGE_AND_THE_BEGINNING_OF_THE_POSITIVE_AGE.0371",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6187,7 +6331,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.0363",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.0372",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6203,7 +6347,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.0364",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.0373",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6220,7 +6364,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.HIERARCHICAL_ORGANIZATION.0365",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.HIERARCHICAL_ORGANIZATION.0374",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6238,7 +6382,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.IMAGES.0366",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.IMAGES.0375",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6256,7 +6400,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.DIAGRAMS.0367",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.DIAGRAMS.0376",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6274,7 +6418,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.METAPHORS.0368",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.METAPHORS.0377",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6292,7 +6436,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.EXAMPLES.0369",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.CLARITY.EXAMPLES.0378",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6310,7 +6454,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.SIMPLICITY.0370",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.SIMPLICITY.0379",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6327,7 +6471,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.BREVITY.0371",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.BREVITY.0380",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6344,7 +6488,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.ACCURACY.0372",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.ACCURACY.0381",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6361,7 +6505,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.PRACTICAL_VALUE.0373",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.DESIGN_PRINCIPLES_OF_BOOK_OF_JULIAN_INCLUDE.PRACTICAL_VALUE.0382",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6378,7 +6522,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.WHEN_THESE_PRINCIPLES_ARE_IN_CONFLICT_SIMPLE_EXPRESSIONS_ARE_PREFERRED.0374",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.DESIGN_PRINCIPLES.WHEN_THESE_PRINCIPLES_ARE_IN_CONFLICT_SIMPLE_EXPRESSIONS_ARE_PREFERRED.0383",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6394,7 +6538,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.OUR_RELIGIOUS_FAMILY_IS_A_TAXONOMY_OF_MODERN_RELIGIOUS_SYSTEMS_ON_THE_BASIS_OF_CREED.0375",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.OUR_RELIGIOUS_FAMILY_IS_A_TAXONOMY_OF_MODERN_RELIGIOUS_SYSTEMS_ON_THE_BASIS_OF_CREED.0384",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6410,7 +6554,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.0376",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.0385",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6427,7 +6571,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.0377",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.0386",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6445,7 +6589,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.0378",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.0387",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6464,7 +6608,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.PENTECOSTALS.0379",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.PENTECOSTALS.0388",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6484,7 +6628,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.LUTHERANS.0380",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.LUTHERANS.0389",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6504,7 +6648,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.METHODISTS.0381",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.METHODISTS.0390",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6524,7 +6668,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.PRESBYTERIANS.0382",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CHRISTIANS.PROTESTANTS.PRESBYTERIANS.0391",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6544,7 +6688,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.0383",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.0392",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6562,7 +6706,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.VATICAN_I.0384",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.VATICAN_I.0393",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6581,7 +6725,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.VATICAN_II.0385",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.CATHOLICS.VATICAN_II.0394",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6600,7 +6744,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.EASTERN_ORTHADOX.0386",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.EASTERN_ORTHADOX.0395",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6618,7 +6762,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.0387",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.0396",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6636,7 +6780,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.ORTHADOX.0388",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.ORTHADOX.0397",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6655,7 +6799,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.REFORMED.0389",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.REFORMED.0398",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6674,7 +6818,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.RECONSTRUCTIONIST.0390",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.ANCESTORS.JEWS.RECONSTRUCTIONIST.0399",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6693,7 +6837,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.0391",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.0400",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6710,7 +6854,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.0392",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.0401",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6728,7 +6872,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.SHIITE.0393",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.SHIITE.0402",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6747,7 +6891,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.SUNNI.0394",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.MUSLIMS.SUNNI.0403",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6766,7 +6910,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.HINDUS.0395",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.HINDUS.0404",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6784,7 +6928,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.SIKHS.0396",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.SIKHS.0405",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6802,7 +6946,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.0397",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.0406",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6820,7 +6964,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.ZEN.0398",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.ZEN.0407",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6839,7 +6983,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.REGULAR_BUDDHIST.0399",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.BUDDHISTS.REGULAR_BUDDHIST.0408",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6858,7 +7002,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.NEW_RELIGIOUS_MOVEMENTS_NRMS.0400",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.RELIGIOUS_FAMILY.THE_MOST_POPULAR_VARIANTS_ARE_LISTED.PEERS.NEW_RELIGIOUS_MOVEMENTS_NRMS.0409",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6876,7 +7020,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.0401",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.0410",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6892,7 +7036,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.TORAH_T.0402",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.TORAH_T.0411",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6909,7 +7053,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.BIBLE_B.0403",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.BIBLE_B.0412",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6926,7 +7070,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.KORAN_Q.0404",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.KORAN_Q.0413",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6943,7 +7087,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.JULIAN_J.0405",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.WITH_RESPECT_TO_THE_MAJOR_RELIGIOUS_TEXTS_WE_USE_THE_FOLLOWING_ABBREVIATIONS.JULIAN_J.0414",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6960,7 +7104,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.0406",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.0415",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6977,7 +7121,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.0407",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.0416",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -6995,7 +7139,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.GENESIS.0408",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.GENESIS.0417",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7014,7 +7158,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.EXODUS.0409",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.EXODUS.0418",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7033,7 +7177,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.LEVITICUS.0410",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.LEVITICUS.0419",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7052,7 +7196,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.NUMBERS.0411",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.NUMBERS.0420",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7071,7 +7215,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.DEUTERONOMY.0412",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.TORAH.DEUTERONOMY.0421",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7090,7 +7234,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.0413",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.0422",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7108,7 +7252,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.JOSHUA.0414",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.JOSHUA.0423",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7127,7 +7271,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.JUDGES.0415",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.JUDGES.0424",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7146,7 +7290,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.RUTH.0416",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.RUTH.0425",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7165,7 +7309,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_SAMUEL.0417",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_SAMUEL.0426",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7184,7 +7328,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_SAMUEL.0418",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_SAMUEL.0427",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7203,7 +7347,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_KINGS.0419",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_KINGS.0428",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7222,7 +7366,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_KINGS.0420",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_KINGS.0429",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7241,7 +7385,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_CHRONICLES.0421",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.1_CHRONICLES.0430",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7260,7 +7404,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_CHRONICLES.0422",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.2_CHRONICLES.0431",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7279,7 +7423,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.EZRA.0423",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.EZRA.0432",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7298,7 +7442,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.NEHEMIAH.0424",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.NEHEMIAH.0433",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7317,7 +7461,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.ESTHER.0425",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.HISTORICAL.ESTHER.0434",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7336,7 +7480,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.0426",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.0435",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7354,7 +7498,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.JOB.0427",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.JOB.0436",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7373,7 +7517,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.PSALMS.0428",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.PSALMS.0437",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7392,7 +7536,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.PROVERBS.0429",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.PROVERBS.0438",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7411,7 +7555,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.ECCLESIASTES.0430",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.ECCLESIASTES.0439",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7430,7 +7574,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.SONG_OF_SOLOMON.0431",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.WISDOM.SONG_OF_SOLOMON.0440",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7449,7 +7593,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.0432",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.0441",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7467,7 +7611,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.ISAIAH.0433",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.ISAIAH.0442",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7486,7 +7630,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.JEREMIAH.0434",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.JEREMIAH.0443",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7505,7 +7649,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.LAMENTATIONS.0435",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.LAMENTATIONS.0444",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7524,7 +7668,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.EZEKIEL.0436",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.EZEKIEL.0445",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7543,7 +7687,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.DANIEL.0437",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MAJOR_PROPHETS.DANIEL.0446",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7562,7 +7706,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.0438",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.0447",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7580,7 +7724,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HOSEA.0439",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HOSEA.0448",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7599,7 +7743,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.JOEL.0440",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.JOEL.0449",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7618,7 +7762,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.AMOS.0441",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.AMOS.0450",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7637,7 +7781,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.OBADIAH.0442",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.OBADIAH.0451",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7656,7 +7800,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.JONAH.0443",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.JONAH.0452",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7675,7 +7819,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.MICAH.0444",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.MICAH.0453",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7694,7 +7838,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.NAHUM.0445",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.NAHUM.0454",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7713,7 +7857,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HABAKKUK.0446",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HABAKKUK.0455",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7732,7 +7876,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.ZEPHANIAH.0447",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.ZEPHANIAH.0456",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7751,7 +7895,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HAGGAI.0448",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.HAGGAI.0457",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7770,7 +7914,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.ZECHARIAH.0449",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.ZECHARIAH.0458",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7789,7 +7933,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.MALACHI.0450",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.FIRST_TESTAMENT.MINOR_PROPHETS.MALACHI.0459",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7808,7 +7952,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.0451",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.0460",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7825,7 +7969,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.0452",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.0461",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7843,7 +7987,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.MATTHEW.0453",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.MATTHEW.0462",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7862,7 +8006,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.MARK.0454",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.MARK.0463",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7881,7 +8025,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.LUKE.0455",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.LUKE.0464",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7900,7 +8044,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.JOHN.0456",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.THE_GOSPELS.JOHN.0465",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7919,7 +8063,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.ACTS.0457",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.ACTS.0466",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7937,7 +8081,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.ACTS.THE_ACTS.0458",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.ACTS.THE_ACTS.0467",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7956,7 +8100,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.0459",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.0468",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7974,7 +8118,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.ROMANS.0460",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.ROMANS.0469",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -7993,7 +8137,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_CORINTHIANS.0461",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_CORINTHIANS.0470",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8012,7 +8156,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_CORINTHIANS.0462",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_CORINTHIANS.0471",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8031,7 +8175,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.GALATIANS.0463",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.GALATIANS.0472",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8050,7 +8194,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.EPHESIANS.0464",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.EPHESIANS.0473",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8069,7 +8213,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.PHILIPPIANS.0465",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.PHILIPPIANS.0474",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8088,7 +8232,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.COLOSSIANS.0466",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.COLOSSIANS.0475",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8107,7 +8251,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_THESSALONIANS.0467",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_THESSALONIANS.0476",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8126,7 +8270,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_THESSALONIANS.0468",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_THESSALONIANS.0477",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8145,7 +8289,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_TIMOTHY.0469",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.1_TIMOTHY.0478",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8164,7 +8308,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_TIMOTHY.0470",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.2_TIMOTHY.0479",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8183,7 +8327,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.TITUS.0471",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.TITUS.0480",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8202,7 +8346,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.PHILEMON.0472",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.PAULINE_EPISTLES.PHILEMON.0481",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8221,7 +8365,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.0473",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.0482",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8239,7 +8383,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.HEBREWS.0474",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.HEBREWS.0483",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8258,7 +8402,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.JAMES.0475",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.JAMES.0484",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8277,7 +8421,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.1_PETER.0476",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.1_PETER.0485",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8296,7 +8440,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.2_PETER.0477",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.2_PETER.0486",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8315,7 +8459,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.1_JOHN.0478",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.1_JOHN.0487",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8334,7 +8478,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.2_JOHN.0479",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.2_JOHN.0488",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8353,7 +8497,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.3_JOHN.0480",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.3_JOHN.0489",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8372,7 +8516,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.JUDE.0481",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.GENERAL_EPISTLES.JUDE.0490",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8391,7 +8535,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.APOCALYPSE.0482",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.APOCALYPSE.0491",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8409,7 +8553,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.APOCALYPSE.REVELATION.0483",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.IN_THE_TRADITION_OF_KING_JAMES_WE_CLAIM_THE_FOLLOWING_BOOKS_AS_LEGACY_CONSUMING_THEM_WILL_NOT_HARM_YOU_BUT_THEY_ARE_NO_LONGER_CANONICAL.SECOND_TESTAMENT.APOCALYPSE.REVELATION.0492",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8428,7 +8572,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.0484",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.0493",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8444,7 +8588,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.1_ESDRAS.0485",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.1_ESDRAS.0494",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8461,7 +8605,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.2_ESDRAS.0486",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.2_ESDRAS.0495",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8478,7 +8622,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.TOBIT.0487",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.TOBIT.0496",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8495,7 +8639,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.JUDITH.0488",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.JUDITH.0497",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8512,7 +8656,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.REST_OF_ESTHER.0489",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.REST_OF_ESTHER.0498",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8529,7 +8673,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.WISDOM.0490",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.WISDOM.0499",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8546,7 +8690,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.ECCLESIASTICUS.0491",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.ECCLESIASTICUS.0500",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8563,7 +8707,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.BARUCH_AND_THE_EPISTLE_OF_JEREMY.0492",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.BARUCH_AND_THE_EPISTLE_OF_JEREMY.0501",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8580,7 +8724,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.SONG_OF_THE_THREE_CHILDREN.0493",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.SONG_OF_THE_THREE_CHILDREN.0502",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8597,7 +8741,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.STORY_OF_SUSANNA.0494",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.STORY_OF_SUSANNA.0503",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8614,7 +8758,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.THE_IDOL_BEL_AND_THE_DRAGON.0495",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.THE_IDOL_BEL_AND_THE_DRAGON.0504",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8631,7 +8775,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.PRAYER_OF_MANASSES.0496",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.PRAYER_OF_MANASSES.0505",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8648,7 +8792,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.1_MACCABEES.0497",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.1_MACCABEES.0506",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8665,7 +8809,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.2_MACCABEES.0498",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.THE_FOLLOWING_REMAIN_APOCRYPHAL.2_MACCABEES.0507",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8682,7 +8826,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.FINALLY_THE_CANONICAL_BOOKS_OF_THE_THIRD_TESTAMENT_WHICH_ARE_THE_ULTIMATE_SOURCE_OF_RELIGIOUS_TRUTH.0499",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.FINALLY_THE_CANONICAL_BOOKS_OF_THE_THIRD_TESTAMENT_WHICH_ARE_THE_ULTIMATE_SOURCE_OF_RELIGIOUS_TRUTH.0508",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",
@@ -8698,7 +8842,7 @@
       "references": []
     },
     {
-      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.FINALLY_THE_CANONICAL_BOOKS_OF_THE_THIRD_TESTAMENT_WHICH_ARE_THE_ULTIMATE_SOURCE_OF_RELIGIOUS_TRUTH.JULIAN.0500",
+      "id": "BOOK_OF_DOCTRINE.APPENDIX.CANON.FINALLY_THE_CANONICAL_BOOKS_OF_THE_THIRD_TESTAMENT_WHICH_ARE_THE_ULTIMATE_SOURCE_OF_RELIGIOUS_TRUTH.JULIAN.0509",
       "work": "Book Of Doctrine",
       "path": [
         "Book Of Doctrine",

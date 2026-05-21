@@ -223,6 +223,11 @@ Cosmological Topology
 
 
 
+### Attributes
+
+<sup>0</sup> God is one. <sup>1</sup> God is the Creator. <sup>2</sup> God is outside the Cosmos, in Heaven. <sup>3</sup> God is not presently seen by humankind. <sup>4</sup> God has spoken to no one. <sup>5</sup> God does not hear our prayers. <sup>6</sup> God does not know all things. <sup>7</sup> God's name is unknown to humankind. <sup>8</sup> God's character is unknown to humankind. 
+
+
 
 
 ## Wisdom

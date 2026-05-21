@@ -71,3 +71,15 @@ Faith = {
     },
     "One God Creed": {"There is one God who has spoken to no one": {}},
 }
+
+Attributes = {
+    "God is one": {},
+    "God is the Creator": {},
+    "God is outside the Cosmos, in Heaven": {},
+    "God is not presently seen by humankind": {},
+    "God has spoken to no one": {},
+    "God does not hear our prayers": {},
+    "God does not know all things": {},
+    "God's name is unknown to humankind": {},
+    "God's character is unknown to humankind": {},
+}
